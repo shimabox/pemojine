@@ -226,9 +226,7 @@ Create three files below.
 
 @see [pemojine/example/Custom](https://github.com/shimabox/pemojine/tree/master/example/Custom "pemojine/example/Custom at master · shimabox/pemojine")
 
-## Examples
-
-dev only.
+## Examples (dev only)
 
 #### Basic
 
@@ -257,7 +255,7 @@ dev only.
 - [pemojine/example/Custom/example.php](https://github.com/shimabox/pemojine/blob/master/example/Custom/example.php "pemojine/example.php at master · shimabox/pemojine")
   - `$ php pemojine/example/Custom/example.php`
 
-## Regenerate data
+## Regenerate data (dev only)
 
 ```
 $ php pemojine/scraping/src/generator.php

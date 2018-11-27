@@ -7,6 +7,7 @@
 Pemojine is a library for handling Emoji in PHP.
 
 [![License](https://poser.pugx.org/shimabox/pemojine/license)](https://packagist.org/packages/shimabox/pemojine)
+[![Build Status](https://travis-ci.org/shimabox/pemojine.svg?branch=master)](https://travis-ci.org/shimabox/pemojine)
 [![Latest Stable Version](https://poser.pugx.org/shimabox/pemojine/v/stable)](https://packagist.org/packages/shimabox/pemojine)
 [![Latest Unstable Version](https://poser.pugx.org/shimabox/pemojine/v/unstable)](https://packagist.org/packages/shimabox/pemojine)
 

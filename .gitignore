@@ -1,0 +1,9 @@
+.DS_Store
+vendor/
+composer.lock
+composer.phar
+
+src/Structure/Vendor/.gitkeep
+scraping/output/
+scraping/cache/
+tests/report/

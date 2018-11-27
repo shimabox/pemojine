@@ -1,8 +1,8 @@
-<p style="margin:0;text-align:center;">
-  <img src="https://github.com/shimabox/assets/raw/master/pemojine/logo.png" alt="pemojine-logo" title="Pemojine" style="margin:0;height:250px;">
+<p align="center">
+  <img src="https://github.com/shimabox/assets/raw/master/pemojine/logo.png" alt="pemojine-logo" title="Pemojine" height="300px">
 </p>
 
-<h1 style="margin:0.2em 0 0.4em 0">Pemojine</h1>
+# Pemojine
 
 Pemojine is a library for handling Emoji in PHP.
 

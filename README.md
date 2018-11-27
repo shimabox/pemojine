@@ -305,6 +305,7 @@ $ composer coverage # or vendor/bin/phpunit --coverage-text --coverage-html ./re
     - But it does not correspond to complex nesting.
 - Emoji mapping(array) is too rich, so I need to think about this.
 - For `Vendor\EmojiOne` I feel correct to combine with [emojione/lib/php at master · emojione/emojione](https://github.com/emojione/emojione/tree/master/lib/php "emojione/lib/php at master · emojione/emojione").
+- Confirmation on actual machine.
 
 ## License
 

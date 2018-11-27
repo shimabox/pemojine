@@ -59,7 +59,7 @@ $ composer install
 
 ## Usage
 
-```
+```php
 <?php
 require_once 'vendor/autoload.php';
 

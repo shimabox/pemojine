@@ -26,8 +26,8 @@ before_script:
   - travis_retry composer install
 
 script:
-  - if $REGENERATE; then php scraping/src/generator.php > /dev/null 2>&1 fi;
-  - if $REGENERATE; then sh scraping/sync.sh > /dev/null 2>&1 fi;
+  - if $REGENERATE; then php scraping/src/generator.php > /dev/null 2>&1; fi
+  - if $REGENERATE; then sh scraping/sync.sh > /dev/null 2>&1; fi
   - vendor/bin/phpunit --coverage-clover tests/logs/coverage-clover.xml
 
 after_success:

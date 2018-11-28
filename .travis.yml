@@ -26,10 +26,14 @@ before_script:
   - travis_retry composer install
 
 script:
-  - if $REGENERATE; then php scraping/src/generator.php > /dev/null 2>&1; fi
-  - if $REGENERATE; then sh scraping/sync.sh > /dev/null 2>&1; fi
+  - if $REGENERATE; then php scraping/src/generator.php &>> tests/logs/generator.log; fi
+  - if $REGENERATE; then sh scraping/sync.sh &>> tests/logs/sync.log; fi
   - vendor/bin/phpunit --coverage-clover tests/logs/coverage-clover.xml
 
 after_success:
   - vendor/bin/test-reporter --coverage-report tests/logs/coverage-clover.xml
   - vendor/bin/coveralls -v
+
+after_script:
+  - if [ -f tests/logs/generator.log ]; then cat tests/logs/generator.log; fi
+  - if [ -f tests/logs/sync.log ]; then cat tests/logs/sync.log; fi

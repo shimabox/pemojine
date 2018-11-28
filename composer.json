@@ -18,7 +18,8 @@
         "phpunit/phpunit": "~4.8 || ~5.0",
         "electrolinux/phpquery": "^0.9.6",
         "philo/laravel-blade": "3.*",
-        "league/climate": "^3.2 || ^3.4"
+        "league/climate": "^3.2 || ^3.4",
+        "codeclimate/php-test-reporter": "dev-master"
     },
     "autoload": {
         "psr-4": {

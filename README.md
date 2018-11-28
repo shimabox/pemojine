@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/shimabox/assets/raw/master/pemojine/logo.png" alt="pemojine-logo" title="Pemojine" height="300px">
+  <img src="https://github.com/shimabox/assets/raw/master/pemojine/logo.png" alt="pemojine-logo" title="Pemojine" width="410px">
 </p>
 
 # Pemojine
@@ -8,6 +8,8 @@ Pemojine is a library for handling Emoji in PHP.
 
 [![License](https://poser.pugx.org/shimabox/pemojine/license)](https://packagist.org/packages/shimabox/pemojine)
 [![Build Status](https://travis-ci.org/shimabox/pemojine.svg?branch=master)](https://travis-ci.org/shimabox/pemojine)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ab677ae3d8ae014ad6ed/maintainability)](https://codeclimate.com/github/shimabox/pemojine/maintainability)
+[![Coverage Status](https://coveralls.io/repos/github/shimabox/pemojine/badge.svg?branch=master)](https://coveralls.io/github/shimabox/pemojine?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/shimabox/pemojine/v/stable)](https://packagist.org/packages/shimabox/pemojine)
 [![Latest Unstable Version](https://poser.pugx.org/shimabox/pemojine/v/unstable)](https://packagist.org/packages/shimabox/pemojine)
 
@@ -225,62 +227,62 @@ Create three files below.
 - Files that implements `SMB\Pemojine\Structure\Interfaces\Gettable`.
 - Files that implements `SMB\Pemojine\Structure\Interfaces\EmojiTable\Gettable`.
 
-@see [pemojine/example/Custom](https://github.com/shimabox/pemojine/tree/master/example/Custom "pemojine/example/Custom at master · shimabox/pemojine")
+@see [example/Custom](https://github.com/shimabox/pemojine/tree/master/example/Custom "pemojine/example/Custom at master · shimabox/pemojine")
 
 ## Examples (dev only)
 
 #### Basic
 
-- [pemojine/example/getAll.php](https://github.com/shimabox/pemojine/blob/master/example/getAll.php "pemojine/getAll.php at master · shimabox/pemojine")
-  - `$ php pemojine/example/getAll.php`
-- [pemojine/example/selectAtRandom.php](https://github.com/shimabox/pemojine/blob/master/example/selectAtRandom.php "pemojine/selectAtRandom.php at master · shimabox/pemojine")
-  - `$ php pemojine/example/selectAtRandom.php`
-- [pemojine/example/selectGroup.php](https://github.com/shimabox/pemojine/blob/master/example/selectGroup.php "pemojine/selectGroup.php at master · shimabox/pemojine")
-  - `$ php pemojine/example/selectGroup.php`
-- [pemojine/example/outputter.php](https://github.com/shimabox/pemojine/blob/master/example/outputter.php "pemojine/outputter.php at master · shimabox/pemojine")
-  - `$ php pemojine/example/outputter.php`
+- [example/getAll.php](https://github.com/shimabox/pemojine/blob/master/example/getAll.php "pemojine/getAll.php at master · shimabox/pemojine")
+  - `$ php example/getAll.php`
+- [example/selectAtRandom.php](https://github.com/shimabox/pemojine/blob/master/example/selectAtRandom.php "pemojine/selectAtRandom.php at master · shimabox/pemojine")
+  - `$ php example/selectAtRandom.php`
+- [example/selectGroup.php](https://github.com/shimabox/pemojine/blob/master/example/selectGroup.php "pemojine/selectGroup.php at master · shimabox/pemojine")
+  - `$ php example/selectGroup.php`
+- [example/outputter.php](https://github.com/shimabox/pemojine/blob/master/example/outputter.php "pemojine/outputter.php at master · shimabox/pemojine")
+  - `$ php example/outputter.php`
 
 #### Helper
 
-- [pemojine/example/helper_converter.php](https://github.com/shimabox/pemojine/blob/master/example/helper_converter.php "pemojine/helper_converter.php at master · shimabox/pemojine")
-  - `$ php pemojine/example/helper_converter.php`
-- [pemojine/example/helper_emoji.php](https://github.com/shimabox/pemojine/blob/master/example/helper_emoji.php "pemojine/helper_emoji.php at master · shimabox/pemojine")
-  - `$ php pemojine/example/helper_emoji.php`
-- [helper_emojiCounter.php](https://github.com/shimabox/pemojine/blob/master/example/helper_emojiCounter.php "pemojine/helper_emojiCounter.php at master · shimabox/pemojine")
-  - `$ php pemojine/example/helper_emojiCounter.php`
-- [pemojine/example/helper_sentence.php](https://github.com/shimabox/pemojine/blob/master/example/helper_sentence.php "pemojine/helper_sentence.php at master · shimabox/pemojine")
-  - `$ php pemojine/example/helper_sentence.php`
+- [example/helper_converter.php](https://github.com/shimabox/pemojine/blob/master/example/helper_converter.php "pemojine/helper_converter.php at master · shimabox/pemojine")
+  - `$ php example/helper_converter.php`
+- [example/helper_emoji.php](https://github.com/shimabox/pemojine/blob/master/example/helper_emoji.php "pemojine/helper_emoji.php at master · shimabox/pemojine")
+  - `$ php example/helper_emoji.php`
+- [example/helper_emojiCounter.php](https://github.com/shimabox/pemojine/blob/master/example/helper_emojiCounter.php "pemojine/helper_emojiCounter.php at master · shimabox/pemojine")
+  - `$ php example/helper_emojiCounter.php`
+- [example/helper_sentence.php](https://github.com/shimabox/pemojine/blob/master/example/helper_sentence.php "pemojine/helper_sentence.php at master · shimabox/pemojine")
+  - `$ php example/helper_sentence.php`
 
 #### Custom
 
-- [pemojine/example/Custom/example.php](https://github.com/shimabox/pemojine/blob/master/example/Custom/example.php "pemojine/example.php at master · shimabox/pemojine")
-  - `$ php pemojine/example/Custom/example.php`
+- [example/Custom/example.php](https://github.com/shimabox/pemojine/blob/master/example/Custom/example.php "pemojine/example.php at master · shimabox/pemojine")
+  - `$ php example/Custom/example.php`
 
 ## Regenerate data (dev only)
 
 ```
-$ php pemojine/scraping/src/generator.php
+$ php scraping/src/generator.php
 ```
 
 Scrape the data here.  
-(The result is cached for 1 hour in `pemojine/scraping/cache/full-emoji-list`, `pemojine/scraping/cache/full-emoji-list`)
+(The result is cached for 1 hour in `scraping/cache/full-emoji-list`, `scraping/cache/full-emoji-list`)
 
 - [Full Emoji List, v11.0](https://unicode.org/emoji/charts/full-emoji-list.html "Full Emoji List, v11.0")
 - [Full Emoji Modifier Sequences, v11.0](https://unicode.org/emoji/charts/full-emoji-modifiers.html "Full Emoji Modifier Sequences, v11.0")
 - [emojione/emoji.json at master · emojione/emojione · GitHub](https://github.com/emojione/emojione/blob/master/emoji.json "emojione/emoji.json at master · emojione/emojione · GitHub")
 
-`pemojine/scraping/output/Config`, `pemojine/scraping/output/Structure` Since files are output below, please place them under `pemojine/src/Config`, `pemojine/src/Structure` respectively.
+`scraping/output/Config`, `scraping/output/Structure` Since files are output below, please place them under `src/Config`, `src/Structure` respectively.
 
 ### Shell for sync.
 
 - For Mac(Linux).  
 ```
-$ sh pemojine/scraping/sync.sh
+$ sh scraping/sync.sh
 ```
 
 - For Windows.  
 ```
-$ cd pemojine/scraping/
+$ cd scraping/
 $ win_sync.bat
 ```
 

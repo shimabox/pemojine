@@ -10,6 +10,14 @@ php:
   - 7.2
   - nightly
 
+env:
+  - REGENERATE=false
+
+matrix:
+  include:
+    - php: 7.2
+      env: REGENERATE=true
+
 addons:
   code_climate:
     repo_token: 41727c20302fa699430a7aa0e06ef4d2cc00aeb25df3673f4165df75b6efccbc
@@ -18,8 +26,10 @@ before_script:
   - travis_retry composer install
 
 script:
-  - vendor/bin/phpunit --coverage-clover ./tests/logs/coverage-clover.xml
+  - if $REGENERATE; then php scraping/src/generator.php > /dev/null 2>&1 fi;
+  - if $REGENERATE; then sh scraping/sync.sh > /dev/null 2>&1 fi;
+  - vendor/bin/phpunit --coverage-clover tests/logs/coverage-clover.xml
 
 after_success:
-  - vendor/bin/test-reporter --coverage-report ./tests/logs/coverage-clover.xml
+  - vendor/bin/test-reporter --coverage-report tests/logs/coverage-clover.xml
   - vendor/bin/coveralls -v

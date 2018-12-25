@@ -87,6 +87,7 @@ class SmileysEmotion implements Gettable
         'face-affection' => [
             'parent' => 'Smileys & Emotion',
             'children' => [
+                '⊛ smiling face with hearts',
                 'smiling face with heart-eyes',
                 'star-struck',
                 'face blowing a kiss',
@@ -150,6 +151,9 @@ class SmileysEmotion implements Gettable
                 'nauseated face',
                 'face vomiting',
                 'sneezing face',
+                '⊛ hot face',
+                '⊛ cold face',
+                '⊛ woozy face',
                 'dizzy face',
                 'exploding head',
             ]
@@ -158,6 +162,7 @@ class SmileysEmotion implements Gettable
             'parent' => 'Smileys & Emotion',
             'children' => [
                 'cowboy hat face',
+                '⊛ partying face',
             ]
         ],
         'face-glasses' => [
@@ -179,6 +184,7 @@ class SmileysEmotion implements Gettable
                 'hushed face',
                 'astonished face',
                 'flushed face',
+                '⊛ pleading face',
                 'frowning face with open mouth',
                 'anguished face',
                 'fearful face',
@@ -218,21 +224,21 @@ class SmileysEmotion implements Gettable
                 'ghost',
                 'alien',
                 'alien monster',
-                'robot face',
+                'robot',
             ]
         ],
         'cat-face' => [
             'parent' => 'Smileys & Emotion',
             'children' => [
-                'grinning cat face',
-                'grinning cat face with smiling eyes',
-                'cat face with tears of joy',
-                'smiling cat face with heart-eyes',
-                'cat face with wry smile',
-                'kissing cat face',
-                'weary cat face',
-                'crying cat face',
-                'pouting cat face',
+                'grinning cat',
+                'grinning cat with smiling eyes',
+                'cat with tears of joy',
+                'smiling cat with heart-eyes',
+                'cat with wry smile',
+                'kissing cat',
+                'weary cat',
+                'crying cat',
+                'pouting cat',
             ]
         ],
         'monkey-face' => [
@@ -256,7 +262,7 @@ class SmileysEmotion implements Gettable
                 'revolving hearts',
                 'two hearts',
                 'heart decoration',
-                'heavy heart exclamation',
+                'heart exclamation',
                 'broken heart',
                 'red heart',
                 'orange heart',
@@ -421,6 +427,12 @@ class SmileysEmotion implements Gettable
                 '0;-)',
                 'O:-3',
                 'O:3',
+            ]
+        ],
+        '⊛ smiling face with hearts' => [
+            'parent' => 'face-affection',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'smiling face with heart-eyes' => [
@@ -722,6 +734,24 @@ class SmileysEmotion implements Gettable
                 ':sneeze:',
             ]
         ],
+        '⊛ hot face' => [
+            'parent' => 'face-unwell',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ cold face' => [
+            'parent' => 'face-unwell',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ woozy face' => [
+            'parent' => 'face-unwell',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'dizzy face' => [
             'parent' => 'face-unwell',
             'children' => null,
@@ -748,6 +778,12 @@ class SmileysEmotion implements Gettable
             'aliases' => [
                 ':cowboy:',
                 ':face_with_cowboy_hat:',
+            ]
+        ],
+        '⊛ partying face' => [
+            'parent' => 'face-hat',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'smiling face with sunglasses' => [
@@ -850,6 +886,12 @@ class SmileysEmotion implements Gettable
                 ':flushed:',
                 ':$',
                 '=$',
+            ]
+        ],
+        '⊛ pleading face' => [
+            'parent' => 'face-concerned',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'frowning face with open mouth' => [
@@ -1079,75 +1121,64 @@ class SmileysEmotion implements Gettable
                 ':space_invader:',
             ]
         ],
-        'robot face' => [
+        'robot' => [
             'parent' => 'face-costume',
             'children' => null,
             'aliases' => [
-                ':robot:',
-                ':robot_face:',
             ]
         ],
-        'grinning cat face' => [
+        'grinning cat' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':smiley_cat:',
             ]
         ],
-        'grinning cat face with smiling eyes' => [
+        'grinning cat with smiling eyes' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':smile_cat:',
             ]
         ],
-        'cat face with tears of joy' => [
+        'cat with tears of joy' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':joy_cat:',
             ]
         ],
-        'smiling cat face with heart-eyes' => [
+        'smiling cat with heart-eyes' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':heart_eyes_cat:',
             ]
         ],
-        'cat face with wry smile' => [
+        'cat with wry smile' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':smirk_cat:',
             ]
         ],
-        'kissing cat face' => [
+        'kissing cat' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':kissing_cat:',
             ]
         ],
-        'weary cat face' => [
+        'weary cat' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':scream_cat:',
             ]
         ],
-        'crying cat face' => [
+        'crying cat' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':crying_cat_face:',
             ]
         ],
-        'pouting cat face' => [
+        'pouting cat' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':pouting_cat:',
             ]
         ],
         'see-no-evil monkey' => [
@@ -1241,12 +1272,10 @@ class SmileysEmotion implements Gettable
                 ':heart_decoration:',
             ]
         ],
-        'heavy heart exclamation' => [
+        'heart exclamation' => [
             'parent' => 'emotion',
             'children' => null,
             'aliases' => [
-                ':heart_exclamation:',
-                ':heavy_heart_exclamation_mark_ornament:',
             ]
         ],
         'broken heart' => [

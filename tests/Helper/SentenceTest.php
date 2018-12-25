@@ -111,7 +111,7 @@ class SentenceTest extends \PHPUnit_Framework_TestCase
                 'Hello |beaming face with smiling eyes||a|b||c|!!', 
                 'Hello 😁|a|b||c|!!' 
             ],
-            [   
+            [
                 'Apple', 
                 'U+u+1F601 U+FFFFF \u\u{1F601} \u{FFFFF}', 
                 'U+😁 U+FFFFF \u😁 \u{FFFFF}'
@@ -453,26 +453,6 @@ class SentenceTest extends \PHPUnit_Framework_TestCase
         $google = $this->create_outputter('Google');
         $this->assertSame(
             '🦵🏻',
-            Sentence::createStatically($google, $target)
-        );
-    }
-
-    /**
-     * @test
-     */
-    public function in_case_of_Facebook_it_can_handle_for_unsupported_characters_return_as_is()
-    {
-        $target = '|⊛ woman: light skin tone, red hair|';
-
-        $facebook  = $this->create_outputter('Facebook');
-        $this->assertSame(
-            $target,
-            Sentence::createStatically($facebook, $target)
-        );
-
-        $google = $this->create_outputter('Google');
-        $this->assertSame(
-            '👩🏻‍🦰',
             Sentence::createStatically($google, $target)
         );
     }

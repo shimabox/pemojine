@@ -68,18 +68,18 @@ class AnimalsNature implements Gettable
                 'dog face',
                 'dog',
                 'poodle',
-                'wolf face',
-                'fox face',
+                'wolf',
+                'fox',
                 '⊛ raccoon',
                 'cat face',
                 'cat',
-                'lion face',
+                'lion',
                 'tiger face',
                 'tiger',
                 'leopard',
                 'horse face',
                 'horse',
-                'unicorn face',
+                'unicorn',
                 'zebra',
                 'deer',
                 'cow face',
@@ -103,15 +103,15 @@ class AnimalsNature implements Gettable
                 'mouse face',
                 'mouse',
                 'rat',
-                'hamster face',
+                'hamster',
                 'rabbit face',
                 'rabbit',
                 'chipmunk',
                 'hedgehog',
                 'bat',
-                'bear face',
+                'bear',
                 'koala',
-                'panda face',
+                'panda',
                 '⊛ kangaroo',
                 '⊛ badger',
                 'paw prints',
@@ -140,7 +140,7 @@ class AnimalsNature implements Gettable
         'animal-amphibian' => [
             'parent' => 'Animals & Nature',
             'children' => [
-                'frog face',
+                'frog',
             ]
         ],
         'animal-reptile' => [
@@ -268,19 +268,16 @@ class AnimalsNature implements Gettable
                 ':poodle:',
             ]
         ],
-        'wolf face' => [
+        'wolf' => [
             'parent' => 'animal-mammal',
             'children' => null,
             'aliases' => [
-                ':wolf:',
             ]
         ],
-        'fox face' => [
+        'fox' => [
             'parent' => 'animal-mammal',
             'children' => null,
             'aliases' => [
-                ':fox:',
-                ':fox_face:',
             ]
         ],
         '⊛ raccoon' => [
@@ -303,12 +300,10 @@ class AnimalsNature implements Gettable
                 ':cat2:',
             ]
         ],
-        'lion face' => [
+        'lion' => [
             'parent' => 'animal-mammal',
             'children' => null,
             'aliases' => [
-                ':lion_face:',
-                ':lion:',
             ]
         ],
         'tiger face' => [
@@ -346,12 +341,10 @@ class AnimalsNature implements Gettable
                 ':racehorse:',
             ]
         ],
-        'unicorn face' => [
+        'unicorn' => [
             'parent' => 'animal-mammal',
             'children' => null,
             'aliases' => [
-                ':unicorn:',
-                ':unicorn_face:',
             ]
         ],
         'zebra' => [
@@ -514,11 +507,10 @@ class AnimalsNature implements Gettable
                 ':rat:',
             ]
         ],
-        'hamster face' => [
+        'hamster' => [
             'parent' => 'animal-mammal',
             'children' => null,
             'aliases' => [
-                ':hamster:',
             ]
         ],
         'rabbit face' => [
@@ -556,11 +548,10 @@ class AnimalsNature implements Gettable
                 ':bat:',
             ]
         ],
-        'bear face' => [
+        'bear' => [
             'parent' => 'animal-mammal',
             'children' => null,
             'aliases' => [
-                ':bear:',
             ]
         ],
         'koala' => [
@@ -570,11 +561,10 @@ class AnimalsNature implements Gettable
                 ':koala:',
             ]
         ],
-        'panda face' => [
+        'panda' => [
             'parent' => 'animal-mammal',
             'children' => null,
             'aliases' => [
-                ':panda_face:',
             ]
         ],
         '⊛ kangaroo' => [
@@ -700,11 +690,10 @@ class AnimalsNature implements Gettable
             'aliases' => [
             ]
         ],
-        'frog face' => [
+        'frog' => [
             'parent' => 'animal-amphibian',
             'children' => null,
             'aliases' => [
-                ':frog:',
             ]
         ],
         'crocodile' => [

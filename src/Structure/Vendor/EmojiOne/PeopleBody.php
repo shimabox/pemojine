@@ -326,12 +326,12 @@ class PeopleBody implements Gettable
                 'person',
                 'person: blond hair',
                 'man',
+                'man: beard',
                 'man: blond hair',
                 '⊛ man: red hair',
                 '⊛ man: curly hair',
                 '⊛ man: white hair',
                 '⊛ man: bald',
-                'man: beard',
                 'woman',
                 'woman: blond hair',
                 '⊛ woman: red hair',
@@ -376,16 +376,16 @@ class PeopleBody implements Gettable
                 'man: medium skin tone',
                 'man: medium-dark skin tone',
                 'man: dark skin tone',
-                'man: light skin tone, blond hair',
-                'man: medium-light skin tone, blond hair',
-                'man: medium skin tone, blond hair',
-                'man: medium-dark skin tone, blond hair',
-                'man: dark skin tone, blond hair',
                 'man: light skin tone, beard',
                 'man: medium-light skin tone, beard',
                 'man: medium skin tone, beard',
                 'man: medium-dark skin tone, beard',
                 'man: dark skin tone, beard',
+                'man: light skin tone, blond hair',
+                'man: medium-light skin tone, blond hair',
+                'man: medium skin tone, blond hair',
+                'man: medium-dark skin tone, blond hair',
+                'man: dark skin tone, blond hair',
                 'woman: light skin tone',
                 'woman: medium-light skin tone',
                 'woman: medium skin tone',
@@ -3136,6 +3136,12 @@ class PeopleBody implements Gettable
                 ':man:',
             ]
         ],
+        'man: beard' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'man: blond hair' => [
             'parent' => 'person',
             'children' => null,
@@ -3161,12 +3167,6 @@ class PeopleBody implements Gettable
             ]
         ],
         '⊛ man: bald' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'man: beard' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
@@ -3470,36 +3470,6 @@ class PeopleBody implements Gettable
                 ':man_tone5:',
             ]
         ],
-        'man: light skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'man: medium-light skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'man: medium skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'man: medium-dark skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'man: dark skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
         'man: light skin tone, beard' => [
             'parent' => 'person',
             'children' => null,
@@ -3525,6 +3495,36 @@ class PeopleBody implements Gettable
             ]
         ],
         'man: dark skin tone, beard' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: light skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium-light skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium-dark skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: dark skin tone, blond hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [

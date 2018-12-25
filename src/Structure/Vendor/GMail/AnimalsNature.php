@@ -66,7 +66,7 @@ class AnimalsNature implements Gettable
                 'monkey',
                 'dog face',
                 'poodle',
-                'wolf face',
+                'wolf',
                 'cat face',
                 'tiger face',
                 'horse face',
@@ -79,11 +79,11 @@ class AnimalsNature implements Gettable
                 'two-hump camel',
                 'elephant',
                 'mouse face',
-                'hamster face',
+                'hamster',
                 'rabbit face',
-                'bear face',
+                'bear',
                 'koala',
-                'panda face',
+                'panda',
                 'paw prints',
             ]
         ],
@@ -101,7 +101,7 @@ class AnimalsNature implements Gettable
         'animal-amphibian' => [
             'parent' => 'Animals & Nature',
             'children' => [
-                'frog face',
+                'frog',
             ]
         ],
         'animal-reptile' => [
@@ -196,11 +196,10 @@ class AnimalsNature implements Gettable
                 ':poodle:',
             ]
         ],
-        'wolf face' => [
+        'wolf' => [
             'parent' => 'animal-mammal',
             'children' => null,
             'aliases' => [
-                ':wolf:',
             ]
         ],
         'cat face' => [
@@ -287,11 +286,10 @@ class AnimalsNature implements Gettable
                 ':mouse:',
             ]
         ],
-        'hamster face' => [
+        'hamster' => [
             'parent' => 'animal-mammal',
             'children' => null,
             'aliases' => [
-                ':hamster:',
             ]
         ],
         'rabbit face' => [
@@ -301,11 +299,10 @@ class AnimalsNature implements Gettable
                 ':rabbit:',
             ]
         ],
-        'bear face' => [
+        'bear' => [
             'parent' => 'animal-mammal',
             'children' => null,
             'aliases' => [
-                ':bear:',
             ]
         ],
         'koala' => [
@@ -315,11 +312,10 @@ class AnimalsNature implements Gettable
                 ':koala:',
             ]
         ],
-        'panda face' => [
+        'panda' => [
             'parent' => 'animal-mammal',
             'children' => null,
             'aliases' => [
-                ':panda_face:',
             ]
         ],
         'paw prints' => [
@@ -372,11 +368,10 @@ class AnimalsNature implements Gettable
                 ':penguin:',
             ]
         ],
-        'frog face' => [
+        'frog' => [
             'parent' => 'animal-amphibian',
             'children' => null,
             'aliases' => [
-                ':frog:',
             ]
         ],
         'turtle' => [

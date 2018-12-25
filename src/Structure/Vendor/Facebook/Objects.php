@@ -74,6 +74,8 @@ class Objects implements Gettable
             'children' => [
                 'glasses',
                 'sunglasses',
+                '⊛ goggles',
+                '⊛ lab coat',
                 'necktie',
                 't-shirt',
                 'jeans',
@@ -92,6 +94,8 @@ class Objects implements Gettable
                 'backpack',
                 'man’s shoe',
                 'running shoe',
+                '⊛ hiking boot',
+                '⊛ flat shoe',
                 'high-heeled shoe',
                 'woman’s sandal',
                 'woman’s boot',
@@ -172,6 +176,7 @@ class Objects implements Gettable
                 'floppy disk',
                 'optical disk',
                 'dvd',
+                '⊛ abacus',
             ]
         ],
         'light & video' => [
@@ -226,6 +231,7 @@ class Objects implements Gettable
                 'pound banknote',
                 'money with wings',
                 'credit card',
+                '⊛ receipt',
                 'chart increasing with yen',
                 'currency exchange',
                 'heavy dollar sign',
@@ -319,12 +325,17 @@ class Objects implements Gettable
                 'balance scale',
                 'link',
                 'chains',
+                '⊛ toolbox',
+                '⊛ magnet',
             ]
         ],
         'science' => [
             'parent' => 'Objects',
             'children' => [
                 'alembic',
+                '⊛ test tube',
+                '⊛ petri dish',
+                '⊛ dna',
                 'microscope',
                 'telescope',
                 'satellite antenna',
@@ -346,6 +357,14 @@ class Objects implements Gettable
                 'toilet',
                 'shower',
                 'bathtub',
+                '⊛ lotion bottle',
+                '⊛ safety pin',
+                '⊛ broom',
+                '⊛ basket',
+                '⊛ roll of paper',
+                '⊛ soap',
+                '⊛ sponge',
+                '⊛ fire extinguisher',
                 'shopping cart',
             ]
         ],
@@ -377,6 +396,18 @@ class Objects implements Gettable
             'children' => null,
             'aliases' => [
                 ':dark_sunglasses:',
+            ]
+        ],
+        '⊛ goggles' => [
+            'parent' => 'clothing',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ lab coat' => [
+            'parent' => 'clothing',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'necktie' => [
@@ -502,6 +533,18 @@ class Objects implements Gettable
             'children' => null,
             'aliases' => [
                 ':athletic_shoe:',
+            ]
+        ],
+        '⊛ hiking boot' => [
+            'parent' => 'clothing',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ flat shoe' => [
+            'parent' => 'clothing',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'high-heeled shoe' => [
@@ -894,6 +937,12 @@ class Objects implements Gettable
                 ':dvd:',
             ]
         ],
+        '⊛ abacus' => [
+            'parent' => 'computer',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'movie camera' => [
             'parent' => 'light & video',
             'children' => null,
@@ -1167,6 +1216,12 @@ class Objects implements Gettable
             'children' => null,
             'aliases' => [
                 ':credit_card:',
+            ]
+        ],
+        '⊛ receipt' => [
+            'parent' => 'money',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'chart increasing with yen' => [
@@ -1662,11 +1717,41 @@ class Objects implements Gettable
                 ':chains:',
             ]
         ],
+        '⊛ toolbox' => [
+            'parent' => 'tool',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ magnet' => [
+            'parent' => 'tool',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'alembic' => [
             'parent' => 'science',
             'children' => null,
             'aliases' => [
                 ':alembic:',
+            ]
+        ],
+        '⊛ test tube' => [
+            'parent' => 'science',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ petri dish' => [
+            'parent' => 'science',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ dna' => [
+            'parent' => 'science',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'microscope' => [
@@ -1745,6 +1830,54 @@ class Objects implements Gettable
             'children' => null,
             'aliases' => [
                 ':bathtub:',
+            ]
+        ],
+        '⊛ lotion bottle' => [
+            'parent' => 'household',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ safety pin' => [
+            'parent' => 'household',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ broom' => [
+            'parent' => 'household',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ basket' => [
+            'parent' => 'household',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ roll of paper' => [
+            'parent' => 'household',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ soap' => [
+            'parent' => 'household',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ sponge' => [
+            'parent' => 'household',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ fire extinguisher' => [
+            'parent' => 'household',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'shopping cart' => [

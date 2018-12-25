@@ -42,6 +42,7 @@ class Component implements Gettable
         'Component' => [
             'parent' => null,
             'children' => [
+                'hair-style',
                 'skin-tone',
             ]
         ]
@@ -52,6 +53,15 @@ class Component implements Gettable
      * @var array
      */
     private $mediumGroups = [
+        'hair-style' => [
+            'parent' => 'Component',
+            'children' => [
+                '⊛ red hair',
+                '⊛ curly hair',
+                '⊛ white hair',
+                '⊛ bald',
+            ]
+        ],
         'skin-tone' => [
             'parent' => 'Component',
             'children' => [
@@ -69,6 +79,30 @@ class Component implements Gettable
      * @var array
      */
     private $groups = [
+        '⊛ red hair' => [
+            'parent' => 'hair-style',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ curly hair' => [
+            'parent' => 'hair-style',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ white hair' => [
+            'parent' => 'hair-style',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ bald' => [
+            'parent' => 'hair-style',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'light skin tone' => [
             'parent' => 'skin-tone',
             'children' => null,

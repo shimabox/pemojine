@@ -151,15 +151,15 @@ class SmileysEmotion implements Gettable
         'cat-face' => [
             'parent' => 'Smileys & Emotion',
             'children' => [
-                'grinning cat face',
-                'grinning cat face with smiling eyes',
-                'cat face with tears of joy',
-                'smiling cat face with heart-eyes',
-                'cat face with wry smile',
-                'kissing cat face',
-                'weary cat face',
-                'crying cat face',
-                'pouting cat face',
+                'grinning cat',
+                'grinning cat with smiling eyes',
+                'cat with tears of joy',
+                'smiling cat with heart-eyes',
+                'cat with wry smile',
+                'kissing cat',
+                'weary cat',
+                'crying cat',
+                'pouting cat',
             ]
         ],
         'monkey-face' => [
@@ -528,67 +528,58 @@ class SmileysEmotion implements Gettable
                 ':space_invader:',
             ]
         ],
-        'grinning cat face' => [
+        'grinning cat' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':smiley_cat:',
             ]
         ],
-        'grinning cat face with smiling eyes' => [
+        'grinning cat with smiling eyes' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':smile_cat:',
             ]
         ],
-        'cat face with tears of joy' => [
+        'cat with tears of joy' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':joy_cat:',
             ]
         ],
-        'smiling cat face with heart-eyes' => [
+        'smiling cat with heart-eyes' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':heart_eyes_cat:',
             ]
         ],
-        'cat face with wry smile' => [
+        'cat with wry smile' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':smirk_cat:',
             ]
         ],
-        'kissing cat face' => [
+        'kissing cat' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':kissing_cat:',
             ]
         ],
-        'weary cat face' => [
+        'weary cat' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':scream_cat:',
             ]
         ],
-        'crying cat face' => [
+        'crying cat' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':crying_cat_face:',
             ]
         ],
-        'pouting cat face' => [
+        'pouting cat' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
-                ':pouting_cat:',
             ]
         ],
         'see-no-evil monkey' => [

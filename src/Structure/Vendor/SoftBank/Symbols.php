@@ -137,7 +137,7 @@ class Symbols implements Gettable
             'children' => [
                 'trident emblem',
                 'Japanese symbol for beginner',
-                'heavy large circle',
+                'hollow red circle',
                 'cross mark',
                 'part alternation mark',
                 'eight-spoked asterisk',
@@ -513,11 +513,10 @@ class Symbols implements Gettable
                 ':beginner:',
             ]
         ],
-        'heavy large circle' => [
+        'hollow red circle' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
-                ':o:',
             ]
         ],
         'cross mark' => [

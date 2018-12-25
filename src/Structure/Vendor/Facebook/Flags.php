@@ -63,6 +63,7 @@ class Flags implements Gettable
                 'black flag',
                 'white flag',
                 'rainbow flag',
+                '⊛ pirate flag',
             ]
         ],
         'country-flag' => [
@@ -221,7 +222,7 @@ class Flags implements Gettable
                 'flag: Mali',
                 'flag: Myanmar (Burma)',
                 'flag: Mongolia',
-                'flag: Macau SAR China',
+                'flag: Macao SAR China',
                 'flag: Northern Mariana Islands',
                 'flag: Martinique',
                 'flag: Mauritania',
@@ -286,7 +287,7 @@ class Flags implements Gettable
                 'flag: El Salvador',
                 'flag: Sint Maarten',
                 'flag: Syria',
-                'flag: Swaziland',
+                'flag: Eswatini',
                 'flag: Tristan da Cunha',
                 'flag: Turks & Caicos Islands',
                 'flag: Chad',
@@ -386,6 +387,12 @@ class Flags implements Gettable
             'aliases' => [
                 ':rainbow_flag:',
                 ':gay_pride_flag:',
+            ]
+        ],
+        '⊛ pirate flag' => [
+            'parent' => 'flag',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'flag: Ascension Island' => [
@@ -1612,12 +1619,10 @@ class Flags implements Gettable
                 ':mn:',
             ]
         ],
-        'flag: Macau SAR China' => [
+        'flag: Macao SAR China' => [
             'parent' => 'country-flag',
             'children' => null,
             'aliases' => [
-                ':flag_mo:',
-                ':mo:',
             ]
         ],
         'flag: Northern Mariana Islands' => [
@@ -2133,12 +2138,10 @@ class Flags implements Gettable
                 ':sy:',
             ]
         ],
-        'flag: Swaziland' => [
+        'flag: Eswatini' => [
             'parent' => 'country-flag',
             'children' => null,
             'aliases' => [
-                ':flag_sz:',
-                ':sz:',
             ]
         ],
         'flag: Tristan da Cunha' => [

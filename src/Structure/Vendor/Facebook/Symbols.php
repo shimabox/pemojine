@@ -199,21 +199,22 @@ class Symbols implements Gettable
             'parent' => 'Symbols',
             'children' => [
                 'medical symbol',
+                '⊛ infinity',
                 'recycling symbol',
                 'fleur-de-lis',
                 'trident emblem',
                 'name badge',
                 'Japanese symbol for beginner',
-                'heavy large circle',
-                'white heavy check mark',
-                'ballot box with check',
-                'heavy check mark',
-                'heavy multiplication x',
+                'hollow red circle',
+                'check mark button',
+                'check box with check',
+                'check mark',
+                'multiplication sign',
                 'cross mark',
                 'cross mark button',
-                'heavy plus sign',
-                'heavy minus sign',
-                'heavy division sign',
+                'plus sign',
+                'minus sign',
+                'division sign',
                 'curly loop',
                 'double curly loop',
                 'part alternation mark',
@@ -1031,6 +1032,12 @@ class Symbols implements Gettable
                 ':medical_symbol:',
             ]
         ],
+        '⊛ infinity' => [
+            'parent' => 'other-symbol',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'recycling symbol' => [
             'parent' => 'other-symbol',
             'children' => null,
@@ -1066,39 +1073,34 @@ class Symbols implements Gettable
                 ':beginner:',
             ]
         ],
-        'heavy large circle' => [
+        'hollow red circle' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
-                ':o:',
             ]
         ],
-        'white heavy check mark' => [
+        'check mark button' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
-                ':white_check_mark:',
             ]
         ],
-        'ballot box with check' => [
+        'check box with check' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
-                ':ballot_box_with_check:',
             ]
         ],
-        'heavy check mark' => [
+        'check mark' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
-                ':heavy_check_mark:',
             ]
         ],
-        'heavy multiplication x' => [
+        'multiplication sign' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
-                ':heavy_multiplication_x:',
             ]
         ],
         'cross mark' => [
@@ -1115,25 +1117,22 @@ class Symbols implements Gettable
                 ':negative_squared_cross_mark:',
             ]
         ],
-        'heavy plus sign' => [
+        'plus sign' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
-                ':heavy_plus_sign:',
             ]
         ],
-        'heavy minus sign' => [
+        'minus sign' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
-                ':heavy_minus_sign:',
             ]
         ],
-        'heavy division sign' => [
+        'division sign' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
-                ':heavy_division_sign:',
             ]
         ],
         'curly loop' => [

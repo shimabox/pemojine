@@ -135,7 +135,7 @@ class Activities implements Gettable
                 'joystick',
                 'slot machine',
                 'game die',
-                '⊛ jigsaw',
+                '⊛ puzzle piece',
                 '⊛ teddy bear',
                 'spade suit',
                 'heart suit',
@@ -595,7 +595,7 @@ class Activities implements Gettable
                 ':game_die:',
             ]
         ],
-        '⊛ jigsaw' => [
+        '⊛ puzzle piece' => [
             'parent' => 'game',
             'children' => null,
             'aliases' => [

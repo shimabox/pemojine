@@ -63,6 +63,7 @@ class Activities implements Gettable
                 'Christmas tree',
                 'fireworks',
                 'sparkler',
+                '⊛ firecracker',
                 'sparkles',
                 'balloon',
                 'party popper',
@@ -73,6 +74,7 @@ class Activities implements Gettable
                 'carp streamer',
                 'wind chime',
                 'moon viewing ceremony',
+                '⊛ red envelope',
                 'ribbon',
                 'wrapped gift',
                 'reminder ribbon',
@@ -96,15 +98,18 @@ class Activities implements Gettable
             'children' => [
                 'soccer ball',
                 'baseball',
+                '⊛ softball',
                 'basketball',
                 'volleyball',
                 'american football',
                 'rugby football',
                 'tennis',
+                '⊛ flying disc',
                 'bowling',
                 'cricket game',
                 'field hockey',
                 'ice hockey',
+                '⊛ lacrosse',
                 'ping pong',
                 'badminton',
                 'boxing glove',
@@ -125,14 +130,18 @@ class Activities implements Gettable
                 'direct hit',
                 'pool 8 ball',
                 'crystal ball',
+                '⊛ nazar amulet',
                 'video game',
                 'joystick',
                 'slot machine',
                 'game die',
+                '⊛ puzzle piece',
+                '⊛ teddy bear',
                 'spade suit',
                 'heart suit',
                 'diamond suit',
                 'club suit',
+                '⊛ chess pawn',
                 'joker',
                 'mahjong red dragon',
                 'flower playing cards',
@@ -144,6 +153,8 @@ class Activities implements Gettable
                 'performing arts',
                 'framed picture',
                 'artist palette',
+                '⊛ thread',
+                '⊛ yarn',
             ]
         ],
     ];
@@ -179,6 +190,12 @@ class Activities implements Gettable
             'children' => null,
             'aliases' => [
                 ':sparkler:',
+            ]
+        ],
+        '⊛ firecracker' => [
+            'parent' => 'event',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'sparkles' => [
@@ -249,6 +266,12 @@ class Activities implements Gettable
             'children' => null,
             'aliases' => [
                 ':rice_scene:',
+            ]
+        ],
+        '⊛ red envelope' => [
+            'parent' => 'event',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'ribbon' => [
@@ -347,6 +370,12 @@ class Activities implements Gettable
                 ':baseball:',
             ]
         ],
+        '⊛ softball' => [
+            'parent' => 'sport',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'basketball' => [
             'parent' => 'sport',
             'children' => null,
@@ -382,6 +411,12 @@ class Activities implements Gettable
                 ':tennis:',
             ]
         ],
+        '⊛ flying disc' => [
+            'parent' => 'sport',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'bowling' => [
             'parent' => 'sport',
             'children' => null,
@@ -409,6 +444,12 @@ class Activities implements Gettable
             'children' => null,
             'aliases' => [
                 ':hockey:',
+            ]
+        ],
+        '⊛ lacrosse' => [
+            'parent' => 'sport',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'ping pong' => [
@@ -520,6 +561,12 @@ class Activities implements Gettable
                 ':crystal_ball:',
             ]
         ],
+        '⊛ nazar amulet' => [
+            'parent' => 'game',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'video game' => [
             'parent' => 'game',
             'children' => null,
@@ -548,6 +595,18 @@ class Activities implements Gettable
                 ':game_die:',
             ]
         ],
+        '⊛ puzzle piece' => [
+            'parent' => 'game',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ teddy bear' => [
+            'parent' => 'game',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'spade suit' => [
             'parent' => 'game',
             'children' => null,
@@ -574,6 +633,12 @@ class Activities implements Gettable
             'children' => null,
             'aliases' => [
                 ':clubs:',
+            ]
+        ],
+        '⊛ chess pawn' => [
+            'parent' => 'game',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'joker' => [
@@ -617,6 +682,18 @@ class Activities implements Gettable
             'children' => null,
             'aliases' => [
                 ':art:',
+            ]
+        ],
+        '⊛ thread' => [
+            'parent' => 'arts & crafts',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ yarn' => [
+            'parent' => 'arts & crafts',
+            'children' => null,
+            'aliases' => [
             ]
         ],
     ];

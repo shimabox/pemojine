@@ -69,6 +69,7 @@ class FoodDrink implements Gettable
                 'lemon',
                 'banana',
                 'pineapple',
+                '⊛ mango',
                 'red apple',
                 'green apple',
                 'pear',
@@ -90,6 +91,7 @@ class FoodDrink implements Gettable
                 'ear of corn',
                 'hot pepper',
                 'cucumber',
+                '⊛ leafy green',
                 'broccoli',
                 'mushroom',
                 'peanuts',
@@ -103,6 +105,7 @@ class FoodDrink implements Gettable
                 'croissant',
                 'baguette bread',
                 'pretzel',
+                '⊛ bagel',
                 'pancakes',
                 'cheese wedge',
                 'meat on bone',
@@ -124,6 +127,7 @@ class FoodDrink implements Gettable
                 'bowl with spoon',
                 'green salad',
                 'popcorn',
+                '⊛ salt',
                 'canned food',
             ]
         ],
@@ -142,6 +146,7 @@ class FoodDrink implements Gettable
                 'sushi',
                 'fried shrimp',
                 'fish cake with swirl',
+                '⊛ moon cake',
                 'dango',
                 'dumpling',
                 'fortune cookie',
@@ -152,6 +157,7 @@ class FoodDrink implements Gettable
             'parent' => 'Food & Drink',
             'children' => [
                 'crab',
+                '⊛ lobster',
                 'shrimp',
                 'squid',
             ]
@@ -166,6 +172,7 @@ class FoodDrink implements Gettable
                 'cookie',
                 'birthday cake',
                 'shortcake',
+                '⊛ cupcake',
                 'pie',
                 'chocolate bar',
                 'candy',
@@ -258,6 +265,12 @@ class FoodDrink implements Gettable
             'children' => null,
             'aliases' => [
                 ':pineapple:',
+            ]
+        ],
+        '⊛ mango' => [
+            'parent' => 'food-fruit',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'red apple' => [
@@ -373,6 +386,12 @@ class FoodDrink implements Gettable
                 ':cucumber:',
             ]
         ],
+        '⊛ leafy green' => [
+            'parent' => 'food-vegetable',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'broccoli' => [
             'parent' => 'food-vegetable',
             'children' => null,
@@ -429,6 +448,12 @@ class FoodDrink implements Gettable
             'children' => null,
             'aliases' => [
                 ':pretzel:',
+            ]
+        ],
+        '⊛ bagel' => [
+            'parent' => 'food-prepared',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'pancakes' => [
@@ -583,6 +608,12 @@ class FoodDrink implements Gettable
                 ':popcorn:',
             ]
         ],
+        '⊛ salt' => [
+            'parent' => 'food-prepared',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'canned food' => [
             'parent' => 'food-prepared',
             'children' => null,
@@ -674,6 +705,12 @@ class FoodDrink implements Gettable
                 ':fish_cake:',
             ]
         ],
+        '⊛ moon cake' => [
+            'parent' => 'food-asian',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'dango' => [
             'parent' => 'food-asian',
             'children' => null,
@@ -707,6 +744,12 @@ class FoodDrink implements Gettable
             'children' => null,
             'aliases' => [
                 ':crab:',
+            ]
+        ],
+        '⊛ lobster' => [
+            'parent' => 'food-marine',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'shrimp' => [
@@ -770,6 +813,12 @@ class FoodDrink implements Gettable
             'children' => null,
             'aliases' => [
                 ':cake:',
+            ]
+        ],
+        '⊛ cupcake' => [
+            'parent' => 'food-sweet',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'pie' => [

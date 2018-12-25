@@ -71,6 +71,7 @@ class TravelPlaces implements Gettable
                 'globe with meridians',
                 'world map',
                 'map of Japan',
+                '⊛ compass',
             ]
         ],
         'place-geographic' => [
@@ -93,6 +94,7 @@ class TravelPlaces implements Gettable
                 'stadium',
                 'classical building',
                 'building construction',
+                '⊛ brick',
                 'houses',
                 'derelict house',
                 'house',
@@ -183,6 +185,7 @@ class TravelPlaces implements Gettable
                 'motor scooter',
                 'bicycle',
                 'kick scooter',
+                '⊛ skateboard',
                 'bus stop',
                 'motorway',
                 'railway track',
@@ -229,6 +232,7 @@ class TravelPlaces implements Gettable
             'parent' => 'Travel & Places',
             'children' => [
                 'bellhop bell',
+                '⊛ luggage',
             ]
         ],
         'time' => [
@@ -367,6 +371,12 @@ class TravelPlaces implements Gettable
                 ':japan:',
             ]
         ],
+        '⊛ compass' => [
+            'parent' => 'place-map',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'snow-capped mountain' => [
             'parent' => 'place-geographic',
             'children' => null,
@@ -454,6 +464,12 @@ class TravelPlaces implements Gettable
             'aliases' => [
                 ':construction_site:',
                 ':building_construction:',
+            ]
+        ],
+        '⊛ brick' => [
+            'parent' => 'place-building',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'houses' => [
@@ -987,6 +1003,12 @@ class TravelPlaces implements Gettable
                 ':scooter:',
             ]
         ],
+        '⊛ skateboard' => [
+            'parent' => 'transport-ground',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'bus stop' => [
             'parent' => 'transport-ground',
             'children' => null,
@@ -1209,6 +1231,12 @@ class TravelPlaces implements Gettable
             'aliases' => [
                 ':bellhop:',
                 ':bellhop_bell:',
+            ]
+        ],
+        '⊛ luggage' => [
+            'parent' => 'hotel',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'hourglass done' => [

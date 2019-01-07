@@ -287,8 +287,6 @@ class Pemojine implements Gettable
      */
     public function randomFromBigGroup()
     {
-        $this->initSeed();
-
         if (count($this->bigGroups) === 0) {
             return null;
         }
@@ -305,8 +303,6 @@ class Pemojine implements Gettable
      */
     public function randomFromMediumGroup()
     {
-        $this->initSeed();
-
         if (count($this->mediumGroups) === 0) {
             return null;
         }
@@ -323,8 +319,6 @@ class Pemojine implements Gettable
      */
     public function randomFromGroup()
     {
-        $this->initSeed();
-
         if (count($this->groups) === 0) {
             return null;
         }
@@ -375,16 +369,5 @@ class Pemojine implements Gettable
         }
 
         return false;
-    }
-
-    /**
-     * Initialize seed
-     * 
-     * @return void
-     */
-    private function initSeed()
-    {
-        list($usec, $sec) = explode(' ', microtime());
-        srand((int)$sec - (int)($usec * 100000000));
     }
 }

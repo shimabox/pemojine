@@ -201,8 +201,8 @@ class Symbols implements Gettable
             'parent' => 'Symbols',
             'children' => [
                 'red circle',
-                'black square button',
                 'white square button',
+                'black square button',
             ]
         ],
     ];
@@ -855,18 +855,18 @@ class Symbols implements Gettable
                 ':red_circle:',
             ]
         ],
-        'black square button' => [
-            'parent' => 'geometric',
-            'children' => null,
-            'aliases' => [
-                ':black_square_button:',
-            ]
-        ],
         'white square button' => [
             'parent' => 'geometric',
             'children' => null,
             'aliases' => [
                 ':white_square_button:',
+            ]
+        ],
+        'black square button' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+                ':black_square_button:',
             ]
         ],
     ];

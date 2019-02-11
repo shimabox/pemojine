@@ -112,7 +112,6 @@ class TravelPlaces implements Gettable
                 'cityscape at dusk',
                 'bridge at night',
                 'hot springs',
-                'milky way',
                 'ferris wheel',
                 'roller coaster',
                 'barber pole',
@@ -175,6 +174,7 @@ class TravelPlaces implements Gettable
                 'sun',
                 'star',
                 'shooting star',
+                'milky way',
                 'cloud',
                 'sun behind cloud',
                 'cyclone',
@@ -390,13 +390,6 @@ class TravelPlaces implements Gettable
             'children' => null,
             'aliases' => [
                 ':hotsprings:',
-            ]
-        ],
-        'milky way' => [
-            'parent' => 'place-other',
-            'children' => null,
-            'aliases' => [
-                ':milky_way:',
             ]
         ],
         'ferris wheel' => [
@@ -656,6 +649,13 @@ class TravelPlaces implements Gettable
             'children' => null,
             'aliases' => [
                 ':stars:',
+            ]
+        ],
+        'milky way' => [
+            'parent' => 'sky & weather',
+            'children' => null,
+            'aliases' => [
+                ':milky_way:',
             ]
         ],
         'cloud' => [

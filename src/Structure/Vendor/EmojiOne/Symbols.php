@@ -199,7 +199,7 @@ class Symbols implements Gettable
             'parent' => 'Symbols',
             'children' => [
                 'medical symbol',
-                '⊛ infinity',
+                'infinity',
                 'recycling symbol',
                 'fleur-de-lis',
                 'trident emblem',
@@ -300,16 +300,16 @@ class Symbols implements Gettable
             'children' => [
                 'red circle',
                 'blue circle',
-                'white circle',
                 'black circle',
-                'white large square',
+                'white circle',
                 'black large square',
+                'white large square',
                 'black medium square',
                 'white medium square',
-                'white medium-small square',
                 'black medium-small square',
-                'white small square',
+                'white medium-small square',
                 'black small square',
+                'white small square',
                 'large orange diamond',
                 'large blue diamond',
                 'small orange diamond',
@@ -318,8 +318,8 @@ class Symbols implements Gettable
                 'red triangle pointed down',
                 'diamond with a dot',
                 'radio button',
-                'black square button',
                 'white square button',
+                'black square button',
             ]
         ],
     ];
@@ -1032,10 +1032,11 @@ class Symbols implements Gettable
                 ':medical_symbol:',
             ]
         ],
-        '⊛ infinity' => [
+        'infinity' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':infinity:',
             ]
         ],
         'recycling symbol' => [
@@ -1626,13 +1627,6 @@ class Symbols implements Gettable
                 ':blue_circle:',
             ]
         ],
-        'white circle' => [
-            'parent' => 'geometric',
-            'children' => null,
-            'aliases' => [
-                ':white_circle:',
-            ]
-        ],
         'black circle' => [
             'parent' => 'geometric',
             'children' => null,
@@ -1640,11 +1634,11 @@ class Symbols implements Gettable
                 ':black_circle:',
             ]
         ],
-        'white large square' => [
+        'white circle' => [
             'parent' => 'geometric',
             'children' => null,
             'aliases' => [
-                ':white_large_square:',
+                ':white_circle:',
             ]
         ],
         'black large square' => [
@@ -1652,6 +1646,13 @@ class Symbols implements Gettable
             'children' => null,
             'aliases' => [
                 ':black_large_square:',
+            ]
+        ],
+        'white large square' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+                ':white_large_square:',
             ]
         ],
         'black medium square' => [
@@ -1668,13 +1669,6 @@ class Symbols implements Gettable
                 ':white_medium_square:',
             ]
         ],
-        'white medium-small square' => [
-            'parent' => 'geometric',
-            'children' => null,
-            'aliases' => [
-                ':white_medium_small_square:',
-            ]
-        ],
         'black medium-small square' => [
             'parent' => 'geometric',
             'children' => null,
@@ -1682,11 +1676,11 @@ class Symbols implements Gettable
                 ':black_medium_small_square:',
             ]
         ],
-        'white small square' => [
+        'white medium-small square' => [
             'parent' => 'geometric',
             'children' => null,
             'aliases' => [
-                ':white_small_square:',
+                ':white_medium_small_square:',
             ]
         ],
         'black small square' => [
@@ -1694,6 +1688,13 @@ class Symbols implements Gettable
             'children' => null,
             'aliases' => [
                 ':black_small_square:',
+            ]
+        ],
+        'white small square' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+                ':white_small_square:',
             ]
         ],
         'large orange diamond' => [
@@ -1752,18 +1753,18 @@ class Symbols implements Gettable
                 ':radio_button:',
             ]
         ],
-        'black square button' => [
-            'parent' => 'geometric',
-            'children' => null,
-            'aliases' => [
-                ':black_square_button:',
-            ]
-        ],
         'white square button' => [
             'parent' => 'geometric',
             'children' => null,
             'aliases' => [
                 ':white_square_button:',
+            ]
+        ],
+        'black square button' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+                ':black_square_button:',
             ]
         ],
     ];

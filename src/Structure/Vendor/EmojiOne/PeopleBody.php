@@ -288,13 +288,13 @@ class PeopleBody implements Gettable
             'parent' => 'People & Body',
             'children' => [
                 'flexed biceps',
-                '⊛ leg',
-                '⊛ foot',
+                'leg',
+                'foot',
                 'ear',
                 'nose',
                 'brain',
-                '⊛ tooth',
-                '⊛ bone',
+                'tooth',
+                'bone',
                 'eyes',
                 'eye',
                 'tongue',
@@ -304,6 +304,16 @@ class PeopleBody implements Gettable
                 'flexed biceps: medium skin tone',
                 'flexed biceps: medium-dark skin tone',
                 'flexed biceps: dark skin tone',
+                'leg: light skin tone',
+                'leg: medium-light skin tone',
+                'leg: medium skin tone',
+                'leg: medium-dark skin tone',
+                'leg: dark skin tone',
+                'foot: light skin tone',
+                'foot: medium-light skin tone',
+                'foot: medium skin tone',
+                'foot: medium-dark skin tone',
+                'foot: dark skin tone',
                 'ear: light skin tone',
                 'ear: medium-light skin tone',
                 'ear: medium skin tone',
@@ -328,16 +338,16 @@ class PeopleBody implements Gettable
                 'man',
                 'man: beard',
                 'man: blond hair',
-                '⊛ man: red hair',
-                '⊛ man: curly hair',
-                '⊛ man: white hair',
-                '⊛ man: bald',
+                'man: red hair',
+                'man: curly hair',
+                'man: white hair',
+                'man: bald',
                 'woman',
                 'woman: blond hair',
-                '⊛ woman: red hair',
-                '⊛ woman: curly hair',
-                '⊛ woman: white hair',
-                '⊛ woman: bald',
+                'woman: red hair',
+                'woman: curly hair',
+                'woman: white hair',
+                'woman: bald',
                 'older person',
                 'old man',
                 'old woman',
@@ -386,6 +396,26 @@ class PeopleBody implements Gettable
                 'man: medium skin tone, blond hair',
                 'man: medium-dark skin tone, blond hair',
                 'man: dark skin tone, blond hair',
+                'man: light skin tone, red hair',
+                'man: medium-light skin tone, red hair',
+                'man: medium skin tone, red hair',
+                'man: medium-dark skin tone, red hair',
+                'man: dark skin tone, red hair',
+                'man: light skin tone, curly hair',
+                'man: medium-light skin tone, curly hair',
+                'man: medium skin tone, curly hair',
+                'man: medium-dark skin tone, curly hair',
+                'man: dark skin tone, curly hair',
+                'man: light skin tone, white hair',
+                'man: medium-light skin tone, white hair',
+                'man: medium skin tone, white hair',
+                'man: medium-dark skin tone, white hair',
+                'man: dark skin tone, white hair',
+                'man: light skin tone, bald',
+                'man: medium-light skin tone, bald',
+                'man: medium skin tone, bald',
+                'man: medium-dark skin tone, bald',
+                'man: dark skin tone, bald',
                 'woman: light skin tone',
                 'woman: medium-light skin tone',
                 'woman: medium skin tone',
@@ -396,6 +426,26 @@ class PeopleBody implements Gettable
                 'woman: medium skin tone, blond hair',
                 'woman: medium-dark skin tone, blond hair',
                 'woman: dark skin tone, blond hair',
+                'woman: light skin tone, red hair',
+                'woman: medium-light skin tone, red hair',
+                'woman: medium skin tone, red hair',
+                'woman: medium-dark skin tone, red hair',
+                'woman: dark skin tone, red hair',
+                'woman: light skin tone, curly hair',
+                'woman: medium-light skin tone, curly hair',
+                'woman: medium skin tone, curly hair',
+                'woman: medium-dark skin tone, curly hair',
+                'woman: dark skin tone, curly hair',
+                'woman: light skin tone, white hair',
+                'woman: medium-light skin tone, white hair',
+                'woman: medium skin tone, white hair',
+                'woman: medium-dark skin tone, white hair',
+                'woman: dark skin tone, white hair',
+                'woman: light skin tone, bald',
+                'woman: medium-light skin tone, bald',
+                'woman: medium skin tone, bald',
+                'woman: medium-dark skin tone, bald',
+                'woman: dark skin tone, bald',
                 'older person: light skin tone',
                 'older person: medium-light skin tone',
                 'older person: medium skin tone',
@@ -921,12 +971,12 @@ class PeopleBody implements Gettable
                 'baby angel',
                 'Santa Claus',
                 'Mrs. Claus',
-                '⊛ superhero',
-                '⊛ man superhero',
-                '⊛ woman superhero',
-                '⊛ supervillain',
-                '⊛ man supervillain',
-                '⊛ woman supervillain',
+                'superhero',
+                'man superhero',
+                'woman superhero',
+                'supervillain',
+                'man supervillain',
+                'woman supervillain',
                 'mage',
                 'man mage',
                 'woman mage',
@@ -963,6 +1013,16 @@ class PeopleBody implements Gettable
                 'Mrs. Claus: medium skin tone',
                 'Mrs. Claus: medium-dark skin tone',
                 'Mrs. Claus: dark skin tone',
+                'superhero: light skin tone',
+                'superhero: medium-light skin tone',
+                'superhero: medium skin tone',
+                'superhero: medium-dark skin tone',
+                'superhero: dark skin tone',
+                'supervillain: light skin tone',
+                'supervillain: medium-light skin tone',
+                'supervillain: medium skin tone',
+                'supervillain: medium-dark skin tone',
+                'supervillain: dark skin tone',
                 'mage: light skin tone',
                 'mage: medium-light skin tone',
                 'mage: medium skin tone',
@@ -2911,16 +2971,18 @@ class PeopleBody implements Gettable
                 ':muscle:',
             ]
         ],
-        '⊛ leg' => [
+        'leg' => [
             'parent' => 'body-parts',
             'children' => null,
             'aliases' => [
+                ':leg:',
             ]
         ],
-        '⊛ foot' => [
+        'foot' => [
             'parent' => 'body-parts',
             'children' => null,
             'aliases' => [
+                ':foot:',
             ]
         ],
         'ear' => [
@@ -2944,16 +3006,18 @@ class PeopleBody implements Gettable
                 ':brain:',
             ]
         ],
-        '⊛ tooth' => [
+        'tooth' => [
             'parent' => 'body-parts',
             'children' => null,
             'aliases' => [
+                ':tooth:',
             ]
         ],
-        '⊛ bone' => [
+        'bone' => [
             'parent' => 'body-parts',
             'children' => null,
             'aliases' => [
+                ':bone:',
             ]
         ],
         'eyes' => [
@@ -3017,6 +3081,86 @@ class PeopleBody implements Gettable
             'children' => null,
             'aliases' => [
                 ':muscle_tone5:',
+            ]
+        ],
+        'leg: light skin tone' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
+                ':leg_tone1:',
+                ':leg_light_skin_tone:',
+            ]
+        ],
+        'leg: medium-light skin tone' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
+                ':leg_tone2:',
+                ':leg_medium_light_skin_tone:',
+            ]
+        ],
+        'leg: medium skin tone' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
+                ':leg_tone3:',
+                ':leg_medium_skin_tone:',
+            ]
+        ],
+        'leg: medium-dark skin tone' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
+                ':leg_tone4:',
+                ':leg_medium_dark_skin_tone:',
+            ]
+        ],
+        'leg: dark skin tone' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
+                ':leg_tone5:',
+                ':leg_dark_skin_tone:',
+            ]
+        ],
+        'foot: light skin tone' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
+                ':foot_tone1:',
+                ':foot_light_skin_tone:',
+            ]
+        ],
+        'foot: medium-light skin tone' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
+                ':foot_tone2:',
+                ':foot_medium_light_skin_tone:',
+            ]
+        ],
+        'foot: medium skin tone' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
+                ':foot_tone3:',
+                ':foot_medium_skin_tone:',
+            ]
+        ],
+        'foot: medium-dark skin tone' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
+                ':foot_tone4:',
+                ':foot_medium_dark_skin_tone:',
+            ]
+        ],
+        'foot: dark skin tone' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
+                ':foot_tone5:',
+                ':foot_dark_skin_tone:',
             ]
         ],
         'ear: light skin tone' => [
@@ -3148,25 +3292,25 @@ class PeopleBody implements Gettable
             'aliases' => [
             ]
         ],
-        '⊛ man: red hair' => [
+        'man: red hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ man: curly hair' => [
+        'man: curly hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ man: white hair' => [
+        'man: white hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ man: bald' => [
+        'man: bald' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
@@ -3185,25 +3329,25 @@ class PeopleBody implements Gettable
             'aliases' => [
             ]
         ],
-        '⊛ woman: red hair' => [
+        'woman: red hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ woman: curly hair' => [
+        'woman: curly hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ woman: white hair' => [
+        'woman: white hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ woman: bald' => [
+        'woman: bald' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
@@ -3530,6 +3674,126 @@ class PeopleBody implements Gettable
             'aliases' => [
             ]
         ],
+        'man: light skin tone, red hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium-light skin tone, red hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium skin tone, red hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium-dark skin tone, red hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: dark skin tone, red hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: light skin tone, curly hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium-light skin tone, curly hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium skin tone, curly hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium-dark skin tone, curly hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: dark skin tone, curly hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: light skin tone, white hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium-light skin tone, white hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium skin tone, white hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium-dark skin tone, white hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: dark skin tone, white hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: light skin tone, bald' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium-light skin tone, bald' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium skin tone, bald' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium-dark skin tone, bald' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: dark skin tone, bald' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'woman: light skin tone' => [
             'parent' => 'person',
             'children' => null,
@@ -3590,6 +3854,126 @@ class PeopleBody implements Gettable
             ]
         ],
         'woman: dark skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: light skin tone, red hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium-light skin tone, red hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium skin tone, red hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium-dark skin tone, red hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: dark skin tone, red hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: light skin tone, curly hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium-light skin tone, curly hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium skin tone, curly hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium-dark skin tone, curly hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: dark skin tone, curly hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: light skin tone, white hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium-light skin tone, white hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium skin tone, white hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium-dark skin tone, white hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: dark skin tone, white hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: light skin tone, bald' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium-light skin tone, bald' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium skin tone, bald' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium-dark skin tone, bald' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: dark skin tone, bald' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
@@ -7581,40 +7965,46 @@ class PeopleBody implements Gettable
                 ':mother_christmas:',
             ]
         ],
-        '⊛ superhero' => [
+        'superhero' => [
             'parent' => 'person-fantasy',
             'children' => null,
             'aliases' => [
+                ':superhero:',
             ]
         ],
-        '⊛ man superhero' => [
+        'man superhero' => [
             'parent' => 'person-fantasy',
             'children' => null,
             'aliases' => [
+                ':man_superhero:',
             ]
         ],
-        '⊛ woman superhero' => [
+        'woman superhero' => [
             'parent' => 'person-fantasy',
             'children' => null,
             'aliases' => [
+                ':woman_superhero:',
             ]
         ],
-        '⊛ supervillain' => [
+        'supervillain' => [
             'parent' => 'person-fantasy',
             'children' => null,
             'aliases' => [
+                ':supervillain:',
             ]
         ],
-        '⊛ man supervillain' => [
+        'man supervillain' => [
             'parent' => 'person-fantasy',
             'children' => null,
             'aliases' => [
+                ':man_supervillain:',
             ]
         ],
-        '⊛ woman supervillain' => [
+        'woman supervillain' => [
             'parent' => 'person-fantasy',
             'children' => null,
             'aliases' => [
+                ':woman_supervillain:',
             ]
         ],
         'mage' => [
@@ -7872,6 +8262,86 @@ class PeopleBody implements Gettable
             'aliases' => [
                 ':mrs_claus_tone5:',
                 ':mother_christmas_tone5:',
+            ]
+        ],
+        'superhero: light skin tone' => [
+            'parent' => 'person-fantasy',
+            'children' => null,
+            'aliases' => [
+                ':superhero_tone1:',
+                ':superhero_light_skin_tone:',
+            ]
+        ],
+        'superhero: medium-light skin tone' => [
+            'parent' => 'person-fantasy',
+            'children' => null,
+            'aliases' => [
+                ':superhero_tone2:',
+                ':superhero_medium_light_skin_tone:',
+            ]
+        ],
+        'superhero: medium skin tone' => [
+            'parent' => 'person-fantasy',
+            'children' => null,
+            'aliases' => [
+                ':superhero_tone3:',
+                ':superhero_medium_skin_tone:',
+            ]
+        ],
+        'superhero: medium-dark skin tone' => [
+            'parent' => 'person-fantasy',
+            'children' => null,
+            'aliases' => [
+                ':superhero_tone4:',
+                ':superhero_medium_dark_skin_tone:',
+            ]
+        ],
+        'superhero: dark skin tone' => [
+            'parent' => 'person-fantasy',
+            'children' => null,
+            'aliases' => [
+                ':superhero_tone5:',
+                ':superhero_dark_skin_tone:',
+            ]
+        ],
+        'supervillain: light skin tone' => [
+            'parent' => 'person-fantasy',
+            'children' => null,
+            'aliases' => [
+                ':supervillain_tone1:',
+                ':supervillain_light_skin_tone:',
+            ]
+        ],
+        'supervillain: medium-light skin tone' => [
+            'parent' => 'person-fantasy',
+            'children' => null,
+            'aliases' => [
+                ':supervillain_tone2:',
+                ':supervillain_medium_light_skin_tone:',
+            ]
+        ],
+        'supervillain: medium skin tone' => [
+            'parent' => 'person-fantasy',
+            'children' => null,
+            'aliases' => [
+                ':supervillain_tone3:',
+                ':supervillain_medium_skin_tone:',
+            ]
+        ],
+        'supervillain: medium-dark skin tone' => [
+            'parent' => 'person-fantasy',
+            'children' => null,
+            'aliases' => [
+                ':supervillain_tone4:',
+                ':supervillain_medium_dark_skin_tone:',
+            ]
+        ],
+        'supervillain: dark skin tone' => [
+            'parent' => 'person-fantasy',
+            'children' => null,
+            'aliases' => [
+                ':supervillain_tone5:',
+                ':supervillain_dark_skin_tone:',
             ]
         ],
         'mage: light skin tone' => [

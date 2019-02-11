@@ -442,7 +442,7 @@ class SentenceTest extends \PHPUnit_Framework_TestCase
      */
     public function in_case_of_EmojiOne_it_can_handle_for_unsupported_characters_return_as_is()
     {
-        $target = '|⊛ leg: light skin tone|';
+        $target = '|man superhero: light skin tone|';
 
         $emojione  = $this->create_outputter('EmojiOne');
         $this->assertSame(
@@ -452,7 +452,7 @@ class SentenceTest extends \PHPUnit_Framework_TestCase
 
         $google = $this->create_outputter('Google');
         $this->assertSame(
-            '🦵🏻',
+            '🦸🏻‍♂️',
             Sentence::createStatically($google, $target)
         );
     }
@@ -533,26 +533,6 @@ class SentenceTest extends \PHPUnit_Framework_TestCase
         $google = $this->create_outputter('Google');
         $this->assertSame(
             '😀',
-            Sentence::createStatically($google, $target)
-        );
-    }
-
-    /**
-     * @test
-     */
-    public function in_case_of_Twitter_it_can_handle_for_unsupported_characters_return_as_is()
-    {
-        $target = '|⊛ red hair|';
-
-        $twitter  = $this->create_outputter('Twitter');
-        $this->assertSame(
-            $target,
-            Sentence::createStatically($twitter, $target)
-        );
-
-        $google = $this->create_outputter('Google');
-        $this->assertSame(
-            '🦰',
             Sentence::createStatically($google, $target)
         );
     }

@@ -176,7 +176,7 @@ class EmojiTest extends \PHPUnit_Framework_TestCase
             [':laughing:',                    ['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung', 'Windows', 'GMail', 'DoCoMo']],
             [':satisfied:',                   ['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung', 'Windows', 'GMail', 'DoCoMo']],
             ['>:)',                           ['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung', 'Windows', 'GMail', 'DoCoMo']],
-            ['⊛ pirate flag',                 ['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung', 'Windows']],
+            ['pirate flag',                   ['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung', 'Windows']],
             ['',                              []],
             [0,                               []],
             [null,                            []],
@@ -213,8 +213,8 @@ class EmojiTest extends \PHPUnit_Framework_TestCase
             ['Twitter',  ':satisfied:',                   ['Apple', 'Google', 'EmojiOne', 'Facebook', 'Samsung', 'Windows', 'GMail', 'DoCoMo']],
             ['SoftBank', ':\')',                          ['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung', 'Windows', 'GMail', 'KDDI']],
             ['GMail',    '>:)',                           ['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung', 'Windows', 'DoCoMo']],
-            ['EmojiOne', '⊛ pirate flag',                 ['Apple', 'Google', 'Twitter', 'Facebook', 'Samsung', 'Windows']],
-            ['GMail', '⊛ pirate flag',                    ['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung', 'Windows']],
+            ['EmojiOne', 'pirate flag',                   ['Apple', 'Google', 'Twitter', 'Facebook', 'Samsung', 'Windows']],
+            ['GMail',    'pirate flag',                   ['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung', 'Windows']],
             ['Apple',    '',                              []],
             ['Google',   0,                               []],
             ['Twitter',  null,                            []],
@@ -250,10 +250,10 @@ class EmojiTest extends \PHPUnit_Framework_TestCase
             [['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung', 'Windows', 'GMail', 'DoCoMo'],                     ':laughing:',                  true],
             [['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung', 'Windows', 'GMail', 'DoCoMo'],                     ':satisfied:',                 true],
             [['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung', 'Windows', 'GMail', 'DoCoMo'],                     '>:)',                         true],
-            [['Google', 'Twitter', 'EmojiOne', 'Windows'],                                                                        '⊛ pirate flag',               true],
+            [['Google', 'Twitter', 'EmojiOne', 'Windows'],                                                                        'pirate flag',                 true],
             [['hoge', '', 0, null],                                                                                               'grinning face with big eyes', false],
             [['hoge', '', 0, null],                                                                                               'grinning squinting face',     false],
-            [['hoge', '', 0, null],                                                                                               '⊛ pirate flag',               false],
+            [['hoge', '', 0, null],                                                                                               'pirate flag',                 false],
         ];
     }
 
@@ -273,10 +273,10 @@ class EmojiTest extends \PHPUnit_Framework_TestCase
     public function provider_for_emojiToUnicode()
     {
         return [
-            ['😁',     true,  'U+1F601'], // beaming face with smiling eyes
-            ['😁',     false, 'U+1F601'],
-            ['🇯🇵',   true,  'U+1F1EFU+1F1F5'], // flag: Japan
-            ['🇯🇵',   false, 'U+1F1EF U+1F1F5'],
+            ['😁', true,  'U+1F601'], // beaming face with smiling eyes
+            ['😁', false, 'U+1F601'],
+            ['🇯🇵', true,  'U+1F1EFU+1F1F5'], // flag: Japan
+            ['🇯🇵', false, 'U+1F1EF U+1F1F5'],
             ['🏳️‍🌈', true,  'U+1F3F3U+FE0FU+200DU+1F308'], // rainbow flag
             ['🏳️‍🌈', false, 'U+1F3F3 U+FE0F U+200D U+1F308'],
         ];
@@ -298,8 +298,8 @@ class EmojiTest extends \PHPUnit_Framework_TestCase
     public function provider_for_emojiToHtml()
     {
         return [
-            ['😁',     '&#x1F601;'], // beaming face with smiling eyes
-            ['🇯🇵',   '&#x1F1EF;&#x1F1F5;'], // flag: Japan
+            ['😁', '&#x1F601;'], // beaming face with smiling eyes
+            ['🇯🇵', '&#x1F1EF;&#x1F1F5;'], // flag: Japan
             ['🏳️‍🌈', '&#x1F3F3;&#xFE0F;&#x200D;&#x1F308;'], // rainbow flag
         ];
     }
@@ -320,10 +320,10 @@ class EmojiTest extends \PHPUnit_Framework_TestCase
     public function provider_for_emojiToUtf8String()
     {
         return [
-            ['😁',     true,  '\u{1F601}'], // beaming face with smiling eyes
-            ['😁',     false, '\u{1F601}'],
-            ['🇯🇵',   true,  '\u{1F1EF}\u{1F1F5}'], // flag: Japan
-            ['🇯🇵',   false, '\u{1F1EF} \u{1F1F5}'],
+            ['😁', true,  '\u{1F601}'], // beaming face with smiling eyes
+            ['😁', false, '\u{1F601}'],
+            ['🇯🇵', true,  '\u{1F1EF}\u{1F1F5}'], // flag: Japan
+            ['🇯🇵', false, '\u{1F1EF} \u{1F1F5}'],
             ['🏳️‍🌈', true,  '\u{1F3F3}\u{FE0F}\u{200D}\u{1F308}'], // rainbow flag
             ['🏳️‍🌈', false, '\u{1F3F3} \u{FE0F} \u{200D} \u{1F308}'],
         ];
@@ -350,8 +350,8 @@ class EmojiTest extends \PHPUnit_Framework_TestCase
             ['u+1f601',             ['beaming face with smiling eyes', ':grin:']],
             ['\u{1F601}',           ['beaming face with smiling eyes', ':grin:']],
             ['\U{1f601}',           ['beaming face with smiling eyes', ':grin:']],
-            ['u+1F970',             ['⊛ smiling face with hearts']],
-            ['\U{1F970}',           ['⊛ smiling face with hearts']],
+            ['u+1F970',             ['smiling face with hearts']],
+            ['\U{1F970}',           ['smiling face with hearts']],
             ['U+1F1EF U+1F1F5',     ['flag: Japan', ':flag_jp:', ':jp:']],
             ['u+1f1ef u+1f1f5',     ['flag: Japan', ':flag_jp:', ':jp:']],
             ['\u{1F1EF} \u{1F1F5}', ['flag: Japan', ':flag_jp:', ':jp:']],

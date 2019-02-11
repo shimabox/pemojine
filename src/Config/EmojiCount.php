@@ -21,5 +21,5 @@ class EmojiCount
      *
      * @var int
      */
-    const GROUP = 2789;
+    const GROUP = 3019;
 }

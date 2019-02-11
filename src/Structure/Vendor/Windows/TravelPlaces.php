@@ -71,7 +71,7 @@ class TravelPlaces implements Gettable
                 'globe with meridians',
                 'world map',
                 'map of Japan',
-                '⊛ compass',
+                'compass',
             ]
         ],
         'place-geographic' => [
@@ -94,7 +94,7 @@ class TravelPlaces implements Gettable
                 'stadium',
                 'classical building',
                 'building construction',
-                '⊛ brick',
+                'brick',
                 'houses',
                 'derelict house',
                 'house',
@@ -141,7 +141,6 @@ class TravelPlaces implements Gettable
                 'sunset',
                 'bridge at night',
                 'hot springs',
-                'milky way',
                 'carousel horse',
                 'ferris wheel',
                 'roller coaster',
@@ -185,7 +184,7 @@ class TravelPlaces implements Gettable
                 'motor scooter',
                 'bicycle',
                 'kick scooter',
-                '⊛ skateboard',
+                'skateboard',
                 'bus stop',
                 'motorway',
                 'railway track',
@@ -232,7 +231,7 @@ class TravelPlaces implements Gettable
             'parent' => 'Travel & Places',
             'children' => [
                 'bellhop bell',
-                '⊛ luggage',
+                'luggage',
             ]
         ],
         'time' => [
@@ -293,6 +292,7 @@ class TravelPlaces implements Gettable
                 'star',
                 'glowing star',
                 'shooting star',
+                'milky way',
                 'cloud',
                 'sun behind cloud',
                 'cloud with lightning and rain',
@@ -371,10 +371,11 @@ class TravelPlaces implements Gettable
                 ':japan:',
             ]
         ],
-        '⊛ compass' => [
+        'compass' => [
             'parent' => 'place-map',
             'children' => null,
             'aliases' => [
+                ':compass:',
             ]
         ],
         'snow-capped mountain' => [
@@ -466,7 +467,7 @@ class TravelPlaces implements Gettable
                 ':building_construction:',
             ]
         ],
-        '⊛ brick' => [
+        'brick' => [
             'parent' => 'place-building',
             'children' => null,
             'aliases' => [
@@ -725,13 +726,6 @@ class TravelPlaces implements Gettable
             'children' => null,
             'aliases' => [
                 ':hotsprings:',
-            ]
-        ],
-        'milky way' => [
-            'parent' => 'place-other',
-            'children' => null,
-            'aliases' => [
-                ':milky_way:',
             ]
         ],
         'carousel horse' => [
@@ -1003,10 +997,11 @@ class TravelPlaces implements Gettable
                 ':scooter:',
             ]
         ],
-        '⊛ skateboard' => [
+        'skateboard' => [
             'parent' => 'transport-ground',
             'children' => null,
             'aliases' => [
+                ':skateboard:',
             ]
         ],
         'bus stop' => [
@@ -1233,10 +1228,11 @@ class TravelPlaces implements Gettable
                 ':bellhop_bell:',
             ]
         ],
-        '⊛ luggage' => [
+        'luggage' => [
             'parent' => 'hotel',
             'children' => null,
             'aliases' => [
+                ':luggage:',
             ]
         ],
         'hourglass done' => [
@@ -1589,6 +1585,13 @@ class TravelPlaces implements Gettable
             'children' => null,
             'aliases' => [
                 ':stars:',
+            ]
+        ],
+        'milky way' => [
+            'parent' => 'sky & weather',
+            'children' => null,
+            'aliases' => [
+                ':milky_way:',
             ]
         ],
         'cloud' => [

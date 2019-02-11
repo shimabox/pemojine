@@ -69,7 +69,7 @@ class FoodDrink implements Gettable
                 'lemon',
                 'banana',
                 'pineapple',
-                '⊛ mango',
+                'mango',
                 'red apple',
                 'green apple',
                 'pear',
@@ -91,7 +91,7 @@ class FoodDrink implements Gettable
                 'ear of corn',
                 'hot pepper',
                 'cucumber',
-                '⊛ leafy green',
+                'leafy green',
                 'broccoli',
                 'mushroom',
                 'peanuts',
@@ -105,7 +105,7 @@ class FoodDrink implements Gettable
                 'croissant',
                 'baguette bread',
                 'pretzel',
-                '⊛ bagel',
+                'bagel',
                 'pancakes',
                 'cheese wedge',
                 'meat on bone',
@@ -127,7 +127,7 @@ class FoodDrink implements Gettable
                 'bowl with spoon',
                 'green salad',
                 'popcorn',
-                '⊛ salt',
+                'salt',
                 'canned food',
             ]
         ],
@@ -146,7 +146,7 @@ class FoodDrink implements Gettable
                 'sushi',
                 'fried shrimp',
                 'fish cake with swirl',
-                '⊛ moon cake',
+                'moon cake',
                 'dango',
                 'dumpling',
                 'fortune cookie',
@@ -157,7 +157,7 @@ class FoodDrink implements Gettable
             'parent' => 'Food & Drink',
             'children' => [
                 'crab',
-                '⊛ lobster',
+                'lobster',
                 'shrimp',
                 'squid',
             ]
@@ -172,7 +172,7 @@ class FoodDrink implements Gettable
                 'cookie',
                 'birthday cake',
                 'shortcake',
-                '⊛ cupcake',
+                'cupcake',
                 'pie',
                 'chocolate bar',
                 'candy',
@@ -267,10 +267,11 @@ class FoodDrink implements Gettable
                 ':pineapple:',
             ]
         ],
-        '⊛ mango' => [
+        'mango' => [
             'parent' => 'food-fruit',
             'children' => null,
             'aliases' => [
+                ':mango:',
             ]
         ],
         'red apple' => [
@@ -386,10 +387,11 @@ class FoodDrink implements Gettable
                 ':cucumber:',
             ]
         ],
-        '⊛ leafy green' => [
+        'leafy green' => [
             'parent' => 'food-vegetable',
             'children' => null,
             'aliases' => [
+                ':leafy_green:',
             ]
         ],
         'broccoli' => [
@@ -450,10 +452,11 @@ class FoodDrink implements Gettable
                 ':pretzel:',
             ]
         ],
-        '⊛ bagel' => [
+        'bagel' => [
             'parent' => 'food-prepared',
             'children' => null,
             'aliases' => [
+                ':bagel:',
             ]
         ],
         'pancakes' => [
@@ -608,10 +611,11 @@ class FoodDrink implements Gettable
                 ':popcorn:',
             ]
         ],
-        '⊛ salt' => [
+        'salt' => [
             'parent' => 'food-prepared',
             'children' => null,
             'aliases' => [
+                ':salt:',
             ]
         ],
         'canned food' => [
@@ -705,10 +709,11 @@ class FoodDrink implements Gettable
                 ':fish_cake:',
             ]
         ],
-        '⊛ moon cake' => [
+        'moon cake' => [
             'parent' => 'food-asian',
             'children' => null,
             'aliases' => [
+                ':moon_cake:',
             ]
         ],
         'dango' => [
@@ -746,10 +751,11 @@ class FoodDrink implements Gettable
                 ':crab:',
             ]
         ],
-        '⊛ lobster' => [
+        'lobster' => [
             'parent' => 'food-marine',
             'children' => null,
             'aliases' => [
+                ':lobster:',
             ]
         ],
         'shrimp' => [
@@ -815,10 +821,11 @@ class FoodDrink implements Gettable
                 ':cake:',
             ]
         ],
-        '⊛ cupcake' => [
+        'cupcake' => [
             'parent' => 'food-sweet',
             'children' => null,
             'aliases' => [
+                ':cupcake:',
             ]
         ],
         'pie' => [

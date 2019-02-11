@@ -74,8 +74,8 @@ class Objects implements Gettable
             'children' => [
                 'glasses',
                 'sunglasses',
-                '⊛ goggles',
-                '⊛ lab coat',
+                'goggles',
+                'lab coat',
                 'necktie',
                 't-shirt',
                 'jeans',
@@ -94,8 +94,8 @@ class Objects implements Gettable
                 'backpack',
                 'man’s shoe',
                 'running shoe',
-                '⊛ hiking boot',
-                '⊛ flat shoe',
+                'hiking boot',
+                'flat shoe',
                 'high-heeled shoe',
                 'woman’s sandal',
                 'woman’s boot',
@@ -176,7 +176,7 @@ class Objects implements Gettable
                 'floppy disk',
                 'optical disk',
                 'dvd',
-                '⊛ abacus',
+                'abacus',
             ]
         ],
         'light & video' => [
@@ -231,7 +231,7 @@ class Objects implements Gettable
                 'pound banknote',
                 'money with wings',
                 'credit card',
-                '⊛ receipt',
+                'receipt',
                 'chart increasing with yen',
                 'currency exchange',
                 'heavy dollar sign',
@@ -325,17 +325,17 @@ class Objects implements Gettable
                 'balance scale',
                 'link',
                 'chains',
-                '⊛ toolbox',
-                '⊛ magnet',
+                'toolbox',
+                'magnet',
             ]
         ],
         'science' => [
             'parent' => 'Objects',
             'children' => [
                 'alembic',
-                '⊛ test tube',
-                '⊛ petri dish',
-                '⊛ dna',
+                'test tube',
+                'petri dish',
+                'dna',
                 'microscope',
                 'telescope',
                 'satellite antenna',
@@ -357,14 +357,14 @@ class Objects implements Gettable
                 'toilet',
                 'shower',
                 'bathtub',
-                '⊛ lotion bottle',
-                '⊛ safety pin',
-                '⊛ broom',
-                '⊛ basket',
-                '⊛ roll of paper',
-                '⊛ soap',
-                '⊛ sponge',
-                '⊛ fire extinguisher',
+                'lotion bottle',
+                'safety pin',
+                'broom',
+                'basket',
+                'roll of paper',
+                'soap',
+                'sponge',
+                'fire extinguisher',
                 'shopping cart',
             ]
         ],
@@ -398,16 +398,18 @@ class Objects implements Gettable
                 ':dark_sunglasses:',
             ]
         ],
-        '⊛ goggles' => [
+        'goggles' => [
             'parent' => 'clothing',
             'children' => null,
             'aliases' => [
+                ':goggles:',
             ]
         ],
-        '⊛ lab coat' => [
+        'lab coat' => [
             'parent' => 'clothing',
             'children' => null,
             'aliases' => [
+                ':lab_coat:',
             ]
         ],
         'necktie' => [
@@ -535,13 +537,14 @@ class Objects implements Gettable
                 ':athletic_shoe:',
             ]
         ],
-        '⊛ hiking boot' => [
+        'hiking boot' => [
             'parent' => 'clothing',
             'children' => null,
             'aliases' => [
+                ':hiking_boot:',
             ]
         ],
-        '⊛ flat shoe' => [
+        'flat shoe' => [
             'parent' => 'clothing',
             'children' => null,
             'aliases' => [
@@ -937,10 +940,11 @@ class Objects implements Gettable
                 ':dvd:',
             ]
         ],
-        '⊛ abacus' => [
+        'abacus' => [
             'parent' => 'computer',
             'children' => null,
             'aliases' => [
+                ':abacus:',
             ]
         ],
         'movie camera' => [
@@ -1218,10 +1222,11 @@ class Objects implements Gettable
                 ':credit_card:',
             ]
         ],
-        '⊛ receipt' => [
+        'receipt' => [
             'parent' => 'money',
             'children' => null,
             'aliases' => [
+                ':receipt:',
             ]
         ],
         'chart increasing with yen' => [
@@ -1717,16 +1722,18 @@ class Objects implements Gettable
                 ':chains:',
             ]
         ],
-        '⊛ toolbox' => [
+        'toolbox' => [
             'parent' => 'tool',
             'children' => null,
             'aliases' => [
+                ':toolbox:',
             ]
         ],
-        '⊛ magnet' => [
+        'magnet' => [
             'parent' => 'tool',
             'children' => null,
             'aliases' => [
+                ':magnet:',
             ]
         ],
         'alembic' => [
@@ -1736,22 +1743,25 @@ class Objects implements Gettable
                 ':alembic:',
             ]
         ],
-        '⊛ test tube' => [
+        'test tube' => [
             'parent' => 'science',
             'children' => null,
             'aliases' => [
+                ':test_tube:',
             ]
         ],
-        '⊛ petri dish' => [
+        'petri dish' => [
             'parent' => 'science',
             'children' => null,
             'aliases' => [
+                ':petri_dish:',
             ]
         ],
-        '⊛ dna' => [
+        'dna' => [
             'parent' => 'science',
             'children' => null,
             'aliases' => [
+                ':dna:',
             ]
         ],
         'microscope' => [
@@ -1832,52 +1842,59 @@ class Objects implements Gettable
                 ':bathtub:',
             ]
         ],
-        '⊛ lotion bottle' => [
+        'lotion bottle' => [
             'parent' => 'household',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ safety pin' => [
+        'safety pin' => [
             'parent' => 'household',
             'children' => null,
             'aliases' => [
+                ':safety_pin:',
             ]
         ],
-        '⊛ broom' => [
+        'broom' => [
             'parent' => 'household',
             'children' => null,
             'aliases' => [
+                ':broom:',
             ]
         ],
-        '⊛ basket' => [
+        'basket' => [
             'parent' => 'household',
             'children' => null,
             'aliases' => [
+                ':basket:',
             ]
         ],
-        '⊛ roll of paper' => [
+        'roll of paper' => [
             'parent' => 'household',
             'children' => null,
             'aliases' => [
+                ':roll_of_paper:',
             ]
         ],
-        '⊛ soap' => [
+        'soap' => [
             'parent' => 'household',
             'children' => null,
             'aliases' => [
+                ':soap:',
             ]
         ],
-        '⊛ sponge' => [
+        'sponge' => [
             'parent' => 'household',
             'children' => null,
             'aliases' => [
+                ':sponge:',
             ]
         ],
-        '⊛ fire extinguisher' => [
+        'fire extinguisher' => [
             'parent' => 'household',
             'children' => null,
             'aliases' => [
+                ':fire_extinguisher:',
             ]
         ],
         'shopping cart' => [

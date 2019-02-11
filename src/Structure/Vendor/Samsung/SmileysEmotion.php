@@ -87,7 +87,7 @@ class SmileysEmotion implements Gettable
         'face-affection' => [
             'parent' => 'Smileys & Emotion',
             'children' => [
-                '⊛ smiling face with hearts',
+                'smiling face with hearts',
                 'smiling face with heart-eyes',
                 'star-struck',
                 'face blowing a kiss',
@@ -151,9 +151,9 @@ class SmileysEmotion implements Gettable
                 'nauseated face',
                 'face vomiting',
                 'sneezing face',
-                '⊛ hot face',
-                '⊛ cold face',
-                '⊛ woozy face',
+                'hot face',
+                'cold face',
+                'woozy face',
                 'dizzy face',
                 'exploding head',
             ]
@@ -162,7 +162,7 @@ class SmileysEmotion implements Gettable
             'parent' => 'Smileys & Emotion',
             'children' => [
                 'cowboy hat face',
-                '⊛ partying face',
+                'partying face',
             ]
         ],
         'face-glasses' => [
@@ -184,7 +184,7 @@ class SmileysEmotion implements Gettable
                 'hushed face',
                 'astonished face',
                 'flushed face',
-                '⊛ pleading face',
+                'pleading face',
                 'frowning face with open mouth',
                 'anguished face',
                 'fearful face',
@@ -429,7 +429,7 @@ class SmileysEmotion implements Gettable
                 'O:3',
             ]
         ],
-        '⊛ smiling face with hearts' => [
+        'smiling face with hearts' => [
             'parent' => 'face-affection',
             'children' => null,
             'aliases' => [
@@ -734,22 +734,25 @@ class SmileysEmotion implements Gettable
                 ':sneeze:',
             ]
         ],
-        '⊛ hot face' => [
+        'hot face' => [
             'parent' => 'face-unwell',
             'children' => null,
             'aliases' => [
+                ':hot_face:',
             ]
         ],
-        '⊛ cold face' => [
+        'cold face' => [
             'parent' => 'face-unwell',
             'children' => null,
             'aliases' => [
+                ':cold_face:',
             ]
         ],
-        '⊛ woozy face' => [
+        'woozy face' => [
             'parent' => 'face-unwell',
             'children' => null,
             'aliases' => [
+                ':woozy_face:',
             ]
         ],
         'dizzy face' => [
@@ -780,10 +783,11 @@ class SmileysEmotion implements Gettable
                 ':face_with_cowboy_hat:',
             ]
         ],
-        '⊛ partying face' => [
+        'partying face' => [
             'parent' => 'face-hat',
             'children' => null,
             'aliases' => [
+                ':partying_face:',
             ]
         ],
         'smiling face with sunglasses' => [
@@ -888,10 +892,11 @@ class SmileysEmotion implements Gettable
                 '=$',
             ]
         ],
-        '⊛ pleading face' => [
+        'pleading face' => [
             'parent' => 'face-concerned',
             'children' => null,
             'aliases' => [
+                ':pleading_face:',
             ]
         ],
         'frowning face with open mouth' => [

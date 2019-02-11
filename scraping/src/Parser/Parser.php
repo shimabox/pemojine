@@ -21,7 +21,7 @@ class Parser
     private $cacheDir = '';
 
     /**
-     * 
+     *
      */
     public function __construct()
     {
@@ -30,11 +30,11 @@ class Parser
 
     /**
      * Parse
-     * 
+     *
      * @param string $url
      * @param string $cacheFileName
      * @param int $cacheExpires default 3600(1h)
-     * 
+     *
      * @return BigGroups
      */
     public function parse($url, $cacheFileName, $cacheExpires = 60 * 60)
@@ -185,9 +185,9 @@ class Parser
 
     /**
      * Fetch table row
-     * 
+     *
      * @param string $url
-     * 
+     *
      * @return \Generator
      */
     private function fetchTableRows($url)
@@ -264,19 +264,19 @@ class Parser
                             yield 'invalidGoogle' => true;
                             break;
                         case 2:
-                            yield 'invalidTwitter' => true;
-                            break;
-                        case 3:
-                            yield 'invalidEmojiOne' => true;
-                            break;
-                        case 4:
                             yield 'invalidFacebook' => true;
                             break;
+                        case 3:
+                            yield 'invalidWindows' => true;
+                            break;
+                        case 4:
+                            yield 'invalidTwitter' => true;
+                            break;
                         case 5:
-                            yield 'invalidSamsung' => true;
+                            yield 'invalidEmojiOne' => true;
                             break;
                         case 6:
-                            yield 'invalidWindows' => true;
+                            yield 'invalidSamsung' => true;
                             break;
                         case 7:
                             yield 'invalidGMail' => true;
@@ -311,9 +311,9 @@ class Parser
     }
 
     /**
-     * 
+     *
      * @return array ['name' => ['shortName','shortName',,],,]
-     * 
+     *
      * @link https://github.com/emojione/emojione/blob/master/emoji.json
      */
     private function fetchShortNamesFromEmojiOneJson()
@@ -351,7 +351,7 @@ class Parser
         foreach ($decoded as $val) {
             $keyName = $this->adapt($val['name'], $val['keywords']);
             $shortNames[$keyName] = array_merge(
-                [$val['shortname']], 
+                [$val['shortname']],
                 $val['shortname_alternates'],
                 $val['ascii']
             );
@@ -361,10 +361,10 @@ class Parser
     }
 
     /**
-     * 
+     *
      * @param string $name
      * @param array $keywords
-     * 
+     *
      * @return string
      */
     private function adapt($name, array $keywords)
@@ -377,9 +377,9 @@ class Parser
     }
 
     /**
-     * 
+     *
      * @param string $in
-     * 
+     *
      * @return string
      */
     private function _h($in)

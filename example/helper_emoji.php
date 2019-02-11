@@ -51,21 +51,21 @@ assert('&#x1F1EF;&#x1F1F5;' === $output_10);
 echo $output_10, $br;
 
 // Get supported vendor by shortname.
-$output_11 = Emoji::getSupportVendorByShortName('⊛ pirate flag');
-assert(['Apple', 'Google', 'Twitter', 'EmojiOne', 'Samsung', 'Windows'] === $output_11);
+$output_11 = Emoji::getSupportVendorByShortName('pirate flag');
+assert(['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung', 'Windows'] === $output_11);
 var_dump($output_11);
 
-$output_12 = Emoji::getSupportVendorByShortName('|⊛ pirate flag|');
-assert(['Apple', 'Google', 'Twitter', 'EmojiOne', 'Samsung', 'Windows'] === $output_12);
+$output_12 = Emoji::getSupportVendorByShortName('|pirate flag|');
+assert(['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung', 'Windows'] === $output_12);
 var_dump($output_12);
 
 // Get other supported vendor.
-$output_13 = Emoji::getOtherSupportVendor('EmojiOne', '⊛ pirate flag');
-assert(['Apple', 'Google', 'Twitter', 'Samsung', 'Windows'] === $output_13);
+$output_13 = Emoji::getOtherSupportVendor('EmojiOne', 'pirate flag');
+assert(['Apple', 'Google', 'Twitter', 'Facebook', 'Samsung', 'Windows'] === $output_13);
 var_dump($output_13);
 
-$output_14 = Emoji::getOtherSupportVendor('EmojiOne', '|⊛ pirate flag|');
-assert(['Apple', 'Google', 'Twitter', 'Samsung', 'Windows'] === $output_14);
+$output_14 = Emoji::getOtherSupportVendor('EmojiOne', '|pirate flag|');
+assert(['Apple', 'Google', 'Twitter', 'Facebook', 'Samsung', 'Windows'] === $output_14);
 var_dump($output_14);
 
 // Confirm whether a specific vendor supports it.
@@ -77,7 +77,7 @@ $output_16 = Emoji::isSupportVendor('GMail', '|grinning face with big eyes|');
 assert(true === $output_16);
 var_dump($output_16);
 
-$output_17 = Emoji::isSupportVendor('GMail', '⊛ pirate flag');
+$output_17 = Emoji::isSupportVendor('GMail', 'pirate flag');
 assert(false === $output_17);
 var_dump($output_17);
 

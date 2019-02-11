@@ -17,10 +17,10 @@ php:
 env:
   - REGENERATE=false
 
-#matrix:
-#  include:
-#    - php: 7.3
-#      env: REGENERATE=true
+matrix:
+  include:
+    - php: 7.3
+      env: REGENERATE=true
 
 addons:
   code_climate:

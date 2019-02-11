@@ -56,10 +56,10 @@ class Component implements Gettable
         'hair-style' => [
             'parent' => 'Component',
             'children' => [
-                '⊛ red hair',
-                '⊛ curly hair',
-                '⊛ white hair',
-                '⊛ bald',
+                'red hair',
+                'curly hair',
+                'white hair',
+                'bald',
             ]
         ],
         'skin-tone' => [
@@ -79,28 +79,29 @@ class Component implements Gettable
      * @var array
      */
     private $groups = [
-        '⊛ red hair' => [
+        'red hair' => [
             'parent' => 'hair-style',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ curly hair' => [
+        'curly hair' => [
             'parent' => 'hair-style',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ white hair' => [
+        'white hair' => [
             'parent' => 'hair-style',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ bald' => [
+        'bald' => [
             'parent' => 'hair-style',
             'children' => null,
             'aliases' => [
+                ':bald:',
             ]
         ],
         'light skin tone' => [

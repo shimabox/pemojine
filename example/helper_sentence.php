@@ -42,10 +42,10 @@ echo $output_4, $br;
 // Sentence 5 Unsupported characters are output as is.
 $gmail = SMB\Pemojine\Container::make(new SMB\Pemojine\Structure\Vendor\GMail());
 $gmailOutputter = $gmail->getOutputter();
-$output_5 = Sentence::createStatically($gmailOutputter, '|⊛ hippopotamus|');
-assert('|⊛ hippopotamus|' === $output_5);
+$output_5 = Sentence::createStatically($gmailOutputter, '|hippopotamus|');
+assert('|hippopotamus|' === $output_5);
 echo $output_5, $br;
 
-$output_6 = $sentence->create('|⊛ hippopotamus|');
+$output_6 = $sentence->create('|hippopotamus|');
 assert('🦛' === $output_6);
 echo $output_6, $br;

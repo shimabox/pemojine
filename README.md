@@ -265,7 +265,7 @@ $ php scraping/src/generator.php
 ```
 
 Scrape the data here.  
-(The result is cached for 1 hour in `scraping/cache/full-emoji-list`, `scraping/cache/full-emoji-list`)
+(The result is cached for 1 hour in `scraping/cache/full-emoji-list`, `scraping/cache/full-emoji-modifiers`)
 
 - [Full Emoji List, v12.0](http://www.unicode.org/emoji/charts-12.0/full-emoji-list.html "Full Emoji List, v12.0")
 - [Full Emoji Modifier Sequences, v12.0](https://unicode.org/emoji/charts/full-emoji-modifiers.html "Full Emoji Modifier Sequences, v12.0")

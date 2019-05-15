@@ -10778,7 +10778,7 @@ class EmojiTable
             'unicode' => 'U+1F1F2 U+1F1ED',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung'],
         ],
-        'flag: Macedonia' => [
+        'flag: North Macedonia' => [
             'unicode' => 'U+1F1F2 U+1F1F0',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung'],
         ],
@@ -15168,8 +15168,6 @@ class EmojiTable
         ':mg:' => 'flag: Madagascar',
         ':flag_mh:' => 'flag: Marshall Islands',
         ':mh:' => 'flag: Marshall Islands',
-        ':flag_mk:' => 'flag: Macedonia',
-        ':mk:' => 'flag: Macedonia',
         ':flag_ml:' => 'flag: Mali',
         ':ml:' => 'flag: Mali',
         ':flag_mm:' => 'flag: Myanmar (Burma)',
@@ -27404,9 +27402,7 @@ class EmojiTable
             ':mh:',
         ],
         'U+1F1F2 U+1F1F0' => [
-            'flag: Macedonia',
-            ':flag_mk:',
-            ':mk:',
+            'flag: North Macedonia',
         ],
         'U+1F1F2 U+1F1F1' => [
             'flag: Mali',

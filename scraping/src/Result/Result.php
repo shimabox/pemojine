@@ -23,7 +23,7 @@ class Result
      * @param boolean $supprtApple
      * @param boolean $supprtGoogle
      * @param boolean $supprtTwitter
-     * @param boolean $supprtEmojione
+     * @param boolean $supprtJoyPixels
      * @param boolean $supprtFacebook
      * @param boolean $supprtSamsung
      * @param boolean $supprtWindows
@@ -41,7 +41,7 @@ class Result
         $supprtApple = false,
         $supprtGoogle = false,
         $supprtTwitter = false,
-        $supprtEmojione = false,
+        $supprtJoyPixels = false,
         $supprtFacebook = false,
         $supprtSamsung = false,
         $supprtWindows = false,
@@ -57,17 +57,17 @@ class Result
             'Group(ShortName)' => $groupName,
             'ShortNameAliases' => $shortNameAliases,
             'Unicode'          => $unicode,
-            'Appl'             => $supprtApple    ? 'Yes' : 'No',
-            'Goog'             => $supprtGoogle   ? 'Yes' : 'No',
-            'Twtr'             => $supprtTwitter  ? 'Yes' : 'No',
-            'One'              => $supprtEmojione ? 'Yes' : 'No',
-            'FB'               => $supprtFacebook ? 'Yes' : 'No',
-            'Sams.'            => $supprtSamsung  ? 'Yes' : 'No',
-            'Wind.'            => $supprtWindows  ? 'Yes' : 'No',
-            'GMail'            => $supprtGmail    ? 'Yes' : 'No',
-            'SB'               => $supprtSoftbank ? 'Yes' : 'No',
-            'DCM'              => $supprtDocomo   ? 'Yes' : 'No',
-            'KDDI'             => $supprtKddi     ? 'Yes' : 'No',
+            'Appl'             => $supprtApple     ? 'Yes' : 'No',
+            'Goog.'            => $supprtGoogle    ? 'Yes' : 'No',
+            'Twtr'             => $supprtTwitter   ? 'Yes' : 'No',
+            'Joy'              => $supprtJoyPixels ? 'Yes' : 'No',
+            'FB'               => $supprtFacebook  ? 'Yes' : 'No',
+            'Sams.'            => $supprtSamsung   ? 'Yes' : 'No',
+            'Wind.'            => $supprtWindows   ? 'Yes' : 'No',
+            'GMail'            => $supprtGmail     ? 'Yes' : 'No',
+            'SB'               => $supprtSoftbank  ? 'Yes' : 'No',
+            'DCM'              => $supprtDocomo    ? 'Yes' : 'No',
+            'KDDI'             => $supprtKddi      ? 'Yes' : 'No',
         ];
 
         $this->result[] = $row;

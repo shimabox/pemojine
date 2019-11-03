@@ -41,7 +41,7 @@ class Group
      *
      * @var boolean
      */
-    public $validWithEmojiOne = true;
+    public $validWithJoyPixels = true;
 
     /**
      *
@@ -118,17 +118,17 @@ class Group
      */
     public function notSupport()
     {
-        $this->validWithApple    = false;
-        $this->validWithGoogle   = false;
-        $this->validWithTwitter  = false;
-        $this->validWithEmojiOne = false;
-        $this->validWithFacebook = false;
-        $this->validWithSamsung  = false;
-        $this->validWithWindows  = false;
-        $this->validWithGMail    = false;
-        $this->validWithSoftBank = false;
-        $this->validWithDoCoMo   = false;
-        $this->validWithKDDI     = false;
+        $this->validWithApple     = false;
+        $this->validWithGoogle    = false;
+        $this->validWithTwitter   = false;
+        $this->validWithJoyPixels = false;
+        $this->validWithFacebook  = false;
+        $this->validWithSamsung   = false;
+        $this->validWithWindows   = false;
+        $this->validWithGMail     = false;
+        $this->validWithSoftBank  = false;
+        $this->validWithDoCoMo    = false;
+        $this->validWithKDDI      = false;
     }
 
     /**
@@ -140,7 +140,7 @@ class Group
         return $this->validWithApple
                || $this->validWithGoogle 
                || $this->validWithTwitter 
-               || $this->validWithEmojiOne 
+               || $this->validWithJoyPixels 
                || $this->validWithFacebook 
                || $this->validWithSamsung 
                || $this->validWithWindows 
@@ -160,7 +160,7 @@ class Group
         return $this->validWithApple
                && $this->validWithGoogle 
                && $this->validWithTwitter 
-               && $this->validWithEmojiOne 
+               && $this->validWithJoyPixels 
                && $this->validWithFacebook 
                && $this->validWithSamsung 
                && $this->validWithWindows 

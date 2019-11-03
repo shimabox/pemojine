@@ -159,7 +159,7 @@ class PeopleBody implements Gettable
                 'construction worker',
                 'princess',
                 'person wearing turban',
-                'man with Chinese cap',
+                'man with skullcap',
                 'bride with veil',
             ]
         ],
@@ -544,12 +544,10 @@ class PeopleBody implements Gettable
                 ':man_with_turban:',
             ]
         ],
-        'man with Chinese cap' => [
+        'man with skullcap' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_with_chinese_cap:',
-                ':man_with_gua_pi_mao:',
             ]
         ],
         'bride with veil' => [

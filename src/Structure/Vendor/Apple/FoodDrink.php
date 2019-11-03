@@ -93,6 +93,8 @@ class FoodDrink implements Gettable
                 'cucumber',
                 'leafy green',
                 'broccoli',
+                'garlic',
+                'onion',
                 'mushroom',
                 'peanuts',
                 'chestnut',
@@ -107,6 +109,7 @@ class FoodDrink implements Gettable
                 'pretzel',
                 'bagel',
                 'pancakes',
+                'waffle',
                 'cheese wedge',
                 'meat on bone',
                 'poultry leg',
@@ -120,6 +123,7 @@ class FoodDrink implements Gettable
                 'taco',
                 'burrito',
                 'stuffed flatbread',
+                'falafel',
                 'egg',
                 'cooking',
                 'shallow pan of food',
@@ -127,6 +131,7 @@ class FoodDrink implements Gettable
                 'bowl with spoon',
                 'green salad',
                 'popcorn',
+                'butter',
                 'salt',
                 'canned food',
             ]
@@ -160,6 +165,7 @@ class FoodDrink implements Gettable
                 'lobster',
                 'shrimp',
                 'squid',
+                'oyster',
             ]
         ],
         'food-sweet' => [
@@ -198,6 +204,9 @@ class FoodDrink implements Gettable
                 'clinking glasses',
                 'tumbler glass',
                 'cup with straw',
+                'beverage box',
+                'mate',
+                'ice',
             ]
         ],
         'dishware' => [
@@ -401,6 +410,18 @@ class FoodDrink implements Gettable
                 ':broccoli:',
             ]
         ],
+        'garlic' => [
+            'parent' => 'food-vegetable',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'onion' => [
+            'parent' => 'food-vegetable',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'mushroom' => [
             'parent' => 'food-vegetable',
             'children' => null,
@@ -464,6 +485,12 @@ class FoodDrink implements Gettable
             'children' => null,
             'aliases' => [
                 ':pancakes:',
+            ]
+        ],
+        'waffle' => [
+            'parent' => 'food-prepared',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'cheese wedge' => [
@@ -560,6 +587,12 @@ class FoodDrink implements Gettable
                 ':stuffed_pita:',
             ]
         ],
+        'falafel' => [
+            'parent' => 'food-prepared',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'egg' => [
             'parent' => 'food-prepared',
             'children' => null,
@@ -609,6 +642,12 @@ class FoodDrink implements Gettable
             'children' => null,
             'aliases' => [
                 ':popcorn:',
+            ]
+        ],
+        'butter' => [
+            'parent' => 'food-prepared',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'salt' => [
@@ -770,6 +809,12 @@ class FoodDrink implements Gettable
             'children' => null,
             'aliases' => [
                 ':squid:',
+            ]
+        ],
+        'oyster' => [
+            'parent' => 'food-marine',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'soft ice cream' => [
@@ -972,6 +1017,24 @@ class FoodDrink implements Gettable
             'children' => null,
             'aliases' => [
                 ':cup_with_straw:',
+            ]
+        ],
+        'beverage box' => [
+            'parent' => 'drink',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'mate' => [
+            'parent' => 'drink',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'ice' => [
+            'parent' => 'drink',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'chopsticks' => [

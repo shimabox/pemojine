@@ -217,7 +217,7 @@ class Flags implements Gettable
                 'flag: St. Martin',
                 'flag: Madagascar',
                 'flag: Marshall Islands',
-                'flag: Macedonia',
+                'flag: North Macedonia',
                 'flag: Mali',
                 'flag: Myanmar (Burma)',
                 'flag: Mongolia',
@@ -1580,12 +1580,10 @@ class Flags implements Gettable
                 ':mh:',
             ]
         ],
-        'flag: Macedonia' => [
+        'flag: North Macedonia' => [
             'parent' => 'country-flag',
             'children' => null,
             'aliases' => [
-                ':flag_mk:',
-                ':mk:',
             ]
         ],
         'flag: Mali' => [

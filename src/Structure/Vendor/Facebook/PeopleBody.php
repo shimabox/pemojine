@@ -337,17 +337,17 @@ class PeopleBody implements Gettable
                 'person: blond hair',
                 'man',
                 'man: beard',
-                'man: blond hair',
                 'man: red hair',
                 'man: curly hair',
                 'man: white hair',
                 'man: bald',
                 'woman',
-                'woman: blond hair',
                 'woman: red hair',
                 'woman: curly hair',
                 'woman: white hair',
                 'woman: bald',
+                'woman: blond hair',
+                'man: blond hair',
                 'older person',
                 'old man',
                 'old woman',
@@ -391,11 +391,6 @@ class PeopleBody implements Gettable
                 'man: medium skin tone, beard',
                 'man: medium-dark skin tone, beard',
                 'man: dark skin tone, beard',
-                'man: light skin tone, blond hair',
-                'man: medium-light skin tone, blond hair',
-                'man: medium skin tone, blond hair',
-                'man: medium-dark skin tone, blond hair',
-                'man: dark skin tone, blond hair',
                 'man: light skin tone, red hair',
                 'man: medium-light skin tone, red hair',
                 'man: medium skin tone, red hair',
@@ -421,11 +416,6 @@ class PeopleBody implements Gettable
                 'woman: medium skin tone',
                 'woman: medium-dark skin tone',
                 'woman: dark skin tone',
-                'woman: light skin tone, blond hair',
-                'woman: medium-light skin tone, blond hair',
-                'woman: medium skin tone, blond hair',
-                'woman: medium-dark skin tone, blond hair',
-                'woman: dark skin tone, blond hair',
                 'woman: light skin tone, red hair',
                 'woman: medium-light skin tone, red hair',
                 'woman: medium skin tone, red hair',
@@ -446,6 +436,16 @@ class PeopleBody implements Gettable
                 'woman: medium skin tone, bald',
                 'woman: medium-dark skin tone, bald',
                 'woman: dark skin tone, bald',
+                'woman: light skin tone, blond hair',
+                'woman: medium-light skin tone, blond hair',
+                'woman: medium skin tone, blond hair',
+                'woman: medium-dark skin tone, blond hair',
+                'woman: dark skin tone, blond hair',
+                'man: light skin tone, blond hair',
+                'man: medium-light skin tone, blond hair',
+                'man: medium skin tone, blond hair',
+                'man: medium-dark skin tone, blond hair',
+                'man: dark skin tone, blond hair',
                 'older person: light skin tone',
                 'older person: medium-light skin tone',
                 'older person: medium skin tone',
@@ -682,7 +682,7 @@ class PeopleBody implements Gettable
                 'person wearing turban',
                 'man wearing turban',
                 'woman wearing turban',
-                'man with Chinese cap',
+                'man with skullcap',
                 'woman with headscarf',
                 'man in tuxedo',
                 'bride with veil',
@@ -933,11 +933,11 @@ class PeopleBody implements Gettable
                 'woman wearing turban: medium skin tone',
                 'woman wearing turban: medium-dark skin tone',
                 'woman wearing turban: dark skin tone',
-                'man with Chinese cap: light skin tone',
-                'man with Chinese cap: medium-light skin tone',
-                'man with Chinese cap: medium skin tone',
-                'man with Chinese cap: medium-dark skin tone',
-                'man with Chinese cap: dark skin tone',
+                'man with skullcap: light skin tone',
+                'man with skullcap: medium-light skin tone',
+                'man with skullcap: medium skin tone',
+                'man with skullcap: medium-dark skin tone',
+                'man with skullcap: dark skin tone',
                 'woman with headscarf: light skin tone',
                 'woman with headscarf: medium-light skin tone',
                 'woman with headscarf: medium skin tone',
@@ -1567,21 +1567,21 @@ class PeopleBody implements Gettable
                 'family: woman, girl',
                 'family: woman, girl, boy',
                 'family: woman, girl, girl',
-                '⊛ women holding hands: light skin tone',
-                '⊛ women holding hands: medium-light skin tone',
-                '⊛ women holding hands: medium skin tone',
-                '⊛ women holding hands: medium-dark skin tone',
-                '⊛ women holding hands: dark skin tone',
-                '⊛ woman and man holding hands: light skin tone',
-                '⊛ woman and man holding hands: medium-light skin tone',
-                '⊛ woman and man holding hands: medium skin tone',
-                '⊛ woman and man holding hands: medium-dark skin tone',
-                '⊛ woman and man holding hands: dark skin tone',
-                '⊛ men holding hands: light skin tone',
-                '⊛ men holding hands: medium-light skin tone',
-                '⊛ men holding hands: medium skin tone',
-                '⊛ men holding hands: medium-dark skin tone',
-                '⊛ men holding hands: dark skin tone',
+                'women holding hands: light skin tone',
+                'women holding hands: medium-light skin tone',
+                'women holding hands: medium skin tone',
+                'women holding hands: medium-dark skin tone',
+                'women holding hands: dark skin tone',
+                'woman and man holding hands: light skin tone',
+                'woman and man holding hands: medium-light skin tone',
+                'woman and man holding hands: medium skin tone',
+                'woman and man holding hands: medium-dark skin tone',
+                'woman and man holding hands: dark skin tone',
+                'men holding hands: light skin tone',
+                'men holding hands: medium-light skin tone',
+                'men holding hands: medium skin tone',
+                'men holding hands: medium-dark skin tone',
+                'men holding hands: dark skin tone',
             ]
         ],
         'person-symbol' => [
@@ -3321,12 +3321,6 @@ class PeopleBody implements Gettable
             'aliases' => [
             ]
         ],
-        'man: blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
         'man: red hair' => [
             'parent' => 'person',
             'children' => null,
@@ -3358,12 +3352,6 @@ class PeopleBody implements Gettable
                 ':woman:',
             ]
         ],
-        'woman: blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
         'woman: red hair' => [
             'parent' => 'person',
             'children' => null,
@@ -3383,6 +3371,18 @@ class PeopleBody implements Gettable
             ]
         ],
         'woman: bald' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: blond hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
@@ -3679,36 +3679,6 @@ class PeopleBody implements Gettable
             'aliases' => [
             ]
         ],
-        'man: light skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'man: medium-light skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'man: medium skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'man: medium-dark skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'man: dark skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
         'man: light skin tone, red hair' => [
             'parent' => 'person',
             'children' => null,
@@ -3864,36 +3834,6 @@ class PeopleBody implements Gettable
                 ':woman_tone5:',
             ]
         ],
-        'woman: light skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'woman: medium-light skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'woman: medium skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'woman: medium-dark skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'woman: dark skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
         'woman: light skin tone, red hair' => [
             'parent' => 'person',
             'children' => null,
@@ -4009,6 +3949,66 @@ class PeopleBody implements Gettable
             ]
         ],
         'woman: dark skin tone, bald' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: light skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium-light skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium-dark skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: dark skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: light skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium-light skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium-dark skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: dark skin tone, blond hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
@@ -5749,12 +5749,10 @@ class PeopleBody implements Gettable
                 ':woman_wearing_turban:',
             ]
         ],
-        'man with Chinese cap' => [
+        'man with skullcap' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_with_chinese_cap:',
-                ':man_with_gua_pi_mao:',
             ]
         ],
         'woman with headscarf' => [
@@ -7743,44 +7741,34 @@ class PeopleBody implements Gettable
                 ':woman_wearing_turban_dark_skin_tone:',
             ]
         ],
-        'man with Chinese cap: light skin tone' => [
+        'man with skullcap: light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_with_chinese_cap_tone1:',
-                ':man_with_gua_pi_mao_tone1:',
             ]
         ],
-        'man with Chinese cap: medium-light skin tone' => [
+        'man with skullcap: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_with_chinese_cap_tone2:',
-                ':man_with_gua_pi_mao_tone2:',
             ]
         ],
-        'man with Chinese cap: medium skin tone' => [
+        'man with skullcap: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_with_chinese_cap_tone3:',
-                ':man_with_gua_pi_mao_tone3:',
             ]
         ],
-        'man with Chinese cap: medium-dark skin tone' => [
+        'man with skullcap: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_with_chinese_cap_tone4:',
-                ':man_with_gua_pi_mao_tone4:',
             ]
         ],
-        'man with Chinese cap: dark skin tone' => [
+        'man with skullcap: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_with_chinese_cap_tone5:',
-                ':man_with_gua_pi_mao_tone5:',
             ]
         ],
         'woman with headscarf: light skin tone' => [
@@ -12494,91 +12482,91 @@ class PeopleBody implements Gettable
                 ':family_woman_girl_girl:',
             ]
         ],
-        '⊛ women holding hands: light skin tone' => [
+        'women holding hands: light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ women holding hands: medium-light skin tone' => [
+        'women holding hands: medium-light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ women holding hands: medium skin tone' => [
+        'women holding hands: medium skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ women holding hands: medium-dark skin tone' => [
+        'women holding hands: medium-dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ women holding hands: dark skin tone' => [
+        'women holding hands: dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ woman and man holding hands: light skin tone' => [
+        'woman and man holding hands: light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ woman and man holding hands: medium-light skin tone' => [
+        'woman and man holding hands: medium-light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ woman and man holding hands: medium skin tone' => [
+        'woman and man holding hands: medium skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ woman and man holding hands: medium-dark skin tone' => [
+        'woman and man holding hands: medium-dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ woman and man holding hands: dark skin tone' => [
+        'woman and man holding hands: dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ men holding hands: light skin tone' => [
+        'men holding hands: light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ men holding hands: medium-light skin tone' => [
+        'men holding hands: medium-light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ men holding hands: medium skin tone' => [
+        'men holding hands: medium skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ men holding hands: medium-dark skin tone' => [
+        'men holding hands: medium-dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ men holding hands: dark skin tone' => [
+        'men holding hands: dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [

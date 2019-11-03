@@ -106,6 +106,7 @@ class PeopleBody implements Gettable
             'parent' => 'People & Body',
             'children' => [
                 'OK hand',
+                'pinching hand',
                 'victory hand',
                 'crossed fingers',
                 'love-you gesture',
@@ -116,6 +117,11 @@ class PeopleBody implements Gettable
                 'OK hand: medium skin tone',
                 'OK hand: medium-dark skin tone',
                 'OK hand: dark skin tone',
+                'pinching hand: light skin tone',
+                'pinching hand: medium-light skin tone',
+                'pinching hand: medium skin tone',
+                'pinching hand: medium-dark skin tone',
+                'pinching hand: dark skin tone',
                 'victory hand: light skin tone',
                 'victory hand: medium-light skin tone',
                 'victory hand: medium skin tone',
@@ -288,9 +294,12 @@ class PeopleBody implements Gettable
             'parent' => 'People & Body',
             'children' => [
                 'flexed biceps',
+                'mechanical arm',
+                'mechanical leg',
                 'leg',
                 'foot',
                 'ear',
+                'ear with hearing aid',
                 'nose',
                 'brain',
                 'tooth',
@@ -319,6 +328,11 @@ class PeopleBody implements Gettable
                 'ear: medium skin tone',
                 'ear: medium-dark skin tone',
                 'ear: dark skin tone',
+                'ear with hearing aid: light skin tone',
+                'ear with hearing aid: medium-light skin tone',
+                'ear with hearing aid: medium skin tone',
+                'ear with hearing aid: medium-dark skin tone',
+                'ear with hearing aid: dark skin tone',
                 'nose: light skin tone',
                 'nose: medium-light skin tone',
                 'nose: medium skin tone',
@@ -337,17 +351,17 @@ class PeopleBody implements Gettable
                 'person: blond hair',
                 'man',
                 'man: beard',
-                'man: blond hair',
                 'man: red hair',
                 'man: curly hair',
                 'man: white hair',
                 'man: bald',
                 'woman',
-                'woman: blond hair',
                 'woman: red hair',
                 'woman: curly hair',
                 'woman: white hair',
                 'woman: bald',
+                'woman: blond hair',
+                'man: blond hair',
                 'older person',
                 'old man',
                 'old woman',
@@ -391,11 +405,6 @@ class PeopleBody implements Gettable
                 'man: medium skin tone, beard',
                 'man: medium-dark skin tone, beard',
                 'man: dark skin tone, beard',
-                'man: light skin tone, blond hair',
-                'man: medium-light skin tone, blond hair',
-                'man: medium skin tone, blond hair',
-                'man: medium-dark skin tone, blond hair',
-                'man: dark skin tone, blond hair',
                 'man: light skin tone, red hair',
                 'man: medium-light skin tone, red hair',
                 'man: medium skin tone, red hair',
@@ -421,11 +430,6 @@ class PeopleBody implements Gettable
                 'woman: medium skin tone',
                 'woman: medium-dark skin tone',
                 'woman: dark skin tone',
-                'woman: light skin tone, blond hair',
-                'woman: medium-light skin tone, blond hair',
-                'woman: medium skin tone, blond hair',
-                'woman: medium-dark skin tone, blond hair',
-                'woman: dark skin tone, blond hair',
                 'woman: light skin tone, red hair',
                 'woman: medium-light skin tone, red hair',
                 'woman: medium skin tone, red hair',
@@ -446,6 +450,16 @@ class PeopleBody implements Gettable
                 'woman: medium skin tone, bald',
                 'woman: medium-dark skin tone, bald',
                 'woman: dark skin tone, bald',
+                'woman: light skin tone, blond hair',
+                'woman: medium-light skin tone, blond hair',
+                'woman: medium skin tone, blond hair',
+                'woman: medium-dark skin tone, blond hair',
+                'woman: dark skin tone, blond hair',
+                'man: light skin tone, blond hair',
+                'man: medium-light skin tone, blond hair',
+                'man: medium skin tone, blond hair',
+                'man: medium-dark skin tone, blond hair',
+                'man: dark skin tone, blond hair',
                 'older person: light skin tone',
                 'older person: medium-light skin tone',
                 'older person: medium skin tone',
@@ -484,6 +498,9 @@ class PeopleBody implements Gettable
                 'person raising hand',
                 'man raising hand',
                 'woman raising hand',
+                'deaf person',
+                'deaf man',
+                'deaf woman',
                 'person bowing',
                 'man bowing',
                 'woman bowing',
@@ -583,6 +600,21 @@ class PeopleBody implements Gettable
                 'woman raising hand: medium skin tone',
                 'woman raising hand: medium-dark skin tone',
                 'woman raising hand: dark skin tone',
+                'deaf person: light skin tone',
+                'deaf person: medium-light skin tone',
+                'deaf person: medium skin tone',
+                'deaf person: medium-dark skin tone',
+                'deaf person: dark skin tone',
+                'deaf man: light skin tone',
+                'deaf man: medium-light skin tone',
+                'deaf man: medium skin tone',
+                'deaf man: medium-dark skin tone',
+                'deaf man: dark skin tone',
+                'deaf woman: light skin tone',
+                'deaf woman: medium-light skin tone',
+                'deaf woman: medium skin tone',
+                'deaf woman: medium-dark skin tone',
+                'deaf woman: dark skin tone',
                 'person bowing: light skin tone',
                 'person bowing: medium-light skin tone',
                 'person bowing: medium skin tone',
@@ -682,7 +714,7 @@ class PeopleBody implements Gettable
                 'person wearing turban',
                 'man wearing turban',
                 'woman wearing turban',
-                'man with Chinese cap',
+                'man with skullcap',
                 'woman with headscarf',
                 'man in tuxedo',
                 'bride with veil',
@@ -933,11 +965,11 @@ class PeopleBody implements Gettable
                 'woman wearing turban: medium skin tone',
                 'woman wearing turban: medium-dark skin tone',
                 'woman wearing turban: dark skin tone',
-                'man with Chinese cap: light skin tone',
-                'man with Chinese cap: medium-light skin tone',
-                'man with Chinese cap: medium skin tone',
-                'man with Chinese cap: medium-dark skin tone',
-                'man with Chinese cap: dark skin tone',
+                'man with skullcap: light skin tone',
+                'man with skullcap: medium-light skin tone',
+                'man with skullcap: medium skin tone',
+                'man with skullcap: medium-dark skin tone',
+                'man with skullcap: dark skin tone',
                 'woman with headscarf: light skin tone',
                 'woman with headscarf: medium-light skin tone',
                 'woman with headscarf: medium skin tone',
@@ -1132,6 +1164,18 @@ class PeopleBody implements Gettable
                 'person walking',
                 'man walking',
                 'woman walking',
+                'person standing',
+                'man standing',
+                'woman standing',
+                'person kneeling',
+                'man kneeling',
+                'woman kneeling',
+                'man with probing cane',
+                'woman with probing cane',
+                'man in motorized wheelchair',
+                'woman in motorized wheelchair',
+                'man in manual wheelchair',
+                'woman in manual wheelchair',
                 'person running',
                 'man running',
                 'woman running',
@@ -1192,6 +1236,66 @@ class PeopleBody implements Gettable
                 'woman walking: medium skin tone',
                 'woman walking: medium-dark skin tone',
                 'woman walking: dark skin tone',
+                'person standing: light skin tone',
+                'person standing: medium-light skin tone',
+                'person standing: medium skin tone',
+                'person standing: medium-dark skin tone',
+                'person standing: dark skin tone',
+                'man standing: light skin tone',
+                'man standing: medium-light skin tone',
+                'man standing: medium skin tone',
+                'man standing: medium-dark skin tone',
+                'man standing: dark skin tone',
+                'woman standing: light skin tone',
+                'woman standing: medium-light skin tone',
+                'woman standing: medium skin tone',
+                'woman standing: medium-dark skin tone',
+                'woman standing: dark skin tone',
+                'person kneeling: light skin tone',
+                'person kneeling: medium-light skin tone',
+                'person kneeling: medium skin tone',
+                'person kneeling: medium-dark skin tone',
+                'person kneeling: dark skin tone',
+                'man kneeling: light skin tone',
+                'man kneeling: medium-light skin tone',
+                'man kneeling: medium skin tone',
+                'man kneeling: medium-dark skin tone',
+                'man kneeling: dark skin tone',
+                'woman kneeling: light skin tone',
+                'woman kneeling: medium-light skin tone',
+                'woman kneeling: medium skin tone',
+                'woman kneeling: medium-dark skin tone',
+                'woman kneeling: dark skin tone',
+                'man with probing cane: light skin tone',
+                'man with probing cane: medium-light skin tone',
+                'man with probing cane: medium skin tone',
+                'man with probing cane: medium-dark skin tone',
+                'man with probing cane: dark skin tone',
+                'woman with probing cane: light skin tone',
+                'woman with probing cane: medium-light skin tone',
+                'woman with probing cane: medium skin tone',
+                'woman with probing cane: medium-dark skin tone',
+                'woman with probing cane: dark skin tone',
+                'man in motorized wheelchair: light skin tone',
+                'man in motorized wheelchair: medium-light skin tone',
+                'man in motorized wheelchair: medium skin tone',
+                'man in motorized wheelchair: medium-dark skin tone',
+                'man in motorized wheelchair: dark skin tone',
+                'woman in motorized wheelchair: light skin tone',
+                'woman in motorized wheelchair: medium-light skin tone',
+                'woman in motorized wheelchair: medium skin tone',
+                'woman in motorized wheelchair: medium-dark skin tone',
+                'woman in motorized wheelchair: dark skin tone',
+                'man in manual wheelchair: light skin tone',
+                'man in manual wheelchair: medium-light skin tone',
+                'man in manual wheelchair: medium skin tone',
+                'man in manual wheelchair: medium-dark skin tone',
+                'man in manual wheelchair: dark skin tone',
+                'woman in manual wheelchair: light skin tone',
+                'woman in manual wheelchair: medium-light skin tone',
+                'woman in manual wheelchair: medium skin tone',
+                'woman in manual wheelchair: medium-dark skin tone',
+                'woman in manual wheelchair: dark skin tone',
                 'person running: light skin tone',
                 'person running: medium-light skin tone',
                 'person running: medium skin tone',
@@ -1530,6 +1634,7 @@ class PeopleBody implements Gettable
         'family' => [
             'parent' => 'People & Body',
             'children' => [
+                'people holding hands',
                 'women holding hands',
                 'woman and man holding hands',
                 'men holding hands',
@@ -1567,21 +1672,76 @@ class PeopleBody implements Gettable
                 'family: woman, girl',
                 'family: woman, girl, boy',
                 'family: woman, girl, girl',
-                '⊛ women holding hands: light skin tone',
-                '⊛ women holding hands: medium-light skin tone',
-                '⊛ women holding hands: medium skin tone',
-                '⊛ women holding hands: medium-dark skin tone',
-                '⊛ women holding hands: dark skin tone',
-                '⊛ woman and man holding hands: light skin tone',
-                '⊛ woman and man holding hands: medium-light skin tone',
-                '⊛ woman and man holding hands: medium skin tone',
-                '⊛ woman and man holding hands: medium-dark skin tone',
-                '⊛ woman and man holding hands: dark skin tone',
-                '⊛ men holding hands: light skin tone',
-                '⊛ men holding hands: medium-light skin tone',
-                '⊛ men holding hands: medium skin tone',
-                '⊛ men holding hands: medium-dark skin tone',
-                '⊛ men holding hands: dark skin tone',
+                'people holding hands: light skin tone',
+                'people holding hands: medium-light skin tone, light skin tone',
+                'people holding hands: medium-light skin tone',
+                'people holding hands: medium skin tone, light skin tone',
+                'people holding hands: medium skin tone, medium-light skin tone',
+                'people holding hands: medium skin tone',
+                'people holding hands: medium-dark skin tone, light skin tone',
+                'people holding hands: medium-dark skin tone, medium-light skin tone',
+                'people holding hands: medium-dark skin tone, medium skin tone',
+                'people holding hands: medium-dark skin tone',
+                'people holding hands: dark skin tone, light skin tone',
+                'people holding hands: dark skin tone, medium-light skin tone',
+                'people holding hands: dark skin tone, medium skin tone',
+                'people holding hands: dark skin tone, medium-dark skin tone',
+                'people holding hands: dark skin tone',
+                'women holding hands: light skin tone',
+                'women holding hands: medium-light skin tone, light skin tone',
+                'women holding hands: medium-light skin tone',
+                'women holding hands: medium skin tone, light skin tone',
+                'women holding hands: medium skin tone, medium-light skin tone',
+                'women holding hands: medium skin tone',
+                'women holding hands: medium-dark skin tone, light skin tone',
+                'women holding hands: medium-dark skin tone, medium-light skin tone',
+                'women holding hands: medium-dark skin tone, medium skin tone',
+                'women holding hands: medium-dark skin tone',
+                'women holding hands: dark skin tone, light skin tone',
+                'women holding hands: dark skin tone, medium-light skin tone',
+                'women holding hands: dark skin tone, medium skin tone',
+                'women holding hands: dark skin tone, medium-dark skin tone',
+                'women holding hands: dark skin tone',
+                'woman and man holding hands: light skin tone',
+                'woman and man holding hands: light skin tone, medium-light skin tone',
+                'woman and man holding hands: light skin tone, medium skin tone',
+                'woman and man holding hands: light skin tone, medium-dark skin tone',
+                'woman and man holding hands: light skin tone, dark skin tone',
+                'woman and man holding hands: medium-light skin tone, light skin tone',
+                'woman and man holding hands: medium-light skin tone',
+                'woman and man holding hands: medium-light skin tone, medium skin tone',
+                'woman and man holding hands: medium-light skin tone, medium-dark skin tone',
+                'woman and man holding hands: medium-light skin tone, dark skin tone',
+                'woman and man holding hands: medium skin tone, light skin tone',
+                'woman and man holding hands: medium skin tone, medium-light skin tone',
+                'woman and man holding hands: medium skin tone',
+                'woman and man holding hands: medium skin tone, medium-dark skin tone',
+                'woman and man holding hands: medium skin tone, dark skin tone',
+                'woman and man holding hands: medium-dark skin tone, light skin tone',
+                'woman and man holding hands: medium-dark skin tone, medium-light skin tone',
+                'woman and man holding hands: medium-dark skin tone, medium skin tone',
+                'woman and man holding hands: medium-dark skin tone',
+                'woman and man holding hands: medium-dark skin tone, dark skin tone',
+                'woman and man holding hands: dark skin tone, light skin tone',
+                'woman and man holding hands: dark skin tone, medium-light skin tone',
+                'woman and man holding hands: dark skin tone, medium skin tone',
+                'woman and man holding hands: dark skin tone, medium-dark skin tone',
+                'woman and man holding hands: dark skin tone',
+                'men holding hands: light skin tone',
+                'men holding hands: medium-light skin tone, light skin tone',
+                'men holding hands: medium-light skin tone',
+                'men holding hands: medium skin tone, light skin tone',
+                'men holding hands: medium skin tone, medium-light skin tone',
+                'men holding hands: medium skin tone',
+                'men holding hands: medium-dark skin tone, light skin tone',
+                'men holding hands: medium-dark skin tone, medium-light skin tone',
+                'men holding hands: medium-dark skin tone, medium skin tone',
+                'men holding hands: medium-dark skin tone',
+                'men holding hands: dark skin tone, light skin tone',
+                'men holding hands: dark skin tone, medium-light skin tone',
+                'men holding hands: dark skin tone, medium skin tone',
+                'men holding hands: dark skin tone, medium-dark skin tone',
+                'men holding hands: dark skin tone',
             ]
         ],
         'person-symbol' => [
@@ -1835,6 +1995,12 @@ class PeopleBody implements Gettable
                 ':ok_hand:',
             ]
         ],
+        'pinching hand' => [
+            'parent' => 'hand-fingers-partial',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'victory hand' => [
             'parent' => 'hand-fingers-partial',
             'children' => null,
@@ -1906,6 +2072,36 @@ class PeopleBody implements Gettable
             'children' => null,
             'aliases' => [
                 ':ok_hand_tone5:',
+            ]
+        ],
+        'pinching hand: light skin tone' => [
+            'parent' => 'hand-fingers-partial',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'pinching hand: medium-light skin tone' => [
+            'parent' => 'hand-fingers-partial',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'pinching hand: medium skin tone' => [
+            'parent' => 'hand-fingers-partial',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'pinching hand: medium-dark skin tone' => [
+            'parent' => 'hand-fingers-partial',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'pinching hand: dark skin tone' => [
+            'parent' => 'hand-fingers-partial',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'victory hand: light skin tone' => [
@@ -3006,6 +3202,18 @@ class PeopleBody implements Gettable
                 ':muscle:',
             ]
         ],
+        'mechanical arm' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'mechanical leg' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'leg' => [
             'parent' => 'body-parts',
             'children' => null,
@@ -3025,6 +3233,12 @@ class PeopleBody implements Gettable
             'children' => null,
             'aliases' => [
                 ':ear:',
+            ]
+        ],
+        'ear with hearing aid' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'nose' => [
@@ -3233,6 +3447,36 @@ class PeopleBody implements Gettable
                 ':ear_tone5:',
             ]
         ],
+        'ear with hearing aid: light skin tone' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'ear with hearing aid: medium-light skin tone' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'ear with hearing aid: medium skin tone' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'ear with hearing aid: medium-dark skin tone' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'ear with hearing aid: dark skin tone' => [
+            'parent' => 'body-parts',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'nose: light skin tone' => [
             'parent' => 'body-parts',
             'children' => null,
@@ -3321,12 +3565,6 @@ class PeopleBody implements Gettable
             'aliases' => [
             ]
         ],
-        'man: blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
         'man: red hair' => [
             'parent' => 'person',
             'children' => null,
@@ -3358,12 +3596,6 @@ class PeopleBody implements Gettable
                 ':woman:',
             ]
         ],
-        'woman: blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
         'woman: red hair' => [
             'parent' => 'person',
             'children' => null,
@@ -3383,6 +3615,18 @@ class PeopleBody implements Gettable
             ]
         ],
         'woman: bald' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: blond hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
@@ -3679,36 +3923,6 @@ class PeopleBody implements Gettable
             'aliases' => [
             ]
         ],
-        'man: light skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'man: medium-light skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'man: medium skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'man: medium-dark skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'man: dark skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
         'man: light skin tone, red hair' => [
             'parent' => 'person',
             'children' => null,
@@ -3864,36 +4078,6 @@ class PeopleBody implements Gettable
                 ':woman_tone5:',
             ]
         ],
-        'woman: light skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'woman: medium-light skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'woman: medium skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'woman: medium-dark skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
-        'woman: dark skin tone, blond hair' => [
-            'parent' => 'person',
-            'children' => null,
-            'aliases' => [
-            ]
-        ],
         'woman: light skin tone, red hair' => [
             'parent' => 'person',
             'children' => null,
@@ -4009,6 +4193,66 @@ class PeopleBody implements Gettable
             ]
         ],
         'woman: dark skin tone, bald' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: light skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium-light skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: medium-dark skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman: dark skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: light skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium-light skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: medium-dark skin tone, blond hair' => [
+            'parent' => 'person',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man: dark skin tone, blond hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
@@ -4252,6 +4496,24 @@ class PeopleBody implements Gettable
             'children' => null,
             'aliases' => [
                 ':woman_raising_hand:',
+            ]
+        ],
+        'deaf person' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'deaf man' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'deaf woman' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'person bowing' => [
@@ -5036,6 +5298,96 @@ class PeopleBody implements Gettable
                 ':woman_raising_hand_dark_skin_tone:',
             ]
         ],
+        'deaf person: light skin tone' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'deaf person: medium-light skin tone' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'deaf person: medium skin tone' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'deaf person: medium-dark skin tone' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'deaf person: dark skin tone' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'deaf man: light skin tone' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'deaf man: medium-light skin tone' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'deaf man: medium skin tone' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'deaf man: medium-dark skin tone' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'deaf man: dark skin tone' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'deaf woman: light skin tone' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'deaf woman: medium-light skin tone' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'deaf woman: medium skin tone' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'deaf woman: medium-dark skin tone' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'deaf woman: dark skin tone' => [
+            'parent' => 'person-gesture',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'person bowing: light skin tone' => [
             'parent' => 'person-gesture',
             'children' => null,
@@ -5749,12 +6101,10 @@ class PeopleBody implements Gettable
                 ':woman_wearing_turban:',
             ]
         ],
-        'man with Chinese cap' => [
+        'man with skullcap' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_with_chinese_cap:',
-                ':man_with_gua_pi_mao:',
             ]
         ],
         'woman with headscarf' => [
@@ -7743,44 +8093,34 @@ class PeopleBody implements Gettable
                 ':woman_wearing_turban_dark_skin_tone:',
             ]
         ],
-        'man with Chinese cap: light skin tone' => [
+        'man with skullcap: light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_with_chinese_cap_tone1:',
-                ':man_with_gua_pi_mao_tone1:',
             ]
         ],
-        'man with Chinese cap: medium-light skin tone' => [
+        'man with skullcap: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_with_chinese_cap_tone2:',
-                ':man_with_gua_pi_mao_tone2:',
             ]
         ],
-        'man with Chinese cap: medium skin tone' => [
+        'man with skullcap: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_with_chinese_cap_tone3:',
-                ':man_with_gua_pi_mao_tone3:',
             ]
         ],
-        'man with Chinese cap: medium-dark skin tone' => [
+        'man with skullcap: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_with_chinese_cap_tone4:',
-                ':man_with_gua_pi_mao_tone4:',
             ]
         ],
-        'man with Chinese cap: dark skin tone' => [
+        'man with skullcap: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_with_chinese_cap_tone5:',
-                ':man_with_gua_pi_mao_tone5:',
             ]
         ],
         'woman with headscarf: light skin tone' => [
@@ -9205,6 +9545,78 @@ class PeopleBody implements Gettable
                 ':woman_walking:',
             ]
         ],
+        'person standing' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man standing' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman standing' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'person kneeling' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man kneeling' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman kneeling' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man with probing cane' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman with probing cane' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man in motorized wheelchair' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman in motorized wheelchair' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man in manual wheelchair' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman in manual wheelchair' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'person running' => [
             'parent' => 'person-activity',
             'children' => null,
@@ -9672,6 +10084,366 @@ class PeopleBody implements Gettable
             'aliases' => [
                 ':woman_walking_tone5:',
                 ':woman_walking_dark_skin_tone:',
+            ]
+        ],
+        'person standing: light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'person standing: medium-light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'person standing: medium skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'person standing: medium-dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'person standing: dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man standing: light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man standing: medium-light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man standing: medium skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man standing: medium-dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man standing: dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman standing: light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman standing: medium-light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman standing: medium skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman standing: medium-dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman standing: dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'person kneeling: light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'person kneeling: medium-light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'person kneeling: medium skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'person kneeling: medium-dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'person kneeling: dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man kneeling: light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man kneeling: medium-light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man kneeling: medium skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man kneeling: medium-dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man kneeling: dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman kneeling: light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman kneeling: medium-light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman kneeling: medium skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman kneeling: medium-dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman kneeling: dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man with probing cane: light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man with probing cane: medium-light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man with probing cane: medium skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man with probing cane: medium-dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man with probing cane: dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman with probing cane: light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman with probing cane: medium-light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman with probing cane: medium skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman with probing cane: medium-dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman with probing cane: dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man in motorized wheelchair: light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man in motorized wheelchair: medium-light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man in motorized wheelchair: medium skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man in motorized wheelchair: medium-dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man in motorized wheelchair: dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman in motorized wheelchair: light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman in motorized wheelchair: medium-light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman in motorized wheelchair: medium skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman in motorized wheelchair: medium-dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman in motorized wheelchair: dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man in manual wheelchair: light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man in manual wheelchair: medium-light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man in manual wheelchair: medium skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man in manual wheelchair: medium-dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'man in manual wheelchair: dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman in manual wheelchair: light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman in manual wheelchair: medium-light skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman in manual wheelchair: medium skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman in manual wheelchair: medium-dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman in manual wheelchair: dark skin tone' => [
+            'parent' => 'person-activity',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'person running: light skin tone' => [
@@ -12234,6 +13006,12 @@ class PeopleBody implements Gettable
                 ':person_in_bed_dark_skin_tone:',
             ]
         ],
+        'people holding hands' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'women holding hands' => [
             'parent' => 'family',
             'children' => null,
@@ -12494,91 +13272,421 @@ class PeopleBody implements Gettable
                 ':family_woman_girl_girl:',
             ]
         ],
-        '⊛ women holding hands: light skin tone' => [
+        'people holding hands: light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ women holding hands: medium-light skin tone' => [
+        'people holding hands: medium-light skin tone, light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ women holding hands: medium skin tone' => [
+        'people holding hands: medium-light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ women holding hands: medium-dark skin tone' => [
+        'people holding hands: medium skin tone, light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ women holding hands: dark skin tone' => [
+        'people holding hands: medium skin tone, medium-light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ woman and man holding hands: light skin tone' => [
+        'people holding hands: medium skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ woman and man holding hands: medium-light skin tone' => [
+        'people holding hands: medium-dark skin tone, light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ woman and man holding hands: medium skin tone' => [
+        'people holding hands: medium-dark skin tone, medium-light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ woman and man holding hands: medium-dark skin tone' => [
+        'people holding hands: medium-dark skin tone, medium skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ woman and man holding hands: dark skin tone' => [
+        'people holding hands: medium-dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ men holding hands: light skin tone' => [
+        'people holding hands: dark skin tone, light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ men holding hands: medium-light skin tone' => [
+        'people holding hands: dark skin tone, medium-light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ men holding hands: medium skin tone' => [
+        'people holding hands: dark skin tone, medium skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ men holding hands: medium-dark skin tone' => [
+        'people holding hands: dark skin tone, medium-dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
             ]
         ],
-        '⊛ men holding hands: dark skin tone' => [
+        'people holding hands: dark skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'women holding hands: light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'women holding hands: medium-light skin tone, light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'women holding hands: medium-light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'women holding hands: medium skin tone, light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'women holding hands: medium skin tone, medium-light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'women holding hands: medium skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'women holding hands: medium-dark skin tone, light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'women holding hands: medium-dark skin tone, medium-light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'women holding hands: medium-dark skin tone, medium skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'women holding hands: medium-dark skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'women holding hands: dark skin tone, light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'women holding hands: dark skin tone, medium-light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'women holding hands: dark skin tone, medium skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'women holding hands: dark skin tone, medium-dark skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'women holding hands: dark skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: light skin tone, medium-light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: light skin tone, medium skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: light skin tone, medium-dark skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: light skin tone, dark skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: medium-light skin tone, light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: medium-light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: medium-light skin tone, medium skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: medium-light skin tone, medium-dark skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: medium-light skin tone, dark skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: medium skin tone, light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: medium skin tone, medium-light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: medium skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: medium skin tone, medium-dark skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: medium skin tone, dark skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: medium-dark skin tone, light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: medium-dark skin tone, medium-light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: medium-dark skin tone, medium skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: medium-dark skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: medium-dark skin tone, dark skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: dark skin tone, light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: dark skin tone, medium-light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: dark skin tone, medium skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: dark skin tone, medium-dark skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'woman and man holding hands: dark skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'men holding hands: light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'men holding hands: medium-light skin tone, light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'men holding hands: medium-light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'men holding hands: medium skin tone, light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'men holding hands: medium skin tone, medium-light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'men holding hands: medium skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'men holding hands: medium-dark skin tone, light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'men holding hands: medium-dark skin tone, medium-light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'men holding hands: medium-dark skin tone, medium skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'men holding hands: medium-dark skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'men holding hands: dark skin tone, light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'men holding hands: dark skin tone, medium-light skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'men holding hands: dark skin tone, medium skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'men holding hands: dark skin tone, medium-dark skin tone' => [
+            'parent' => 'family',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'men holding hands: dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [

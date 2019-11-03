@@ -103,8 +103,8 @@ class Parser
                 case 'invalidTwitter':
                     $group->validWithTwitter = false;
                     break;
-                case 'invalidEmojiOne':
-                    $group->validWithEmojiOne = false;
+                case 'invalidJoyPixels':
+                    $group->validWithJoyPixels = false;
                     break;
                 case 'invalidFacebook':
                     $group->validWithFacebook = false;
@@ -273,7 +273,7 @@ class Parser
                             yield 'invalidTwitter' => true;
                             break;
                         case 5:
-                            yield 'invalidEmojiOne' => true;
+                            yield 'invalidJoyPixels' => true;
                             break;
                         case 6:
                             yield 'invalidSamsung' => true;

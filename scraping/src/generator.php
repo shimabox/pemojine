@@ -79,7 +79,7 @@ foreach ($ret->getBigGroups() as $bigGroup) {
                 $group->validWithApple,
                 $group->validWithGoogle,
                 $group->validWithTwitter,
-                $group->validWithEmojiOne,
+                $group->validWithJoyPixels,
                 $group->validWithFacebook,
                 $group->validWithSamsung,
                 $group->validWithWindows,

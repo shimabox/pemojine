@@ -12743,10 +12743,10 @@ class EmojiTable
     public static $mappingOfShortName = [
         ':grinning:' => 'grinning face',
         ':smiley:' => 'grinning face with big eyes',
-        ':D' => 'grinning face with big eyes',
         ':-D' => 'grinning face with big eyes',
         '=D' => 'grinning face with big eyes',
         ':smile:' => 'grinning face with smiling eyes',
+        ':D' => 'grinning face with smiling eyes',
         ':grin:' => 'beaming face with smiling eyes',
         ':laughing:' => 'grinning squinting face',
         ':satisfied:' => 'grinning squinting face',
@@ -12798,6 +12798,7 @@ class EmojiTable
         '0;-)' => 'smiling face with halo',
         'O:-3' => 'smiling face with halo',
         'O:3' => 'smiling face with halo',
+        ':smiling_face_with_3_hearts:' => 'smiling face with hearts',
         ':heart_eyes:' => 'smiling face with heart-eyes',
         ':star_struck:' => 'star-struck',
         ':kissing_heart:' => 'face blowing a kiss',
@@ -12949,6 +12950,7 @@ class EmojiTable
         '\'=(' => 'downcast face with sweat', // '=(
         ':weary:' => 'weary face',
         ':tired_face:' => 'tired face',
+        ':yawning_face:' => 'yawning face',
         ':triumph:' => 'face with steam from nose',
         ':rage:' => 'pouting face',
         ':angry:' => 'angry face',
@@ -12973,6 +12975,17 @@ class EmojiTable
         ':ghost:' => 'ghost',
         ':alien:' => 'alien',
         ':space_invader:' => 'alien monster',
+        ':robot:' => 'robot',
+        ':robot_face:' => 'robot',
+        ':smiley_cat:' => 'grinning cat',
+        ':smile_cat:' => 'grinning cat with smiling eyes',
+        ':joy_cat:' => 'cat with tears of joy',
+        ':heart_eyes_cat:' => 'smiling cat with heart-eyes',
+        ':smirk_cat:' => 'cat with wry smile',
+        ':kissing_cat:' => 'kissing cat',
+        ':scream_cat:' => 'weary cat',
+        ':crying_cat_face:' => 'crying cat',
+        ':pouting_cat:' => 'pouting cat',
         ':see_no_evil:' => 'see-no-evil monkey',
         ':hear_no_evil:' => 'hear-no-evil monkey',
         ':speak_no_evil:' => 'speak-no-evil monkey',
@@ -12986,6 +12999,8 @@ class EmojiTable
         ':revolving_hearts:' => 'revolving hearts',
         ':two_hearts:' => 'two hearts',
         ':heart_decoration:' => 'heart decoration',
+        ':heart_exclamation:' => 'heart exclamation',
+        ':heavy_heart_exclamation_mark_ornament:' => 'heart exclamation',
         ':broken_heart:' => 'broken heart',
         '</3' => 'broken heart',
         ':heart:' => 'red heart',
@@ -12995,7 +13010,9 @@ class EmojiTable
         ':green_heart:' => 'green heart',
         ':blue_heart:' => 'blue heart',
         ':purple_heart:' => 'purple heart',
+        ':brown_heart:' => 'brown heart',
         ':black_heart:' => 'black heart',
+        ':white_heart:' => 'white heart',
         ':100:' => 'hundred points',
         ':anger:' => 'anger symbol',
         ':boom:' => 'collision',
@@ -13061,6 +13078,7 @@ class EmojiTable
         ':vulcan_tone5:' => 'vulcan salute: dark skin tone',
         ':raised_hand_with_part_between_middle_and_ring_fingers_tone5:' => 'vulcan salute: dark skin tone',
         ':ok_hand:' => 'OK hand',
+        ':pinching_hand:' => 'pinching hand',
         ':v:' => 'victory hand',
         ':fingers_crossed:' => 'crossed fingers',
         ':hand_with_index_and_middle_finger_crossed:' => 'crossed fingers',
@@ -13074,6 +13092,16 @@ class EmojiTable
         ':ok_hand_tone3:' => 'OK hand: medium skin tone',
         ':ok_hand_tone4:' => 'OK hand: medium-dark skin tone',
         ':ok_hand_tone5:' => 'OK hand: dark skin tone',
+        ':pinching_hand_tone1:' => 'pinching hand: light skin tone',
+        ':pinching_hand_light_skin_tone:' => 'pinching hand: light skin tone',
+        ':pinching_hand_tone2:' => 'pinching hand: medium-light skin tone',
+        ':pinching_hand_medium_light_skin_tone:' => 'pinching hand: medium-light skin tone',
+        ':pinching_hand_tone3:' => 'pinching hand: medium skin tone',
+        ':pinching_hand_medium_skin_tone:' => 'pinching hand: medium skin tone',
+        ':pinching_hand_tone4:' => 'pinching hand: medium-dark skin tone',
+        ':pinching_hand_medium_dark_skin_tone:' => 'pinching hand: medium-dark skin tone',
+        ':pinching_hand_tone5:' => 'pinching hand: dark skin tone',
+        ':pinching_hand_dark_skin_tone:' => 'pinching hand: dark skin tone',
         ':v_tone1:' => 'victory hand: light skin tone',
         ':v_tone2:' => 'victory hand: medium-light skin tone',
         ':v_tone3:' => 'victory hand: medium skin tone',
@@ -13290,9 +13318,12 @@ class EmojiTable
         ':selfie_tone4:' => 'selfie: medium-dark skin tone',
         ':selfie_tone5:' => 'selfie: dark skin tone',
         ':muscle:' => 'flexed biceps',
+        ':mechanical_arm:' => 'mechanical arm',
+        ':mechanical_leg:' => 'mechanical leg',
         ':leg:' => 'leg',
         ':foot:' => 'foot',
         ':ear:' => 'ear',
+        ':ear_with_hearing_aid:' => 'ear with hearing aid',
         ':nose:' => 'nose',
         ':brain:' => 'brain',
         ':tooth:' => 'tooth',
@@ -13331,6 +13362,16 @@ class EmojiTable
         ':ear_tone3:' => 'ear: medium skin tone',
         ':ear_tone4:' => 'ear: medium-dark skin tone',
         ':ear_tone5:' => 'ear: dark skin tone',
+        ':ear_with_hearing_aid_tone1:' => 'ear with hearing aid: light skin tone',
+        ':ear_with_hearing_aid_light_skin_tone:' => 'ear with hearing aid: light skin tone',
+        ':ear_with_hearing_aid_tone2:' => 'ear with hearing aid: medium-light skin tone',
+        ':ear_with_hearing_aid_medium_light_skin_tone:' => 'ear with hearing aid: medium-light skin tone',
+        ':ear_with_hearing_aid_tone3:' => 'ear with hearing aid: medium skin tone',
+        ':ear_with_hearing_aid_medium_skin_tone:' => 'ear with hearing aid: medium skin tone',
+        ':ear_with_hearing_aid_tone4:' => 'ear with hearing aid: medium-dark skin tone',
+        ':ear_with_hearing_aid_medium_dark_skin_tone:' => 'ear with hearing aid: medium-dark skin tone',
+        ':ear_with_hearing_aid_tone5:' => 'ear with hearing aid: dark skin tone',
+        ':ear_with_hearing_aid_dark_skin_tone:' => 'ear with hearing aid: dark skin tone',
         ':nose_tone1:' => 'nose: light skin tone',
         ':nose_tone2:' => 'nose: medium-light skin tone',
         ':nose_tone3:' => 'nose: medium skin tone',
@@ -13340,8 +13381,23 @@ class EmojiTable
         ':child:' => 'child',
         ':boy:' => 'boy',
         ':girl:' => 'girl',
+        ':adult:' => 'person',
+        ':blond_haired_person:' => 'person: blond hair',
+        ':person_with_blond_hair:' => 'person: blond hair',
         ':man:' => 'man',
+        ':bearded_person:' => 'man: beard',
+        ':man_red_haired:' => 'man: red hair',
+        ':man_curly_haired:' => 'man: curly hair',
+        ':man_white_haired:' => 'man: white hair',
+        ':man_bald:' => 'man: bald',
         ':woman:' => 'woman',
+        ':woman_red_haired:' => 'woman: red hair',
+        ':woman_curly_haired:' => 'woman: curly hair',
+        ':woman_white_haired:' => 'woman: white hair',
+        ':woman_bald:' => 'woman: bald',
+        ':blond-haired_woman:' => 'woman: blond hair',
+        ':blond-haired_man:' => 'man: blond hair',
+        ':older_adult:' => 'older person',
         ':older_man:' => 'old man',
         ':older_woman:' => 'old woman',
         ':grandma:' => 'old woman',
@@ -13422,6 +13478,9 @@ class EmojiTable
         ':raising_hand:' => 'person raising hand',
         ':man_raising_hand:' => 'man raising hand',
         ':woman_raising_hand:' => 'woman raising hand',
+        ':deaf_person:' => 'deaf person',
+        ':deaf_man:' => 'deaf man',
+        ':deaf_woman:' => 'deaf woman',
         ':person_bowing:' => 'person bowing',
         ':bow:' => 'person bowing',
         ':man_bowing:' => 'man bowing',
@@ -13610,6 +13669,36 @@ class EmojiTable
         ':woman_raising_hand_medium_dark_skin_tone:' => 'woman raising hand: medium-dark skin tone',
         ':woman_raising_hand_tone5:' => 'woman raising hand: dark skin tone',
         ':woman_raising_hand_dark_skin_tone:' => 'woman raising hand: dark skin tone',
+        ':deaf_person_tone1:' => 'deaf person: light skin tone',
+        ':deaf_person_light_skin_tone:' => 'deaf person: light skin tone',
+        ':deaf_person_tone2:' => 'deaf person: medium-light skin tone',
+        ':deaf_person_medium_light_skin_tone:' => 'deaf person: medium-light skin tone',
+        ':deaf_person_tone3:' => 'deaf person: medium skin tone',
+        ':deaf_person_medium_skin_tone:' => 'deaf person: medium skin tone',
+        ':deaf_person_tone4:' => 'deaf person: medium-dark skin tone',
+        ':deaf_person_medium_dark_skin_tone:' => 'deaf person: medium-dark skin tone',
+        ':deaf_person_tone5:' => 'deaf person: dark skin tone',
+        ':deaf_person_dark_skin_tone:' => 'deaf person: dark skin tone',
+        ':deaf_man_tone1:' => 'deaf man: light skin tone',
+        ':deaf_man_light_skin_tone:' => 'deaf man: light skin tone',
+        ':deaf_man_tone2:' => 'deaf man: medium-light skin tone',
+        ':deaf_man_medium_light_skin_tone:' => 'deaf man: medium-light skin tone',
+        ':deaf_man_tone3:' => 'deaf man: medium skin tone',
+        ':deaf_man_medium_skin_tone:' => 'deaf man: medium skin tone',
+        ':deaf_man_tone4:' => 'deaf man: medium-dark skin tone',
+        ':deaf_man_medium_dark_skin_tone:' => 'deaf man: medium-dark skin tone',
+        ':deaf_man_tone5:' => 'deaf man: dark skin tone',
+        ':deaf_man_dark_skin_tone:' => 'deaf man: dark skin tone',
+        ':deaf_woman_tone1:' => 'deaf woman: light skin tone',
+        ':deaf_woman_light_skin_tone:' => 'deaf woman: light skin tone',
+        ':deaf_woman_tone2:' => 'deaf woman: medium-light skin tone',
+        ':deaf_woman_medium_light_skin_tone:' => 'deaf woman: medium-light skin tone',
+        ':deaf_woman_tone3:' => 'deaf woman: medium skin tone',
+        ':deaf_woman_medium_skin_tone:' => 'deaf woman: medium skin tone',
+        ':deaf_woman_tone4:' => 'deaf woman: medium-dark skin tone',
+        ':deaf_woman_medium_dark_skin_tone:' => 'deaf woman: medium-dark skin tone',
+        ':deaf_woman_tone5:' => 'deaf woman: dark skin tone',
+        ':deaf_woman_dark_skin_tone:' => 'deaf woman: dark skin tone',
         ':person_bowing_tone1:' => 'person bowing: light skin tone',
         ':bow_tone1:' => 'person bowing: light skin tone',
         ':person_bowing_tone2:' => 'person bowing: medium-light skin tone',
@@ -14563,6 +14652,18 @@ class EmojiTable
         ':walking:' => 'person walking',
         ':man_walking:' => 'man walking',
         ':woman_walking:' => 'woman walking',
+        ':person_standing:' => 'person standing',
+        ':man_standing:' => 'man standing',
+        ':woman_standing:' => 'woman standing',
+        ':person_kneeling:' => 'person kneeling',
+        ':man_kneeling:' => 'man kneeling',
+        ':woman_kneeling:' => 'woman kneeling',
+        ':man_with_probing_cane:' => 'man with probing cane',
+        ':woman_with_probing_cane:' => 'woman with probing cane',
+        ':man_in_motorized_wheelchair:' => 'man in motorized wheelchair',
+        ':woman_in_motorized_wheelchair:' => 'woman in motorized wheelchair',
+        ':man_in_manual_wheelchair:' => 'man in manual wheelchair',
+        ':woman_in_manual_wheelchair:' => 'woman in manual wheelchair',
         ':person_running:' => 'person running',
         ':runner:' => 'person running',
         ':man_running:' => 'man running',
@@ -14672,6 +14773,126 @@ class EmojiTable
         ':woman_walking_medium_dark_skin_tone:' => 'woman walking: medium-dark skin tone',
         ':woman_walking_tone5:' => 'woman walking: dark skin tone',
         ':woman_walking_dark_skin_tone:' => 'woman walking: dark skin tone',
+        ':person_standing_tone1:' => 'person standing: light skin tone',
+        ':person_standing_light_skin_tone:' => 'person standing: light skin tone',
+        ':person_standing_tone2:' => 'person standing: medium-light skin tone',
+        ':person_standing_medium_light_skin_tone:' => 'person standing: medium-light skin tone',
+        ':person_standing_tone3:' => 'person standing: medium skin tone',
+        ':person_standing_medium_skin_tone:' => 'person standing: medium skin tone',
+        ':person_standing_tone4:' => 'person standing: medium-dark skin tone',
+        ':person_standing_medium_dark_skin_tone:' => 'person standing: medium-dark skin tone',
+        ':person_standing_tone5:' => 'person standing: dark skin tone',
+        ':person_standing_dark_skin_tone:' => 'person standing: dark skin tone',
+        ':man_standing_tone1:' => 'man standing: light skin tone',
+        ':man_standing_light_skin_tone:' => 'man standing: light skin tone',
+        ':man_standing_tone2:' => 'man standing: medium-light skin tone',
+        ':man_standing_medium_light_skin_tone:' => 'man standing: medium-light skin tone',
+        ':man_standing_tone3:' => 'man standing: medium skin tone',
+        ':man_standing_medium_skin_tone:' => 'man standing: medium skin tone',
+        ':man_standing_tone4:' => 'man standing: medium-dark skin tone',
+        ':man_standing_medium_dark_skin_tone:' => 'man standing: medium-dark skin tone',
+        ':man_standing_tone5:' => 'man standing: dark skin tone',
+        ':man_standing_dark_skin_tone:' => 'man standing: dark skin tone',
+        ':woman_standing_tone1:' => 'woman standing: light skin tone',
+        ':woman_standing_light_skin_tone:' => 'woman standing: light skin tone',
+        ':woman_standing_tone2:' => 'woman standing: medium-light skin tone',
+        ':woman_standing_medium_light_skin_tone:' => 'woman standing: medium-light skin tone',
+        ':woman_standing_tone3:' => 'woman standing: medium skin tone',
+        ':woman_standing_medium_skin_tone:' => 'woman standing: medium skin tone',
+        ':woman_standing_tone4:' => 'woman standing: medium-dark skin tone',
+        ':woman_standing_medium_dark_skin_tone:' => 'woman standing: medium-dark skin tone',
+        ':woman_standing_tone5:' => 'woman standing: dark skin tone',
+        ':woman_standing_dark_skin_tone:' => 'woman standing: dark skin tone',
+        ':person_kneeling_tone1:' => 'person kneeling: light skin tone',
+        ':person_kneeling_light_skin_tone:' => 'person kneeling: light skin tone',
+        ':person_kneeling_tone2:' => 'person kneeling: medium-light skin tone',
+        ':person_kneeling_medium_light_skin_tone:' => 'person kneeling: medium-light skin tone',
+        ':person_kneeling_tone3:' => 'person kneeling: medium skin tone',
+        ':person_kneeling_medium_skin_tone:' => 'person kneeling: medium skin tone',
+        ':person_kneeling_tone4:' => 'person kneeling: medium-dark skin tone',
+        ':person_kneeling_medium_dark_skin_tone:' => 'person kneeling: medium-dark skin tone',
+        ':person_kneeling_tone5:' => 'person kneeling: dark skin tone',
+        ':person_kneeling_dark_skin_tone:' => 'person kneeling: dark skin tone',
+        ':man_kneeling_tone1:' => 'man kneeling: light skin tone',
+        ':man_kneeling_light_skin_tone:' => 'man kneeling: light skin tone',
+        ':man_kneeling_tone2:' => 'man kneeling: medium-light skin tone',
+        ':man_kneeling_medium_light_skin_tone:' => 'man kneeling: medium-light skin tone',
+        ':man_kneeling_tone3:' => 'man kneeling: medium skin tone',
+        ':man_kneeling_medium_skin_tone:' => 'man kneeling: medium skin tone',
+        ':man_kneeling_tone4:' => 'man kneeling: medium-dark skin tone',
+        ':man_kneeling_medium_dark_skin_tone:' => 'man kneeling: medium-dark skin tone',
+        ':man_kneeling_tone5:' => 'man kneeling: dark skin tone',
+        ':man_kneeling_dark_skin_tone:' => 'man kneeling: dark skin tone',
+        ':woman_kneeling_tone1:' => 'woman kneeling: light skin tone',
+        ':woman_kneeling_light_skin_tone:' => 'woman kneeling: light skin tone',
+        ':woman_kneeling_tone2:' => 'woman kneeling: medium-light skin tone',
+        ':woman_kneeling_medium_light_skin_tone:' => 'woman kneeling: medium-light skin tone',
+        ':woman_kneeling_tone3:' => 'woman kneeling: medium skin tone',
+        ':woman_kneeling_medium_skin_tone:' => 'woman kneeling: medium skin tone',
+        ':woman_kneeling_tone4:' => 'woman kneeling: medium-dark skin tone',
+        ':woman_kneeling_medium_dark_skin_tone:' => 'woman kneeling: medium-dark skin tone',
+        ':woman_kneeling_tone5:' => 'woman kneeling: dark skin tone',
+        ':woman_kneeling_dark_skin_tone:' => 'woman kneeling: dark skin tone',
+        ':man_with_probing_cane_tone1:' => 'man with probing cane: light skin tone',
+        ':man_with_probing_cane_light_skin_tone:' => 'man with probing cane: light skin tone',
+        ':man_with_probing_cane_tone2:' => 'man with probing cane: medium-light skin tone',
+        ':man_with_probing_cane_medium_light_skin_tone:' => 'man with probing cane: medium-light skin tone',
+        ':man_with_probing_cane_tone3:' => 'man with probing cane: medium skin tone',
+        ':man_with_probing_cane_medium_skin_tone:' => 'man with probing cane: medium skin tone',
+        ':man_with_probing_cane_tone4:' => 'man with probing cane: medium-dark skin tone',
+        ':man_with_probing_cane_medium_dark_skin_tone:' => 'man with probing cane: medium-dark skin tone',
+        ':man_with_probing_cane_tone5:' => 'man with probing cane: dark skin tone',
+        ':man_with_probing_cane_dark_skin_tone:' => 'man with probing cane: dark skin tone',
+        ':woman_with_probing_cane_tone1:' => 'woman with probing cane: light skin tone',
+        ':woman_with_probing_cane_light_skin_tone:' => 'woman with probing cane: light skin tone',
+        ':woman_with_probing_cane_tone2:' => 'woman with probing cane: medium-light skin tone',
+        ':woman_with_probing_cane_medium_light_skin_tone:' => 'woman with probing cane: medium-light skin tone',
+        ':woman_with_probing_cane_tone3:' => 'woman with probing cane: medium skin tone',
+        ':woman_with_probing_cane_medium_skin_tone:' => 'woman with probing cane: medium skin tone',
+        ':woman_with_probing_cane_tone4:' => 'woman with probing cane: medium-dark skin tone',
+        ':woman_with_probing_cane_medium_dark_skin_tone:' => 'woman with probing cane: medium-dark skin tone',
+        ':woman_with_probing_cane_tone5:' => 'woman with probing cane: dark skin tone',
+        ':woman_with_probing_cane_dark_skin_tone:' => 'woman with probing cane: dark skin tone',
+        ':man_in_motorized_wheelchair_tone1:' => 'man in motorized wheelchair: light skin tone',
+        ':man_in_motorized_wheelchair_light_skin_tone:' => 'man in motorized wheelchair: light skin tone',
+        ':man_in_motorized_wheelchair_tone2:' => 'man in motorized wheelchair: medium-light skin tone',
+        ':man_in_motorized_wheelchair_medium_light_skin_tone:' => 'man in motorized wheelchair: medium-light skin tone',
+        ':man_in_motorized_wheelchair_tone3:' => 'man in motorized wheelchair: medium skin tone',
+        ':man_in_motorized_wheelchair_medium_skin_tone:' => 'man in motorized wheelchair: medium skin tone',
+        ':man_in_motorized_wheelchair_tone4:' => 'man in motorized wheelchair: medium-dark skin tone',
+        ':man_in_motorized_wheelchair_medium_dark_skin_tone:' => 'man in motorized wheelchair: medium-dark skin tone',
+        ':man_in_motorized_wheelchair_tone5:' => 'man in motorized wheelchair: dark skin tone',
+        ':man_in_motorized_wheelchair_dark_skin_tone:' => 'man in motorized wheelchair: dark skin tone',
+        ':woman_in_motorized_wheelchair_tone1:' => 'woman in motorized wheelchair: light skin tone',
+        ':woman_in_motorized_wheelchair_light_skin_tone:' => 'woman in motorized wheelchair: light skin tone',
+        ':woman_in_motorized_wheelchair_tone2:' => 'woman in motorized wheelchair: medium-light skin tone',
+        ':woman_in_motorized_wheelchair_medium_light_skin_tone:' => 'woman in motorized wheelchair: medium-light skin tone',
+        ':woman_in_motorized_wheelchair_tone3:' => 'woman in motorized wheelchair: medium skin tone',
+        ':woman_in_motorized_wheelchair_medium_skin_tone:' => 'woman in motorized wheelchair: medium skin tone',
+        ':woman_in_motorized_wheelchair_tone4:' => 'woman in motorized wheelchair: medium-dark skin tone',
+        ':woman_in_motorized_wheelchair_medium_dark_skin_tone:' => 'woman in motorized wheelchair: medium-dark skin tone',
+        ':woman_in_motorized_wheelchair_tone5:' => 'woman in motorized wheelchair: dark skin tone',
+        ':woman_in_motorized_wheelchair_dark_skin_tone:' => 'woman in motorized wheelchair: dark skin tone',
+        ':man_in_manual_wheelchair_tone1:' => 'man in manual wheelchair: light skin tone',
+        ':man_in_manual_wheelchair_light_skin_tone:' => 'man in manual wheelchair: light skin tone',
+        ':man_in_manual_wheelchair_tone2:' => 'man in manual wheelchair: medium-light skin tone',
+        ':man_in_manual_wheelchair_medium_light_skin_tone:' => 'man in manual wheelchair: medium-light skin tone',
+        ':man_in_manual_wheelchair_tone3:' => 'man in manual wheelchair: medium skin tone',
+        ':man_in_manual_wheelchair_medium_skin_tone:' => 'man in manual wheelchair: medium skin tone',
+        ':man_in_manual_wheelchair_tone4:' => 'man in manual wheelchair: medium-dark skin tone',
+        ':man_in_manual_wheelchair_medium_dark_skin_tone:' => 'man in manual wheelchair: medium-dark skin tone',
+        ':man_in_manual_wheelchair_tone5:' => 'man in manual wheelchair: dark skin tone',
+        ':man_in_manual_wheelchair_dark_skin_tone:' => 'man in manual wheelchair: dark skin tone',
+        ':woman_in_manual_wheelchair_tone1:' => 'woman in manual wheelchair: light skin tone',
+        ':woman_in_manual_wheelchair_light_skin_tone:' => 'woman in manual wheelchair: light skin tone',
+        ':woman_in_manual_wheelchair_tone2:' => 'woman in manual wheelchair: medium-light skin tone',
+        ':woman_in_manual_wheelchair_medium_light_skin_tone:' => 'woman in manual wheelchair: medium-light skin tone',
+        ':woman_in_manual_wheelchair_tone3:' => 'woman in manual wheelchair: medium skin tone',
+        ':woman_in_manual_wheelchair_medium_skin_tone:' => 'woman in manual wheelchair: medium skin tone',
+        ':woman_in_manual_wheelchair_tone4:' => 'woman in manual wheelchair: medium-dark skin tone',
+        ':woman_in_manual_wheelchair_medium_dark_skin_tone:' => 'woman in manual wheelchair: medium-dark skin tone',
+        ':woman_in_manual_wheelchair_tone5:' => 'woman in manual wheelchair: dark skin tone',
+        ':woman_in_manual_wheelchair_dark_skin_tone:' => 'woman in manual wheelchair: dark skin tone',
         ':person_running_tone1:' => 'person running: light skin tone',
         ':runner_tone1:' => 'person running: light skin tone',
         ':person_running_tone2:' => 'person running: medium-light skin tone',
@@ -15294,6 +15515,10 @@ class EmojiTable
         ':person_in_bed_medium_dark_skin_tone:' => 'person in bed: medium-dark skin tone',
         ':person_in_bed_tone5:' => 'person in bed: dark skin tone',
         ':person_in_bed_dark_skin_tone:' => 'person in bed: dark skin tone',
+        ':people_holding_hands:' => 'people holding hands',
+        ':two_women_holding_hands:' => 'women holding hands',
+        ':couple:' => 'woman and man holding hands',
+        ':two_men_holding_hands:' => 'men holding hands',
         ':couplekiss:' => 'kiss',
         ':kiss_woman_man:' => 'kiss: woman, man',
         ':kiss_mm:' => 'kiss: man, man',
@@ -15332,11 +15557,120 @@ class EmojiTable
         ':family_woman_girl:' => 'family: woman, girl',
         ':family_woman_girl_boy:' => 'family: woman, girl, boy',
         ':family_woman_girl_girl:' => 'family: woman, girl, girl',
+        ':people_holding_hands_tone1:' => 'people holding hands: light skin tone',
+        ':people_holding_hands_light_skin_tone:' => 'people holding hands: light skin tone',
+        ':people_holding_hands_tone2_tone1:' => 'people holding hands: medium-light skin tone, light skin tone',
+        ':people_holding_hands_medium_light_skin_tone_light_skin_tone:' => 'people holding hands: medium-light skin tone, light skin tone',
+        ':people_holding_hands_tone2:' => 'people holding hands: medium-light skin tone',
+        ':people_holding_hands_medium_light_skin_tone:' => 'people holding hands: medium-light skin tone',
+        ':people_holding_hands_tone3_tone1:' => 'people holding hands: medium skin tone, light skin tone',
+        ':people_holding_hands_medium_skin_tone_light_skin_tone:' => 'people holding hands: medium skin tone, light skin tone',
+        ':people_holding_hands_tone3_tone2:' => 'people holding hands: medium skin tone, medium-light skin tone',
+        ':people_holding_hands_medium_skin_tone_medium_light_skin_tone:' => 'people holding hands: medium skin tone, medium-light skin tone',
+        ':people_holding_hands_tone3:' => 'people holding hands: medium skin tone',
+        ':people_holding_hands_medium_skin_tone:' => 'people holding hands: medium skin tone',
+        ':people_holding_hands_tone4_tone1:' => 'people holding hands: medium-dark skin tone, light skin tone',
+        ':people_holding_hands_medium_dark_skin_tone_light_skin_tone:' => 'people holding hands: medium-dark skin tone, light skin tone',
+        ':people_holding_hands_tone4_tone3:' => 'people holding hands: medium-dark skin tone, medium skin tone',
+        ':people_holding_hands_medium_dark_skin_tone_medium_skin_tone:' => 'people holding hands: medium-dark skin tone, medium skin tone',
+        ':people_holding_hands_tone4:' => 'people holding hands: medium-dark skin tone',
+        ':people_holding_hands_medium_dark_skin_tone:' => 'people holding hands: medium-dark skin tone',
+        ':people_holding_hands_tone5_tone1:' => 'people holding hands: dark skin tone, light skin tone',
+        ':people_holding_hands_dark_skin_tone_light_skin_tone:' => 'people holding hands: dark skin tone, light skin tone',
+        ':people_holding_hands_tone5_tone2:' => 'people holding hands: dark skin tone, medium-light skin tone',
+        ':people_holding_hands_dark_skin_tone_medium_light_skin_tone:' => 'people holding hands: dark skin tone, medium-light skin tone',
+        ':people_holding_hands_tone5_tone3:' => 'people holding hands: dark skin tone, medium skin tone',
+        ':people_holding_hands_dark_skin_tone_medium_skin_tone:' => 'people holding hands: dark skin tone, medium skin tone',
+        ':people_holding_hands_tone5_tone4:' => 'people holding hands: dark skin tone, medium-dark skin tone',
+        ':people_holding_hands_dark_skin_tone_medium_dark_skin_tone:' => 'people holding hands: dark skin tone, medium-dark skin tone',
+        ':people_holding_hands_tone5:' => 'people holding hands: dark skin tone',
+        ':people_holding_hands_dark_skin_tone:' => 'people holding hands: dark skin tone',
+        ':women_holding_hands_tone1:' => 'women holding hands: light skin tone',
+        ':women_holding_hands_light_skin_tone:' => 'women holding hands: light skin tone',
+        ':women_holding_hands_tone2_tone1:' => 'women holding hands: medium-light skin tone, light skin tone',
+        ':women_holding_hands_medium_light_skin_tone_light_skin_tone:' => 'women holding hands: medium-light skin tone, light skin tone',
+        ':women_holding_hands_tone2:' => 'women holding hands: medium-light skin tone',
+        ':women_holding_hands_medium_light_skin_tone:' => 'women holding hands: medium-light skin tone',
+        ':women_holding_hands_tone3_tone1:' => 'women holding hands: medium skin tone, light skin tone',
+        ':women_holding_hands_medium_skin_tone_light_skin_tone:' => 'women holding hands: medium skin tone, light skin tone',
+        ':women_holding_hands_tone3_tone2:' => 'women holding hands: medium skin tone, medium-light skin tone',
+        ':women_holding_hands_medium_skin_tone_medium_light_skin_tone:' => 'women holding hands: medium skin tone, medium-light skin tone',
+        ':women_holding_hands_tone3:' => 'women holding hands: medium skin tone',
+        ':women_holding_hands_medium_skin_tone:' => 'women holding hands: medium skin tone',
+        ':women_holding_hands_tone4_tone1:' => 'women holding hands: medium-dark skin tone, light skin tone',
+        ':women_holding_hands_medium_dark_skin_tone_light_skin_tone:' => 'women holding hands: medium-dark skin tone, light skin tone',
+        ':women_holding_hands_tone4_tone3:' => 'women holding hands: medium-dark skin tone, medium skin tone',
+        ':women_holding_hands_medium_dark_skin_tone_medium_skin_tone:' => 'women holding hands: medium-dark skin tone, medium skin tone',
+        ':women_holding_hands_tone4:' => 'women holding hands: medium-dark skin tone',
+        ':women_holding_hands_medium_dark_skin_tone:' => 'women holding hands: medium-dark skin tone',
+        ':women_holding_hands_tone5_tone1:' => 'women holding hands: dark skin tone, light skin tone',
+        ':women_holding_hands_dark_skin_tone_light_skin_tone:' => 'women holding hands: dark skin tone, light skin tone',
+        ':women_holding_hands_tone5_tone2:' => 'women holding hands: dark skin tone, medium-light skin tone',
+        ':women_holding_hands_dark_skin_tone_medium_light_skin_tone:' => 'women holding hands: dark skin tone, medium-light skin tone',
+        ':women_holding_hands_tone5_tone3:' => 'women holding hands: dark skin tone, medium skin tone',
+        ':women_holding_hands_dark_skin_tone_medium_skin_tone:' => 'women holding hands: dark skin tone, medium skin tone',
+        ':women_holding_hands_tone5_tone4:' => 'women holding hands: dark skin tone, medium-dark skin tone',
+        ':women_holding_hands_dark_skin_tone_medium_dark_skin_tone:' => 'women holding hands: dark skin tone, medium-dark skin tone',
+        ':women_holding_hands_tone5:' => 'women holding hands: dark skin tone',
+        ':women_holding_hands_dark_skin_tone:' => 'women holding hands: dark skin tone',
+        ':woman_and_man_holding_hands_tone1:' => 'woman and man holding hands: light skin tone',
+        ':woman_and_man_holding_hands_light_skin_tone:' => 'woman and man holding hands: light skin tone',
+        ':woman_and_man_holding_hands_tone1_tone3:' => 'woman and man holding hands: light skin tone, medium skin tone',
+        ':woman_and_man_holding_hands_light_skin_tone_medium_skin_tone:' => 'woman and man holding hands: light skin tone, medium skin tone',
+        ':woman_and_man_holding_hands_tone1_tone5:' => 'woman and man holding hands: light skin tone, dark skin tone',
+        ':woman_and_man_holding_hands_light_skin_tone_dark_skin_tone:' => 'woman and man holding hands: light skin tone, dark skin tone',
+        ':woman_and_man_holding_hands_tone2:' => 'woman and man holding hands: medium-light skin tone',
+        ':woman_and_man_holding_hands_medium_light_skin_tone:' => 'woman and man holding hands: medium-light skin tone',
+        ':woman_and_man_holding_hands_tone3_tone1:' => 'woman and man holding hands: medium skin tone, light skin tone',
+        ':woman_and_man_holding_hands_medium_skin_tone_light_skin_tone:' => 'woman and man holding hands: medium skin tone, light skin tone',
+        ':woman_and_man_holding_hands_tone3:' => 'woman and man holding hands: medium skin tone',
+        ':woman_and_man_holding_hands_medium_skin_tone:' => 'woman and man holding hands: medium skin tone',
+        ':woman_and_man_holding_hands_tone3_tone5:' => 'woman and man holding hands: medium skin tone, dark skin tone',
+        ':woman_and_man_holding_hands_medium_skin_tone_dark_skin_tone:' => 'woman and man holding hands: medium skin tone, dark skin tone',
+        ':woman_and_man_holding_hands_tone4:' => 'woman and man holding hands: medium-dark skin tone',
+        ':woman_and_man_holding_hands_medium_dark_skin_tone:' => 'woman and man holding hands: medium-dark skin tone',
+        ':woman_and_man_holding_hands_tone5_tone1:' => 'woman and man holding hands: dark skin tone, light skin tone',
+        ':woman_and_man_holding_hands_dark_skin_tone_light_skin_tone:' => 'woman and man holding hands: dark skin tone, light skin tone',
+        ':woman_and_man_holding_hands_tone5_tone3:' => 'woman and man holding hands: dark skin tone, medium skin tone',
+        ':woman_and_man_holding_hands_dark_skin_tone_medium_skin_tone:' => 'woman and man holding hands: dark skin tone, medium skin tone',
+        ':woman_and_man_holding_hands_tone5:' => 'woman and man holding hands: dark skin tone',
+        ':woman_and_man_holding_hands_dark_skin_tone:' => 'woman and man holding hands: dark skin tone',
+        ':men_holding_hands_tone1:' => 'men holding hands: light skin tone',
+        ':men_holding_hands_light_skin_tone:' => 'men holding hands: light skin tone',
+        ':men_holding_hands_tone2_tone1:' => 'men holding hands: medium-light skin tone, light skin tone',
+        ':men_holding_hands_medium_light_skin_tone_light_skin_tone:' => 'men holding hands: medium-light skin tone, light skin tone',
+        ':men_holding_hands_tone2:' => 'men holding hands: medium-light skin tone',
+        ':men_holding_hands_medium_light_skin_tone:' => 'men holding hands: medium-light skin tone',
+        ':men_holding_hands_tone3_tone1:' => 'men holding hands: medium skin tone, light skin tone',
+        ':men_holding_hands_medium_skin_tone_light_skin_tone:' => 'men holding hands: medium skin tone, light skin tone',
+        ':men_holding_hands_tone3_tone2:' => 'men holding hands: medium skin tone, medium-light skin tone',
+        ':men_holding_hands_medium_skin_tone_medium_light_skin_tone:' => 'men holding hands: medium skin tone, medium-light skin tone',
+        ':men_holding_hands_tone3:' => 'men holding hands: medium skin tone',
+        ':men_holding_hands_medium_skin_tone:' => 'men holding hands: medium skin tone',
+        ':men_holding_hands_tone4_tone1:' => 'men holding hands: medium-dark skin tone, light skin tone',
+        ':men_holding_hands_medium_dark_skin_tone_light_skin_tone:' => 'men holding hands: medium-dark skin tone, light skin tone',
+        ':men_holding_hands_tone4_tone3:' => 'men holding hands: medium-dark skin tone, medium skin tone',
+        ':men_holding_hands_medium_dark_skin_tone_medium_skin_tone:' => 'men holding hands: medium-dark skin tone, medium skin tone',
+        ':men_holding_hands_tone4:' => 'men holding hands: medium-dark skin tone',
+        ':men_holding_hands_medium_dark_skin_tone:' => 'men holding hands: medium-dark skin tone',
+        ':men_holding_hands_tone5_tone1:' => 'men holding hands: dark skin tone, light skin tone',
+        ':men_holding_hands_dark_skin_tone_light_skin_tone:' => 'men holding hands: dark skin tone, light skin tone',
+        ':men_holding_hands_tone5_tone2:' => 'men holding hands: dark skin tone, medium-light skin tone',
+        ':men_holding_hands_dark_skin_tone_medium_light_skin_tone:' => 'men holding hands: dark skin tone, medium-light skin tone',
+        ':men_holding_hands_tone5_tone3:' => 'men holding hands: dark skin tone, medium skin tone',
+        ':men_holding_hands_dark_skin_tone_medium_skin_tone:' => 'men holding hands: dark skin tone, medium skin tone',
+        ':men_holding_hands_tone5_tone4:' => 'men holding hands: dark skin tone, medium-dark skin tone',
+        ':men_holding_hands_dark_skin_tone_medium_dark_skin_tone:' => 'men holding hands: dark skin tone, medium-dark skin tone',
+        ':men_holding_hands_tone5:' => 'men holding hands: dark skin tone',
+        ':men_holding_hands_dark_skin_tone:' => 'men holding hands: dark skin tone',
         ':speaking_head:' => 'speaking head',
         ':speaking_head_in_silhouette:' => 'speaking head',
         ':bust_in_silhouette:' => 'bust in silhouette',
         ':busts_in_silhouette:' => 'busts in silhouette',
         ':footprints:' => 'footprints',
+        ':red_haired:' => 'red hair',
+        ':curly_haired:' => 'curly hair',
+        ':white_haired:' => 'white hair',
         ':bald:' => 'bald',
         ':tone1:' => 'light skin tone',
         ':tone2:' => 'medium-light skin tone',
@@ -15346,17 +15680,27 @@ class EmojiTable
         ':monkey_face:' => 'monkey face',
         ':monkey:' => 'monkey',
         ':gorilla:' => 'gorilla',
+        ':orangutan:' => 'orangutan',
         ':dog:' => 'dog face',
         ':dog2:' => 'dog',
+        ':guide_dog:' => 'guide dog',
+        ':service_dog:' => 'service dog',
         ':poodle:' => 'poodle',
+        ':wolf:' => 'wolf',
+        ':fox:' => 'fox',
+        ':fox_face:' => 'fox',
         ':raccoon:' => 'raccoon',
         ':cat:' => 'cat face',
         ':cat2:' => 'cat',
+        ':lion_face:' => 'lion',
+        ':lion:' => 'lion',
         ':tiger:' => 'tiger face',
         ':tiger2:' => 'tiger',
         ':leopard:' => 'leopard',
         ':horse:' => 'horse face',
         ':racehorse:' => 'horse',
+        ':unicorn:' => 'unicorn',
+        ':unicorn_face:' => 'unicorn',
         ':zebra:' => 'zebra',
         ':deer:' => 'deer',
         ':cow:' => 'cow face',
@@ -15381,12 +15725,18 @@ class EmojiTable
         ':mouse:' => 'mouse face',
         ':mouse2:' => 'mouse',
         ':rat:' => 'rat',
+        ':hamster:' => 'hamster',
         ':rabbit:' => 'rabbit face',
         ':rabbit2:' => 'rabbit',
         ':chipmunk:' => 'chipmunk',
         ':hedgehog:' => 'hedgehog',
         ':bat:' => 'bat',
+        ':bear:' => 'bear',
         ':koala:' => 'koala',
+        ':panda_face:' => 'panda',
+        ':sloth:' => 'sloth',
+        ':otter:' => 'otter',
+        ':skunk:' => 'skunk',
         ':kangaroo:' => 'kangaroo',
         ':badger:' => 'badger',
         ':feet:' => 'paw prints',
@@ -15405,8 +15755,10 @@ class EmojiTable
         ':duck:' => 'duck',
         ':swan:' => 'swan',
         ':owl:' => 'owl',
+        ':flamingo:' => 'flamingo',
         ':peacock:' => 'peacock',
         ':parrot:' => 'parrot',
+        ':frog:' => 'frog',
         ':crocodile:' => 'crocodile',
         ':turtle:' => 'turtle',
         ':lizard:' => 'lizard',
@@ -15486,6 +15838,8 @@ class EmojiTable
         ':cucumber:' => 'cucumber',
         ':leafy_green:' => 'leafy green',
         ':broccoli:' => 'broccoli',
+        ':garlic:' => 'garlic',
+        ':onion:' => 'onion',
         ':mushroom:' => 'mushroom',
         ':peanuts:' => 'peanuts',
         ':shelled_peanut:' => 'peanuts',
@@ -15497,6 +15851,7 @@ class EmojiTable
         ':pretzel:' => 'pretzel',
         ':bagel:' => 'bagel',
         ':pancakes:' => 'pancakes',
+        ':waffle:' => 'waffle',
         ':cheese:' => 'cheese wedge',
         ':cheese_wedge:' => 'cheese wedge',
         ':meat_on_bone:' => 'meat on bone',
@@ -15513,6 +15868,7 @@ class EmojiTable
         ':burrito:' => 'burrito',
         ':stuffed_flatbread:' => 'stuffed flatbread',
         ':stuffed_pita:' => 'stuffed flatbread',
+        ':falafel:' => 'falafel',
         ':egg:' => 'egg',
         ':cooking:' => 'cooking',
         ':shallow_pan_of_food:' => 'shallow pan of food',
@@ -15522,6 +15878,7 @@ class EmojiTable
         ':salad:' => 'green salad',
         ':green_salad:' => 'green salad',
         ':popcorn:' => 'popcorn',
+        ':butter:' => 'butter',
         ':salt:' => 'salt',
         ':canned_food:' => 'canned food',
         ':bento:' => 'bento box',
@@ -15545,6 +15902,7 @@ class EmojiTable
         ':lobster:' => 'lobster',
         ':shrimp:' => 'shrimp',
         ':squid:' => 'squid',
+        ':oyster:' => 'oyster',
         ':icecream:' => 'soft ice cream',
         ':shaved_ice:' => 'shaved ice',
         ':ice_cream:' => 'ice cream',
@@ -15579,6 +15937,8 @@ class EmojiTable
         ':tumbler_glass:' => 'tumbler glass',
         ':whisky:' => 'tumbler glass',
         ':cup_with_straw:' => 'cup with straw',
+        ':beverage_box:' => 'beverage box',
+        ':mate:' => 'mate',
         ':chopsticks:' => 'chopsticks',
         ':fork_knife_plate:' => 'fork and knife with plate',
         ':fork_and_knife_with_plate:' => 'fork and knife with plate',
@@ -15611,6 +15971,7 @@ class EmojiTable
         ':classical_building:' => 'classical building',
         ':construction_site:' => 'building construction',
         ':building_construction:' => 'building construction',
+        ':bricks:' => 'brick',
         ':homes:' => 'houses',
         ':house_buildings:' => 'houses',
         ':house_abandoned:' => 'derelict house',
@@ -15635,6 +15996,7 @@ class EmojiTable
         ':statue_of_liberty:' => 'Statue of Liberty',
         ':church:' => 'church',
         ':mosque:' => 'mosque',
+        ':hindu_temple:' => 'hindu temple',
         ':synagogue:' => 'synagogue',
         ':shinto_shrine:' => 'shinto shrine',
         ':kaaba:' => 'kaaba',
@@ -15689,6 +16051,9 @@ class EmojiTable
         ':racing_motorcycle:' => 'motorcycle',
         ':motor_scooter:' => 'motor scooter',
         ':motorbike:' => 'motor scooter',
+        ':manual_wheelchair:' => 'manual wheelchair',
+        ':motorized_wheelchair:' => 'motorized wheelchair',
+        ':auto_rickshaw:' => 'auto rickshaw',
         ':bike:' => 'bicycle',
         ':scooter:' => 'kick scooter',
         ':skateboard:' => 'skateboard',
@@ -15720,6 +16085,7 @@ class EmojiTable
         ':small_airplane:' => 'small airplane',
         ':airplane_departure:' => 'airplane departure',
         ':airplane_arriving:' => 'airplane arrival',
+        ':parachute:' => 'parachute',
         ':seat:' => 'seat',
         ':helicopter:' => 'helicopter',
         ':suspension_railway:' => 'suspension railway',
@@ -15780,6 +16146,7 @@ class EmojiTable
         ':sunny:' => 'sun',
         ':full_moon_with_face:' => 'full moon face',
         ':sun_with_face:' => 'sun with face',
+        ':ringed_planet:' => 'ringed planet',
         ':star:' => 'star',
         ':star2:' => 'glowing star',
         ':stars:' => 'shooting star',
@@ -15879,11 +16246,14 @@ class EmojiTable
         ':golf:' => 'flag in hole',
         ':ice_skate:' => 'ice skate',
         ':fishing_pole_and_fish:' => 'fishing pole',
+        ':diving_mask:' => 'diving mask',
         ':running_shirt_with_sash:' => 'running shirt',
         ':ski:' => 'skis',
         ':sled:' => 'sled',
         ':curling_stone:' => 'curling stone',
         ':dart:' => 'direct hit',
+        ':yo_yo:' => 'yo-yo',
+        ':kite:' => 'kite',
         ':8ball:' => 'pool 8 ball',
         ':crystal_ball:' => 'crystal ball',
         ':nazar_amulet:' => 'nazar amulet',
@@ -15891,6 +16261,7 @@ class EmojiTable
         ':joystick:' => 'joystick',
         ':slot_machine:' => 'slot machine',
         ':game_die:' => 'game die',
+        ':jigsaw:' => 'puzzle piece',
         ':teddy_bear:' => 'teddy bear',
         ':spades:' => 'spade suit',
         ':hearts:' => 'heart suit',
@@ -15910,6 +16281,7 @@ class EmojiTable
         ':dark_sunglasses:' => 'sunglasses',
         ':goggles:' => 'goggles',
         ':lab_coat:' => 'lab coat',
+        ':safety_vest:' => 'safety vest',
         ':necktie:' => 'necktie',
         ':shirt:' => 't-shirt',
         ':jeans:' => 'jeans',
@@ -15919,17 +16291,24 @@ class EmojiTable
         ':socks:' => 'socks',
         ':dress:' => 'dress',
         ':kimono:' => 'kimono',
+        ':sari:' => 'sari',
+        ':one_piece_swimsuit:' => 'one-piece swimsuit',
+        ':briefs:' => 'briefs',
+        ':shorts:' => 'shorts',
         ':bikini:' => 'bikini',
         ':womans_clothes:' => 'woman’s clothes',
         ':purse:' => 'purse',
         ':handbag:' => 'handbag',
         ':pouch:' => 'clutch bag',
         ':shopping_bags:' => 'shopping bags',
+        ':school_satchel:' => 'backpack',
         ':mans_shoe:' => 'man’s shoe',
         ':athletic_shoe:' => 'running shoe',
         ':hiking_boot:' => 'hiking boot',
+        ':womans_flat_shoe:' => 'flat shoe',
         ':high_heel:' => 'high-heeled shoe',
         ':sandal:' => 'woman’s sandal',
+        ':ballet_shoes:' => 'ballet shoes',
         ':boot:' => 'woman’s boot',
         ':crown:' => 'crown',
         ':womans_hat:' => 'woman’s hat',
@@ -15966,6 +16345,7 @@ class EmojiTable
         ':musical_keyboard:' => 'musical keyboard',
         ':trumpet:' => 'trumpet',
         ':violin:' => 'violin',
+        ':banjo:' => 'banjo',
         ':drum:' => 'drum',
         ':drum_with_drumsticks:' => 'drum',
         ':iphone:' => 'mobile phone',
@@ -16004,6 +16384,7 @@ class EmojiTable
         ':bulb:' => 'light bulb',
         ':flashlight:' => 'flashlight',
         ':izakaya_lantern:' => 'red paper lantern',
+        ':diya_lamp:' => 'diya lamp',
         ':notebook_with_decorative_cover:' => 'notebook with decorative cover',
         ':closed_book:' => 'closed book',
         ':book:' => 'open book',
@@ -16096,6 +16477,7 @@ class EmojiTable
         ':key2:' => 'old key',
         ':old_key:' => 'old key',
         ':hammer:' => 'hammer',
+        ':axe:' => 'axe',
         ':pick:' => 'pick',
         ':hammer_pick:' => 'hammer and pick',
         ':hammer_and_pick:' => 'hammer and pick',
@@ -16113,6 +16495,7 @@ class EmojiTable
         ':gear:' => 'gear',
         ':compression:' => 'clamp',
         ':scales:' => 'balance scale',
+        ':probing_cane:' => 'probing cane',
         ':link:' => 'link',
         ':chains:' => 'chains',
         ':toolbox:' => 'toolbox',
@@ -16125,14 +16508,20 @@ class EmojiTable
         ':telescope:' => 'telescope',
         ':satellite:' => 'satellite antenna',
         ':syringe:' => 'syringe',
+        ':drop_of_blood:' => 'drop of blood',
         ':pill:' => 'pill',
+        ':adhesive_bandage:' => 'adhesive bandage',
+        ':stethoscope:' => 'stethoscope',
         ':door:' => 'door',
         ':bed:' => 'bed',
         ':couch:' => 'couch and lamp',
         ':couch_and_lamp:' => 'couch and lamp',
+        ':chair:' => 'chair',
         ':toilet:' => 'toilet',
         ':shower:' => 'shower',
         ':bathtub:' => 'bathtub',
+        ':razor:' => 'razor',
+        ':squeeze_bottle:' => 'lotion bottle',
         ':safety_pin:' => 'safety pin',
         ':broom:' => 'broom',
         ':basket:' => 'basket',
@@ -16262,8 +16651,16 @@ class EmojiTable
         ':trident:' => 'trident emblem',
         ':name_badge:' => 'name badge',
         ':beginner:' => 'Japanese symbol for beginner',
+        ':o:' => 'hollow red circle',
+        ':white_check_mark:' => 'check mark button',
+        ':ballot_box_with_check:' => 'check box with check',
+        ':heavy_check_mark:' => 'check mark',
+        ':heavy_multiplication_x:' => 'multiplication sign',
         ':x:' => 'cross mark',
         ':negative_squared_cross_mark:' => 'cross mark button',
+        ':heavy_plus_sign:' => 'plus sign',
+        ':heavy_minus_sign:' => 'minus sign',
+        ':heavy_division_sign:' => 'division sign',
         ':curly_loop:' => 'curly loop',
         ':loop:' => 'double curly loop',
         ':part_alternation_mark:' => 'part alternation mark',
@@ -16334,9 +16731,21 @@ class EmojiTable
         ':u55b6:' => 'Japanese “open for business” button',
         ':u6e80:' => 'Japanese “no vacancy” button',
         ':red_circle:' => 'red circle',
+        ':orange_circle:' => 'orange circle',
+        ':yellow_circle:' => 'yellow circle',
+        ':green_circle:' => 'green circle',
         ':blue_circle:' => 'blue circle',
+        ':purple_circle:' => 'purple circle',
+        ':brown_circle:' => 'brown circle',
         ':black_circle:' => 'black circle',
         ':white_circle:' => 'white circle',
+        ':red_square:' => 'red square',
+        ':orange_square:' => 'orange square',
+        ':yellow_square:' => 'yellow square',
+        ':green_square:' => 'green square',
+        ':blue_square:' => 'blue square',
+        ':purple_square:' => 'purple square',
+        ':brown_square:' => 'brown square',
         ':black_large_square:' => 'black large square',
         ':white_large_square:' => 'white large square',
         ':black_medium_square:' => 'black medium square',
@@ -16669,6 +17078,8 @@ class EmojiTable
         ':mm:' => 'flag: Myanmar (Burma)',
         ':flag_mn:' => 'flag: Mongolia',
         ':mn:' => 'flag: Mongolia',
+        ':flag_mo:' => 'flag: Macao SAR China',
+        ':mo:' => 'flag: Macao SAR China',
         ':flag_mp:' => 'flag: Northern Mariana Islands',
         ':mp:' => 'flag: Northern Mariana Islands',
         ':flag_mq:' => 'flag: Martinique',
@@ -16798,6 +17209,8 @@ class EmojiTable
         ':sx:' => 'flag: Sint Maarten',
         ':flag_sy:' => 'flag: Syria',
         ':sy:' => 'flag: Syria',
+        ':flag_sz:' => 'flag: Eswatini',
+        ':sz:' => 'flag: Eswatini',
         ':flag_ta:' => 'flag: Tristan da Cunha',
         ':ta:' => 'flag: Tristan da Cunha',
         ':flag_tc:' => 'flag: Turks & Caicos Islands',
@@ -16892,13 +17305,13 @@ class EmojiTable
         'U+1F603' => [
             'grinning face with big eyes',
             ':smiley:',
-            ':D',
             ':-D',
             '=D',
         ],
         'U+1F604' => [
             'grinning face with smiling eyes',
             ':smile:',
+            ':D',
         ],
         'U+1F601' => [
             'beaming face with smiling eyes',
@@ -16983,6 +17396,7 @@ class EmojiTable
         ],
         'U+1F970' => [
             'smiling face with hearts',
+            ':smiling_face_with_3_hearts:',
         ],
         'U+1F60D' => [
             'smiling face with heart-eyes',
@@ -17350,6 +17764,7 @@ class EmojiTable
         ],
         'U+1F971' => [
             'yawning face',
+            ':yawning_face:',
         ],
         'U+1F624' => [
             'face with steam from nose',
@@ -17422,33 +17837,44 @@ class EmojiTable
         ],
         'U+1F916' => [
             'robot',
+            ':robot:',
+            ':robot_face:',
         ],
         'U+1F63A' => [
             'grinning cat',
+            ':smiley_cat:',
         ],
         'U+1F638' => [
             'grinning cat with smiling eyes',
+            ':smile_cat:',
         ],
         'U+1F639' => [
             'cat with tears of joy',
+            ':joy_cat:',
         ],
         'U+1F63B' => [
             'smiling cat with heart-eyes',
+            ':heart_eyes_cat:',
         ],
         'U+1F63C' => [
             'cat with wry smile',
+            ':smirk_cat:',
         ],
         'U+1F63D' => [
             'kissing cat',
+            ':kissing_cat:',
         ],
         'U+1F640' => [
             'weary cat',
+            ':scream_cat:',
         ],
         'U+1F63F' => [
             'crying cat',
+            ':crying_cat_face:',
         ],
         'U+1F63E' => [
             'pouting cat',
+            ':pouting_cat:',
         ],
         'U+1F648' => [
             'see-no-evil monkey',
@@ -17504,6 +17930,8 @@ class EmojiTable
         ],
         'U+2763' => [
             'heart exclamation',
+            ':heart_exclamation:',
+            ':heavy_heart_exclamation_mark_ornament:',
         ],
         'U+1F494' => [
             'broken heart',
@@ -17537,6 +17965,7 @@ class EmojiTable
         ],
         'U+1F90E' => [
             'brown heart',
+            ':brown_heart:',
         ],
         'U+1F5A4' => [
             'black heart',
@@ -17544,6 +17973,7 @@ class EmojiTable
         ],
         'U+1F90D' => [
             'white heart',
+            ':white_heart:',
         ],
         'U+1F4AF' => [
             'hundred points',
@@ -17747,6 +18177,7 @@ class EmojiTable
         ],
         'U+1F90F' => [
             'pinching hand',
+            ':pinching_hand:',
         ],
         'U+270C' => [
             'victory hand',
@@ -17793,18 +18224,28 @@ class EmojiTable
         ],
         'U+1F90F U+1F3FB' => [
             'pinching hand: light skin tone',
+            ':pinching_hand_tone1:',
+            ':pinching_hand_light_skin_tone:',
         ],
         'U+1F90F U+1F3FC' => [
             'pinching hand: medium-light skin tone',
+            ':pinching_hand_tone2:',
+            ':pinching_hand_medium_light_skin_tone:',
         ],
         'U+1F90F U+1F3FD' => [
             'pinching hand: medium skin tone',
+            ':pinching_hand_tone3:',
+            ':pinching_hand_medium_skin_tone:',
         ],
         'U+1F90F U+1F3FE' => [
             'pinching hand: medium-dark skin tone',
+            ':pinching_hand_tone4:',
+            ':pinching_hand_medium_dark_skin_tone:',
         ],
         'U+1F90F U+1F3FF' => [
             'pinching hand: dark skin tone',
+            ':pinching_hand_tone5:',
+            ':pinching_hand_dark_skin_tone:',
         ],
         'U+270C U+1F3FB' => [
             'victory hand: light skin tone',
@@ -18465,9 +18906,11 @@ class EmojiTable
         ],
         'U+1F9BE' => [
             'mechanical arm',
+            ':mechanical_arm:',
         ],
         'U+1F9BF' => [
             'mechanical leg',
+            ':mechanical_leg:',
         ],
         'U+1F9B5' => [
             'leg',
@@ -18483,6 +18926,7 @@ class EmojiTable
         ],
         'U+1F9BB' => [
             'ear with hearing aid',
+            ':ear_with_hearing_aid:',
         ],
         'U+1F443' => [
             'nose',
@@ -18608,18 +19052,28 @@ class EmojiTable
         ],
         'U+1F9BB U+1F3FB' => [
             'ear with hearing aid: light skin tone',
+            ':ear_with_hearing_aid_tone1:',
+            ':ear_with_hearing_aid_light_skin_tone:',
         ],
         'U+1F9BB U+1F3FC' => [
             'ear with hearing aid: medium-light skin tone',
+            ':ear_with_hearing_aid_tone2:',
+            ':ear_with_hearing_aid_medium_light_skin_tone:',
         ],
         'U+1F9BB U+1F3FD' => [
             'ear with hearing aid: medium skin tone',
+            ':ear_with_hearing_aid_tone3:',
+            ':ear_with_hearing_aid_medium_skin_tone:',
         ],
         'U+1F9BB U+1F3FE' => [
             'ear with hearing aid: medium-dark skin tone',
+            ':ear_with_hearing_aid_tone4:',
+            ':ear_with_hearing_aid_medium_dark_skin_tone:',
         ],
         'U+1F9BB U+1F3FF' => [
             'ear with hearing aid: dark skin tone',
+            ':ear_with_hearing_aid_tone5:',
+            ':ear_with_hearing_aid_dark_skin_tone:',
         ],
         'U+1F443 U+1F3FB' => [
             'nose: light skin tone',
@@ -18659,9 +19113,12 @@ class EmojiTable
         ],
         'U+1F9D1' => [
             'person',
+            ':adult:',
         ],
         'U+1F471' => [
             'person: blond hair',
+            ':blond_haired_person:',
+            ':person_with_blond_hair:',
         ],
         'U+1F468' => [
             'man',
@@ -18669,18 +19126,23 @@ class EmojiTable
         ],
         'U+1F9D4' => [
             'man: beard',
+            ':bearded_person:',
         ],
         'U+1F468 U+200D U+1F9B0' => [
             'man: red hair',
+            ':man_red_haired:',
         ],
         'U+1F468 U+200D U+1F9B1' => [
             'man: curly hair',
+            ':man_curly_haired:',
         ],
         'U+1F468 U+200D U+1F9B3' => [
             'man: white hair',
+            ':man_white_haired:',
         ],
         'U+1F468 U+200D U+1F9B2' => [
             'man: bald',
+            ':man_bald:',
         ],
         'U+1F469' => [
             'woman',
@@ -18688,36 +19150,43 @@ class EmojiTable
         ],
         'U+1F469 U+200D U+1F9B0' => [
             'woman: red hair',
+            ':woman_red_haired:',
         ],
         'U+1F9D1 U+200D U+1F9B0' => [
             '⊛ person: red hair',
         ],
         'U+1F469 U+200D U+1F9B1' => [
             'woman: curly hair',
+            ':woman_curly_haired:',
         ],
         'U+1F9D1 U+200D U+1F9B1' => [
             '⊛ person: curly hair',
         ],
         'U+1F469 U+200D U+1F9B3' => [
             'woman: white hair',
+            ':woman_white_haired:',
         ],
         'U+1F9D1 U+200D U+1F9B3' => [
             '⊛ person: white hair',
         ],
         'U+1F469 U+200D U+1F9B2' => [
             'woman: bald',
+            ':woman_bald:',
         ],
         'U+1F9D1 U+200D U+1F9B2' => [
             '⊛ person: bald',
         ],
         'U+1F471 U+200D U+2640 U+FE0F' => [
             'woman: blond hair',
+            ':blond-haired_woman:',
         ],
         'U+1F471 U+200D U+2642 U+FE0F' => [
             'man: blond hair',
+            ':blond-haired_man:',
         ],
         'U+1F9D3' => [
             'older person',
+            ':older_adult:',
         ],
         'U+1F474' => [
             'old man',
@@ -19251,12 +19720,15 @@ class EmojiTable
         ],
         'U+1F9CF' => [
             'deaf person',
+            ':deaf_person:',
         ],
         'U+1F9CF U+200D U+2642 U+FE0F' => [
             'deaf man',
+            ':deaf_man:',
         ],
         'U+1F9CF U+200D U+2640 U+FE0F' => [
             'deaf woman',
+            ':deaf_woman:',
         ],
         'U+1F647' => [
             'person bowing',
@@ -19745,48 +20217,78 @@ class EmojiTable
         ],
         'U+1F9CF U+1F3FB' => [
             'deaf person: light skin tone',
+            ':deaf_person_tone1:',
+            ':deaf_person_light_skin_tone:',
         ],
         'U+1F9CF U+1F3FC' => [
             'deaf person: medium-light skin tone',
+            ':deaf_person_tone2:',
+            ':deaf_person_medium_light_skin_tone:',
         ],
         'U+1F9CF U+1F3FD' => [
             'deaf person: medium skin tone',
+            ':deaf_person_tone3:',
+            ':deaf_person_medium_skin_tone:',
         ],
         'U+1F9CF U+1F3FE' => [
             'deaf person: medium-dark skin tone',
+            ':deaf_person_tone4:',
+            ':deaf_person_medium_dark_skin_tone:',
         ],
         'U+1F9CF U+1F3FF' => [
             'deaf person: dark skin tone',
+            ':deaf_person_tone5:',
+            ':deaf_person_dark_skin_tone:',
         ],
         'U+1F9CF U+1F3FB U+200D U+2642 U+FE0F' => [
             'deaf man: light skin tone',
+            ':deaf_man_tone1:',
+            ':deaf_man_light_skin_tone:',
         ],
         'U+1F9CF U+1F3FC U+200D U+2642 U+FE0F' => [
             'deaf man: medium-light skin tone',
+            ':deaf_man_tone2:',
+            ':deaf_man_medium_light_skin_tone:',
         ],
         'U+1F9CF U+1F3FD U+200D U+2642 U+FE0F' => [
             'deaf man: medium skin tone',
+            ':deaf_man_tone3:',
+            ':deaf_man_medium_skin_tone:',
         ],
         'U+1F9CF U+1F3FE U+200D U+2642 U+FE0F' => [
             'deaf man: medium-dark skin tone',
+            ':deaf_man_tone4:',
+            ':deaf_man_medium_dark_skin_tone:',
         ],
         'U+1F9CF U+1F3FF U+200D U+2642 U+FE0F' => [
             'deaf man: dark skin tone',
+            ':deaf_man_tone5:',
+            ':deaf_man_dark_skin_tone:',
         ],
         'U+1F9CF U+1F3FB U+200D U+2640 U+FE0F' => [
             'deaf woman: light skin tone',
+            ':deaf_woman_tone1:',
+            ':deaf_woman_light_skin_tone:',
         ],
         'U+1F9CF U+1F3FC U+200D U+2640 U+FE0F' => [
             'deaf woman: medium-light skin tone',
+            ':deaf_woman_tone2:',
+            ':deaf_woman_medium_light_skin_tone:',
         ],
         'U+1F9CF U+1F3FD U+200D U+2640 U+FE0F' => [
             'deaf woman: medium skin tone',
+            ':deaf_woman_tone3:',
+            ':deaf_woman_medium_skin_tone:',
         ],
         'U+1F9CF U+1F3FE U+200D U+2640 U+FE0F' => [
             'deaf woman: medium-dark skin tone',
+            ':deaf_woman_tone4:',
+            ':deaf_woman_medium_dark_skin_tone:',
         ],
         'U+1F9CF U+1F3FF U+200D U+2640 U+FE0F' => [
             'deaf woman: dark skin tone',
+            ':deaf_woman_tone5:',
+            ':deaf_woman_dark_skin_tone:',
         ],
         'U+1F647 U+1F3FB' => [
             'person bowing: light skin tone',
@@ -22618,48 +23120,60 @@ class EmojiTable
         ],
         'U+1F9CD' => [
             'person standing',
+            ':person_standing:',
         ],
         'U+1F9CD U+200D U+2642 U+FE0F' => [
             'man standing',
+            ':man_standing:',
         ],
         'U+1F9CD U+200D U+2640 U+FE0F' => [
             'woman standing',
+            ':woman_standing:',
         ],
         'U+1F9CE' => [
             'person kneeling',
+            ':person_kneeling:',
         ],
         'U+1F9CE U+200D U+2642 U+FE0F' => [
             'man kneeling',
+            ':man_kneeling:',
         ],
         'U+1F9CE U+200D U+2640 U+FE0F' => [
             'woman kneeling',
+            ':woman_kneeling:',
         ],
         'U+1F9D1 U+200D U+1F9AF' => [
             '⊛ person with probing cane',
         ],
         'U+1F468 U+200D U+1F9AF' => [
             'man with probing cane',
+            ':man_with_probing_cane:',
         ],
         'U+1F469 U+200D U+1F9AF' => [
             'woman with probing cane',
+            ':woman_with_probing_cane:',
         ],
         'U+1F9D1 U+200D U+1F9BC' => [
             '⊛ person in motorized wheelchair',
         ],
         'U+1F468 U+200D U+1F9BC' => [
             'man in motorized wheelchair',
+            ':man_in_motorized_wheelchair:',
         ],
         'U+1F469 U+200D U+1F9BC' => [
             'woman in motorized wheelchair',
+            ':woman_in_motorized_wheelchair:',
         ],
         'U+1F9D1 U+200D U+1F9BD' => [
             '⊛ person in manual wheelchair',
         ],
         'U+1F468 U+200D U+1F9BD' => [
             'man in manual wheelchair',
+            ':man_in_manual_wheelchair:',
         ],
         'U+1F469 U+200D U+1F9BD' => [
             'woman in manual wheelchair',
+            ':woman_in_manual_wheelchair:',
         ],
         'U+1F3C3' => [
             'person running',
@@ -22952,93 +23466,153 @@ class EmojiTable
         ],
         'U+1F9CD U+1F3FB' => [
             'person standing: light skin tone',
+            ':person_standing_tone1:',
+            ':person_standing_light_skin_tone:',
         ],
         'U+1F9CD U+1F3FC' => [
             'person standing: medium-light skin tone',
+            ':person_standing_tone2:',
+            ':person_standing_medium_light_skin_tone:',
         ],
         'U+1F9CD U+1F3FD' => [
             'person standing: medium skin tone',
+            ':person_standing_tone3:',
+            ':person_standing_medium_skin_tone:',
         ],
         'U+1F9CD U+1F3FE' => [
             'person standing: medium-dark skin tone',
+            ':person_standing_tone4:',
+            ':person_standing_medium_dark_skin_tone:',
         ],
         'U+1F9CD U+1F3FF' => [
             'person standing: dark skin tone',
+            ':person_standing_tone5:',
+            ':person_standing_dark_skin_tone:',
         ],
         'U+1F9CD U+1F3FB U+200D U+2642 U+FE0F' => [
             'man standing: light skin tone',
+            ':man_standing_tone1:',
+            ':man_standing_light_skin_tone:',
         ],
         'U+1F9CD U+1F3FC U+200D U+2642 U+FE0F' => [
             'man standing: medium-light skin tone',
+            ':man_standing_tone2:',
+            ':man_standing_medium_light_skin_tone:',
         ],
         'U+1F9CD U+1F3FD U+200D U+2642 U+FE0F' => [
             'man standing: medium skin tone',
+            ':man_standing_tone3:',
+            ':man_standing_medium_skin_tone:',
         ],
         'U+1F9CD U+1F3FE U+200D U+2642 U+FE0F' => [
             'man standing: medium-dark skin tone',
+            ':man_standing_tone4:',
+            ':man_standing_medium_dark_skin_tone:',
         ],
         'U+1F9CD U+1F3FF U+200D U+2642 U+FE0F' => [
             'man standing: dark skin tone',
+            ':man_standing_tone5:',
+            ':man_standing_dark_skin_tone:',
         ],
         'U+1F9CD U+1F3FB U+200D U+2640 U+FE0F' => [
             'woman standing: light skin tone',
+            ':woman_standing_tone1:',
+            ':woman_standing_light_skin_tone:',
         ],
         'U+1F9CD U+1F3FC U+200D U+2640 U+FE0F' => [
             'woman standing: medium-light skin tone',
+            ':woman_standing_tone2:',
+            ':woman_standing_medium_light_skin_tone:',
         ],
         'U+1F9CD U+1F3FD U+200D U+2640 U+FE0F' => [
             'woman standing: medium skin tone',
+            ':woman_standing_tone3:',
+            ':woman_standing_medium_skin_tone:',
         ],
         'U+1F9CD U+1F3FE U+200D U+2640 U+FE0F' => [
             'woman standing: medium-dark skin tone',
+            ':woman_standing_tone4:',
+            ':woman_standing_medium_dark_skin_tone:',
         ],
         'U+1F9CD U+1F3FF U+200D U+2640 U+FE0F' => [
             'woman standing: dark skin tone',
+            ':woman_standing_tone5:',
+            ':woman_standing_dark_skin_tone:',
         ],
         'U+1F9CE U+1F3FB' => [
             'person kneeling: light skin tone',
+            ':person_kneeling_tone1:',
+            ':person_kneeling_light_skin_tone:',
         ],
         'U+1F9CE U+1F3FC' => [
             'person kneeling: medium-light skin tone',
+            ':person_kneeling_tone2:',
+            ':person_kneeling_medium_light_skin_tone:',
         ],
         'U+1F9CE U+1F3FD' => [
             'person kneeling: medium skin tone',
+            ':person_kneeling_tone3:',
+            ':person_kneeling_medium_skin_tone:',
         ],
         'U+1F9CE U+1F3FE' => [
             'person kneeling: medium-dark skin tone',
+            ':person_kneeling_tone4:',
+            ':person_kneeling_medium_dark_skin_tone:',
         ],
         'U+1F9CE U+1F3FF' => [
             'person kneeling: dark skin tone',
+            ':person_kneeling_tone5:',
+            ':person_kneeling_dark_skin_tone:',
         ],
         'U+1F9CE U+1F3FB U+200D U+2642 U+FE0F' => [
             'man kneeling: light skin tone',
+            ':man_kneeling_tone1:',
+            ':man_kneeling_light_skin_tone:',
         ],
         'U+1F9CE U+1F3FC U+200D U+2642 U+FE0F' => [
             'man kneeling: medium-light skin tone',
+            ':man_kneeling_tone2:',
+            ':man_kneeling_medium_light_skin_tone:',
         ],
         'U+1F9CE U+1F3FD U+200D U+2642 U+FE0F' => [
             'man kneeling: medium skin tone',
+            ':man_kneeling_tone3:',
+            ':man_kneeling_medium_skin_tone:',
         ],
         'U+1F9CE U+1F3FE U+200D U+2642 U+FE0F' => [
             'man kneeling: medium-dark skin tone',
+            ':man_kneeling_tone4:',
+            ':man_kneeling_medium_dark_skin_tone:',
         ],
         'U+1F9CE U+1F3FF U+200D U+2642 U+FE0F' => [
             'man kneeling: dark skin tone',
+            ':man_kneeling_tone5:',
+            ':man_kneeling_dark_skin_tone:',
         ],
         'U+1F9CE U+1F3FB U+200D U+2640 U+FE0F' => [
             'woman kneeling: light skin tone',
+            ':woman_kneeling_tone1:',
+            ':woman_kneeling_light_skin_tone:',
         ],
         'U+1F9CE U+1F3FC U+200D U+2640 U+FE0F' => [
             'woman kneeling: medium-light skin tone',
+            ':woman_kneeling_tone2:',
+            ':woman_kneeling_medium_light_skin_tone:',
         ],
         'U+1F9CE U+1F3FD U+200D U+2640 U+FE0F' => [
             'woman kneeling: medium skin tone',
+            ':woman_kneeling_tone3:',
+            ':woman_kneeling_medium_skin_tone:',
         ],
         'U+1F9CE U+1F3FE U+200D U+2640 U+FE0F' => [
             'woman kneeling: medium-dark skin tone',
+            ':woman_kneeling_tone4:',
+            ':woman_kneeling_medium_dark_skin_tone:',
         ],
         'U+1F9CE U+1F3FF U+200D U+2640 U+FE0F' => [
             'woman kneeling: dark skin tone',
+            ':woman_kneeling_tone5:',
+            ':woman_kneeling_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F9AF' => [
             '⊛ person with probing cane: light skin tone',
@@ -23057,33 +23631,53 @@ class EmojiTable
         ],
         'U+1F468 U+1F3FB U+200D U+1F9AF' => [
             'man with probing cane: light skin tone',
+            ':man_with_probing_cane_tone1:',
+            ':man_with_probing_cane_light_skin_tone:',
         ],
         'U+1F468 U+1F3FC U+200D U+1F9AF' => [
             'man with probing cane: medium-light skin tone',
+            ':man_with_probing_cane_tone2:',
+            ':man_with_probing_cane_medium_light_skin_tone:',
         ],
         'U+1F468 U+1F3FD U+200D U+1F9AF' => [
             'man with probing cane: medium skin tone',
+            ':man_with_probing_cane_tone3:',
+            ':man_with_probing_cane_medium_skin_tone:',
         ],
         'U+1F468 U+1F3FE U+200D U+1F9AF' => [
             'man with probing cane: medium-dark skin tone',
+            ':man_with_probing_cane_tone4:',
+            ':man_with_probing_cane_medium_dark_skin_tone:',
         ],
         'U+1F468 U+1F3FF U+200D U+1F9AF' => [
             'man with probing cane: dark skin tone',
+            ':man_with_probing_cane_tone5:',
+            ':man_with_probing_cane_dark_skin_tone:',
         ],
         'U+1F469 U+1F3FB U+200D U+1F9AF' => [
             'woman with probing cane: light skin tone',
+            ':woman_with_probing_cane_tone1:',
+            ':woman_with_probing_cane_light_skin_tone:',
         ],
         'U+1F469 U+1F3FC U+200D U+1F9AF' => [
             'woman with probing cane: medium-light skin tone',
+            ':woman_with_probing_cane_tone2:',
+            ':woman_with_probing_cane_medium_light_skin_tone:',
         ],
         'U+1F469 U+1F3FD U+200D U+1F9AF' => [
             'woman with probing cane: medium skin tone',
+            ':woman_with_probing_cane_tone3:',
+            ':woman_with_probing_cane_medium_skin_tone:',
         ],
         'U+1F469 U+1F3FE U+200D U+1F9AF' => [
             'woman with probing cane: medium-dark skin tone',
+            ':woman_with_probing_cane_tone4:',
+            ':woman_with_probing_cane_medium_dark_skin_tone:',
         ],
         'U+1F469 U+1F3FF U+200D U+1F9AF' => [
             'woman with probing cane: dark skin tone',
+            ':woman_with_probing_cane_tone5:',
+            ':woman_with_probing_cane_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F9BC' => [
             '⊛ person in motorized wheelchair: light skin tone',
@@ -23102,33 +23696,53 @@ class EmojiTable
         ],
         'U+1F468 U+1F3FB U+200D U+1F9BC' => [
             'man in motorized wheelchair: light skin tone',
+            ':man_in_motorized_wheelchair_tone1:',
+            ':man_in_motorized_wheelchair_light_skin_tone:',
         ],
         'U+1F468 U+1F3FC U+200D U+1F9BC' => [
             'man in motorized wheelchair: medium-light skin tone',
+            ':man_in_motorized_wheelchair_tone2:',
+            ':man_in_motorized_wheelchair_medium_light_skin_tone:',
         ],
         'U+1F468 U+1F3FD U+200D U+1F9BC' => [
             'man in motorized wheelchair: medium skin tone',
+            ':man_in_motorized_wheelchair_tone3:',
+            ':man_in_motorized_wheelchair_medium_skin_tone:',
         ],
         'U+1F468 U+1F3FE U+200D U+1F9BC' => [
             'man in motorized wheelchair: medium-dark skin tone',
+            ':man_in_motorized_wheelchair_tone4:',
+            ':man_in_motorized_wheelchair_medium_dark_skin_tone:',
         ],
         'U+1F468 U+1F3FF U+200D U+1F9BC' => [
             'man in motorized wheelchair: dark skin tone',
+            ':man_in_motorized_wheelchair_tone5:',
+            ':man_in_motorized_wheelchair_dark_skin_tone:',
         ],
         'U+1F469 U+1F3FB U+200D U+1F9BC' => [
             'woman in motorized wheelchair: light skin tone',
+            ':woman_in_motorized_wheelchair_tone1:',
+            ':woman_in_motorized_wheelchair_light_skin_tone:',
         ],
         'U+1F469 U+1F3FC U+200D U+1F9BC' => [
             'woman in motorized wheelchair: medium-light skin tone',
+            ':woman_in_motorized_wheelchair_tone2:',
+            ':woman_in_motorized_wheelchair_medium_light_skin_tone:',
         ],
         'U+1F469 U+1F3FD U+200D U+1F9BC' => [
             'woman in motorized wheelchair: medium skin tone',
+            ':woman_in_motorized_wheelchair_tone3:',
+            ':woman_in_motorized_wheelchair_medium_skin_tone:',
         ],
         'U+1F469 U+1F3FE U+200D U+1F9BC' => [
             'woman in motorized wheelchair: medium-dark skin tone',
+            ':woman_in_motorized_wheelchair_tone4:',
+            ':woman_in_motorized_wheelchair_medium_dark_skin_tone:',
         ],
         'U+1F469 U+1F3FF U+200D U+1F9BC' => [
             'woman in motorized wheelchair: dark skin tone',
+            ':woman_in_motorized_wheelchair_tone5:',
+            ':woman_in_motorized_wheelchair_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F9BD' => [
             '⊛ person in manual wheelchair: light skin tone',
@@ -23147,33 +23761,53 @@ class EmojiTable
         ],
         'U+1F468 U+1F3FB U+200D U+1F9BD' => [
             'man in manual wheelchair: light skin tone',
+            ':man_in_manual_wheelchair_tone1:',
+            ':man_in_manual_wheelchair_light_skin_tone:',
         ],
         'U+1F468 U+1F3FC U+200D U+1F9BD' => [
             'man in manual wheelchair: medium-light skin tone',
+            ':man_in_manual_wheelchair_tone2:',
+            ':man_in_manual_wheelchair_medium_light_skin_tone:',
         ],
         'U+1F468 U+1F3FD U+200D U+1F9BD' => [
             'man in manual wheelchair: medium skin tone',
+            ':man_in_manual_wheelchair_tone3:',
+            ':man_in_manual_wheelchair_medium_skin_tone:',
         ],
         'U+1F468 U+1F3FE U+200D U+1F9BD' => [
             'man in manual wheelchair: medium-dark skin tone',
+            ':man_in_manual_wheelchair_tone4:',
+            ':man_in_manual_wheelchair_medium_dark_skin_tone:',
         ],
         'U+1F468 U+1F3FF U+200D U+1F9BD' => [
             'man in manual wheelchair: dark skin tone',
+            ':man_in_manual_wheelchair_tone5:',
+            ':man_in_manual_wheelchair_dark_skin_tone:',
         ],
         'U+1F469 U+1F3FB U+200D U+1F9BD' => [
             'woman in manual wheelchair: light skin tone',
+            ':woman_in_manual_wheelchair_tone1:',
+            ':woman_in_manual_wheelchair_light_skin_tone:',
         ],
         'U+1F469 U+1F3FC U+200D U+1F9BD' => [
             'woman in manual wheelchair: medium-light skin tone',
+            ':woman_in_manual_wheelchair_tone2:',
+            ':woman_in_manual_wheelchair_medium_light_skin_tone:',
         ],
         'U+1F469 U+1F3FD U+200D U+1F9BD' => [
             'woman in manual wheelchair: medium skin tone',
+            ':woman_in_manual_wheelchair_tone3:',
+            ':woman_in_manual_wheelchair_medium_skin_tone:',
         ],
         'U+1F469 U+1F3FE U+200D U+1F9BD' => [
             'woman in manual wheelchair: medium-dark skin tone',
+            ':woman_in_manual_wheelchair_tone4:',
+            ':woman_in_manual_wheelchair_medium_dark_skin_tone:',
         ],
         'U+1F469 U+1F3FF U+200D U+1F9BD' => [
             'woman in manual wheelchair: dark skin tone',
+            ':woman_in_manual_wheelchair_tone5:',
+            ':woman_in_manual_wheelchair_dark_skin_tone:',
         ],
         'U+1F3C3 U+1F3FB' => [
             'person running: light skin tone',
@@ -24768,15 +25402,19 @@ class EmojiTable
         ],
         'U+1F9D1 U+200D U+1F91D U+200D U+1F9D1' => [
             'people holding hands',
+            ':people_holding_hands:',
         ],
         'U+1F46D' => [
             'women holding hands',
+            ':two_women_holding_hands:',
         ],
         'U+1F46B' => [
             'woman and man holding hands',
+            ':couple:',
         ],
         'U+1F46C' => [
             'men holding hands',
+            ':two_men_holding_hands:',
         ],
         'U+1F48F' => [
             'kiss',
@@ -24920,6 +25558,8 @@ class EmojiTable
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FB' => [
             'people holding hands: light skin tone',
+            ':people_holding_hands_tone1:',
+            ':people_holding_hands_light_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FC' => [
             '⊛ people holding hands: light skin tone, medium-light skin tone',
@@ -24935,9 +25575,13 @@ class EmojiTable
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FB' => [
             'people holding hands: medium-light skin tone, light skin tone',
+            ':people_holding_hands_tone2_tone1:',
+            ':people_holding_hands_medium_light_skin_tone_light_skin_tone:',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FC' => [
             'people holding hands: medium-light skin tone',
+            ':people_holding_hands_tone2:',
+            ':people_holding_hands_medium_light_skin_tone:',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FD' => [
             '⊛ people holding hands: medium-light skin tone, medium skin tone',
@@ -24950,12 +25594,18 @@ class EmojiTable
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FB' => [
             'people holding hands: medium skin tone, light skin tone',
+            ':people_holding_hands_tone3_tone1:',
+            ':people_holding_hands_medium_skin_tone_light_skin_tone:',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FC' => [
             'people holding hands: medium skin tone, medium-light skin tone',
+            ':people_holding_hands_tone3_tone2:',
+            ':people_holding_hands_medium_skin_tone_medium_light_skin_tone:',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FD' => [
             'people holding hands: medium skin tone',
+            ':people_holding_hands_tone3:',
+            ':people_holding_hands_medium_skin_tone:',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FE' => [
             '⊛ people holding hands: medium skin tone, medium-dark skin tone',
@@ -24965,36 +25615,54 @@ class EmojiTable
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FB' => [
             'people holding hands: medium-dark skin tone, light skin tone',
+            ':people_holding_hands_tone4_tone1:',
+            ':people_holding_hands_medium_dark_skin_tone_light_skin_tone:',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FC' => [
             'people holding hands: medium-dark skin tone, medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FD' => [
             'people holding hands: medium-dark skin tone, medium skin tone',
+            ':people_holding_hands_tone4_tone3:',
+            ':people_holding_hands_medium_dark_skin_tone_medium_skin_tone:',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FE' => [
             'people holding hands: medium-dark skin tone',
+            ':people_holding_hands_tone4:',
+            ':people_holding_hands_medium_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FF' => [
             '⊛ people holding hands: medium-dark skin tone, dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F91D U+200D U+1F9D1 U+1F3FB' => [
             'people holding hands: dark skin tone, light skin tone',
+            ':people_holding_hands_tone5_tone1:',
+            ':people_holding_hands_dark_skin_tone_light_skin_tone:',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F91D U+200D U+1F9D1 U+1F3FC' => [
             'people holding hands: dark skin tone, medium-light skin tone',
+            ':people_holding_hands_tone5_tone2:',
+            ':people_holding_hands_dark_skin_tone_medium_light_skin_tone:',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F91D U+200D U+1F9D1 U+1F3FD' => [
             'people holding hands: dark skin tone, medium skin tone',
+            ':people_holding_hands_tone5_tone3:',
+            ':people_holding_hands_dark_skin_tone_medium_skin_tone:',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F91D U+200D U+1F9D1 U+1F3FE' => [
             'people holding hands: dark skin tone, medium-dark skin tone',
+            ':people_holding_hands_tone5_tone4:',
+            ':people_holding_hands_dark_skin_tone_medium_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F91D U+200D U+1F9D1 U+1F3FF' => [
             'people holding hands: dark skin tone',
+            ':people_holding_hands_tone5:',
+            ':people_holding_hands_dark_skin_tone:',
         ],
         'U+1F46D U+1F3FB' => [
             'women holding hands: light skin tone',
+            ':women_holding_hands_tone1:',
+            ':women_holding_hands_light_skin_tone:',
         ],
         'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FC' => [
             '⊛ women holding hands: light skin tone, medium-light skin tone',
@@ -25010,9 +25678,13 @@ class EmojiTable
         ],
         'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FB' => [
             'women holding hands: medium-light skin tone, light skin tone',
+            ':women_holding_hands_tone2_tone1:',
+            ':women_holding_hands_medium_light_skin_tone_light_skin_tone:',
         ],
         'U+1F46D U+1F3FC' => [
             'women holding hands: medium-light skin tone',
+            ':women_holding_hands_tone2:',
+            ':women_holding_hands_medium_light_skin_tone:',
         ],
         'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FD' => [
             '⊛ women holding hands: medium-light skin tone, medium skin tone',
@@ -25025,66 +25697,96 @@ class EmojiTable
         ],
         'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FB' => [
             'women holding hands: medium skin tone, light skin tone',
+            ':women_holding_hands_tone3_tone1:',
+            ':women_holding_hands_medium_skin_tone_light_skin_tone:',
         ],
         'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FC' => [
             'women holding hands: medium skin tone, medium-light skin tone',
+            ':women_holding_hands_tone3_tone2:',
+            ':women_holding_hands_medium_skin_tone_medium_light_skin_tone:',
         ],
         'U+1F46D U+1F3FD' => [
             'women holding hands: medium skin tone',
+            ':women_holding_hands_tone3:',
+            ':women_holding_hands_medium_skin_tone:',
         ],
         'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FF' => [
             '⊛ women holding hands: medium skin tone, dark skin tone',
         ],
         'U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F469 U+1F3FB' => [
             'women holding hands: medium-dark skin tone, light skin tone',
+            ':women_holding_hands_tone4_tone1:',
+            ':women_holding_hands_medium_dark_skin_tone_light_skin_tone:',
         ],
         'U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F469 U+1F3FC' => [
             'women holding hands: medium-dark skin tone, medium-light skin tone',
         ],
         'U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F469 U+1F3FD' => [
             'women holding hands: medium-dark skin tone, medium skin tone',
+            ':women_holding_hands_tone4_tone3:',
+            ':women_holding_hands_medium_dark_skin_tone_medium_skin_tone:',
         ],
         'U+1F46D U+1F3FE' => [
             'women holding hands: medium-dark skin tone',
+            ':women_holding_hands_tone4:',
+            ':women_holding_hands_medium_dark_skin_tone:',
         ],
         'U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F469 U+1F3FF' => [
             '⊛ women holding hands: medium-dark skin tone, dark skin tone',
         ],
         'U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F469 U+1F3FB' => [
             'women holding hands: dark skin tone, light skin tone',
+            ':women_holding_hands_tone5_tone1:',
+            ':women_holding_hands_dark_skin_tone_light_skin_tone:',
         ],
         'U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F469 U+1F3FC' => [
             'women holding hands: dark skin tone, medium-light skin tone',
+            ':women_holding_hands_tone5_tone2:',
+            ':women_holding_hands_dark_skin_tone_medium_light_skin_tone:',
         ],
         'U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F469 U+1F3FD' => [
             'women holding hands: dark skin tone, medium skin tone',
+            ':women_holding_hands_tone5_tone3:',
+            ':women_holding_hands_dark_skin_tone_medium_skin_tone:',
         ],
         'U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F469 U+1F3FE' => [
             'women holding hands: dark skin tone, medium-dark skin tone',
+            ':women_holding_hands_tone5_tone4:',
+            ':women_holding_hands_dark_skin_tone_medium_dark_skin_tone:',
         ],
         'U+1F46D U+1F3FF' => [
             'women holding hands: dark skin tone',
+            ':women_holding_hands_tone5:',
+            ':women_holding_hands_dark_skin_tone:',
         ],
         'U+1F46B U+1F3FB' => [
             'woman and man holding hands: light skin tone',
+            ':woman_and_man_holding_hands_tone1:',
+            ':woman_and_man_holding_hands_light_skin_tone:',
         ],
         'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FC' => [
             'woman and man holding hands: light skin tone, medium-light skin tone',
         ],
         'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FD' => [
             'woman and man holding hands: light skin tone, medium skin tone',
+            ':woman_and_man_holding_hands_tone1_tone3:',
+            ':woman_and_man_holding_hands_light_skin_tone_medium_skin_tone:',
         ],
         'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FE' => [
             'woman and man holding hands: light skin tone, medium-dark skin tone',
         ],
         'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FF' => [
             'woman and man holding hands: light skin tone, dark skin tone',
+            ':woman_and_man_holding_hands_tone1_tone5:',
+            ':woman_and_man_holding_hands_light_skin_tone_dark_skin_tone:',
         ],
         'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FB' => [
             'woman and man holding hands: medium-light skin tone, light skin tone',
         ],
         'U+1F46B U+1F3FC' => [
             'woman and man holding hands: medium-light skin tone',
+            ':woman_and_man_holding_hands_tone2:',
+            ':woman_and_man_holding_hands_medium_light_skin_tone:',
         ],
         'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FD' => [
             'woman and man holding hands: medium-light skin tone, medium skin tone',
@@ -25097,18 +25799,24 @@ class EmojiTable
         ],
         'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FB' => [
             'woman and man holding hands: medium skin tone, light skin tone',
+            ':woman_and_man_holding_hands_tone3_tone1:',
+            ':woman_and_man_holding_hands_medium_skin_tone_light_skin_tone:',
         ],
         'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FC' => [
             'woman and man holding hands: medium skin tone, medium-light skin tone',
         ],
         'U+1F46B U+1F3FD' => [
             'woman and man holding hands: medium skin tone',
+            ':woman_and_man_holding_hands_tone3:',
+            ':woman_and_man_holding_hands_medium_skin_tone:',
         ],
         'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FE' => [
             'woman and man holding hands: medium skin tone, medium-dark skin tone',
         ],
         'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FF' => [
             'woman and man holding hands: medium skin tone, dark skin tone',
+            ':woman_and_man_holding_hands_tone3_tone5:',
+            ':woman_and_man_holding_hands_medium_skin_tone_dark_skin_tone:',
         ],
         'U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FB' => [
             'woman and man holding hands: medium-dark skin tone, light skin tone',
@@ -25121,27 +25829,37 @@ class EmojiTable
         ],
         'U+1F46B U+1F3FE' => [
             'woman and man holding hands: medium-dark skin tone',
+            ':woman_and_man_holding_hands_tone4:',
+            ':woman_and_man_holding_hands_medium_dark_skin_tone:',
         ],
         'U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FF' => [
             'woman and man holding hands: medium-dark skin tone, dark skin tone',
         ],
         'U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FB' => [
             'woman and man holding hands: dark skin tone, light skin tone',
+            ':woman_and_man_holding_hands_tone5_tone1:',
+            ':woman_and_man_holding_hands_dark_skin_tone_light_skin_tone:',
         ],
         'U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FC' => [
             'woman and man holding hands: dark skin tone, medium-light skin tone',
         ],
         'U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FD' => [
             'woman and man holding hands: dark skin tone, medium skin tone',
+            ':woman_and_man_holding_hands_tone5_tone3:',
+            ':woman_and_man_holding_hands_dark_skin_tone_medium_skin_tone:',
         ],
         'U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FE' => [
             'woman and man holding hands: dark skin tone, medium-dark skin tone',
         ],
         'U+1F46B U+1F3FF' => [
             'woman and man holding hands: dark skin tone',
+            ':woman_and_man_holding_hands_tone5:',
+            ':woman_and_man_holding_hands_dark_skin_tone:',
         ],
         'U+1F46C U+1F3FB' => [
             'men holding hands: light skin tone',
+            ':men_holding_hands_tone1:',
+            ':men_holding_hands_light_skin_tone:',
         ],
         'U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FC' => [
             '⊛ men holding hands: light skin tone, medium-light skin tone',
@@ -25157,9 +25875,13 @@ class EmojiTable
         ],
         'U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FB' => [
             'men holding hands: medium-light skin tone, light skin tone',
+            ':men_holding_hands_tone2_tone1:',
+            ':men_holding_hands_medium_light_skin_tone_light_skin_tone:',
         ],
         'U+1F46C U+1F3FC' => [
             'men holding hands: medium-light skin tone',
+            ':men_holding_hands_tone2:',
+            ':men_holding_hands_medium_light_skin_tone:',
         ],
         'U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FD' => [
             '⊛ men holding hands: medium-light skin tone, medium skin tone',
@@ -25172,12 +25894,18 @@ class EmojiTable
         ],
         'U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FB' => [
             'men holding hands: medium skin tone, light skin tone',
+            ':men_holding_hands_tone3_tone1:',
+            ':men_holding_hands_medium_skin_tone_light_skin_tone:',
         ],
         'U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FC' => [
             'men holding hands: medium skin tone, medium-light skin tone',
+            ':men_holding_hands_tone3_tone2:',
+            ':men_holding_hands_medium_skin_tone_medium_light_skin_tone:',
         ],
         'U+1F46C U+1F3FD' => [
             'men holding hands: medium skin tone',
+            ':men_holding_hands_tone3:',
+            ':men_holding_hands_medium_skin_tone:',
         ],
         'U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FE' => [
             '⊛ men holding hands: medium skin tone, medium-dark skin tone',
@@ -25187,33 +25915,49 @@ class EmojiTable
         ],
         'U+1F468 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FB' => [
             'men holding hands: medium-dark skin tone, light skin tone',
+            ':men_holding_hands_tone4_tone1:',
+            ':men_holding_hands_medium_dark_skin_tone_light_skin_tone:',
         ],
         'U+1F468 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FC' => [
             'men holding hands: medium-dark skin tone, medium-light skin tone',
         ],
         'U+1F468 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FD' => [
             'men holding hands: medium-dark skin tone, medium skin tone',
+            ':men_holding_hands_tone4_tone3:',
+            ':men_holding_hands_medium_dark_skin_tone_medium_skin_tone:',
         ],
         'U+1F46C U+1F3FE' => [
             'men holding hands: medium-dark skin tone',
+            ':men_holding_hands_tone4:',
+            ':men_holding_hands_medium_dark_skin_tone:',
         ],
         'U+1F468 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FF' => [
             '⊛ men holding hands: medium-dark skin tone, dark skin tone',
         ],
         'U+1F468 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FB' => [
             'men holding hands: dark skin tone, light skin tone',
+            ':men_holding_hands_tone5_tone1:',
+            ':men_holding_hands_dark_skin_tone_light_skin_tone:',
         ],
         'U+1F468 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FC' => [
             'men holding hands: dark skin tone, medium-light skin tone',
+            ':men_holding_hands_tone5_tone2:',
+            ':men_holding_hands_dark_skin_tone_medium_light_skin_tone:',
         ],
         'U+1F468 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FD' => [
             'men holding hands: dark skin tone, medium skin tone',
+            ':men_holding_hands_tone5_tone3:',
+            ':men_holding_hands_dark_skin_tone_medium_skin_tone:',
         ],
         'U+1F468 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FE' => [
             'men holding hands: dark skin tone, medium-dark skin tone',
+            ':men_holding_hands_tone5_tone4:',
+            ':men_holding_hands_dark_skin_tone_medium_dark_skin_tone:',
         ],
         'U+1F46C U+1F3FF' => [
             'men holding hands: dark skin tone',
+            ':men_holding_hands_tone5:',
+            ':men_holding_hands_dark_skin_tone:',
         ],
         'U+1F5E3' => [
             'speaking head',
@@ -25234,12 +25978,15 @@ class EmojiTable
         ],
         'U+1F9B0' => [
             'red hair',
+            ':red_haired:',
         ],
         'U+1F9B1' => [
             'curly hair',
+            ':curly_haired:',
         ],
         'U+1F9B3' => [
             'white hair',
+            ':white_haired:',
         ],
         'U+1F9B2' => [
             'bald',
@@ -25279,6 +26026,7 @@ class EmojiTable
         ],
         'U+1F9A7' => [
             'orangutan',
+            ':orangutan:',
         ],
         'U+1F436' => [
             'dog face',
@@ -25290,9 +26038,11 @@ class EmojiTable
         ],
         'U+1F9AE' => [
             'guide dog',
+            ':guide_dog:',
         ],
         'U+1F415 U+200D U+1F9BA' => [
             'service dog',
+            ':service_dog:',
         ],
         'U+1F429' => [
             'poodle',
@@ -25300,9 +26050,12 @@ class EmojiTable
         ],
         'U+1F43A' => [
             'wolf',
+            ':wolf:',
         ],
         'U+1F98A' => [
             'fox',
+            ':fox:',
+            ':fox_face:',
         ],
         'U+1F99D' => [
             'raccoon',
@@ -25318,6 +26071,8 @@ class EmojiTable
         ],
         'U+1F981' => [
             'lion',
+            ':lion_face:',
+            ':lion:',
         ],
         'U+1F42F' => [
             'tiger face',
@@ -25341,6 +26096,8 @@ class EmojiTable
         ],
         'U+1F984' => [
             'unicorn',
+            ':unicorn:',
+            ':unicorn_face:',
         ],
         'U+1F993' => [
             'zebra',
@@ -25437,6 +26194,7 @@ class EmojiTable
         ],
         'U+1F439' => [
             'hamster',
+            ':hamster:',
         ],
         'U+1F430' => [
             'rabbit face',
@@ -25460,6 +26218,7 @@ class EmojiTable
         ],
         'U+1F43B' => [
             'bear',
+            ':bear:',
         ],
         'U+1F428' => [
             'koala',
@@ -25467,15 +26226,19 @@ class EmojiTable
         ],
         'U+1F43C' => [
             'panda',
+            ':panda_face:',
         ],
         'U+1F9A5' => [
             'sloth',
+            ':sloth:',
         ],
         'U+1F9A6' => [
             'otter',
+            ':otter:',
         ],
         'U+1F9A8' => [
             'skunk',
+            ':skunk:',
         ],
         'U+1F998' => [
             'kangaroo',
@@ -25545,6 +26308,7 @@ class EmojiTable
         ],
         'U+1F9A9' => [
             'flamingo',
+            ':flamingo:',
         ],
         'U+1F99A' => [
             'peacock',
@@ -25556,6 +26320,7 @@ class EmojiTable
         ],
         'U+1F438' => [
             'frog',
+            ':frog:',
         ],
         'U+1F40A' => [
             'crocodile',
@@ -25869,9 +26634,11 @@ class EmojiTable
         ],
         'U+1F9C4' => [
             'garlic',
+            ':garlic:',
         ],
         'U+1F9C5' => [
             'onion',
+            ':onion:',
         ],
         'U+1F344' => [
             'mushroom',
@@ -25913,6 +26680,7 @@ class EmojiTable
         ],
         'U+1F9C7' => [
             'waffle',
+            ':waffle:',
         ],
         'U+1F9C0' => [
             'cheese wedge',
@@ -25971,6 +26739,7 @@ class EmojiTable
         ],
         'U+1F9C6' => [
             'falafel',
+            ':falafel:',
         ],
         'U+1F95A' => [
             'egg',
@@ -26004,6 +26773,7 @@ class EmojiTable
         ],
         'U+1F9C8' => [
             'butter',
+            ':butter:',
         ],
         'U+1F9C2' => [
             'salt',
@@ -26099,6 +26869,7 @@ class EmojiTable
         ],
         'U+1F9AA' => [
             'oyster',
+            ':oyster:',
         ],
         'U+1F366' => [
             'soft ice cream',
@@ -26220,9 +26991,11 @@ class EmojiTable
         ],
         'U+1F9C3' => [
             'beverage box',
+            ':beverage_box:',
         ],
         'U+1F9C9' => [
             'mate',
+            ':mate:',
         ],
         'U+1F9CA' => [
             'ice',
@@ -26336,6 +27109,7 @@ class EmojiTable
         ],
         'U+1F9F1' => [
             'brick',
+            ':bricks:',
         ],
         'U+1F3D8' => [
             'houses',
@@ -26429,6 +27203,7 @@ class EmojiTable
         ],
         'U+1F6D5' => [
             'hindu temple',
+            ':hindu_temple:',
         ],
         'U+1F54D' => [
             'synagogue',
@@ -26636,12 +27411,15 @@ class EmojiTable
         ],
         'U+1F9BD' => [
             'manual wheelchair',
+            ':manual_wheelchair:',
         ],
         'U+1F9BC' => [
             'motorized wheelchair',
+            ':motorized_wheelchair:',
         ],
         'U+1F6FA' => [
             'auto rickshaw',
+            ':auto_rickshaw:',
         ],
         'U+1F6B2' => [
             'bicycle',
@@ -26751,6 +27529,7 @@ class EmojiTable
         ],
         'U+1FA82' => [
             'parachute',
+            ':parachute:',
         ],
         'U+1F4BA' => [
             'seat',
@@ -26985,6 +27764,7 @@ class EmojiTable
         ],
         'U+1FA90' => [
             'ringed planet',
+            ':ringed_planet:',
         ],
         'U+2B50' => [
             'star',
@@ -27324,6 +28104,7 @@ class EmojiTable
         ],
         'U+1F93F' => [
             'diving mask',
+            ':diving_mask:',
         ],
         'U+1F3BD' => [
             'running shirt',
@@ -27347,9 +28128,11 @@ class EmojiTable
         ],
         'U+1FA80' => [
             'yo-yo',
+            ':yo_yo:',
         ],
         'U+1FA81' => [
             'kite',
+            ':kite:',
         ],
         'U+1F3B1' => [
             'pool 8 ball',
@@ -27381,6 +28164,7 @@ class EmojiTable
         ],
         'U+1F9E9' => [
             'puzzle piece',
+            ':jigsaw:',
         ],
         'U+1F9F8' => [
             'teddy bear',
@@ -27457,6 +28241,7 @@ class EmojiTable
         ],
         'U+1F9BA' => [
             'safety vest',
+            ':safety_vest:',
         ],
         'U+1F454' => [
             'necktie',
@@ -27496,15 +28281,19 @@ class EmojiTable
         ],
         'U+1F97B' => [
             'sari',
+            ':sari:',
         ],
         'U+1FA71' => [
             'one-piece swimsuit',
+            ':one_piece_swimsuit:',
         ],
         'U+1FA72' => [
             'briefs',
+            ':briefs:',
         ],
         'U+1FA73' => [
             'shorts',
+            ':shorts:',
         ],
         'U+1F459' => [
             'bikini',
@@ -27532,6 +28321,7 @@ class EmojiTable
         ],
         'U+1F392' => [
             'backpack',
+            ':school_satchel:',
         ],
         'U+1F45E' => [
             'man’s shoe',
@@ -27547,6 +28337,7 @@ class EmojiTable
         ],
         'U+1F97F' => [
             'flat shoe',
+            ':womans_flat_shoe:',
         ],
         'U+1F460' => [
             'high-heeled shoe',
@@ -27558,6 +28349,7 @@ class EmojiTable
         ],
         'U+1FA70' => [
             'ballet shoes',
+            ':ballet_shoes:',
         ],
         'U+1F462' => [
             'woman’s boot',
@@ -27699,6 +28491,7 @@ class EmojiTable
         ],
         'U+1FA95' => [
             'banjo',
+            ':banjo:',
         ],
         'U+1F941' => [
             'drum',
@@ -27845,6 +28638,7 @@ class EmojiTable
         ],
         'U+1FA94' => [
             'diya lamp',
+            ':diya_lamp:',
         ],
         'U+1F4D4' => [
             'notebook with decorative cover',
@@ -28174,6 +28968,7 @@ class EmojiTable
         ],
         'U+1FA93' => [
             'axe',
+            ':axe:',
         ],
         'U+26CF' => [
             'pick',
@@ -28233,6 +29028,7 @@ class EmojiTable
         ],
         'U+1F9AF' => [
             'probing cane',
+            ':probing_cane:',
         ],
         'U+1F517' => [
             'link',
@@ -28284,6 +29080,7 @@ class EmojiTable
         ],
         'U+1FA78' => [
             'drop of blood',
+            ':drop_of_blood:',
         ],
         'U+1F48A' => [
             'pill',
@@ -28291,9 +29088,11 @@ class EmojiTable
         ],
         'U+1FA79' => [
             'adhesive bandage',
+            ':adhesive_bandage:',
         ],
         'U+1FA7A' => [
             'stethoscope',
+            ':stethoscope:',
         ],
         'U+1F6AA' => [
             'door',
@@ -28310,6 +29109,7 @@ class EmojiTable
         ],
         'U+1FA91' => [
             'chair',
+            ':chair:',
         ],
         'U+1F6BD' => [
             'toilet',
@@ -28325,9 +29125,11 @@ class EmojiTable
         ],
         'U+1FA92' => [
             'razor',
+            ':razor:',
         ],
         'U+1F9F4' => [
             'lotion bottle',
+            ':squeeze_bottle:',
         ],
         'U+1F9F7' => [
             'safety pin',
@@ -28811,18 +29613,23 @@ class EmojiTable
         ],
         'U+2B55' => [
             'hollow red circle',
+            ':o:',
         ],
         'U+2705' => [
             'check mark button',
+            ':white_check_mark:',
         ],
         'U+2611' => [
             'check box with check',
+            ':ballot_box_with_check:',
         ],
         'U+2714' => [
             'check mark',
+            ':heavy_check_mark:',
         ],
         'U+2716' => [
             'multiplication sign',
+            ':heavy_multiplication_x:',
         ],
         'U+274C' => [
             'cross mark',
@@ -28834,12 +29641,15 @@ class EmojiTable
         ],
         'U+2795' => [
             'plus sign',
+            ':heavy_plus_sign:',
         ],
         'U+2796' => [
             'minus sign',
+            ':heavy_minus_sign:',
         ],
         'U+2797' => [
             'division sign',
+            ':heavy_division_sign:',
         ],
         'U+27B0' => [
             'curly loop',
@@ -29120,12 +29930,15 @@ class EmojiTable
         ],
         'U+1F7E0' => [
             'orange circle',
+            ':orange_circle:',
         ],
         'U+1F7E1' => [
             'yellow circle',
+            ':yellow_circle:',
         ],
         'U+1F7E2' => [
             'green circle',
+            ':green_circle:',
         ],
         'U+1F535' => [
             'blue circle',
@@ -29133,9 +29946,11 @@ class EmojiTable
         ],
         'U+1F7E3' => [
             'purple circle',
+            ':purple_circle:',
         ],
         'U+1F7E4' => [
             'brown circle',
+            ':brown_circle:',
         ],
         'U+26AB' => [
             'black circle',
@@ -29147,24 +29962,31 @@ class EmojiTable
         ],
         'U+1F7E5' => [
             'red square',
+            ':red_square:',
         ],
         'U+1F7E7' => [
             'orange square',
+            ':orange_square:',
         ],
         'U+1F7E8' => [
             'yellow square',
+            ':yellow_square:',
         ],
         'U+1F7E9' => [
             'green square',
+            ':green_square:',
         ],
         'U+1F7E6' => [
             'blue square',
+            ':blue_square:',
         ],
         'U+1F7EA' => [
             'purple square',
+            ':purple_square:',
         ],
         'U+1F7EB' => [
             'brown square',
+            ':brown_square:',
         ],
         'U+2B1B' => [
             'black large square',
@@ -30034,6 +30856,8 @@ class EmojiTable
         ],
         'U+1F1F2 U+1F1F4' => [
             'flag: Macao SAR China',
+            ':flag_mo:',
+            ':mo:',
         ],
         'U+1F1F2 U+1F1F5' => [
             'flag: Northern Mariana Islands',
@@ -30358,6 +31182,8 @@ class EmojiTable
         ],
         'U+1F1F8 U+1F1FF' => [
             'flag: Eswatini',
+            ':flag_sz:',
+            ':sz:',
         ],
         'U+1F1F9 U+1F1E6' => [
             'flag: Tristan da Cunha',

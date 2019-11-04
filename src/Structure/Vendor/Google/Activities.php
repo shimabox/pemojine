@@ -524,6 +524,7 @@ class Activities implements Gettable
             'parent' => 'sport',
             'children' => null,
             'aliases' => [
+                ':diving_mask:',
             ]
         ],
         'running shirt' => [
@@ -565,12 +566,14 @@ class Activities implements Gettable
             'parent' => 'game',
             'children' => null,
             'aliases' => [
+                ':yo_yo:',
             ]
         ],
         'kite' => [
             'parent' => 'game',
             'children' => null,
             'aliases' => [
+                ':kite:',
             ]
         ],
         'pool 8 ball' => [
@@ -626,6 +629,7 @@ class Activities implements Gettable
             'parent' => 'game',
             'children' => null,
             'aliases' => [
+                ':jigsaw:',
             ]
         ],
         'teddy bear' => [

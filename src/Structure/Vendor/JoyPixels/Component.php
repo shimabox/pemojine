@@ -83,18 +83,21 @@ class Component implements Gettable
             'parent' => 'hair-style',
             'children' => null,
             'aliases' => [
+                ':red_haired:',
             ]
         ],
         'curly hair' => [
             'parent' => 'hair-style',
             'children' => null,
             'aliases' => [
+                ':curly_haired:',
             ]
         ],
         'white hair' => [
             'parent' => 'hair-style',
             'children' => null,
             'aliases' => [
+                ':white_haired:',
             ]
         ],
         'bald' => [

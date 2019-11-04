@@ -3300,12 +3300,15 @@ class PeopleBody implements Gettable
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':adult:',
             ]
         ],
         'person: blond hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':blond_haired_person:',
+                ':person_with_blond_hair:',
             ]
         ],
         'man' => [
@@ -3319,30 +3322,35 @@ class PeopleBody implements Gettable
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':bearded_person:',
             ]
         ],
         'man: red hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':man_red_haired:',
             ]
         ],
         'man: curly hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':man_curly_haired:',
             ]
         ],
         'man: white hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':man_white_haired:',
             ]
         ],
         'man: bald' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':man_bald:',
             ]
         ],
         'woman' => [
@@ -3356,42 +3364,49 @@ class PeopleBody implements Gettable
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':woman_red_haired:',
             ]
         ],
         'woman: curly hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':woman_curly_haired:',
             ]
         ],
         'woman: white hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':woman_white_haired:',
             ]
         ],
         'woman: bald' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':woman_bald:',
             ]
         ],
         'woman: blond hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':blond-haired_woman:',
             ]
         ],
         'man: blond hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':blond-haired_man:',
             ]
         ],
         'older person' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':older_adult:',
             ]
         ],
         'old man' => [
@@ -12226,18 +12241,21 @@ class PeopleBody implements Gettable
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':two_women_holding_hands:',
             ]
         ],
         'woman and man holding hands' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':couple:',
             ]
         ],
         'men holding hands' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':two_men_holding_hands:',
             ]
         ],
         'kiss' => [
@@ -12486,90 +12504,120 @@ class PeopleBody implements Gettable
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':women_holding_hands_tone1:',
+                ':women_holding_hands_light_skin_tone:',
             ]
         ],
         'women holding hands: medium-light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':women_holding_hands_tone2:',
+                ':women_holding_hands_medium_light_skin_tone:',
             ]
         ],
         'women holding hands: medium skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':women_holding_hands_tone3:',
+                ':women_holding_hands_medium_skin_tone:',
             ]
         ],
         'women holding hands: medium-dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':women_holding_hands_tone4:',
+                ':women_holding_hands_medium_dark_skin_tone:',
             ]
         ],
         'women holding hands: dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':women_holding_hands_tone5:',
+                ':women_holding_hands_dark_skin_tone:',
             ]
         ],
         'woman and man holding hands: light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':woman_and_man_holding_hands_tone1:',
+                ':woman_and_man_holding_hands_light_skin_tone:',
             ]
         ],
         'woman and man holding hands: medium-light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':woman_and_man_holding_hands_tone2:',
+                ':woman_and_man_holding_hands_medium_light_skin_tone:',
             ]
         ],
         'woman and man holding hands: medium skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':woman_and_man_holding_hands_tone3:',
+                ':woman_and_man_holding_hands_medium_skin_tone:',
             ]
         ],
         'woman and man holding hands: medium-dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':woman_and_man_holding_hands_tone4:',
+                ':woman_and_man_holding_hands_medium_dark_skin_tone:',
             ]
         ],
         'woman and man holding hands: dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':woman_and_man_holding_hands_tone5:',
+                ':woman_and_man_holding_hands_dark_skin_tone:',
             ]
         ],
         'men holding hands: light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':men_holding_hands_tone1:',
+                ':men_holding_hands_light_skin_tone:',
             ]
         ],
         'men holding hands: medium-light skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':men_holding_hands_tone2:',
+                ':men_holding_hands_medium_light_skin_tone:',
             ]
         ],
         'men holding hands: medium skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':men_holding_hands_tone3:',
+                ':men_holding_hands_medium_skin_tone:',
             ]
         ],
         'men holding hands: medium-dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':men_holding_hands_tone4:',
+                ':men_holding_hands_medium_dark_skin_tone:',
             ]
         ],
         'men holding hands: dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':men_holding_hands_tone5:',
+                ':men_holding_hands_dark_skin_tone:',
             ]
         ],
         'speaking head' => [

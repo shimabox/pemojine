@@ -354,6 +354,7 @@ class Objects implements Gettable
             'parent' => 'clothing',
             'children' => null,
             'aliases' => [
+                ':school_satchel:',
             ]
         ],
         'man’s shoe' => [

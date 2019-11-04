@@ -606,30 +606,35 @@ class Symbols implements Gettable
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':o:',
             ]
         ],
         'check mark button' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':white_check_mark:',
             ]
         ],
         'check box with check' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':ballot_box_with_check:',
             ]
         ],
         'check mark' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':heavy_check_mark:',
             ]
         ],
         'multiplication sign' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':heavy_multiplication_x:',
             ]
         ],
         'cross mark' => [
@@ -650,18 +655,21 @@ class Symbols implements Gettable
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':heavy_plus_sign:',
             ]
         ],
         'minus sign' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':heavy_minus_sign:',
             ]
         ],
         'division sign' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':heavy_division_sign:',
             ]
         ],
         'curly loop' => [

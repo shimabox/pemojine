@@ -1622,6 +1622,8 @@ class Flags implements Gettable
             'parent' => 'country-flag',
             'children' => null,
             'aliases' => [
+                ':flag_mo:',
+                ':mo:',
             ]
         ],
         'flag: Northern Mariana Islands' => [
@@ -2141,6 +2143,8 @@ class Flags implements Gettable
             'parent' => 'country-flag',
             'children' => null,
             'aliases' => [
+                ':flag_sz:',
+                ':sz:',
             ]
         ],
         'flag: Tristan da Cunha' => [

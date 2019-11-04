@@ -517,6 +517,7 @@ class Symbols implements Gettable
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':o:',
             ]
         ],
         'cross mark' => [

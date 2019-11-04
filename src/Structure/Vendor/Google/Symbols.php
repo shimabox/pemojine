@@ -299,9 +299,21 @@ class Symbols implements Gettable
             'parent' => 'Symbols',
             'children' => [
                 'red circle',
+                'orange circle',
+                'yellow circle',
+                'green circle',
                 'blue circle',
+                'purple circle',
+                'brown circle',
                 'black circle',
                 'white circle',
+                'red square',
+                'orange square',
+                'yellow square',
+                'green square',
+                'blue square',
+                'purple square',
+                'brown square',
                 'black large square',
                 'white large square',
                 'black medium square',
@@ -1620,11 +1632,41 @@ class Symbols implements Gettable
                 ':red_circle:',
             ]
         ],
+        'orange circle' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'yellow circle' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'green circle' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'blue circle' => [
             'parent' => 'geometric',
             'children' => null,
             'aliases' => [
                 ':blue_circle:',
+            ]
+        ],
+        'purple circle' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'brown circle' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'black circle' => [
@@ -1639,6 +1681,48 @@ class Symbols implements Gettable
             'children' => null,
             'aliases' => [
                 ':white_circle:',
+            ]
+        ],
+        'red square' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'orange square' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'yellow square' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'green square' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'blue square' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'purple square' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'brown square' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'black large square' => [

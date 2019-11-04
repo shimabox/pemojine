@@ -1,4 +1,4 @@
-<?phpnamespace SMB\Pemojine\Structure\Vendor\EmojiOne;
+<?phpnamespace SMB\Pemojine\Structure\Vendor\JoyPixels;
 
 use SMB\Pemojine\Structure\Interfaces\Gettable;
 
@@ -65,8 +65,11 @@ class AnimalsNature implements Gettable
                 'monkey face',
                 'monkey',
                 'gorilla',
+                'orangutan',
                 'dog face',
                 'dog',
+                'guide dog',
+                'service dog',
                 'poodle',
                 'wolf',
                 'fox',
@@ -112,6 +115,9 @@ class AnimalsNature implements Gettable
                 'bear',
                 'koala',
                 'panda',
+                'sloth',
+                'otter',
+                'skunk',
                 'kangaroo',
                 'badger',
                 'paw prints',
@@ -133,6 +139,7 @@ class AnimalsNature implements Gettable
                 'duck',
                 'swan',
                 'owl',
+                'flamingo',
                 'peacock',
                 'parrot',
             ]
@@ -247,6 +254,12 @@ class AnimalsNature implements Gettable
                 ':gorilla:',
             ]
         ],
+        'orangutan' => [
+            'parent' => 'animal-mammal',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'dog face' => [
             'parent' => 'animal-mammal',
             'children' => null,
@@ -259,6 +272,18 @@ class AnimalsNature implements Gettable
             'children' => null,
             'aliases' => [
                 ':dog2:',
+            ]
+        ],
+        'guide dog' => [
+            'parent' => 'animal-mammal',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'service dog' => [
+            'parent' => 'animal-mammal',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'poodle' => [
@@ -570,6 +595,24 @@ class AnimalsNature implements Gettable
             'aliases' => [
             ]
         ],
+        'sloth' => [
+            'parent' => 'animal-mammal',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'otter' => [
+            'parent' => 'animal-mammal',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'skunk' => [
+            'parent' => 'animal-mammal',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'kangaroo' => [
             'parent' => 'animal-mammal',
             'children' => null,
@@ -682,6 +725,12 @@ class AnimalsNature implements Gettable
             'children' => null,
             'aliases' => [
                 ':owl:',
+            ]
+        ],
+        'flamingo' => [
+            'parent' => 'animal-bird',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'peacock' => [

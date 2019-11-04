@@ -1,4 +1,4 @@
-<?phpnamespace SMB\Pemojine\Structure\Vendor\EmojiOne;
+<?phpnamespace SMB\Pemojine\Structure\Vendor\JoyPixels;
 
 use SMB\Pemojine\Structure\Interfaces\Gettable;
 

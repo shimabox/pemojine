@@ -137,7 +137,7 @@ class Objects implements Gettable
             'children' => [
                 'battery',
                 'electric plug',
-                'laptop computer',
+                'laptop',
                 'computer disk',
                 'floppy disk',
                 'optical disk',
@@ -566,11 +566,10 @@ class Objects implements Gettable
                 ':electric_plug:',
             ]
         ],
-        'laptop computer' => [
+        'laptop' => [
             'parent' => 'computer',
             'children' => null,
             'aliases' => [
-                ':computer:',
             ]
         ],
         'computer disk' => [

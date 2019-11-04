@@ -71,15 +71,15 @@ foreach ($ret->getBigGroups() as $bigGroup) {
             $unicode = implode(' ', $codes);
 
             $result->add(
-                $bigGroupName, 
-                $mediumGroupName, 
-                $groupName, 
+                $bigGroupName,
+                $mediumGroupName,
+                $groupName,
                 implode(' ', $group->shortNameAliases),
                 $unicode,
                 $group->validWithApple,
                 $group->validWithGoogle,
                 $group->validWithTwitter,
-                $group->validWithEmojiOne,
+                $group->validWithJoyPixels,
                 $group->validWithFacebook,
                 $group->validWithSamsung,
                 $group->validWithWindows,

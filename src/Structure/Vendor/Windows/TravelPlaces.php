@@ -471,6 +471,7 @@ class TravelPlaces implements Gettable
             'parent' => 'place-building',
             'children' => null,
             'aliases' => [
+                ':bricks:',
             ]
         ],
         'houses' => [

@@ -2,20 +2,20 @@
 
 namespace SMB\Pemojine\Tests\Structure\Vendor;
 
-use SMB\Pemojine\Structure\Vendor\EmojiOne;
+use SMB\Pemojine\Structure\Vendor\JoyPixels;
 
 /**
- * Test of SMB\Pemojine\Structure\Vendor\EmojiOne
+ * Test of SMB\Pemojine\Structure\Vendor\JoyPixels
  * 
  * @group Pemojine
  * @group Structure
  * @group Vendor
  */
-class EmojiOneTest extends \PHPUnit_Framework_TestCase
+class JoyPixelsTest extends \PHPUnit_Framework_TestCase
 {
     /**
      *
-     * @var EmojiOne
+     * @var JoyPixels
      */
     private $target;
 
@@ -26,7 +26,7 @@ class EmojiOneTest extends \PHPUnit_Framework_TestCase
     {
         parent::setUp();
 
-        $this->target = new EmojiOne();
+        $this->target = new JoyPixels();
     }
 
     /**
@@ -34,7 +34,7 @@ class EmojiOneTest extends \PHPUnit_Framework_TestCase
      */
     public function it_can_handle_getVendorName()
     {
-        $expected = 'EmojiOne';
+        $expected = 'JoyPixels';
         $this->assertSame($expected, $this->target->getVendorName());
     }
 
@@ -44,16 +44,16 @@ class EmojiOneTest extends \PHPUnit_Framework_TestCase
     public function it_can_handle_getClassNameListOfStructure()
     {
         $expected = [
-            EmojiOne\SmileysEmotion::class,
-            EmojiOne\PeopleBody::class,
-            EmojiOne\Component::class,
-            EmojiOne\AnimalsNature::class,
-            EmojiOne\FoodDrink::class,
-            EmojiOne\TravelPlaces::class,
-            EmojiOne\Activities::class,
-            EmojiOne\Objects::class,
-            EmojiOne\Symbols::class,
-            EmojiOne\Flags::class,
+            JoyPixels\SmileysEmotion::class,
+            JoyPixels\PeopleBody::class,
+            JoyPixels\Component::class,
+            JoyPixels\AnimalsNature::class,
+            JoyPixels\FoodDrink::class,
+            JoyPixels\TravelPlaces::class,
+            JoyPixels\Activities::class,
+            JoyPixels\Objects::class,
+            JoyPixels\Symbols::class,
+            JoyPixels\Flags::class,
         ];
 
         $this->assertSame($expected, $this->target->getClassNameListOfStructure());
@@ -64,7 +64,7 @@ class EmojiOneTest extends \PHPUnit_Framework_TestCase
      */
     public function it_can_handle_getClassNameOfEmojiTable()
     {
-        $expected = EmojiOne\EmojiTable::class;
+        $expected = JoyPixels\EmojiTable::class;
         $this->assertSame($expected, $this->target->getClassNameOfEmojiTable());
     }
 }

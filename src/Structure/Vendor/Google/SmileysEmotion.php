@@ -199,6 +199,7 @@ class SmileysEmotion implements Gettable
                 'downcast face with sweat',
                 'weary face',
                 'tired face',
+                'yawning face',
             ]
         ],
         'face-negative' => [
@@ -270,7 +271,9 @@ class SmileysEmotion implements Gettable
                 'green heart',
                 'blue heart',
                 'purple heart',
+                'brown heart',
                 'black heart',
+                'white heart',
                 'hundred points',
                 'anger symbol',
                 'collision',
@@ -306,7 +309,6 @@ class SmileysEmotion implements Gettable
             'children' => null,
             'aliases' => [
                 ':smiley:',
-                ':D',
                 ':-D',
                 '=D',
             ]
@@ -316,6 +318,7 @@ class SmileysEmotion implements Gettable
             'children' => null,
             'aliases' => [
                 ':smile:',
+                ':D',
             ]
         ],
         'beaming face with smiling eyes' => [
@@ -433,6 +436,7 @@ class SmileysEmotion implements Gettable
             'parent' => 'face-affection',
             'children' => null,
             'aliases' => [
+                ':smiling_face_with_3_hearts:',
             ]
         ],
         'smiling face with heart-eyes' => [
@@ -1012,6 +1016,13 @@ class SmileysEmotion implements Gettable
                 ':tired_face:',
             ]
         ],
+        'yawning face' => [
+            'parent' => 'face-concerned',
+            'children' => null,
+            'aliases' => [
+                ':yawning_face:',
+            ]
+        ],
         'face with steam from nose' => [
             'parent' => 'face-negative',
             'children' => null,
@@ -1130,60 +1141,71 @@ class SmileysEmotion implements Gettable
             'parent' => 'face-costume',
             'children' => null,
             'aliases' => [
+                ':robot:',
+                ':robot_face:',
             ]
         ],
         'grinning cat' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
+                ':smiley_cat:',
             ]
         ],
         'grinning cat with smiling eyes' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
+                ':smile_cat:',
             ]
         ],
         'cat with tears of joy' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
+                ':joy_cat:',
             ]
         ],
         'smiling cat with heart-eyes' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
+                ':heart_eyes_cat:',
             ]
         ],
         'cat with wry smile' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
+                ':smirk_cat:',
             ]
         ],
         'kissing cat' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
+                ':kissing_cat:',
             ]
         ],
         'weary cat' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
+                ':scream_cat:',
             ]
         ],
         'crying cat' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
+                ':crying_cat_face:',
             ]
         ],
         'pouting cat' => [
             'parent' => 'cat-face',
             'children' => null,
             'aliases' => [
+                ':pouting_cat:',
             ]
         ],
         'see-no-evil monkey' => [
@@ -1281,6 +1303,8 @@ class SmileysEmotion implements Gettable
             'parent' => 'emotion',
             'children' => null,
             'aliases' => [
+                ':heart_exclamation:',
+                ':heavy_heart_exclamation_mark_ornament:',
             ]
         ],
         'broken heart' => [
@@ -1334,11 +1358,25 @@ class SmileysEmotion implements Gettable
                 ':purple_heart:',
             ]
         ],
+        'brown heart' => [
+            'parent' => 'emotion',
+            'children' => null,
+            'aliases' => [
+                ':brown_heart:',
+            ]
+        ],
         'black heart' => [
             'parent' => 'emotion',
             'children' => null,
             'aliases' => [
                 ':black_heart:',
+            ]
+        ],
+        'white heart' => [
+            'parent' => 'emotion',
+            'children' => null,
+            'aliases' => [
+                ':white_heart:',
             ]
         ],
         'hundred points' => [

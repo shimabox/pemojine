@@ -53,7 +53,7 @@ class Parser
         $bigGroups = new BigGroups();
 
         // ShortNames
-        $shortNames = $this->fetchShortNamesFromEmojiOneJson();
+        $shortNames = $this->fetchShortNamesFromJoyPixelsJson();
 
         foreach ($this->fetchTableRows($url) as $type => $val) {
             switch ($type) {
@@ -103,8 +103,8 @@ class Parser
                 case 'invalidTwitter':
                     $group->validWithTwitter = false;
                     break;
-                case 'invalidEmojiOne':
-                    $group->validWithEmojiOne = false;
+                case 'invalidJoyPixels':
+                    $group->validWithJoyPixels = false;
                     break;
                 case 'invalidFacebook':
                     $group->validWithFacebook = false;
@@ -273,7 +273,7 @@ class Parser
                             yield 'invalidTwitter' => true;
                             break;
                         case 5:
-                            yield 'invalidEmojiOne' => true;
+                            yield 'invalidJoyPixels' => true;
                             break;
                         case 6:
                             yield 'invalidSamsung' => true;
@@ -314,9 +314,9 @@ class Parser
      *
      * @return array ['name' => ['shortName','shortName',,],,]
      *
-     * @link https://github.com/emojione/emojione/blob/master/emoji.json
+     * @link https://github.com/joypixels/emoji-toolkit/blob/master/emoji.json
      */
-    private function fetchShortNamesFromEmojiOneJson()
+    private function fetchShortNamesFromJoyPixelsJson()
     {
         static $shortNames;
 
@@ -324,7 +324,7 @@ class Parser
             return $shortNames;
         }
 
-        $url = 'https://raw.githubusercontent.com/Ranks/emojione/master/emoji.json';
+        $url = 'https://raw.githubusercontent.com/joypixels/emoji-toolkit/master/emoji.json';
 
         $ch = curl_init($url);
 
@@ -349,8 +349,7 @@ class Parser
 
         $decoded = json_decode($json, true);
         foreach ($decoded as $val) {
-            $keyName = $this->adapt($val['name'], $val['keywords']);
-            $shortNames[$keyName] = array_merge(
+            $shortNames[$val['name']] = array_merge(
                 [$val['shortname']],
                 $val['shortname_alternates'],
                 $val['ascii']
@@ -358,22 +357,6 @@ class Parser
         }
 
         return $shortNames;
-    }
-
-    /**
-     *
-     * @param string $name
-     * @param array $keywords
-     *
-     * @return string
-     */
-    private function adapt($name, array $keywords)
-    {
-        if (in_array('flag', $keywords)) {
-            return 'flag: ' . $name;
-        }
-
-        return $name;
     }
 
     /**

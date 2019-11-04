@@ -118,6 +118,7 @@ class Activities implements Gettable
                 'flag in hole',
                 'ice skate',
                 'fishing pole',
+                'diving mask',
                 'running shirt',
                 'skis',
                 'sled',
@@ -128,6 +129,8 @@ class Activities implements Gettable
             'parent' => 'Activities',
             'children' => [
                 'direct hit',
+                'yo-yo',
+                'kite',
                 'pool 8 ball',
                 'crystal ball',
                 'nazar amulet',
@@ -517,6 +520,13 @@ class Activities implements Gettable
                 ':fishing_pole_and_fish:',
             ]
         ],
+        'diving mask' => [
+            'parent' => 'sport',
+            'children' => null,
+            'aliases' => [
+                ':diving_mask:',
+            ]
+        ],
         'running shirt' => [
             'parent' => 'sport',
             'children' => null,
@@ -550,6 +560,20 @@ class Activities implements Gettable
             'children' => null,
             'aliases' => [
                 ':dart:',
+            ]
+        ],
+        'yo-yo' => [
+            'parent' => 'game',
+            'children' => null,
+            'aliases' => [
+                ':yo_yo:',
+            ]
+        ],
+        'kite' => [
+            'parent' => 'game',
+            'children' => null,
+            'aliases' => [
+                ':kite:',
             ]
         ],
         'pool 8 ball' => [
@@ -605,6 +629,7 @@ class Activities implements Gettable
             'parent' => 'game',
             'children' => null,
             'aliases' => [
+                ':jigsaw:',
             ]
         ],
         'teddy bear' => [

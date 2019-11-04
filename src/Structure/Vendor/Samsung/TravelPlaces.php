@@ -121,6 +121,7 @@ class TravelPlaces implements Gettable
             'children' => [
                 'church',
                 'mosque',
+                'hindu temple',
                 'synagogue',
                 'shinto shrine',
                 'kaaba',
@@ -181,6 +182,9 @@ class TravelPlaces implements Gettable
                 'racing car',
                 'motorcycle',
                 'motor scooter',
+                'manual wheelchair',
+                'motorized wheelchair',
+                'auto rickshaw',
                 'bicycle',
                 'kick scooter',
                 'skateboard',
@@ -216,6 +220,7 @@ class TravelPlaces implements Gettable
                 'small airplane',
                 'airplane departure',
                 'airplane arrival',
+                'parachute',
                 'seat',
                 'helicopter',
                 'suspension railway',
@@ -288,6 +293,7 @@ class TravelPlaces implements Gettable
                 'sun',
                 'full moon face',
                 'sun with face',
+                'ringed planet',
                 'star',
                 'glowing star',
                 'shooting star',
@@ -463,6 +469,7 @@ class TravelPlaces implements Gettable
             'parent' => 'place-building',
             'children' => null,
             'aliases' => [
+                ':bricks:',
             ]
         ],
         'houses' => [
@@ -619,6 +626,13 @@ class TravelPlaces implements Gettable
             'children' => null,
             'aliases' => [
                 ':mosque:',
+            ]
+        ],
+        'hindu temple' => [
+            'parent' => 'place-religious',
+            'children' => null,
+            'aliases' => [
+                ':hindu_temple:',
             ]
         ],
         'synagogue' => [
@@ -975,6 +989,27 @@ class TravelPlaces implements Gettable
                 ':motorbike:',
             ]
         ],
+        'manual wheelchair' => [
+            'parent' => 'transport-ground',
+            'children' => null,
+            'aliases' => [
+                ':manual_wheelchair:',
+            ]
+        ],
+        'motorized wheelchair' => [
+            'parent' => 'transport-ground',
+            'children' => null,
+            'aliases' => [
+                ':motorized_wheelchair:',
+            ]
+        ],
+        'auto rickshaw' => [
+            'parent' => 'transport-ground',
+            'children' => null,
+            'aliases' => [
+                ':auto_rickshaw:',
+            ]
+        ],
         'bicycle' => [
             'parent' => 'transport-ground',
             'children' => null,
@@ -1154,6 +1189,13 @@ class TravelPlaces implements Gettable
             'children' => null,
             'aliases' => [
                 ':airplane_arriving:',
+            ]
+        ],
+        'parachute' => [
+            'parent' => 'transport-air',
+            'children' => null,
+            'aliases' => [
+                ':parachute:',
             ]
         ],
         'seat' => [
@@ -1556,6 +1598,13 @@ class TravelPlaces implements Gettable
             'children' => null,
             'aliases' => [
                 ':sun_with_face:',
+            ]
+        ],
+        'ringed planet' => [
+            'parent' => 'sky & weather',
+            'children' => null,
+            'aliases' => [
+                ':ringed_planet:',
             ]
         ],
         'star' => [

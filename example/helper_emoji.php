@@ -52,19 +52,19 @@ echo $output_10, $br;
 
 // Get supported vendor by shortname.
 $output_11 = Emoji::getSupportVendorByShortName('pirate flag');
-assert(['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung', 'Windows'] === $output_11);
+assert(['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'] === $output_11);
 var_dump($output_11);
 
 $output_12 = Emoji::getSupportVendorByShortName('|pirate flag|');
-assert(['Apple', 'Google', 'Twitter', 'EmojiOne', 'Facebook', 'Samsung', 'Windows'] === $output_12);
+assert(['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'] === $output_12);
 var_dump($output_12);
 
 // Get other supported vendor.
-$output_13 = Emoji::getOtherSupportVendor('EmojiOne', 'pirate flag');
+$output_13 = Emoji::getOtherSupportVendor('JoyPixels', 'pirate flag');
 assert(['Apple', 'Google', 'Twitter', 'Facebook', 'Samsung', 'Windows'] === $output_13);
 var_dump($output_13);
 
-$output_14 = Emoji::getOtherSupportVendor('EmojiOne', '|pirate flag|');
+$output_14 = Emoji::getOtherSupportVendor('JoyPixels', '|pirate flag|');
 assert(['Apple', 'Google', 'Twitter', 'Facebook', 'Samsung', 'Windows'] === $output_14);
 var_dump($output_14);
 

@@ -290,9 +290,21 @@ class Symbols implements Gettable
             'parent' => 'Symbols',
             'children' => [
                 'red circle',
+                'orange circle',
+                'yellow circle',
+                'green circle',
                 'blue circle',
+                'purple circle',
+                'brown circle',
                 'black circle',
                 'white circle',
+                'red square',
+                'orange square',
+                'yellow square',
+                'green square',
+                'blue square',
+                'purple square',
+                'brown square',
                 'black large square',
                 'white large square',
                 'black medium square',
@@ -1048,30 +1060,35 @@ class Symbols implements Gettable
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':o:',
             ]
         ],
         'check mark button' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':white_check_mark:',
             ]
         ],
         'check box with check' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':ballot_box_with_check:',
             ]
         ],
         'check mark' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':heavy_check_mark:',
             ]
         ],
         'multiplication sign' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':heavy_multiplication_x:',
             ]
         ],
         'cross mark' => [
@@ -1092,18 +1109,21 @@ class Symbols implements Gettable
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':heavy_plus_sign:',
             ]
         ],
         'minus sign' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':heavy_minus_sign:',
             ]
         ],
         'division sign' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
+                ':heavy_division_sign:',
             ]
         ],
         'curly loop' => [
@@ -1590,11 +1610,46 @@ class Symbols implements Gettable
                 ':red_circle:',
             ]
         ],
+        'orange circle' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+                ':orange_circle:',
+            ]
+        ],
+        'yellow circle' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+                ':yellow_circle:',
+            ]
+        ],
+        'green circle' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+                ':green_circle:',
+            ]
+        ],
         'blue circle' => [
             'parent' => 'geometric',
             'children' => null,
             'aliases' => [
                 ':blue_circle:',
+            ]
+        ],
+        'purple circle' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+                ':purple_circle:',
+            ]
+        ],
+        'brown circle' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+                ':brown_circle:',
             ]
         ],
         'black circle' => [
@@ -1609,6 +1664,55 @@ class Symbols implements Gettable
             'children' => null,
             'aliases' => [
                 ':white_circle:',
+            ]
+        ],
+        'red square' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+                ':red_square:',
+            ]
+        ],
+        'orange square' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+                ':orange_square:',
+            ]
+        ],
+        'yellow square' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+                ':yellow_square:',
+            ]
+        ],
+        'green square' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+                ':green_square:',
+            ]
+        ],
+        'blue square' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+                ':blue_square:',
+            ]
+        ],
+        'purple square' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+                ':purple_square:',
+            ]
+        ],
+        'brown square' => [
+            'parent' => 'geometric',
+            'children' => null,
+            'aliases' => [
+                ':brown_square:',
             ]
         ],
         'black large square' => [

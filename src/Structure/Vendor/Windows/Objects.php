@@ -166,7 +166,7 @@ class Objects implements Gettable
             'children' => [
                 'battery',
                 'electric plug',
-                'laptop computer',
+                'laptop',
                 'desktop computer',
                 'printer',
                 'keyboard',
@@ -521,6 +521,7 @@ class Objects implements Gettable
             'parent' => 'clothing',
             'children' => null,
             'aliases' => [
+                ':school_satchel:',
             ]
         ],
         'man’s shoe' => [
@@ -548,6 +549,7 @@ class Objects implements Gettable
             'parent' => 'clothing',
             'children' => null,
             'aliases' => [
+                ':womans_flat_shoe:',
             ]
         ],
         'high-heeled shoe' => [
@@ -868,11 +870,10 @@ class Objects implements Gettable
                 ':electric_plug:',
             ]
         ],
-        'laptop computer' => [
+        'laptop' => [
             'parent' => 'computer',
             'children' => null,
             'aliases' => [
-                ':computer:',
             ]
         ],
         'desktop computer' => [
@@ -1846,6 +1847,7 @@ class Objects implements Gettable
             'parent' => 'household',
             'children' => null,
             'aliases' => [
+                ':squeeze_bottle:',
             ]
         ],
         'safety pin' => [

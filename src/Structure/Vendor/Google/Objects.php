@@ -76,6 +76,7 @@ class Objects implements Gettable
                 'sunglasses',
                 'goggles',
                 'lab coat',
+                'safety vest',
                 'necktie',
                 't-shirt',
                 'jeans',
@@ -85,6 +86,10 @@ class Objects implements Gettable
                 'socks',
                 'dress',
                 'kimono',
+                'sari',
+                'one-piece swimsuit',
+                'briefs',
+                'shorts',
                 'bikini',
                 'woman’s clothes',
                 'purse',
@@ -98,6 +103,7 @@ class Objects implements Gettable
                 'flat shoe',
                 'high-heeled shoe',
                 'woman’s sandal',
+                'ballet shoes',
                 'woman’s boot',
                 'crown',
                 'woman’s hat',
@@ -147,6 +153,7 @@ class Objects implements Gettable
                 'musical keyboard',
                 'trumpet',
                 'violin',
+                'banjo',
                 'drum',
             ]
         ],
@@ -166,7 +173,7 @@ class Objects implements Gettable
             'children' => [
                 'battery',
                 'electric plug',
-                'laptop computer',
+                'laptop',
                 'desktop computer',
                 'printer',
                 'keyboard',
@@ -197,6 +204,7 @@ class Objects implements Gettable
                 'light bulb',
                 'flashlight',
                 'red paper lantern',
+                'diya lamp',
             ]
         ],
         'book-paper' => [
@@ -310,6 +318,7 @@ class Objects implements Gettable
             'parent' => 'Objects',
             'children' => [
                 'hammer',
+                'axe',
                 'pick',
                 'hammer and pick',
                 'hammer and wrench',
@@ -323,6 +332,7 @@ class Objects implements Gettable
                 'gear',
                 'clamp',
                 'balance scale',
+                'probing cane',
                 'link',
                 'chains',
                 'toolbox',
@@ -345,7 +355,10 @@ class Objects implements Gettable
             'parent' => 'Objects',
             'children' => [
                 'syringe',
+                'drop of blood',
                 'pill',
+                'adhesive bandage',
+                'stethoscope',
             ]
         ],
         'household' => [
@@ -354,9 +367,11 @@ class Objects implements Gettable
                 'door',
                 'bed',
                 'couch and lamp',
+                'chair',
                 'toilet',
                 'shower',
                 'bathtub',
+                'razor',
                 'lotion bottle',
                 'safety pin',
                 'broom',
@@ -410,6 +425,13 @@ class Objects implements Gettable
             'children' => null,
             'aliases' => [
                 ':lab_coat:',
+            ]
+        ],
+        'safety vest' => [
+            'parent' => 'clothing',
+            'children' => null,
+            'aliases' => [
+                ':safety_vest:',
             ]
         ],
         'necktie' => [
@@ -475,6 +497,34 @@ class Objects implements Gettable
                 ':kimono:',
             ]
         ],
+        'sari' => [
+            'parent' => 'clothing',
+            'children' => null,
+            'aliases' => [
+                ':sari:',
+            ]
+        ],
+        'one-piece swimsuit' => [
+            'parent' => 'clothing',
+            'children' => null,
+            'aliases' => [
+                ':one_piece_swimsuit:',
+            ]
+        ],
+        'briefs' => [
+            'parent' => 'clothing',
+            'children' => null,
+            'aliases' => [
+                ':briefs:',
+            ]
+        ],
+        'shorts' => [
+            'parent' => 'clothing',
+            'children' => null,
+            'aliases' => [
+                ':shorts:',
+            ]
+        ],
         'bikini' => [
             'parent' => 'clothing',
             'children' => null,
@@ -521,6 +571,7 @@ class Objects implements Gettable
             'parent' => 'clothing',
             'children' => null,
             'aliases' => [
+                ':school_satchel:',
             ]
         ],
         'man’s shoe' => [
@@ -548,6 +599,7 @@ class Objects implements Gettable
             'parent' => 'clothing',
             'children' => null,
             'aliases' => [
+                ':womans_flat_shoe:',
             ]
         ],
         'high-heeled shoe' => [
@@ -562,6 +614,13 @@ class Objects implements Gettable
             'children' => null,
             'aliases' => [
                 ':sandal:',
+            ]
+        ],
+        'ballet shoes' => [
+            'parent' => 'clothing',
+            'children' => null,
+            'aliases' => [
+                ':ballet_shoes:',
             ]
         ],
         'woman’s boot' => [
@@ -804,6 +863,13 @@ class Objects implements Gettable
                 ':violin:',
             ]
         ],
+        'banjo' => [
+            'parent' => 'musical-instrument',
+            'children' => null,
+            'aliases' => [
+                ':banjo:',
+            ]
+        ],
         'drum' => [
             'parent' => 'musical-instrument',
             'children' => null,
@@ -868,11 +934,10 @@ class Objects implements Gettable
                 ':electric_plug:',
             ]
         ],
-        'laptop computer' => [
+        'laptop' => [
             'parent' => 'computer',
             'children' => null,
             'aliases' => [
-                ':computer:',
             ]
         ],
         'desktop computer' => [
@@ -1051,6 +1116,13 @@ class Objects implements Gettable
             'children' => null,
             'aliases' => [
                 ':izakaya_lantern:',
+            ]
+        ],
+        'diya lamp' => [
+            'parent' => 'light & video',
+            'children' => null,
+            'aliases' => [
+                ':diya_lamp:',
             ]
         ],
         'notebook with decorative cover' => [
@@ -1613,6 +1685,13 @@ class Objects implements Gettable
                 ':hammer:',
             ]
         ],
+        'axe' => [
+            'parent' => 'tool',
+            'children' => null,
+            'aliases' => [
+                ':axe:',
+            ]
+        ],
         'pick' => [
             'parent' => 'tool',
             'children' => null,
@@ -1708,6 +1787,13 @@ class Objects implements Gettable
                 ':scales:',
             ]
         ],
+        'probing cane' => [
+            'parent' => 'tool',
+            'children' => null,
+            'aliases' => [
+                ':probing_cane:',
+            ]
+        ],
         'link' => [
             'parent' => 'tool',
             'children' => null,
@@ -1792,11 +1878,32 @@ class Objects implements Gettable
                 ':syringe:',
             ]
         ],
+        'drop of blood' => [
+            'parent' => 'medical',
+            'children' => null,
+            'aliases' => [
+                ':drop_of_blood:',
+            ]
+        ],
         'pill' => [
             'parent' => 'medical',
             'children' => null,
             'aliases' => [
                 ':pill:',
+            ]
+        ],
+        'adhesive bandage' => [
+            'parent' => 'medical',
+            'children' => null,
+            'aliases' => [
+                ':adhesive_bandage:',
+            ]
+        ],
+        'stethoscope' => [
+            'parent' => 'medical',
+            'children' => null,
+            'aliases' => [
+                ':stethoscope:',
             ]
         ],
         'door' => [
@@ -1821,6 +1928,13 @@ class Objects implements Gettable
                 ':couch_and_lamp:',
             ]
         ],
+        'chair' => [
+            'parent' => 'household',
+            'children' => null,
+            'aliases' => [
+                ':chair:',
+            ]
+        ],
         'toilet' => [
             'parent' => 'household',
             'children' => null,
@@ -1842,10 +1956,18 @@ class Objects implements Gettable
                 ':bathtub:',
             ]
         ],
+        'razor' => [
+            'parent' => 'household',
+            'children' => null,
+            'aliases' => [
+                ':razor:',
+            ]
+        ],
         'lotion bottle' => [
             'parent' => 'household',
             'children' => null,
             'aliases' => [
+                ':squeeze_bottle:',
             ]
         ],
         'safety pin' => [

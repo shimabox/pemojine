@@ -22,7 +22,7 @@ class Vendor
         'Apple',
         'Google',
         'Twitter',
-        'EmojiOne',
+        'JoyPixels',
         'Facebook',
         'Samsung',
         'Windows',

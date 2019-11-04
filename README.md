@@ -19,7 +19,7 @@ This library is getting data from here.
 
 - [Full Emoji List, v12.0](http://www.unicode.org/emoji/charts-12.0/full-emoji-list.html "Full Emoji List, v12.0")
 - [Full Emoji Modifier Sequences, v12.0](https://unicode.org/emoji/charts/full-emoji-modifiers.html "Full Emoji Modifier Sequences, v12.0")
-- [emojione/emoji.json at master · emojione/emojione · GitHub](https://github.com/emojione/emojione/blob/master/emoji.json "emojione/emoji.json at master · emojione/emojione · GitHub")
+- [emoji-toolkit/emoji.json at master · joypixels/emoji-toolkit](https://github.com/joypixels/emoji-toolkit/blob/master/emoji.json "emoji-toolkit/emoji.json at master · joypixels/emoji-toolkit")
 
 ## Architecture
 
@@ -269,7 +269,7 @@ Scrape the data here.
 
 - [Full Emoji List, v12.0](http://www.unicode.org/emoji/charts-12.0/full-emoji-list.html "Full Emoji List, v12.0")
 - [Full Emoji Modifier Sequences, v12.0](https://unicode.org/emoji/charts/full-emoji-modifiers.html "Full Emoji Modifier Sequences, v12.0")
-- [emojione/emoji.json at master · emojione/emojione · GitHub](https://github.com/emojione/emojione/blob/master/emoji.json "emojione/emoji.json at master · emojione/emojione · GitHub")
+- [emoji-toolkit/emoji.json at master · joypixels/emoji-toolkit](https://github.com/joypixels/emoji-toolkit/blob/master/emoji.json "emoji-toolkit/emoji.json at master · joypixels/emoji-toolkit")
 
 `scraping/output/Config`, `scraping/output/Structure` Since files are output below, please place them under `src/Config`, `src/Structure` respectively.
 
@@ -305,7 +305,7 @@ $ composer coverage # or vendor/bin/phpunit --coverage-text --coverage-html ./re
   - I tried to cope with nesting.
     - But it does not correspond to complex nesting.
 - Emoji mapping(array) is too rich, so I need to think about this.
-- For `Vendor\EmojiOne` I feel correct to combine with [emojione/lib/php at master · emojione/emojione](https://github.com/emojione/emojione/tree/master/lib/php "emojione/lib/php at master · emojione/emojione").
+- For `Vendor\JoyPixels` I feel correct to combine with [emoji-toolkit/lib/php at master · joypixels/emoji-toolkit](https://github.com/joypixels/emoji-toolkit/tree/master/lib/php "emoji-toolkit/lib/php at master · joypixels/emoji-toolkit").
 - Confirmation on actual machine.
 
 ## License

@@ -178,7 +178,6 @@ class SmileysEmotion implements Gettable
             'children' => null,
             'aliases' => [
                 ':smiley:',
-                ':D',
                 ':-D',
                 '=D',
             ]
@@ -188,6 +187,7 @@ class SmileysEmotion implements Gettable
             'children' => null,
             'aliases' => [
                 ':smile:',
+                ':D',
             ]
         ],
         'beaming face with smiling eyes' => [

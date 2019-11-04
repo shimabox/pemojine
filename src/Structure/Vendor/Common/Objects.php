@@ -104,7 +104,7 @@ class Objects implements Gettable
         'computer' => [
             'parent' => 'Objects',
             'children' => [
-                'laptop computer',
+                'laptop',
                 'optical disk',
             ]
         ],
@@ -287,11 +287,10 @@ class Objects implements Gettable
                 ':fax:',
             ]
         ],
-        'laptop computer' => [
+        'laptop' => [
             'parent' => 'computer',
             'children' => null,
             'aliases' => [
-                ':computer:',
             ]
         ],
         'optical disk' => [

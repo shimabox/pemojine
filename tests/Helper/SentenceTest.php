@@ -440,26 +440,6 @@ class SentenceTest extends \PHPUnit_Framework_TestCase
     /**
      * @test
      */
-    public function in_case_of_EmojiOne_it_can_handle_for_unsupported_characters_return_as_is()
-    {
-        $target = '|man superhero: light skin tone|';
-
-        $emojione  = $this->create_outputter('EmojiOne');
-        $this->assertSame(
-            $target,
-            Sentence::createStatically($emojione, $target)
-        );
-
-        $google = $this->create_outputter('Google');
-        $this->assertSame(
-            '🦸🏻‍♂️',
-            Sentence::createStatically($google, $target)
-        );
-    }
-
-    /**
-     * @test
-     */
     public function in_case_of_GMail_it_can_handle_for_unsupported_characters_return_as_is()
     {
         $target = '|rolling on the floor laughing|';

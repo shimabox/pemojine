@@ -414,12 +414,14 @@ class FoodDrink implements Gettable
             'parent' => 'food-vegetable',
             'children' => null,
             'aliases' => [
+                ':garlic:',
             ]
         ],
         'onion' => [
             'parent' => 'food-vegetable',
             'children' => null,
             'aliases' => [
+                ':onion:',
             ]
         ],
         'mushroom' => [
@@ -491,6 +493,7 @@ class FoodDrink implements Gettable
             'parent' => 'food-prepared',
             'children' => null,
             'aliases' => [
+                ':waffle:',
             ]
         ],
         'cheese wedge' => [
@@ -591,6 +594,7 @@ class FoodDrink implements Gettable
             'parent' => 'food-prepared',
             'children' => null,
             'aliases' => [
+                ':falafel:',
             ]
         ],
         'egg' => [
@@ -648,6 +652,7 @@ class FoodDrink implements Gettable
             'parent' => 'food-prepared',
             'children' => null,
             'aliases' => [
+                ':butter:',
             ]
         ],
         'salt' => [
@@ -815,6 +820,7 @@ class FoodDrink implements Gettable
             'parent' => 'food-marine',
             'children' => null,
             'aliases' => [
+                ':oyster:',
             ]
         ],
         'soft ice cream' => [
@@ -1023,12 +1029,14 @@ class FoodDrink implements Gettable
             'parent' => 'drink',
             'children' => null,
             'aliases' => [
+                ':beverage_box:',
             ]
         ],
         'mate' => [
             'parent' => 'drink',
             'children' => null,
             'aliases' => [
+                ':mate:',
             ]
         ],
         'ice' => [

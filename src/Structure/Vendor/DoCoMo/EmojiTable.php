@@ -267,7 +267,6 @@ class EmojiTable implements Gettable
      */
     public static $mappingOfShortName = [
         ':smiley:' => 'grinning face with big eyes',
-        ':D' => 'grinning face with big eyes',
         ':-D' => 'grinning face with big eyes',
         '=D' => 'grinning face with big eyes',
         ':grin:' => 'beaming face with smiling eyes',

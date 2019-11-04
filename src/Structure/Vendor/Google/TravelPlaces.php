@@ -477,6 +477,7 @@ class TravelPlaces implements Gettable
             'parent' => 'place-building',
             'children' => null,
             'aliases' => [
+                ':bricks:',
             ]
         ],
         'houses' => [
@@ -639,6 +640,7 @@ class TravelPlaces implements Gettable
             'parent' => 'place-religious',
             'children' => null,
             'aliases' => [
+                ':hindu_temple:',
             ]
         ],
         'synagogue' => [
@@ -999,18 +1001,21 @@ class TravelPlaces implements Gettable
             'parent' => 'transport-ground',
             'children' => null,
             'aliases' => [
+                ':manual_wheelchair:',
             ]
         ],
         'motorized wheelchair' => [
             'parent' => 'transport-ground',
             'children' => null,
             'aliases' => [
+                ':motorized_wheelchair:',
             ]
         ],
         'auto rickshaw' => [
             'parent' => 'transport-ground',
             'children' => null,
             'aliases' => [
+                ':auto_rickshaw:',
             ]
         ],
         'bicycle' => [
@@ -1198,6 +1203,7 @@ class TravelPlaces implements Gettable
             'parent' => 'transport-air',
             'children' => null,
             'aliases' => [
+                ':parachute:',
             ]
         ],
         'seat' => [
@@ -1606,6 +1612,7 @@ class TravelPlaces implements Gettable
             'parent' => 'sky & weather',
             'children' => null,
             'aliases' => [
+                ':ringed_planet:',
             ]
         ],
         'star' => [

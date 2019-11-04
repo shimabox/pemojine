@@ -605,6 +605,7 @@ class Activities implements Gettable
             'parent' => 'game',
             'children' => null,
             'aliases' => [
+                ':jigsaw:',
             ]
         ],
         'teddy bear' => [

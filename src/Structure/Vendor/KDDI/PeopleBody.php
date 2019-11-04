@@ -388,6 +388,8 @@ class PeopleBody implements Gettable
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':blond_haired_person:',
+                ':person_with_blond_hair:',
             ]
         ],
         'man' => [

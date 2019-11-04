@@ -62,13 +62,13 @@ class ContainerTest extends \PHPUnit_Framework_TestCase
     /**
      * @test
      */
-    public function it_can_create_containers_for_EmojiOne()
+    public function it_can_create_containers_for_JoyPixels()
     {
-        $pemojine = PemojineContainer::make(new Vendor\EmojiOne());
+        $pemojine = PemojineContainer::make(new Vendor\JoyPixels());
 
         $this->assertInstanceOf('\SMB\Pemojine\Repository\Gettable', $pemojine);
         $this->assertInstanceOf('\SMB\Pemojine\Outputter\Outputtable', $pemojine->getOutputter());
-        $this->assertSame('EmojiOne', $pemojine->getVendorName());
+        $this->assertSame('JoyPixels', $pemojine->getVendorName());
     }
 
     /**

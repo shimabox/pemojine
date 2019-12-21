@@ -65,8 +65,11 @@ class AnimalsNature implements Gettable
                 'monkey face',
                 'monkey',
                 'gorilla',
+                'orangutan',
                 'dog face',
                 'dog',
+                'guide dog',
+                'service dog',
                 'poodle',
                 'wolf',
                 'fox',
@@ -112,6 +115,9 @@ class AnimalsNature implements Gettable
                 'bear',
                 'koala',
                 'panda',
+                'sloth',
+                'otter',
+                'skunk',
                 'kangaroo',
                 'badger',
                 'paw prints',
@@ -133,6 +139,7 @@ class AnimalsNature implements Gettable
                 'duck',
                 'swan',
                 'owl',
+                'flamingo',
                 'peacock',
                 'parrot',
             ]
@@ -247,6 +254,13 @@ class AnimalsNature implements Gettable
                 ':gorilla:',
             ]
         ],
+        'orangutan' => [
+            'parent' => 'animal-mammal',
+            'children' => null,
+            'aliases' => [
+                ':orangutan:',
+            ]
+        ],
         'dog face' => [
             'parent' => 'animal-mammal',
             'children' => null,
@@ -259,6 +273,20 @@ class AnimalsNature implements Gettable
             'children' => null,
             'aliases' => [
                 ':dog2:',
+            ]
+        ],
+        'guide dog' => [
+            'parent' => 'animal-mammal',
+            'children' => null,
+            'aliases' => [
+                ':guide_dog:',
+            ]
+        ],
+        'service dog' => [
+            'parent' => 'animal-mammal',
+            'children' => null,
+            'aliases' => [
+                ':service_dog:',
             ]
         ],
         'poodle' => [
@@ -580,6 +608,27 @@ class AnimalsNature implements Gettable
                 ':panda_face:',
             ]
         ],
+        'sloth' => [
+            'parent' => 'animal-mammal',
+            'children' => null,
+            'aliases' => [
+                ':sloth:',
+            ]
+        ],
+        'otter' => [
+            'parent' => 'animal-mammal',
+            'children' => null,
+            'aliases' => [
+                ':otter:',
+            ]
+        ],
+        'skunk' => [
+            'parent' => 'animal-mammal',
+            'children' => null,
+            'aliases' => [
+                ':skunk:',
+            ]
+        ],
         'kangaroo' => [
             'parent' => 'animal-mammal',
             'children' => null,
@@ -692,6 +741,13 @@ class AnimalsNature implements Gettable
             'children' => null,
             'aliases' => [
                 ':owl:',
+            ]
+        ],
+        'flamingo' => [
+            'parent' => 'animal-bird',
+            'children' => null,
+            'aliases' => [
+                ':flamingo:',
             ]
         ],
         'peacock' => [

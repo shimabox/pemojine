@@ -241,8 +241,6 @@ class Objects implements Gettable
                 'credit card',
                 'receipt',
                 'chart increasing with yen',
-                'currency exchange',
-                'heavy dollar sign',
             ]
         ],
         'mail' => [
@@ -332,7 +330,7 @@ class Objects implements Gettable
                 'gear',
                 'clamp',
                 'balance scale',
-                'probing cane',
+                'white cane',
                 'link',
                 'chains',
                 'toolbox',
@@ -1308,20 +1306,6 @@ class Objects implements Gettable
                 ':chart:',
             ]
         ],
-        'currency exchange' => [
-            'parent' => 'money',
-            'children' => null,
-            'aliases' => [
-                ':currency_exchange:',
-            ]
-        ],
-        'heavy dollar sign' => [
-            'parent' => 'money',
-            'children' => null,
-            'aliases' => [
-                ':heavy_dollar_sign:',
-            ]
-        ],
         'envelope' => [
             'parent' => 'mail',
             'children' => null,
@@ -1787,11 +1771,10 @@ class Objects implements Gettable
                 ':scales:',
             ]
         ],
-        'probing cane' => [
+        'white cane' => [
             'parent' => 'tool',
             'children' => null,
             'aliases' => [
-                ':probing_cane:',
             ]
         ],
         'link' => [

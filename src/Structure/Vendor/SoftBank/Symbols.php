@@ -48,6 +48,8 @@ class Symbols implements Gettable
                 'religion',
                 'zodiac',
                 'av-symbol',
+                'punctuation',
+                'currency',
                 'other-symbol',
                 'keycap',
                 'alphanum',
@@ -132,6 +134,21 @@ class Symbols implements Gettable
                 'mobile phone off',
             ]
         ],
+        'punctuation' => [
+            'parent' => 'Symbols',
+            'children' => [
+                'question mark',
+                'white question mark',
+                'white exclamation mark',
+                'exclamation mark',
+            ]
+        ],
+        'currency' => [
+            'parent' => 'Symbols',
+            'children' => [
+                'currency exchange',
+            ]
+        ],
         'other-symbol' => [
             'parent' => 'Symbols',
             'children' => [
@@ -142,10 +159,6 @@ class Symbols implements Gettable
                 'part alternation mark',
                 'eight-spoked asterisk',
                 'eight-pointed star',
-                'question mark',
-                'white question mark',
-                'white exclamation mark',
-                'exclamation mark',
                 'copyright',
                 'registered',
                 'trade mark',
@@ -499,6 +512,41 @@ class Symbols implements Gettable
                 ':mobile_phone_off:',
             ]
         ],
+        'question mark' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':question:',
+            ]
+        ],
+        'white question mark' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':grey_question:',
+            ]
+        ],
+        'white exclamation mark' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':grey_exclamation:',
+            ]
+        ],
+        'exclamation mark' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':exclamation:',
+            ]
+        ],
+        'currency exchange' => [
+            'parent' => 'currency',
+            'children' => null,
+            'aliases' => [
+                ':currency_exchange:',
+            ]
+        ],
         'trident emblem' => [
             'parent' => 'other-symbol',
             'children' => null,
@@ -546,34 +594,6 @@ class Symbols implements Gettable
             'children' => null,
             'aliases' => [
                 ':eight_pointed_black_star:',
-            ]
-        ],
-        'question mark' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':question:',
-            ]
-        ],
-        'white question mark' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':grey_question:',
-            ]
-        ],
-        'white exclamation mark' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':grey_exclamation:',
-            ]
-        ],
-        'exclamation mark' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':exclamation:',
             ]
         ],
         'copyright' => [

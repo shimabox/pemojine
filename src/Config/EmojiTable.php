@@ -352,7 +352,7 @@ class EmojiTable
         ],
         'yawning face' => [
             'unicode' => 'U+1F971',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'face with steam from nose' => [
             'unicode' => 'U+1F624',
@@ -540,7 +540,7 @@ class EmojiTable
         ],
         'brown heart' => [
             'unicode' => 'U+1F90E',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'black heart' => [
             'unicode' => 'U+1F5A4',
@@ -548,7 +548,7 @@ class EmojiTable
         ],
         'white heart' => [
             'unicode' => 'U+1F90D',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'hundred points' => [
             'unicode' => 'U+1F4AF',
@@ -732,7 +732,7 @@ class EmojiTable
         ],
         'pinching hand' => [
             'unicode' => 'U+1F90F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'victory hand' => [
             'unicode' => 'U+270C',
@@ -776,23 +776,23 @@ class EmojiTable
         ],
         'pinching hand: light skin tone' => [
             'unicode' => 'U+1F90F U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'pinching hand: medium-light skin tone' => [
             'unicode' => 'U+1F90F U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'pinching hand: medium skin tone' => [
             'unicode' => 'U+1F90F U+1F3FD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'pinching hand: medium-dark skin tone' => [
             'unicode' => 'U+1F90F U+1F3FE',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'pinching hand: dark skin tone' => [
             'unicode' => 'U+1F90F U+1F3FF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'victory hand: light skin tone' => [
             'unicode' => 'U+270C U+1F3FB',
@@ -1384,11 +1384,11 @@ class EmojiTable
         ],
         'mechanical arm' => [
             'unicode' => 'U+1F9BE',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'mechanical leg' => [
             'unicode' => 'U+1F9BF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'leg' => [
             'unicode' => 'U+1F9B5',
@@ -1404,7 +1404,7 @@ class EmojiTable
         ],
         'ear with hearing aid' => [
             'unicode' => 'U+1F9BB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'nose' => [
             'unicode' => 'U+1F443',
@@ -1520,23 +1520,23 @@ class EmojiTable
         ],
         'ear with hearing aid: light skin tone' => [
             'unicode' => 'U+1F9BB U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'ear with hearing aid: medium-light skin tone' => [
             'unicode' => 'U+1F9BB U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'ear with hearing aid: medium skin tone' => [
             'unicode' => 'U+1F9BB U+1F3FD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'ear with hearing aid: medium-dark skin tone' => [
             'unicode' => 'U+1F9BB U+1F3FE',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'ear with hearing aid: dark skin tone' => [
             'unicode' => 'U+1F9BB U+1F3FF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'nose: light skin tone' => [
             'unicode' => 'U+1F443 U+1F3FB',
@@ -1616,7 +1616,7 @@ class EmojiTable
         ],
         '⊛ person: red hair' => [
             'unicode' => 'U+1F9D1 U+200D U+1F9B0',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'woman: curly hair' => [
             'unicode' => 'U+1F469 U+200D U+1F9B1',
@@ -1624,7 +1624,7 @@ class EmojiTable
         ],
         '⊛ person: curly hair' => [
             'unicode' => 'U+1F9D1 U+200D U+1F9B1',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'woman: white hair' => [
             'unicode' => 'U+1F469 U+200D U+1F9B3',
@@ -1632,7 +1632,7 @@ class EmojiTable
         ],
         '⊛ person: white hair' => [
             'unicode' => 'U+1F9D1 U+200D U+1F9B3',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'woman: bald' => [
             'unicode' => 'U+1F469 U+200D U+1F9B2',
@@ -1640,7 +1640,7 @@ class EmojiTable
         ],
         '⊛ person: bald' => [
             'unicode' => 'U+1F9D1 U+200D U+1F9B2',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'woman: blond hair' => [
             'unicode' => 'U+1F471 U+200D U+2640 U+FE0F',
@@ -1944,23 +1944,23 @@ class EmojiTable
         ],
         '⊛ person: light skin tone, red hair' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F9B0',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person: medium-light skin tone, red hair' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F9B0',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person: medium skin tone, red hair' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F9B0',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person: medium-dark skin tone, red hair' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F9B0',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person: dark skin tone, red hair' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F9B0',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'woman: light skin tone, curly hair' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F9B1',
@@ -1984,23 +1984,23 @@ class EmojiTable
         ],
         '⊛ person: light skin tone, curly hair' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F9B1',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person: medium-light skin tone, curly hair' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F9B1',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person: medium skin tone, curly hair' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F9B1',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person: medium-dark skin tone, curly hair' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F9B1',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person: dark skin tone, curly hair' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F9B1',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'woman: light skin tone, white hair' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F9B3',
@@ -2024,23 +2024,23 @@ class EmojiTable
         ],
         '⊛ person: light skin tone, white hair' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F9B3',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person: medium-light skin tone, white hair' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F9B3',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person: medium skin tone, white hair' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F9B3',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person: medium-dark skin tone, white hair' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F9B3',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person: dark skin tone, white hair' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F9B3',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'woman: light skin tone, bald' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F9B2',
@@ -2064,23 +2064,23 @@ class EmojiTable
         ],
         '⊛ person: light skin tone, bald' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F9B2',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person: medium-light skin tone, bald' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F9B2',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person: medium skin tone, bald' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F9B2',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person: medium-dark skin tone, bald' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F9B2',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person: dark skin tone, bald' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F9B2',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'woman: light skin tone, blond hair' => [
             'unicode' => 'U+1F471 U+1F3FB U+200D U+2640 U+FE0F',
@@ -2256,15 +2256,15 @@ class EmojiTable
         ],
         'deaf person' => [
             'unicode' => 'U+1F9CF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'deaf man' => [
             'unicode' => 'U+1F9CF U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'deaf woman' => [
             'unicode' => 'U+1F9CF U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'person bowing' => [
             'unicode' => 'U+1F647',
@@ -2664,63 +2664,63 @@ class EmojiTable
         ],
         'deaf person: light skin tone' => [
             'unicode' => 'U+1F9CF U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'deaf person: medium-light skin tone' => [
             'unicode' => 'U+1F9CF U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'deaf person: medium skin tone' => [
             'unicode' => 'U+1F9CF U+1F3FD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'deaf person: medium-dark skin tone' => [
             'unicode' => 'U+1F9CF U+1F3FE',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'deaf person: dark skin tone' => [
             'unicode' => 'U+1F9CF U+1F3FF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'deaf man: light skin tone' => [
             'unicode' => 'U+1F9CF U+1F3FB U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'deaf man: medium-light skin tone' => [
             'unicode' => 'U+1F9CF U+1F3FC U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'deaf man: medium skin tone' => [
             'unicode' => 'U+1F9CF U+1F3FD U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'deaf man: medium-dark skin tone' => [
             'unicode' => 'U+1F9CF U+1F3FE U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'deaf man: dark skin tone' => [
             'unicode' => 'U+1F9CF U+1F3FF U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'deaf woman: light skin tone' => [
             'unicode' => 'U+1F9CF U+1F3FB U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'deaf woman: medium-light skin tone' => [
             'unicode' => 'U+1F9CF U+1F3FC U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'deaf woman: medium skin tone' => [
             'unicode' => 'U+1F9CF U+1F3FD U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'deaf woman: medium-dark skin tone' => [
             'unicode' => 'U+1F9CF U+1F3FE U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'deaf woman: dark skin tone' => [
             'unicode' => 'U+1F9CF U+1F3FF U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'person bowing: light skin tone' => [
             'unicode' => 'U+1F647 U+1F3FB',
@@ -2904,7 +2904,7 @@ class EmojiTable
         ],
         '⊛ health worker' => [
             'unicode' => 'U+1F9D1 U+200D U+2695 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man health worker' => [
             'unicode' => 'U+1F468 U+200D U+2695 U+FE0F',
@@ -2916,7 +2916,7 @@ class EmojiTable
         ],
         '⊛ student' => [
             'unicode' => 'U+1F9D1 U+200D U+1F393',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man student' => [
             'unicode' => 'U+1F468 U+200D U+1F393',
@@ -2928,7 +2928,7 @@ class EmojiTable
         ],
         '⊛ teacher' => [
             'unicode' => 'U+1F9D1 U+200D U+1F3EB',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man teacher' => [
             'unicode' => 'U+1F468 U+200D U+1F3EB',
@@ -2940,7 +2940,7 @@ class EmojiTable
         ],
         '⊛ judge' => [
             'unicode' => 'U+1F9D1 U+200D U+2696 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man judge' => [
             'unicode' => 'U+1F468 U+200D U+2696 U+FE0F',
@@ -2952,7 +2952,7 @@ class EmojiTable
         ],
         '⊛ farmer' => [
             'unicode' => 'U+1F9D1 U+200D U+1F33E',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man farmer' => [
             'unicode' => 'U+1F468 U+200D U+1F33E',
@@ -2964,7 +2964,7 @@ class EmojiTable
         ],
         '⊛ cook' => [
             'unicode' => 'U+1F9D1 U+200D U+1F373',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man cook' => [
             'unicode' => 'U+1F468 U+200D U+1F373',
@@ -2976,7 +2976,7 @@ class EmojiTable
         ],
         '⊛ mechanic' => [
             'unicode' => 'U+1F9D1 U+200D U+1F527',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man mechanic' => [
             'unicode' => 'U+1F468 U+200D U+1F527',
@@ -2988,7 +2988,7 @@ class EmojiTable
         ],
         '⊛ factory worker' => [
             'unicode' => 'U+1F9D1 U+200D U+1F3ED',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man factory worker' => [
             'unicode' => 'U+1F468 U+200D U+1F3ED',
@@ -3000,7 +3000,7 @@ class EmojiTable
         ],
         '⊛ office worker' => [
             'unicode' => 'U+1F9D1 U+200D U+1F4BC',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man office worker' => [
             'unicode' => 'U+1F468 U+200D U+1F4BC',
@@ -3012,7 +3012,7 @@ class EmojiTable
         ],
         '⊛ scientist' => [
             'unicode' => 'U+1F9D1 U+200D U+1F52C',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man scientist' => [
             'unicode' => 'U+1F468 U+200D U+1F52C',
@@ -3024,7 +3024,7 @@ class EmojiTable
         ],
         '⊛ technologist' => [
             'unicode' => 'U+1F9D1 U+200D U+1F4BB',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man technologist' => [
             'unicode' => 'U+1F468 U+200D U+1F4BB',
@@ -3036,7 +3036,7 @@ class EmojiTable
         ],
         '⊛ singer' => [
             'unicode' => 'U+1F9D1 U+200D U+1F3A4',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man singer' => [
             'unicode' => 'U+1F468 U+200D U+1F3A4',
@@ -3048,7 +3048,7 @@ class EmojiTable
         ],
         '⊛ artist' => [
             'unicode' => 'U+1F9D1 U+200D U+1F3A8',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man artist' => [
             'unicode' => 'U+1F468 U+200D U+1F3A8',
@@ -3060,7 +3060,7 @@ class EmojiTable
         ],
         '⊛ pilot' => [
             'unicode' => 'U+1F9D1 U+200D U+2708 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man pilot' => [
             'unicode' => 'U+1F468 U+200D U+2708 U+FE0F',
@@ -3072,7 +3072,7 @@ class EmojiTable
         ],
         '⊛ astronaut' => [
             'unicode' => 'U+1F9D1 U+200D U+1F680',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man astronaut' => [
             'unicode' => 'U+1F468 U+200D U+1F680',
@@ -3084,7 +3084,7 @@ class EmojiTable
         ],
         '⊛ firefighter' => [
             'unicode' => 'U+1F9D1 U+200D U+1F692',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man firefighter' => [
             'unicode' => 'U+1F468 U+200D U+1F692',
@@ -3162,7 +3162,7 @@ class EmojiTable
             'unicode' => 'U+1F473 U+200D U+2640 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man with skullcap' => [
+        'person with skullcap' => [
             'unicode' => 'U+1F472',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'KDDI'],
         ],
@@ -3170,11 +3170,11 @@ class EmojiTable
             'unicode' => 'U+1F9D5',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man in tuxedo' => [
+        'person in tuxedo' => [
             'unicode' => 'U+1F935',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'bride with veil' => [
+        'person with veil' => [
             'unicode' => 'U+1F470',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'KDDI'],
         ],
@@ -3188,23 +3188,23 @@ class EmojiTable
         ],
         '⊛ health worker: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+2695 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ health worker: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+2695 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ health worker: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+2695 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ health worker: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+2695 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ health worker: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+2695 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man health worker: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+2695 U+FE0F',
@@ -3248,23 +3248,23 @@ class EmojiTable
         ],
         '⊛ student: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F393',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ student: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F393',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ student: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F393',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ student: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F393',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ student: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F393',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man student: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F393',
@@ -3308,23 +3308,23 @@ class EmojiTable
         ],
         '⊛ teacher: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F3EB',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ teacher: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F3EB',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ teacher: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F3EB',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ teacher: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F3EB',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ teacher: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F3EB',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man teacher: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F3EB',
@@ -3368,23 +3368,23 @@ class EmojiTable
         ],
         '⊛ judge: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+2696 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ judge: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+2696 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ judge: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+2696 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ judge: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+2696 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ judge: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+2696 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man judge: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+2696 U+FE0F',
@@ -3425,6 +3425,26 @@ class EmojiTable
         'woman judge: dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FF U+200D U+2696 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
+        ],
+        '⊛ farmer: light skin tone' => [
+            'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F33E',
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
+        ],
+        '⊛ farmer: medium-light skin tone' => [
+            'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F33E',
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
+        ],
+        '⊛ farmer: medium skin tone' => [
+            'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F33E',
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
+        ],
+        '⊛ farmer: medium-dark skin tone' => [
+            'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F33E',
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
+        ],
+        '⊛ farmer: dark skin tone' => [
+            'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F33E',
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man farmer: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F33E',
@@ -3468,23 +3488,23 @@ class EmojiTable
         ],
         '⊛ cook: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F373',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ cook: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F373',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ cook: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F373',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ cook: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F373',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ cook: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F373',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man cook: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F373',
@@ -3528,23 +3548,23 @@ class EmojiTable
         ],
         '⊛ mechanic: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F527',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ mechanic: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F527',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ mechanic: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F527',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ mechanic: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F527',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ mechanic: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F527',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man mechanic: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F527',
@@ -3588,23 +3608,23 @@ class EmojiTable
         ],
         '⊛ factory worker: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F3ED',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ factory worker: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F3ED',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ factory worker: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F3ED',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ factory worker: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F3ED',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ factory worker: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F3ED',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man factory worker: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F3ED',
@@ -3648,23 +3668,23 @@ class EmojiTable
         ],
         '⊛ office worker: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F4BC',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ office worker: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F4BC',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ office worker: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F4BC',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ office worker: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F4BC',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ office worker: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F4BC',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man office worker: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F4BC',
@@ -3708,23 +3728,23 @@ class EmojiTable
         ],
         '⊛ scientist: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F52C',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ scientist: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F52C',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ scientist: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F52C',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ scientist: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F52C',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ scientist: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F52C',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man scientist: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F52C',
@@ -3768,23 +3788,23 @@ class EmojiTable
         ],
         '⊛ technologist: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F4BB',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ technologist: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F4BB',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ technologist: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F4BB',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ technologist: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F4BB',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ technologist: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F4BB',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man technologist: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F4BB',
@@ -3828,23 +3848,23 @@ class EmojiTable
         ],
         '⊛ singer: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F3A4',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ singer: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F3A4',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ singer: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F3A4',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ singer: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F3A4',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ singer: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F3A4',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man singer: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F3A4',
@@ -3888,23 +3908,23 @@ class EmojiTable
         ],
         '⊛ artist: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F3A8',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ artist: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F3A8',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ artist: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F3A8',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ artist: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F3A8',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ artist: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F3A8',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man artist: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F3A8',
@@ -3948,23 +3968,23 @@ class EmojiTable
         ],
         '⊛ pilot: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+2708 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ pilot: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+2708 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ pilot: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+2708 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ pilot: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+2708 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ pilot: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+2708 U+FE0F',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man pilot: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+2708 U+FE0F',
@@ -4008,23 +4028,23 @@ class EmojiTable
         ],
         '⊛ astronaut: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F680',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ astronaut: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F680',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ astronaut: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F680',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ astronaut: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F680',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ astronaut: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F680',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man astronaut: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F680',
@@ -4068,23 +4088,23 @@ class EmojiTable
         ],
         '⊛ firefighter: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F692',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ firefighter: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F692',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ firefighter: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F692',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ firefighter: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F692',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ firefighter: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F692',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man firefighter: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F692',
@@ -4466,23 +4486,23 @@ class EmojiTable
             'unicode' => 'U+1F473 U+1F3FF U+200D U+2640 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man with skullcap: light skin tone' => [
+        'person with skullcap: light skin tone' => [
             'unicode' => 'U+1F472 U+1F3FB',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man with skullcap: medium-light skin tone' => [
+        'person with skullcap: medium-light skin tone' => [
             'unicode' => 'U+1F472 U+1F3FC',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man with skullcap: medium skin tone' => [
+        'person with skullcap: medium skin tone' => [
             'unicode' => 'U+1F472 U+1F3FD',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man with skullcap: medium-dark skin tone' => [
+        'person with skullcap: medium-dark skin tone' => [
             'unicode' => 'U+1F472 U+1F3FE',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man with skullcap: dark skin tone' => [
+        'person with skullcap: dark skin tone' => [
             'unicode' => 'U+1F472 U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
@@ -4506,43 +4526,43 @@ class EmojiTable
             'unicode' => 'U+1F9D5 U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man in tuxedo: light skin tone' => [
+        'person in tuxedo: light skin tone' => [
             'unicode' => 'U+1F935 U+1F3FB',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man in tuxedo: medium-light skin tone' => [
+        'person in tuxedo: medium-light skin tone' => [
             'unicode' => 'U+1F935 U+1F3FC',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man in tuxedo: medium skin tone' => [
+        'person in tuxedo: medium skin tone' => [
             'unicode' => 'U+1F935 U+1F3FD',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man in tuxedo: medium-dark skin tone' => [
+        'person in tuxedo: medium-dark skin tone' => [
             'unicode' => 'U+1F935 U+1F3FE',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man in tuxedo: dark skin tone' => [
+        'person in tuxedo: dark skin tone' => [
             'unicode' => 'U+1F935 U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'bride with veil: light skin tone' => [
+        'person with veil: light skin tone' => [
             'unicode' => 'U+1F470 U+1F3FB',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'bride with veil: medium-light skin tone' => [
+        'person with veil: medium-light skin tone' => [
             'unicode' => 'U+1F470 U+1F3FC',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'bride with veil: medium skin tone' => [
+        'person with veil: medium skin tone' => [
             'unicode' => 'U+1F470 U+1F3FD',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'bride with veil: medium-dark skin tone' => [
+        'person with veil: medium-dark skin tone' => [
             'unicode' => 'U+1F470 U+1F3FE',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'bride with veil: dark skin tone' => [
+        'person with veil: dark skin tone' => [
             'unicode' => 'U+1F470 U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
@@ -5224,63 +5244,63 @@ class EmojiTable
         ],
         'person standing' => [
             'unicode' => 'U+1F9CD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'man standing' => [
             'unicode' => 'U+1F9CD U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'woman standing' => [
             'unicode' => 'U+1F9CD U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'person kneeling' => [
             'unicode' => 'U+1F9CE',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'man kneeling' => [
             'unicode' => 'U+1F9CE U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'woman kneeling' => [
             'unicode' => 'U+1F9CE U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
-        '⊛ person with probing cane' => [
+        '⊛ person with white cane' => [
             'unicode' => 'U+1F9D1 U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        'man with probing cane' => [
+        'man with white cane' => [
             'unicode' => 'U+1F468 U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
-        'woman with probing cane' => [
+        'woman with white cane' => [
             'unicode' => 'U+1F469 U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         '⊛ person in motorized wheelchair' => [
             'unicode' => 'U+1F9D1 U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man in motorized wheelchair' => [
             'unicode' => 'U+1F468 U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman in motorized wheelchair' => [
             'unicode' => 'U+1F469 U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         '⊛ person in manual wheelchair' => [
             'unicode' => 'U+1F9D1 U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man in manual wheelchair' => [
             'unicode' => 'U+1F468 U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman in manual wheelchair' => [
             'unicode' => 'U+1F469 U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'person running' => [
             'unicode' => 'U+1F3C3',
@@ -5302,7 +5322,7 @@ class EmojiTable
             'unicode' => 'U+1F57A',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man in suit levitating' => [
+        'person in suit levitating' => [
             'unicode' => 'U+1F574',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
@@ -5524,303 +5544,303 @@ class EmojiTable
         ],
         'person standing: light skin tone' => [
             'unicode' => 'U+1F9CD U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'person standing: medium-light skin tone' => [
             'unicode' => 'U+1F9CD U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'person standing: medium skin tone' => [
             'unicode' => 'U+1F9CD U+1F3FD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'person standing: medium-dark skin tone' => [
             'unicode' => 'U+1F9CD U+1F3FE',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'person standing: dark skin tone' => [
             'unicode' => 'U+1F9CD U+1F3FF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'man standing: light skin tone' => [
             'unicode' => 'U+1F9CD U+1F3FB U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'man standing: medium-light skin tone' => [
             'unicode' => 'U+1F9CD U+1F3FC U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'man standing: medium skin tone' => [
             'unicode' => 'U+1F9CD U+1F3FD U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'man standing: medium-dark skin tone' => [
             'unicode' => 'U+1F9CD U+1F3FE U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'man standing: dark skin tone' => [
             'unicode' => 'U+1F9CD U+1F3FF U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'woman standing: light skin tone' => [
             'unicode' => 'U+1F9CD U+1F3FB U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'woman standing: medium-light skin tone' => [
             'unicode' => 'U+1F9CD U+1F3FC U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'woman standing: medium skin tone' => [
             'unicode' => 'U+1F9CD U+1F3FD U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'woman standing: medium-dark skin tone' => [
             'unicode' => 'U+1F9CD U+1F3FE U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'woman standing: dark skin tone' => [
             'unicode' => 'U+1F9CD U+1F3FF U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'person kneeling: light skin tone' => [
             'unicode' => 'U+1F9CE U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'person kneeling: medium-light skin tone' => [
             'unicode' => 'U+1F9CE U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'person kneeling: medium skin tone' => [
             'unicode' => 'U+1F9CE U+1F3FD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'person kneeling: medium-dark skin tone' => [
             'unicode' => 'U+1F9CE U+1F3FE',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'person kneeling: dark skin tone' => [
             'unicode' => 'U+1F9CE U+1F3FF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'man kneeling: light skin tone' => [
             'unicode' => 'U+1F9CE U+1F3FB U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'man kneeling: medium-light skin tone' => [
             'unicode' => 'U+1F9CE U+1F3FC U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'man kneeling: medium skin tone' => [
             'unicode' => 'U+1F9CE U+1F3FD U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'man kneeling: medium-dark skin tone' => [
             'unicode' => 'U+1F9CE U+1F3FE U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'man kneeling: dark skin tone' => [
             'unicode' => 'U+1F9CE U+1F3FF U+200D U+2642 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'woman kneeling: light skin tone' => [
             'unicode' => 'U+1F9CE U+1F3FB U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'woman kneeling: medium-light skin tone' => [
             'unicode' => 'U+1F9CE U+1F3FC U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'woman kneeling: medium skin tone' => [
             'unicode' => 'U+1F9CE U+1F3FD U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'woman kneeling: medium-dark skin tone' => [
             'unicode' => 'U+1F9CE U+1F3FE U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         'woman kneeling: dark skin tone' => [
             'unicode' => 'U+1F9CE U+1F3FF U+200D U+2640 U+FE0F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
-        '⊛ person with probing cane: light skin tone' => [
+        '⊛ person with white cane: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person with probing cane: medium-light skin tone' => [
+        '⊛ person with white cane: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person with probing cane: medium skin tone' => [
+        '⊛ person with white cane: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person with probing cane: medium-dark skin tone' => [
+        '⊛ person with white cane: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person with probing cane: dark skin tone' => [
+        '⊛ person with white cane: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        'man with probing cane: light skin tone' => [
+        'man with white cane: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
-        'man with probing cane: medium-light skin tone' => [
+        'man with white cane: medium-light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FC U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
-        'man with probing cane: medium skin tone' => [
+        'man with white cane: medium skin tone' => [
             'unicode' => 'U+1F468 U+1F3FD U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
-        'man with probing cane: medium-dark skin tone' => [
+        'man with white cane: medium-dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FE U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
-        'man with probing cane: dark skin tone' => [
+        'man with white cane: dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FF U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
-        'woman with probing cane: light skin tone' => [
+        'woman with white cane: light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
-        'woman with probing cane: medium-light skin tone' => [
+        'woman with white cane: medium-light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FC U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
-        'woman with probing cane: medium skin tone' => [
+        'woman with white cane: medium skin tone' => [
             'unicode' => 'U+1F469 U+1F3FD U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
-        'woman with probing cane: medium-dark skin tone' => [
+        'woman with white cane: medium-dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FE U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
-        'woman with probing cane: dark skin tone' => [
+        'woman with white cane: dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F9AF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
         '⊛ person in motorized wheelchair: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person in motorized wheelchair: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person in motorized wheelchair: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person in motorized wheelchair: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person in motorized wheelchair: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man in motorized wheelchair: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'man in motorized wheelchair: medium-light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FC U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'man in motorized wheelchair: medium skin tone' => [
             'unicode' => 'U+1F468 U+1F3FD U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'man in motorized wheelchair: medium-dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FE U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'man in motorized wheelchair: dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FF U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman in motorized wheelchair: light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman in motorized wheelchair: medium-light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FC U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman in motorized wheelchair: medium skin tone' => [
             'unicode' => 'U+1F469 U+1F3FD U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman in motorized wheelchair: medium-dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FE U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman in motorized wheelchair: dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F9BC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         '⊛ person in manual wheelchair: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person in manual wheelchair: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person in manual wheelchair: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person in manual wheelchair: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ person in manual wheelchair: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'man in manual wheelchair: light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'man in manual wheelchair: medium-light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FC U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'man in manual wheelchair: medium skin tone' => [
             'unicode' => 'U+1F468 U+1F3FD U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'man in manual wheelchair: medium-dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FE U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'man in manual wheelchair: dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FF U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman in manual wheelchair: light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman in manual wheelchair: medium-light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FC U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman in manual wheelchair: medium skin tone' => [
             'unicode' => 'U+1F469 U+1F3FD U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman in manual wheelchair: medium-dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FE U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman in manual wheelchair: dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F9BD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'person running: light skin tone' => [
             'unicode' => 'U+1F3C3 U+1F3FB',
@@ -5922,23 +5942,23 @@ class EmojiTable
             'unicode' => 'U+1F57A U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man in suit levitating: light skin tone' => [
+        'person in suit levitating: light skin tone' => [
             'unicode' => 'U+1F574 U+1F3FB',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man in suit levitating: medium-light skin tone' => [
+        'person in suit levitating: medium-light skin tone' => [
             'unicode' => 'U+1F574 U+1F3FC',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man in suit levitating: medium skin tone' => [
+        'person in suit levitating: medium skin tone' => [
             'unicode' => 'U+1F574 U+1F3FD',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man in suit levitating: medium-dark skin tone' => [
+        'person in suit levitating: medium-dark skin tone' => [
             'unicode' => 'U+1F574 U+1F3FE',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'man in suit levitating: dark skin tone' => [
+        'person in suit levitating: dark skin tone' => [
             'unicode' => 'U+1F574 U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
@@ -7116,7 +7136,7 @@ class EmojiTable
         ],
         'people holding hands' => [
             'unicode' => 'U+1F9D1 U+200D U+1F91D U+200D U+1F9D1',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'women holding hands' => [
             'unicode' => 'U+1F46D',
@@ -7268,103 +7288,103 @@ class EmojiTable
         ],
         'people holding hands: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         '⊛ people holding hands: light skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FC',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ people holding hands: light skin tone, medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FD',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ people holding hands: light skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FE',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ people holding hands: light skin tone, dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'people holding hands: medium-light skin tone, light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'people holding hands: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         '⊛ people holding hands: medium-light skin tone, medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FD',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ people holding hands: medium-light skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FE',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ people holding hands: medium-light skin tone, dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'people holding hands: medium skin tone, light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'people holding hands: medium skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'people holding hands: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         '⊛ people holding hands: medium skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FE',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ people holding hands: medium skin tone, dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'people holding hands: medium-dark skin tone, light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'people holding hands: medium-dark skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'people holding hands: medium-dark skin tone, medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'people holding hands: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FE',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         '⊛ people holding hands: medium-dark skin tone, dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'people holding hands: dark skin tone, light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F91D U+200D U+1F9D1 U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'people holding hands: dark skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F91D U+200D U+1F9D1 U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'people holding hands: dark skin tone, medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F91D U+200D U+1F9D1 U+1F3FD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'people holding hands: dark skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F91D U+200D U+1F9D1 U+1F3FE',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'people holding hands: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F91D U+200D U+1F9D1 U+1F3FF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'women holding hands: light skin tone' => [
             'unicode' => 'U+1F46D U+1F3FB',
@@ -7372,23 +7392,23 @@ class EmojiTable
         ],
         '⊛ women holding hands: light skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FC',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ women holding hands: light skin tone, medium skin tone' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FD',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ women holding hands: light skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FE',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ women holding hands: light skin tone, dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'women holding hands: medium-light skin tone, light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'women holding hands: medium-light skin tone' => [
             'unicode' => 'U+1F46D U+1F3FC',
@@ -7396,43 +7416,47 @@ class EmojiTable
         ],
         '⊛ women holding hands: medium-light skin tone, medium skin tone' => [
             'unicode' => 'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FD',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ women holding hands: medium-light skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FE',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ women holding hands: medium-light skin tone, dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'women holding hands: medium skin tone, light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'women holding hands: medium skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'women holding hands: medium skin tone' => [
             'unicode' => 'U+1F46D U+1F3FD',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
+        '⊛ women holding hands: medium skin tone, medium-dark skin tone' => [
+            'unicode' => 'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FE',
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
+        ],
         '⊛ women holding hands: medium skin tone, dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'women holding hands: medium-dark skin tone, light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F469 U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'women holding hands: medium-dark skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F469 U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'women holding hands: medium-dark skin tone, medium skin tone' => [
             'unicode' => 'U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F469 U+1F3FD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'women holding hands: medium-dark skin tone' => [
             'unicode' => 'U+1F46D U+1F3FE',
@@ -7440,23 +7464,23 @@ class EmojiTable
         ],
         '⊛ women holding hands: medium-dark skin tone, dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F469 U+1F3FF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'women holding hands: dark skin tone, light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F469 U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'women holding hands: dark skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F469 U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'women holding hands: dark skin tone, medium skin tone' => [
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F469 U+1F3FD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'women holding hands: dark skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F469 U+1F3FE',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'women holding hands: dark skin tone' => [
             'unicode' => 'U+1F46D U+1F3FF',
@@ -7468,23 +7492,23 @@ class EmojiTable
         ],
         'woman and man holding hands: light skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: light skin tone, medium skin tone' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: light skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FE',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: light skin tone, dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: medium-light skin tone, light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: medium-light skin tone' => [
             'unicode' => 'U+1F46B U+1F3FC',
@@ -7492,23 +7516,23 @@ class EmojiTable
         ],
         'woman and man holding hands: medium-light skin tone, medium skin tone' => [
             'unicode' => 'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: medium-light skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FE',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: medium-light skin tone, dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: medium skin tone, light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: medium skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: medium skin tone' => [
             'unicode' => 'U+1F46B U+1F3FD',
@@ -7516,23 +7540,23 @@ class EmojiTable
         ],
         'woman and man holding hands: medium skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FE',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: medium skin tone, dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: medium-dark skin tone, light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: medium-dark skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: medium-dark skin tone, medium skin tone' => [
             'unicode' => 'U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: medium-dark skin tone' => [
             'unicode' => 'U+1F46B U+1F3FE',
@@ -7540,23 +7564,23 @@ class EmojiTable
         ],
         'woman and man holding hands: medium-dark skin tone, dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: dark skin tone, light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: dark skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: dark skin tone, medium skin tone' => [
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: dark skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FE',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman and man holding hands: dark skin tone' => [
             'unicode' => 'U+1F46B U+1F3FF',
@@ -7568,23 +7592,23 @@ class EmojiTable
         ],
         '⊛ men holding hands: light skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FC',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ men holding hands: light skin tone, medium skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FD',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ men holding hands: light skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FE',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ men holding hands: light skin tone, dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'men holding hands: medium-light skin tone, light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'men holding hands: medium-light skin tone' => [
             'unicode' => 'U+1F46C U+1F3FC',
@@ -7592,23 +7616,23 @@ class EmojiTable
         ],
         '⊛ men holding hands: medium-light skin tone, medium skin tone' => [
             'unicode' => 'U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FD',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ men holding hands: medium-light skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FE',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ men holding hands: medium-light skin tone, dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'men holding hands: medium skin tone, light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'men holding hands: medium skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'men holding hands: medium skin tone' => [
             'unicode' => 'U+1F46C U+1F3FD',
@@ -7616,23 +7640,23 @@ class EmojiTable
         ],
         '⊛ men holding hands: medium skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FE',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         '⊛ men holding hands: medium skin tone, dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'men holding hands: medium-dark skin tone, light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'men holding hands: medium-dark skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'men holding hands: medium-dark skin tone, medium skin tone' => [
             'unicode' => 'U+1F468 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'men holding hands: medium-dark skin tone' => [
             'unicode' => 'U+1F46C U+1F3FE',
@@ -7640,23 +7664,23 @@ class EmojiTable
         ],
         '⊛ men holding hands: medium-dark skin tone, dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FF',
-            'supportVendor' => ['Apple', 'Google'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
         'men holding hands: dark skin tone, light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'men holding hands: dark skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'men holding hands: dark skin tone, medium skin tone' => [
             'unicode' => 'U+1F468 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'men holding hands: dark skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FE',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'men holding hands: dark skin tone' => [
             'unicode' => 'U+1F46C U+1F3FF',
@@ -7728,7 +7752,7 @@ class EmojiTable
         ],
         'orangutan' => [
             'unicode' => 'U+1F9A7',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'dog face' => [
             'unicode' => 'U+1F436',
@@ -7740,11 +7764,11 @@ class EmojiTable
         ],
         'guide dog' => [
             'unicode' => 'U+1F9AE',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'service dog' => [
             'unicode' => 'U+1F415 U+200D U+1F9BA',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'poodle' => [
             'unicode' => 'U+1F429',
@@ -7928,15 +7952,15 @@ class EmojiTable
         ],
         'sloth' => [
             'unicode' => 'U+1F9A5',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'otter' => [
             'unicode' => 'U+1F9A6',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'skunk' => [
             'unicode' => 'U+1F9A8',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'kangaroo' => [
             'unicode' => 'U+1F998',
@@ -8004,7 +8028,7 @@ class EmojiTable
         ],
         'flamingo' => [
             'unicode' => 'U+1F9A9',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'peacock' => [
             'unicode' => 'U+1F99A',
@@ -8328,11 +8352,11 @@ class EmojiTable
         ],
         'garlic' => [
             'unicode' => 'U+1F9C4',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'onion' => [
             'unicode' => 'U+1F9C5',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'mushroom' => [
             'unicode' => 'U+1F344',
@@ -8372,7 +8396,7 @@ class EmojiTable
         ],
         'waffle' => [
             'unicode' => 'U+1F9C7',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'cheese wedge' => [
             'unicode' => 'U+1F9C0',
@@ -8428,7 +8452,7 @@ class EmojiTable
         ],
         'falafel' => [
             'unicode' => 'U+1F9C6',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'egg' => [
             'unicode' => 'U+1F95A',
@@ -8460,7 +8484,7 @@ class EmojiTable
         ],
         'butter' => [
             'unicode' => 'U+1F9C8',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'salt' => [
             'unicode' => 'U+1F9C2',
@@ -8556,7 +8580,7 @@ class EmojiTable
         ],
         'oyster' => [
             'unicode' => 'U+1F9AA',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'soft ice cream' => [
             'unicode' => 'U+1F366',
@@ -8672,15 +8696,15 @@ class EmojiTable
         ],
         'beverage box' => [
             'unicode' => 'U+1F9C3',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'mate' => [
             'unicode' => 'U+1F9C9',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'ice' => [
             'unicode' => 'U+1F9CA',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'chopsticks' => [
             'unicode' => 'U+1F962',
@@ -8876,7 +8900,7 @@ class EmojiTable
         ],
         'hindu temple' => [
             'unicode' => 'U+1F6D5',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'synagogue' => [
             'unicode' => 'U+1F54D',
@@ -9080,15 +9104,15 @@ class EmojiTable
         ],
         'manual wheelchair' => [
             'unicode' => 'U+1F9BD',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'motorized wheelchair' => [
             'unicode' => 'U+1F9BC',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'auto rickshaw' => [
             'unicode' => 'U+1F6FA',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'bicycle' => [
             'unicode' => 'U+1F6B2',
@@ -9192,7 +9216,7 @@ class EmojiTable
         ],
         'parachute' => [
             'unicode' => 'U+1FA82',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'seat' => [
             'unicode' => 'U+1F4BA',
@@ -9424,7 +9448,7 @@ class EmojiTable
         ],
         'ringed planet' => [
             'unicode' => 'U+1FA90',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'star' => [
             'unicode' => 'U+2B50',
@@ -9744,7 +9768,7 @@ class EmojiTable
         ],
         'diving mask' => [
             'unicode' => 'U+1F93F',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'running shirt' => [
             'unicode' => 'U+1F3BD',
@@ -9768,11 +9792,11 @@ class EmojiTable
         ],
         'yo-yo' => [
             'unicode' => 'U+1FA80',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'kite' => [
             'unicode' => 'U+1FA81',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'pool 8 ball' => [
             'unicode' => 'U+1F3B1',
@@ -9880,7 +9904,7 @@ class EmojiTable
         ],
         'safety vest' => [
             'unicode' => 'U+1F9BA',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'necktie' => [
             'unicode' => 'U+1F454',
@@ -9920,19 +9944,19 @@ class EmojiTable
         ],
         'sari' => [
             'unicode' => 'U+1F97B',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'one-piece swimsuit' => [
             'unicode' => 'U+1FA71',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'briefs' => [
             'unicode' => 'U+1FA72',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'shorts' => [
             'unicode' => 'U+1FA73',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'bikini' => [
             'unicode' => 'U+1F459',
@@ -9988,7 +10012,7 @@ class EmojiTable
         ],
         'ballet shoes' => [
             'unicode' => 'U+1FA70',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'woman’s boot' => [
             'unicode' => 'U+1F462',
@@ -10128,7 +10152,7 @@ class EmojiTable
         ],
         'banjo' => [
             'unicode' => 'U+1FA95',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'drum' => [
             'unicode' => 'U+1F941',
@@ -10272,7 +10296,7 @@ class EmojiTable
         ],
         'diya lamp' => [
             'unicode' => 'U+1FA94',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'notebook with decorative cover' => [
             'unicode' => 'U+1F4D4',
@@ -10377,14 +10401,6 @@ class EmojiTable
         'chart increasing with yen' => [
             'unicode' => 'U+1F4B9',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'KDDI'],
-        ],
-        'currency exchange' => [
-            'unicode' => 'U+1F4B1',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank'],
-        ],
-        'heavy dollar sign' => [
-            'unicode' => 'U+1F4B2',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'KDDI'],
         ],
         'envelope' => [
             'unicode' => 'U+2709',
@@ -10588,7 +10604,7 @@ class EmojiTable
         ],
         'axe' => [
             'unicode' => 'U+1FA93',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'pick' => [
             'unicode' => 'U+26CF',
@@ -10642,9 +10658,9 @@ class EmojiTable
             'unicode' => 'U+2696',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'probing cane' => [
+        'white cane' => [
             'unicode' => 'U+1F9AF',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'link' => [
             'unicode' => 'U+1F517',
@@ -10696,7 +10712,7 @@ class EmojiTable
         ],
         'drop of blood' => [
             'unicode' => 'U+1FA78',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'pill' => [
             'unicode' => 'U+1F48A',
@@ -10704,11 +10720,11 @@ class EmojiTable
         ],
         'adhesive bandage' => [
             'unicode' => 'U+1FA79',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'stethoscope' => [
             'unicode' => 'U+1FA7A',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'door' => [
             'unicode' => 'U+1F6AA',
@@ -10724,7 +10740,7 @@ class EmojiTable
         ],
         'chair' => [
             'unicode' => 'U+1FA91',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'toilet' => [
             'unicode' => 'U+1F6BD',
@@ -10740,7 +10756,7 @@ class EmojiTable
         ],
         'razor' => [
             'unicode' => 'U+1FA92',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'lotion bottle' => [
             'unicode' => 'U+1F9F4',
@@ -11186,13 +11202,65 @@ class EmojiTable
             'unicode' => 'U+2642',
             'supportVendor' => ['Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        'medical symbol' => [
-            'unicode' => 'U+2695',
-            'supportVendor' => ['Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
+        'multiply' => [
+            'unicode' => 'U+2716',
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'KDDI'],
+        ],
+        'plus' => [
+            'unicode' => 'U+2795',
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'KDDI'],
+        ],
+        'minus' => [
+            'unicode' => 'U+2796',
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'KDDI'],
+        ],
+        'divide' => [
+            'unicode' => 'U+2797',
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'KDDI'],
         ],
         'infinity' => [
             'unicode' => 'U+267E',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
+        ],
+        'double exclamation mark' => [
+            'unicode' => 'U+203C',
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'DoCoMo', 'KDDI'],
+        ],
+        'exclamation question mark' => [
+            'unicode' => 'U+2049',
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'DoCoMo', 'KDDI'],
+        ],
+        'question mark' => [
+            'unicode' => 'U+2753',
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'KDDI'],
+        ],
+        'white question mark' => [
+            'unicode' => 'U+2754',
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank'],
+        ],
+        'white exclamation mark' => [
+            'unicode' => 'U+2755',
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank'],
+        ],
+        'exclamation mark' => [
+            'unicode' => 'U+2757',
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'DoCoMo', 'KDDI'],
+        ],
+        'wavy dash' => [
+            'unicode' => 'U+3030',
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'DoCoMo'],
+        ],
+        'currency exchange' => [
+            'unicode' => 'U+1F4B1',
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank'],
+        ],
+        'heavy dollar sign' => [
+            'unicode' => 'U+1F4B2',
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'KDDI'],
+        ],
+        'medical symbol' => [
+            'unicode' => 'U+2695',
+            'supportVendor' => ['Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'recycling symbol' => [
             'unicode' => 'U+267B',
@@ -11230,28 +11298,12 @@ class EmojiTable
             'unicode' => 'U+2714',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'KDDI'],
         ],
-        'multiplication sign' => [
-            'unicode' => 'U+2716',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'KDDI'],
-        ],
         'cross mark' => [
             'unicode' => 'U+274C',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'KDDI'],
         ],
         'cross mark button' => [
             'unicode' => 'U+274E',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'KDDI'],
-        ],
-        'plus sign' => [
-            'unicode' => 'U+2795',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'KDDI'],
-        ],
-        'minus sign' => [
-            'unicode' => 'U+2796',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'KDDI'],
-        ],
-        'division sign' => [
-            'unicode' => 'U+2797',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'KDDI'],
         ],
         'curly loop' => [
@@ -11277,34 +11329,6 @@ class EmojiTable
         'sparkle' => [
             'unicode' => 'U+2747',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'KDDI'],
-        ],
-        'double exclamation mark' => [
-            'unicode' => 'U+203C',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'DoCoMo', 'KDDI'],
-        ],
-        'exclamation question mark' => [
-            'unicode' => 'U+2049',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'DoCoMo', 'KDDI'],
-        ],
-        'question mark' => [
-            'unicode' => 'U+2753',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'KDDI'],
-        ],
-        'white question mark' => [
-            'unicode' => 'U+2754',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank'],
-        ],
-        'white exclamation mark' => [
-            'unicode' => 'U+2755',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank'],
-        ],
-        'exclamation mark' => [
-            'unicode' => 'U+2757',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'DoCoMo', 'KDDI'],
-        ],
-        'wavy dash' => [
-            'unicode' => 'U+3030',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'DoCoMo'],
         ],
         'copyright' => [
             'unicode' => 'U+00A9',
@@ -11532,15 +11556,15 @@ class EmojiTable
         ],
         'orange circle' => [
             'unicode' => 'U+1F7E0',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'yellow circle' => [
             'unicode' => 'U+1F7E1',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'green circle' => [
             'unicode' => 'U+1F7E2',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'blue circle' => [
             'unicode' => 'U+1F535',
@@ -11548,11 +11572,11 @@ class EmojiTable
         ],
         'purple circle' => [
             'unicode' => 'U+1F7E3',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'brown circle' => [
             'unicode' => 'U+1F7E4',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'black circle' => [
             'unicode' => 'U+26AB',
@@ -11564,31 +11588,31 @@ class EmojiTable
         ],
         'red square' => [
             'unicode' => 'U+1F7E5',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'orange square' => [
             'unicode' => 'U+1F7E7',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'yellow square' => [
             'unicode' => 'U+1F7E8',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'green square' => [
             'unicode' => 'U+1F7E9',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'blue square' => [
             'unicode' => 'U+1F7E6',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'purple square' => [
             'unicode' => 'U+1F7EA',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'brown square' => [
             'unicode' => 'U+1F7EB',
-            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Samsung'],
+            'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
         'black large square' => [
             'unicode' => 'U+2B1B',
@@ -13849,8 +13873,6 @@ class EmojiTable
         ':man_wearing_turban:' => 'man wearing turban',
         ':woman_wearing_turban:' => 'woman wearing turban',
         ':woman_with_headscarf:' => 'woman with headscarf',
-        ':man_in_tuxedo:' => 'man in tuxedo',
-        ':bride_with_veil:' => 'bride with veil',
         ':pregnant_woman:' => 'pregnant woman',
         ':expecting_woman:' => 'pregnant woman',
         ':breast_feeding:' => 'breast-feeding',
@@ -14344,21 +14366,6 @@ class EmojiTable
         ':woman_with_headscarf_medium_dark_skin_tone:' => 'woman with headscarf: medium-dark skin tone',
         ':woman_with_headscarf_tone5:' => 'woman with headscarf: dark skin tone',
         ':woman_with_headscarf_dark_skin_tone:' => 'woman with headscarf: dark skin tone',
-        ':man_in_tuxedo_tone1:' => 'man in tuxedo: light skin tone',
-        ':tuxedo_tone1:' => 'man in tuxedo: light skin tone',
-        ':man_in_tuxedo_tone2:' => 'man in tuxedo: medium-light skin tone',
-        ':tuxedo_tone2:' => 'man in tuxedo: medium-light skin tone',
-        ':man_in_tuxedo_tone3:' => 'man in tuxedo: medium skin tone',
-        ':tuxedo_tone3:' => 'man in tuxedo: medium skin tone',
-        ':man_in_tuxedo_tone4:' => 'man in tuxedo: medium-dark skin tone',
-        ':tuxedo_tone4:' => 'man in tuxedo: medium-dark skin tone',
-        ':man_in_tuxedo_tone5:' => 'man in tuxedo: dark skin tone',
-        ':tuxedo_tone5:' => 'man in tuxedo: dark skin tone',
-        ':bride_with_veil_tone1:' => 'bride with veil: light skin tone',
-        ':bride_with_veil_tone2:' => 'bride with veil: medium-light skin tone',
-        ':bride_with_veil_tone3:' => 'bride with veil: medium skin tone',
-        ':bride_with_veil_tone4:' => 'bride with veil: medium-dark skin tone',
-        ':bride_with_veil_tone5:' => 'bride with veil: dark skin tone',
         ':pregnant_woman_tone1:' => 'pregnant woman: light skin tone',
         ':expecting_woman_tone1:' => 'pregnant woman: light skin tone',
         ':pregnant_woman_tone2:' => 'pregnant woman: medium-light skin tone',
@@ -14658,8 +14665,6 @@ class EmojiTable
         ':person_kneeling:' => 'person kneeling',
         ':man_kneeling:' => 'man kneeling',
         ':woman_kneeling:' => 'woman kneeling',
-        ':man_with_probing_cane:' => 'man with probing cane',
-        ':woman_with_probing_cane:' => 'woman with probing cane',
         ':man_in_motorized_wheelchair:' => 'man in motorized wheelchair',
         ':woman_in_motorized_wheelchair:' => 'woman in motorized wheelchair',
         ':man_in_manual_wheelchair:' => 'man in manual wheelchair',
@@ -14671,8 +14676,6 @@ class EmojiTable
         ':dancer:' => 'woman dancing',
         ':man_dancing:' => 'man dancing',
         ':male_dancer:' => 'man dancing',
-        ':levitate:' => 'man in suit levitating',
-        ':man_in_business_suit_levitating:' => 'man in suit levitating',
         ':people_with_bunny_ears_partying:' => 'people with bunny ears',
         ':dancers:' => 'people with bunny ears',
         ':men_with_bunny_ears_partying:' => 'men with bunny ears',
@@ -14833,26 +14836,6 @@ class EmojiTable
         ':woman_kneeling_medium_dark_skin_tone:' => 'woman kneeling: medium-dark skin tone',
         ':woman_kneeling_tone5:' => 'woman kneeling: dark skin tone',
         ':woman_kneeling_dark_skin_tone:' => 'woman kneeling: dark skin tone',
-        ':man_with_probing_cane_tone1:' => 'man with probing cane: light skin tone',
-        ':man_with_probing_cane_light_skin_tone:' => 'man with probing cane: light skin tone',
-        ':man_with_probing_cane_tone2:' => 'man with probing cane: medium-light skin tone',
-        ':man_with_probing_cane_medium_light_skin_tone:' => 'man with probing cane: medium-light skin tone',
-        ':man_with_probing_cane_tone3:' => 'man with probing cane: medium skin tone',
-        ':man_with_probing_cane_medium_skin_tone:' => 'man with probing cane: medium skin tone',
-        ':man_with_probing_cane_tone4:' => 'man with probing cane: medium-dark skin tone',
-        ':man_with_probing_cane_medium_dark_skin_tone:' => 'man with probing cane: medium-dark skin tone',
-        ':man_with_probing_cane_tone5:' => 'man with probing cane: dark skin tone',
-        ':man_with_probing_cane_dark_skin_tone:' => 'man with probing cane: dark skin tone',
-        ':woman_with_probing_cane_tone1:' => 'woman with probing cane: light skin tone',
-        ':woman_with_probing_cane_light_skin_tone:' => 'woman with probing cane: light skin tone',
-        ':woman_with_probing_cane_tone2:' => 'woman with probing cane: medium-light skin tone',
-        ':woman_with_probing_cane_medium_light_skin_tone:' => 'woman with probing cane: medium-light skin tone',
-        ':woman_with_probing_cane_tone3:' => 'woman with probing cane: medium skin tone',
-        ':woman_with_probing_cane_medium_skin_tone:' => 'woman with probing cane: medium skin tone',
-        ':woman_with_probing_cane_tone4:' => 'woman with probing cane: medium-dark skin tone',
-        ':woman_with_probing_cane_medium_dark_skin_tone:' => 'woman with probing cane: medium-dark skin tone',
-        ':woman_with_probing_cane_tone5:' => 'woman with probing cane: dark skin tone',
-        ':woman_with_probing_cane_dark_skin_tone:' => 'woman with probing cane: dark skin tone',
         ':man_in_motorized_wheelchair_tone1:' => 'man in motorized wheelchair: light skin tone',
         ':man_in_motorized_wheelchair_light_skin_tone:' => 'man in motorized wheelchair: light skin tone',
         ':man_in_motorized_wheelchair_tone2:' => 'man in motorized wheelchair: medium-light skin tone',
@@ -14938,21 +14921,6 @@ class EmojiTable
         ':male_dancer_tone4:' => 'man dancing: medium-dark skin tone',
         ':man_dancing_tone5:' => 'man dancing: dark skin tone',
         ':male_dancer_tone5:' => 'man dancing: dark skin tone',
-        ':levitate_tone1:' => 'man in suit levitating: light skin tone',
-        ':man_in_business_suit_levitating_tone1:' => 'man in suit levitating: light skin tone',
-        ':man_in_business_suit_levitating_light_skin_tone:' => 'man in suit levitating: light skin tone',
-        ':levitate_tone2:' => 'man in suit levitating: medium-light skin tone',
-        ':man_in_business_suit_levitating_tone2:' => 'man in suit levitating: medium-light skin tone',
-        ':man_in_business_suit_levitating_medium_light_skin_tone:' => 'man in suit levitating: medium-light skin tone',
-        ':levitate_tone3:' => 'man in suit levitating: medium skin tone',
-        ':man_in_business_suit_levitating_tone3:' => 'man in suit levitating: medium skin tone',
-        ':man_in_business_suit_levitating_medium_skin_tone:' => 'man in suit levitating: medium skin tone',
-        ':levitate_tone4:' => 'man in suit levitating: medium-dark skin tone',
-        ':man_in_business_suit_levitating_tone4:' => 'man in suit levitating: medium-dark skin tone',
-        ':man_in_business_suit_levitating_medium_dark_skin_tone:' => 'man in suit levitating: medium-dark skin tone',
-        ':levitate_tone5:' => 'man in suit levitating: dark skin tone',
-        ':man_in_business_suit_levitating_tone5:' => 'man in suit levitating: dark skin tone',
-        ':man_in_business_suit_levitating_dark_skin_tone:' => 'man in suit levitating: dark skin tone',
         ':person_in_steamy_room_tone1:' => 'person in steamy room: light skin tone',
         ':person_in_steamy_room_light_skin_tone:' => 'person in steamy room: light skin tone',
         ':person_in_steamy_room_tone2:' => 'person in steamy room: medium-light skin tone',
@@ -16412,8 +16380,6 @@ class EmojiTable
         ':credit_card:' => 'credit card',
         ':receipt:' => 'receipt',
         ':chart:' => 'chart increasing with yen',
-        ':currency_exchange:' => 'currency exchange',
-        ':heavy_dollar_sign:' => 'heavy dollar sign',
         ':envelope:' => 'envelope',
         ':e-mail:' => 'e-mail',
         ':email:' => 'e-mail',
@@ -16495,7 +16461,6 @@ class EmojiTable
         ':gear:' => 'gear',
         ':compression:' => 'clamp',
         ':scales:' => 'balance scale',
-        ':probing_cane:' => 'probing cane',
         ':link:' => 'link',
         ':chains:' => 'chains',
         ':toolbox:' => 'toolbox',
@@ -16644,8 +16609,17 @@ class EmojiTable
         ':mobile_phone_off:' => 'mobile phone off',
         ':female_sign:' => 'female sign',
         ':male_sign:' => 'male sign',
-        ':medical_symbol:' => 'medical symbol',
         ':infinity:' => 'infinity',
+        ':bangbang:' => 'double exclamation mark',
+        ':interrobang:' => 'exclamation question mark',
+        ':question:' => 'question mark',
+        ':grey_question:' => 'white question mark',
+        ':grey_exclamation:' => 'white exclamation mark',
+        ':exclamation:' => 'exclamation mark',
+        ':wavy_dash:' => 'wavy dash',
+        ':currency_exchange:' => 'currency exchange',
+        ':heavy_dollar_sign:' => 'heavy dollar sign',
+        ':medical_symbol:' => 'medical symbol',
         ':recycle:' => 'recycling symbol',
         ':fleur-de-lis:' => 'fleur-de-lis',
         ':trident:' => 'trident emblem',
@@ -16655,25 +16629,14 @@ class EmojiTable
         ':white_check_mark:' => 'check mark button',
         ':ballot_box_with_check:' => 'check box with check',
         ':heavy_check_mark:' => 'check mark',
-        ':heavy_multiplication_x:' => 'multiplication sign',
         ':x:' => 'cross mark',
         ':negative_squared_cross_mark:' => 'cross mark button',
-        ':heavy_plus_sign:' => 'plus sign',
-        ':heavy_minus_sign:' => 'minus sign',
-        ':heavy_division_sign:' => 'division sign',
         ':curly_loop:' => 'curly loop',
         ':loop:' => 'double curly loop',
         ':part_alternation_mark:' => 'part alternation mark',
         ':eight_spoked_asterisk:' => 'eight-spoked asterisk',
         ':eight_pointed_black_star:' => 'eight-pointed star',
         ':sparkle:' => 'sparkle',
-        ':bangbang:' => 'double exclamation mark',
-        ':interrobang:' => 'exclamation question mark',
-        ':question:' => 'question mark',
-        ':grey_question:' => 'white question mark',
-        ':grey_exclamation:' => 'white exclamation mark',
-        ':exclamation:' => 'exclamation mark',
-        ':wavy_dash:' => 'wavy dash',
         ':copyright:' => 'copyright',
         ':registered:' => 'registered',
         ':tm:' => 'trade mark',
@@ -20770,19 +20733,17 @@ class EmojiTable
             ':woman_wearing_turban:',
         ],
         'U+1F472' => [
-            'man with skullcap',
+            'person with skullcap',
         ],
         'U+1F9D5' => [
             'woman with headscarf',
             ':woman_with_headscarf:',
         ],
         'U+1F935' => [
-            'man in tuxedo',
-            ':man_in_tuxedo:',
+            'person in tuxedo',
         ],
         'U+1F470' => [
-            'bride with veil',
-            ':bride_with_veil:',
+            'person with veil',
         ],
         'U+1F930' => [
             'pregnant woman',
@@ -21052,6 +21013,21 @@ class EmojiTable
             'woman judge: dark skin tone',
             ':woman_judge_tone5:',
             ':woman_judge_dark_skin_tone:',
+        ],
+        'U+1F9D1 U+1F3FB U+200D U+1F33E' => [
+            '⊛ farmer: light skin tone',
+        ],
+        'U+1F9D1 U+1F3FC U+200D U+1F33E' => [
+            '⊛ farmer: medium-light skin tone',
+        ],
+        'U+1F9D1 U+1F3FD U+200D U+1F33E' => [
+            '⊛ farmer: medium skin tone',
+        ],
+        'U+1F9D1 U+1F3FE U+200D U+1F33E' => [
+            '⊛ farmer: medium-dark skin tone',
+        ],
+        'U+1F9D1 U+1F3FF U+200D U+1F33E' => [
+            '⊛ farmer: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F33E' => [
             'man farmer: light skin tone',
@@ -22234,19 +22210,19 @@ class EmojiTable
             ':woman_wearing_turban_dark_skin_tone:',
         ],
         'U+1F472 U+1F3FB' => [
-            'man with skullcap: light skin tone',
+            'person with skullcap: light skin tone',
         ],
         'U+1F472 U+1F3FC' => [
-            'man with skullcap: medium-light skin tone',
+            'person with skullcap: medium-light skin tone',
         ],
         'U+1F472 U+1F3FD' => [
-            'man with skullcap: medium skin tone',
+            'person with skullcap: medium skin tone',
         ],
         'U+1F472 U+1F3FE' => [
-            'man with skullcap: medium-dark skin tone',
+            'person with skullcap: medium-dark skin tone',
         ],
         'U+1F472 U+1F3FF' => [
-            'man with skullcap: dark skin tone',
+            'person with skullcap: dark skin tone',
         ],
         'U+1F9D5 U+1F3FB' => [
             'woman with headscarf: light skin tone',
@@ -22274,49 +22250,34 @@ class EmojiTable
             ':woman_with_headscarf_dark_skin_tone:',
         ],
         'U+1F935 U+1F3FB' => [
-            'man in tuxedo: light skin tone',
-            ':man_in_tuxedo_tone1:',
-            ':tuxedo_tone1:',
+            'person in tuxedo: light skin tone',
         ],
         'U+1F935 U+1F3FC' => [
-            'man in tuxedo: medium-light skin tone',
-            ':man_in_tuxedo_tone2:',
-            ':tuxedo_tone2:',
+            'person in tuxedo: medium-light skin tone',
         ],
         'U+1F935 U+1F3FD' => [
-            'man in tuxedo: medium skin tone',
-            ':man_in_tuxedo_tone3:',
-            ':tuxedo_tone3:',
+            'person in tuxedo: medium skin tone',
         ],
         'U+1F935 U+1F3FE' => [
-            'man in tuxedo: medium-dark skin tone',
-            ':man_in_tuxedo_tone4:',
-            ':tuxedo_tone4:',
+            'person in tuxedo: medium-dark skin tone',
         ],
         'U+1F935 U+1F3FF' => [
-            'man in tuxedo: dark skin tone',
-            ':man_in_tuxedo_tone5:',
-            ':tuxedo_tone5:',
+            'person in tuxedo: dark skin tone',
         ],
         'U+1F470 U+1F3FB' => [
-            'bride with veil: light skin tone',
-            ':bride_with_veil_tone1:',
+            'person with veil: light skin tone',
         ],
         'U+1F470 U+1F3FC' => [
-            'bride with veil: medium-light skin tone',
-            ':bride_with_veil_tone2:',
+            'person with veil: medium-light skin tone',
         ],
         'U+1F470 U+1F3FD' => [
-            'bride with veil: medium skin tone',
-            ':bride_with_veil_tone3:',
+            'person with veil: medium skin tone',
         ],
         'U+1F470 U+1F3FE' => [
-            'bride with veil: medium-dark skin tone',
-            ':bride_with_veil_tone4:',
+            'person with veil: medium-dark skin tone',
         ],
         'U+1F470 U+1F3FF' => [
-            'bride with veil: dark skin tone',
-            ':bride_with_veil_tone5:',
+            'person with veil: dark skin tone',
         ],
         'U+1F930 U+1F3FB' => [
             'pregnant woman: light skin tone',
@@ -23143,15 +23104,13 @@ class EmojiTable
             ':woman_kneeling:',
         ],
         'U+1F9D1 U+200D U+1F9AF' => [
-            '⊛ person with probing cane',
+            '⊛ person with white cane',
         ],
         'U+1F468 U+200D U+1F9AF' => [
-            'man with probing cane',
-            ':man_with_probing_cane:',
+            'man with white cane',
         ],
         'U+1F469 U+200D U+1F9AF' => [
-            'woman with probing cane',
-            ':woman_with_probing_cane:',
+            'woman with white cane',
         ],
         'U+1F9D1 U+200D U+1F9BC' => [
             '⊛ person in motorized wheelchair',
@@ -23198,9 +23157,7 @@ class EmojiTable
             ':male_dancer:',
         ],
         'U+1F574' => [
-            'man in suit levitating',
-            ':levitate:',
-            ':man_in_business_suit_levitating:',
+            'person in suit levitating',
         ],
         'U+1F46F' => [
             'people with bunny ears',
@@ -23615,69 +23572,49 @@ class EmojiTable
             ':woman_kneeling_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F9AF' => [
-            '⊛ person with probing cane: light skin tone',
+            '⊛ person with white cane: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F9AF' => [
-            '⊛ person with probing cane: medium-light skin tone',
+            '⊛ person with white cane: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F9AF' => [
-            '⊛ person with probing cane: medium skin tone',
+            '⊛ person with white cane: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F9AF' => [
-            '⊛ person with probing cane: medium-dark skin tone',
+            '⊛ person with white cane: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F9AF' => [
-            '⊛ person with probing cane: dark skin tone',
+            '⊛ person with white cane: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F9AF' => [
-            'man with probing cane: light skin tone',
-            ':man_with_probing_cane_tone1:',
-            ':man_with_probing_cane_light_skin_tone:',
+            'man with white cane: light skin tone',
         ],
         'U+1F468 U+1F3FC U+200D U+1F9AF' => [
-            'man with probing cane: medium-light skin tone',
-            ':man_with_probing_cane_tone2:',
-            ':man_with_probing_cane_medium_light_skin_tone:',
+            'man with white cane: medium-light skin tone',
         ],
         'U+1F468 U+1F3FD U+200D U+1F9AF' => [
-            'man with probing cane: medium skin tone',
-            ':man_with_probing_cane_tone3:',
-            ':man_with_probing_cane_medium_skin_tone:',
+            'man with white cane: medium skin tone',
         ],
         'U+1F468 U+1F3FE U+200D U+1F9AF' => [
-            'man with probing cane: medium-dark skin tone',
-            ':man_with_probing_cane_tone4:',
-            ':man_with_probing_cane_medium_dark_skin_tone:',
+            'man with white cane: medium-dark skin tone',
         ],
         'U+1F468 U+1F3FF U+200D U+1F9AF' => [
-            'man with probing cane: dark skin tone',
-            ':man_with_probing_cane_tone5:',
-            ':man_with_probing_cane_dark_skin_tone:',
+            'man with white cane: dark skin tone',
         ],
         'U+1F469 U+1F3FB U+200D U+1F9AF' => [
-            'woman with probing cane: light skin tone',
-            ':woman_with_probing_cane_tone1:',
-            ':woman_with_probing_cane_light_skin_tone:',
+            'woman with white cane: light skin tone',
         ],
         'U+1F469 U+1F3FC U+200D U+1F9AF' => [
-            'woman with probing cane: medium-light skin tone',
-            ':woman_with_probing_cane_tone2:',
-            ':woman_with_probing_cane_medium_light_skin_tone:',
+            'woman with white cane: medium-light skin tone',
         ],
         'U+1F469 U+1F3FD U+200D U+1F9AF' => [
-            'woman with probing cane: medium skin tone',
-            ':woman_with_probing_cane_tone3:',
-            ':woman_with_probing_cane_medium_skin_tone:',
+            'woman with white cane: medium skin tone',
         ],
         'U+1F469 U+1F3FE U+200D U+1F9AF' => [
-            'woman with probing cane: medium-dark skin tone',
-            ':woman_with_probing_cane_tone4:',
-            ':woman_with_probing_cane_medium_dark_skin_tone:',
+            'woman with white cane: medium-dark skin tone',
         ],
         'U+1F469 U+1F3FF U+200D U+1F9AF' => [
-            'woman with probing cane: dark skin tone',
-            ':woman_with_probing_cane_tone5:',
-            ':woman_with_probing_cane_dark_skin_tone:',
+            'woman with white cane: dark skin tone',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F9BC' => [
             '⊛ person in motorized wheelchair: light skin tone',
@@ -23930,34 +23867,19 @@ class EmojiTable
             ':male_dancer_tone5:',
         ],
         'U+1F574 U+1F3FB' => [
-            'man in suit levitating: light skin tone',
-            ':levitate_tone1:',
-            ':man_in_business_suit_levitating_tone1:',
-            ':man_in_business_suit_levitating_light_skin_tone:',
+            'person in suit levitating: light skin tone',
         ],
         'U+1F574 U+1F3FC' => [
-            'man in suit levitating: medium-light skin tone',
-            ':levitate_tone2:',
-            ':man_in_business_suit_levitating_tone2:',
-            ':man_in_business_suit_levitating_medium_light_skin_tone:',
+            'person in suit levitating: medium-light skin tone',
         ],
         'U+1F574 U+1F3FD' => [
-            'man in suit levitating: medium skin tone',
-            ':levitate_tone3:',
-            ':man_in_business_suit_levitating_tone3:',
-            ':man_in_business_suit_levitating_medium_skin_tone:',
+            'person in suit levitating: medium skin tone',
         ],
         'U+1F574 U+1F3FE' => [
-            'man in suit levitating: medium-dark skin tone',
-            ':levitate_tone4:',
-            ':man_in_business_suit_levitating_tone4:',
-            ':man_in_business_suit_levitating_medium_dark_skin_tone:',
+            'person in suit levitating: medium-dark skin tone',
         ],
         'U+1F574 U+1F3FF' => [
-            'man in suit levitating: dark skin tone',
-            ':levitate_tone5:',
-            ':man_in_business_suit_levitating_tone5:',
-            ':man_in_business_suit_levitating_dark_skin_tone:',
+            'person in suit levitating: dark skin tone',
         ],
         'U+1F9D6 U+1F3FB' => [
             'person in steamy room: light skin tone',
@@ -25709,6 +25631,9 @@ class EmojiTable
             'women holding hands: medium skin tone',
             ':women_holding_hands_tone3:',
             ':women_holding_hands_medium_skin_tone:',
+        ],
+        'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FE' => [
+            '⊛ women holding hands: medium skin tone, medium-dark skin tone',
         ],
         'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FF' => [
             '⊛ women holding hands: medium skin tone, dark skin tone',
@@ -28745,14 +28670,6 @@ class EmojiTable
             'chart increasing with yen',
             ':chart:',
         ],
-        'U+1F4B1' => [
-            'currency exchange',
-            ':currency_exchange:',
-        ],
-        'U+1F4B2' => [
-            'heavy dollar sign',
-            ':heavy_dollar_sign:',
-        ],
         'U+2709' => [
             'envelope',
             ':envelope:',
@@ -29027,8 +28944,7 @@ class EmojiTable
             ':scales:',
         ],
         'U+1F9AF' => [
-            'probing cane',
-            ':probing_cane:',
+            'white cane',
         ],
         'U+1F517' => [
             'link',
@@ -29583,13 +29499,61 @@ class EmojiTable
             'male sign',
             ':male_sign:',
         ],
-        'U+2695' => [
-            'medical symbol',
-            ':medical_symbol:',
+        'U+2716' => [
+            'multiply',
+        ],
+        'U+2795' => [
+            'plus',
+        ],
+        'U+2796' => [
+            'minus',
+        ],
+        'U+2797' => [
+            'divide',
         ],
         'U+267E' => [
             'infinity',
             ':infinity:',
+        ],
+        'U+203C' => [
+            'double exclamation mark',
+            ':bangbang:',
+        ],
+        'U+2049' => [
+            'exclamation question mark',
+            ':interrobang:',
+        ],
+        'U+2753' => [
+            'question mark',
+            ':question:',
+        ],
+        'U+2754' => [
+            'white question mark',
+            ':grey_question:',
+        ],
+        'U+2755' => [
+            'white exclamation mark',
+            ':grey_exclamation:',
+        ],
+        'U+2757' => [
+            'exclamation mark',
+            ':exclamation:',
+        ],
+        'U+3030' => [
+            'wavy dash',
+            ':wavy_dash:',
+        ],
+        'U+1F4B1' => [
+            'currency exchange',
+            ':currency_exchange:',
+        ],
+        'U+1F4B2' => [
+            'heavy dollar sign',
+            ':heavy_dollar_sign:',
+        ],
+        'U+2695' => [
+            'medical symbol',
+            ':medical_symbol:',
         ],
         'U+267B' => [
             'recycling symbol',
@@ -29627,10 +29591,6 @@ class EmojiTable
             'check mark',
             ':heavy_check_mark:',
         ],
-        'U+2716' => [
-            'multiplication sign',
-            ':heavy_multiplication_x:',
-        ],
         'U+274C' => [
             'cross mark',
             ':x:',
@@ -29638,18 +29598,6 @@ class EmojiTable
         'U+274E' => [
             'cross mark button',
             ':negative_squared_cross_mark:',
-        ],
-        'U+2795' => [
-            'plus sign',
-            ':heavy_plus_sign:',
-        ],
-        'U+2796' => [
-            'minus sign',
-            ':heavy_minus_sign:',
-        ],
-        'U+2797' => [
-            'division sign',
-            ':heavy_division_sign:',
         ],
         'U+27B0' => [
             'curly loop',
@@ -29674,34 +29622,6 @@ class EmojiTable
         'U+2747' => [
             'sparkle',
             ':sparkle:',
-        ],
-        'U+203C' => [
-            'double exclamation mark',
-            ':bangbang:',
-        ],
-        'U+2049' => [
-            'exclamation question mark',
-            ':interrobang:',
-        ],
-        'U+2753' => [
-            'question mark',
-            ':question:',
-        ],
-        'U+2754' => [
-            'white question mark',
-            ':grey_question:',
-        ],
-        'U+2755' => [
-            'white exclamation mark',
-            ':grey_exclamation:',
-        ],
-        'U+2757' => [
-            'exclamation mark',
-            ':exclamation:',
-        ],
-        'U+3030' => [
-            'wavy dash',
-            ':wavy_dash:',
         ],
         'U+00A9' => [
             'copyright',

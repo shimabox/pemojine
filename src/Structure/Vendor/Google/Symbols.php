@@ -49,6 +49,9 @@ class Symbols implements Gettable
                 'zodiac',
                 'av-symbol',
                 'gender',
+                'math',
+                'punctuation',
+                'currency',
                 'other-symbol',
                 'keycap',
                 'alphanum',
@@ -195,11 +198,39 @@ class Symbols implements Gettable
                 'male sign',
             ]
         ],
+        'math' => [
+            'parent' => 'Symbols',
+            'children' => [
+                'multiply',
+                'plus',
+                'minus',
+                'divide',
+                'infinity',
+            ]
+        ],
+        'punctuation' => [
+            'parent' => 'Symbols',
+            'children' => [
+                'double exclamation mark',
+                'exclamation question mark',
+                'question mark',
+                'white question mark',
+                'white exclamation mark',
+                'exclamation mark',
+                'wavy dash',
+            ]
+        ],
+        'currency' => [
+            'parent' => 'Symbols',
+            'children' => [
+                'currency exchange',
+                'heavy dollar sign',
+            ]
+        ],
         'other-symbol' => [
             'parent' => 'Symbols',
             'children' => [
                 'medical symbol',
-                'infinity',
                 'recycling symbol',
                 'fleur-de-lis',
                 'trident emblem',
@@ -209,25 +240,14 @@ class Symbols implements Gettable
                 'check mark button',
                 'check box with check',
                 'check mark',
-                'multiplication sign',
                 'cross mark',
                 'cross mark button',
-                'plus sign',
-                'minus sign',
-                'division sign',
                 'curly loop',
                 'double curly loop',
                 'part alternation mark',
                 'eight-spoked asterisk',
                 'eight-pointed star',
                 'sparkle',
-                'double exclamation mark',
-                'exclamation question mark',
-                'question mark',
-                'white question mark',
-                'white exclamation mark',
-                'exclamation mark',
-                'wavy dash',
                 'copyright',
                 'registered',
                 'trade mark',
@@ -1037,18 +1057,105 @@ class Symbols implements Gettable
                 ':male_sign:',
             ]
         ],
+        'multiply' => [
+            'parent' => 'math',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'plus' => [
+            'parent' => 'math',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'minus' => [
+            'parent' => 'math',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'divide' => [
+            'parent' => 'math',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'infinity' => [
+            'parent' => 'math',
+            'children' => null,
+            'aliases' => [
+                ':infinity:',
+            ]
+        ],
+        'double exclamation mark' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':bangbang:',
+            ]
+        ],
+        'exclamation question mark' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':interrobang:',
+            ]
+        ],
+        'question mark' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':question:',
+            ]
+        ],
+        'white question mark' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':grey_question:',
+            ]
+        ],
+        'white exclamation mark' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':grey_exclamation:',
+            ]
+        ],
+        'exclamation mark' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':exclamation:',
+            ]
+        ],
+        'wavy dash' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':wavy_dash:',
+            ]
+        ],
+        'currency exchange' => [
+            'parent' => 'currency',
+            'children' => null,
+            'aliases' => [
+                ':currency_exchange:',
+            ]
+        ],
+        'heavy dollar sign' => [
+            'parent' => 'currency',
+            'children' => null,
+            'aliases' => [
+                ':heavy_dollar_sign:',
+            ]
+        ],
         'medical symbol' => [
             'parent' => 'other-symbol',
             'children' => null,
             'aliases' => [
                 ':medical_symbol:',
-            ]
-        ],
-        'infinity' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':infinity:',
             ]
         ],
         'recycling symbol' => [
@@ -1114,13 +1221,6 @@ class Symbols implements Gettable
                 ':heavy_check_mark:',
             ]
         ],
-        'multiplication sign' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':heavy_multiplication_x:',
-            ]
-        ],
         'cross mark' => [
             'parent' => 'other-symbol',
             'children' => null,
@@ -1133,27 +1233,6 @@ class Symbols implements Gettable
             'children' => null,
             'aliases' => [
                 ':negative_squared_cross_mark:',
-            ]
-        ],
-        'plus sign' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':heavy_plus_sign:',
-            ]
-        ],
-        'minus sign' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':heavy_minus_sign:',
-            ]
-        ],
-        'division sign' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':heavy_division_sign:',
             ]
         ],
         'curly loop' => [
@@ -1196,55 +1275,6 @@ class Symbols implements Gettable
             'children' => null,
             'aliases' => [
                 ':sparkle:',
-            ]
-        ],
-        'double exclamation mark' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':bangbang:',
-            ]
-        ],
-        'exclamation question mark' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':interrobang:',
-            ]
-        ],
-        'question mark' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':question:',
-            ]
-        ],
-        'white question mark' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':grey_question:',
-            ]
-        ],
-        'white exclamation mark' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':grey_exclamation:',
-            ]
-        ],
-        'exclamation mark' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':exclamation:',
-            ]
-        ],
-        'wavy dash' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':wavy_dash:',
             ]
         ],
         'copyright' => [

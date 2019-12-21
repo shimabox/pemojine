@@ -46,6 +46,7 @@ class Symbols implements Gettable
                 'warning',
                 'arrow',
                 'zodiac',
+                'punctuation',
                 'other-symbol',
                 'keycap',
                 'alphanum',
@@ -108,15 +109,20 @@ class Symbols implements Gettable
                 'Pisces',
             ]
         ],
+        'punctuation' => [
+            'parent' => 'Symbols',
+            'children' => [
+                'double exclamation mark',
+                'exclamation question mark',
+                'exclamation mark',
+                'wavy dash',
+            ]
+        ],
         'other-symbol' => [
             'parent' => 'Symbols',
             'children' => [
                 'recycling symbol',
                 'curly loop',
-                'double exclamation mark',
-                'exclamation question mark',
-                'exclamation mark',
-                'wavy dash',
                 'copyright',
                 'registered',
                 'trade mark',
@@ -372,6 +378,34 @@ class Symbols implements Gettable
                 ':pisces:',
             ]
         ],
+        'double exclamation mark' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':bangbang:',
+            ]
+        ],
+        'exclamation question mark' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':interrobang:',
+            ]
+        ],
+        'exclamation mark' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':exclamation:',
+            ]
+        ],
+        'wavy dash' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':wavy_dash:',
+            ]
+        ],
         'recycling symbol' => [
             'parent' => 'other-symbol',
             'children' => null,
@@ -384,34 +418,6 @@ class Symbols implements Gettable
             'children' => null,
             'aliases' => [
                 ':curly_loop:',
-            ]
-        ],
-        'double exclamation mark' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':bangbang:',
-            ]
-        ],
-        'exclamation question mark' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':interrobang:',
-            ]
-        ],
-        'exclamation mark' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':exclamation:',
-            ]
-        ],
-        'wavy dash' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':wavy_dash:',
             ]
         ],
         'copyright' => [

@@ -30,7 +30,7 @@ class EmojiCounterTest extends \PHPUnit_Framework_TestCase
     public function it_can_handle_getMediumGroupCount()
     {
         $actual = EmojiCounter::getMediumGroupCount();
-        $this->assertSame(97, $actual);
+        $this->assertSame(100, $actual);
     }
 
     /**
@@ -62,7 +62,7 @@ class EmojiCounterTest extends \PHPUnit_Framework_TestCase
         $google = PemojineContainer::make(new Vendor\Google());
         $actual = EmojiCounter::getCoverageOfMediumGroup($google);
 
-        $this->assertSame('97 / 97', $actual->formula);
+        $this->assertSame('100 / 100', $actual->formula);
         $this->assertSame(100, $actual->value);
     }
 

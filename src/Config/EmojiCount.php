@@ -15,7 +15,7 @@ class EmojiCount
      *
      * @var int
      */
-    const MEDIUM_GROUP = 97;
+    const MEDIUM_GROUP = 100;
 
     /**
      *

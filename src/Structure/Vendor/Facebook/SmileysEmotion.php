@@ -199,6 +199,7 @@ class SmileysEmotion implements Gettable
                 'downcast face with sweat',
                 'weary face',
                 'tired face',
+                'yawning face',
             ]
         ],
         'face-negative' => [
@@ -270,7 +271,9 @@ class SmileysEmotion implements Gettable
                 'green heart',
                 'blue heart',
                 'purple heart',
+                'brown heart',
                 'black heart',
+                'white heart',
                 'hundred points',
                 'anger symbol',
                 'collision',
@@ -1013,6 +1016,13 @@ class SmileysEmotion implements Gettable
                 ':tired_face:',
             ]
         ],
+        'yawning face' => [
+            'parent' => 'face-concerned',
+            'children' => null,
+            'aliases' => [
+                ':yawning_face:',
+            ]
+        ],
         'face with steam from nose' => [
             'parent' => 'face-negative',
             'children' => null,
@@ -1348,11 +1358,25 @@ class SmileysEmotion implements Gettable
                 ':purple_heart:',
             ]
         ],
+        'brown heart' => [
+            'parent' => 'emotion',
+            'children' => null,
+            'aliases' => [
+                ':brown_heart:',
+            ]
+        ],
         'black heart' => [
             'parent' => 'emotion',
             'children' => null,
             'aliases' => [
                 ':black_heart:',
+            ]
+        ],
+        'white heart' => [
+            'parent' => 'emotion',
+            'children' => null,
+            'aliases' => [
+                ':white_heart:',
             ]
         ],
         'hundred points' => [

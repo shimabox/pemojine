@@ -714,10 +714,10 @@ class PeopleBody implements Gettable
                 'person wearing turban',
                 'man wearing turban',
                 'woman wearing turban',
-                'man with skullcap',
+                'person with skullcap',
                 'woman with headscarf',
-                'man in tuxedo',
-                'bride with veil',
+                'person in tuxedo',
+                'person with veil',
                 'pregnant woman',
                 'breast-feeding',
                 'man health worker: light skin tone',
@@ -965,26 +965,26 @@ class PeopleBody implements Gettable
                 'woman wearing turban: medium skin tone',
                 'woman wearing turban: medium-dark skin tone',
                 'woman wearing turban: dark skin tone',
-                'man with skullcap: light skin tone',
-                'man with skullcap: medium-light skin tone',
-                'man with skullcap: medium skin tone',
-                'man with skullcap: medium-dark skin tone',
-                'man with skullcap: dark skin tone',
+                'person with skullcap: light skin tone',
+                'person with skullcap: medium-light skin tone',
+                'person with skullcap: medium skin tone',
+                'person with skullcap: medium-dark skin tone',
+                'person with skullcap: dark skin tone',
                 'woman with headscarf: light skin tone',
                 'woman with headscarf: medium-light skin tone',
                 'woman with headscarf: medium skin tone',
                 'woman with headscarf: medium-dark skin tone',
                 'woman with headscarf: dark skin tone',
-                'man in tuxedo: light skin tone',
-                'man in tuxedo: medium-light skin tone',
-                'man in tuxedo: medium skin tone',
-                'man in tuxedo: medium-dark skin tone',
-                'man in tuxedo: dark skin tone',
-                'bride with veil: light skin tone',
-                'bride with veil: medium-light skin tone',
-                'bride with veil: medium skin tone',
-                'bride with veil: medium-dark skin tone',
-                'bride with veil: dark skin tone',
+                'person in tuxedo: light skin tone',
+                'person in tuxedo: medium-light skin tone',
+                'person in tuxedo: medium skin tone',
+                'person in tuxedo: medium-dark skin tone',
+                'person in tuxedo: dark skin tone',
+                'person with veil: light skin tone',
+                'person with veil: medium-light skin tone',
+                'person with veil: medium skin tone',
+                'person with veil: medium-dark skin tone',
+                'person with veil: dark skin tone',
                 'pregnant woman: light skin tone',
                 'pregnant woman: medium-light skin tone',
                 'pregnant woman: medium skin tone',
@@ -1170,8 +1170,8 @@ class PeopleBody implements Gettable
                 'person kneeling',
                 'man kneeling',
                 'woman kneeling',
-                'man with probing cane',
-                'woman with probing cane',
+                'man with white cane',
+                'woman with white cane',
                 'man in motorized wheelchair',
                 'woman in motorized wheelchair',
                 'man in manual wheelchair',
@@ -1181,7 +1181,7 @@ class PeopleBody implements Gettable
                 'woman running',
                 'woman dancing',
                 'man dancing',
-                'man in suit levitating',
+                'person in suit levitating',
                 'people with bunny ears',
                 'men with bunny ears',
                 'women with bunny ears',
@@ -1266,16 +1266,16 @@ class PeopleBody implements Gettable
                 'woman kneeling: medium skin tone',
                 'woman kneeling: medium-dark skin tone',
                 'woman kneeling: dark skin tone',
-                'man with probing cane: light skin tone',
-                'man with probing cane: medium-light skin tone',
-                'man with probing cane: medium skin tone',
-                'man with probing cane: medium-dark skin tone',
-                'man with probing cane: dark skin tone',
-                'woman with probing cane: light skin tone',
-                'woman with probing cane: medium-light skin tone',
-                'woman with probing cane: medium skin tone',
-                'woman with probing cane: medium-dark skin tone',
-                'woman with probing cane: dark skin tone',
+                'man with white cane: light skin tone',
+                'man with white cane: medium-light skin tone',
+                'man with white cane: medium skin tone',
+                'man with white cane: medium-dark skin tone',
+                'man with white cane: dark skin tone',
+                'woman with white cane: light skin tone',
+                'woman with white cane: medium-light skin tone',
+                'woman with white cane: medium skin tone',
+                'woman with white cane: medium-dark skin tone',
+                'woman with white cane: dark skin tone',
                 'man in motorized wheelchair: light skin tone',
                 'man in motorized wheelchair: medium-light skin tone',
                 'man in motorized wheelchair: medium skin tone',
@@ -1321,11 +1321,11 @@ class PeopleBody implements Gettable
                 'man dancing: medium skin tone',
                 'man dancing: medium-dark skin tone',
                 'man dancing: dark skin tone',
-                'man in suit levitating: light skin tone',
-                'man in suit levitating: medium-light skin tone',
-                'man in suit levitating: medium skin tone',
-                'man in suit levitating: medium-dark skin tone',
-                'man in suit levitating: dark skin tone',
+                'person in suit levitating: light skin tone',
+                'person in suit levitating: medium-light skin tone',
+                'person in suit levitating: medium skin tone',
+                'person in suit levitating: medium-dark skin tone',
+                'person in suit levitating: dark skin tone',
                 'person in steamy room: light skin tone',
                 'person in steamy room: medium-light skin tone',
                 'person in steamy room: medium skin tone',
@@ -6173,7 +6173,7 @@ class PeopleBody implements Gettable
                 ':woman_wearing_turban:',
             ]
         ],
-        'man with skullcap' => [
+        'person with skullcap' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
@@ -6186,18 +6186,16 @@ class PeopleBody implements Gettable
                 ':woman_with_headscarf:',
             ]
         ],
-        'man in tuxedo' => [
+        'person in tuxedo' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_in_tuxedo:',
             ]
         ],
-        'bride with veil' => [
+        'person with veil' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':bride_with_veil:',
             ]
         ],
         'pregnant woman' => [
@@ -8165,31 +8163,31 @@ class PeopleBody implements Gettable
                 ':woman_wearing_turban_dark_skin_tone:',
             ]
         ],
-        'man with skullcap: light skin tone' => [
+        'person with skullcap: light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
             ]
         ],
-        'man with skullcap: medium-light skin tone' => [
+        'person with skullcap: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
             ]
         ],
-        'man with skullcap: medium skin tone' => [
+        'person with skullcap: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
             ]
         ],
-        'man with skullcap: medium-dark skin tone' => [
+        'person with skullcap: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
             ]
         ],
-        'man with skullcap: dark skin tone' => [
+        'person with skullcap: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
@@ -8235,79 +8233,64 @@ class PeopleBody implements Gettable
                 ':woman_with_headscarf_dark_skin_tone:',
             ]
         ],
-        'man in tuxedo: light skin tone' => [
+        'person in tuxedo: light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_in_tuxedo_tone1:',
-                ':tuxedo_tone1:',
             ]
         ],
-        'man in tuxedo: medium-light skin tone' => [
+        'person in tuxedo: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_in_tuxedo_tone2:',
-                ':tuxedo_tone2:',
             ]
         ],
-        'man in tuxedo: medium skin tone' => [
+        'person in tuxedo: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_in_tuxedo_tone3:',
-                ':tuxedo_tone3:',
             ]
         ],
-        'man in tuxedo: medium-dark skin tone' => [
+        'person in tuxedo: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_in_tuxedo_tone4:',
-                ':tuxedo_tone4:',
             ]
         ],
-        'man in tuxedo: dark skin tone' => [
+        'person in tuxedo: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':man_in_tuxedo_tone5:',
-                ':tuxedo_tone5:',
             ]
         ],
-        'bride with veil: light skin tone' => [
+        'person with veil: light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':bride_with_veil_tone1:',
             ]
         ],
-        'bride with veil: medium-light skin tone' => [
+        'person with veil: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':bride_with_veil_tone2:',
             ]
         ],
-        'bride with veil: medium skin tone' => [
+        'person with veil: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':bride_with_veil_tone3:',
             ]
         ],
-        'bride with veil: medium-dark skin tone' => [
+        'person with veil: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':bride_with_veil_tone4:',
             ]
         ],
-        'bride with veil: dark skin tone' => [
+        'person with veil: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
-                ':bride_with_veil_tone5:',
             ]
         ],
         'pregnant woman: light skin tone' => [
@@ -9659,18 +9642,16 @@ class PeopleBody implements Gettable
                 ':woman_kneeling:',
             ]
         ],
-        'man with probing cane' => [
+        'man with white cane' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':man_with_probing_cane:',
             ]
         ],
-        'woman with probing cane' => [
+        'woman with white cane' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':woman_with_probing_cane:',
             ]
         ],
         'man in motorized wheelchair' => [
@@ -9738,12 +9719,10 @@ class PeopleBody implements Gettable
                 ':male_dancer:',
             ]
         ],
-        'man in suit levitating' => [
+        'person in suit levitating' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':levitate:',
-                ':man_in_business_suit_levitating:',
             ]
         ],
         'people with bunny ears' => [
@@ -10410,84 +10389,64 @@ class PeopleBody implements Gettable
                 ':woman_kneeling_dark_skin_tone:',
             ]
         ],
-        'man with probing cane: light skin tone' => [
+        'man with white cane: light skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':man_with_probing_cane_tone1:',
-                ':man_with_probing_cane_light_skin_tone:',
             ]
         ],
-        'man with probing cane: medium-light skin tone' => [
+        'man with white cane: medium-light skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':man_with_probing_cane_tone2:',
-                ':man_with_probing_cane_medium_light_skin_tone:',
             ]
         ],
-        'man with probing cane: medium skin tone' => [
+        'man with white cane: medium skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':man_with_probing_cane_tone3:',
-                ':man_with_probing_cane_medium_skin_tone:',
             ]
         ],
-        'man with probing cane: medium-dark skin tone' => [
+        'man with white cane: medium-dark skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':man_with_probing_cane_tone4:',
-                ':man_with_probing_cane_medium_dark_skin_tone:',
             ]
         ],
-        'man with probing cane: dark skin tone' => [
+        'man with white cane: dark skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':man_with_probing_cane_tone5:',
-                ':man_with_probing_cane_dark_skin_tone:',
             ]
         ],
-        'woman with probing cane: light skin tone' => [
+        'woman with white cane: light skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':woman_with_probing_cane_tone1:',
-                ':woman_with_probing_cane_light_skin_tone:',
             ]
         ],
-        'woman with probing cane: medium-light skin tone' => [
+        'woman with white cane: medium-light skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':woman_with_probing_cane_tone2:',
-                ':woman_with_probing_cane_medium_light_skin_tone:',
             ]
         ],
-        'woman with probing cane: medium skin tone' => [
+        'woman with white cane: medium skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':woman_with_probing_cane_tone3:',
-                ':woman_with_probing_cane_medium_skin_tone:',
             ]
         ],
-        'woman with probing cane: medium-dark skin tone' => [
+        'woman with white cane: medium-dark skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':woman_with_probing_cane_tone4:',
-                ':woman_with_probing_cane_medium_dark_skin_tone:',
             ]
         ],
-        'woman with probing cane: dark skin tone' => [
+        'woman with white cane: dark skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':woman_with_probing_cane_tone5:',
-                ':woman_with_probing_cane_dark_skin_tone:',
             ]
         ],
         'man in motorized wheelchair: light skin tone' => [
@@ -10845,49 +10804,34 @@ class PeopleBody implements Gettable
                 ':male_dancer_tone5:',
             ]
         ],
-        'man in suit levitating: light skin tone' => [
+        'person in suit levitating: light skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':levitate_tone1:',
-                ':man_in_business_suit_levitating_tone1:',
-                ':man_in_business_suit_levitating_light_skin_tone:',
             ]
         ],
-        'man in suit levitating: medium-light skin tone' => [
+        'person in suit levitating: medium-light skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':levitate_tone2:',
-                ':man_in_business_suit_levitating_tone2:',
-                ':man_in_business_suit_levitating_medium_light_skin_tone:',
             ]
         ],
-        'man in suit levitating: medium skin tone' => [
+        'person in suit levitating: medium skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':levitate_tone3:',
-                ':man_in_business_suit_levitating_tone3:',
-                ':man_in_business_suit_levitating_medium_skin_tone:',
             ]
         ],
-        'man in suit levitating: medium-dark skin tone' => [
+        'person in suit levitating: medium-dark skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':levitate_tone4:',
-                ':man_in_business_suit_levitating_tone4:',
-                ':man_in_business_suit_levitating_medium_dark_skin_tone:',
             ]
         ],
-        'man in suit levitating: dark skin tone' => [
+        'person in suit levitating: dark skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
-                ':levitate_tone5:',
-                ':man_in_business_suit_levitating_tone5:',
-                ':man_in_business_suit_levitating_dark_skin_tone:',
             ]
         ],
         'person in steamy room: light skin tone' => [

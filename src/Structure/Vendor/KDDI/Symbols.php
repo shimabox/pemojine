@@ -47,6 +47,9 @@ class Symbols implements Gettable
                 'arrow',
                 'zodiac',
                 'av-symbol',
+                'math',
+                'punctuation',
+                'currency',
                 'other-symbol',
                 'keycap',
                 'alphanum',
@@ -133,6 +136,30 @@ class Symbols implements Gettable
                 'mobile phone off',
             ]
         ],
+        'math' => [
+            'parent' => 'Symbols',
+            'children' => [
+                'multiply',
+                'plus',
+                'minus',
+                'divide',
+            ]
+        ],
+        'punctuation' => [
+            'parent' => 'Symbols',
+            'children' => [
+                'double exclamation mark',
+                'exclamation question mark',
+                'question mark',
+                'exclamation mark',
+            ]
+        ],
+        'currency' => [
+            'parent' => 'Symbols',
+            'children' => [
+                'heavy dollar sign',
+            ]
+        ],
         'other-symbol' => [
             'parent' => 'Symbols',
             'children' => [
@@ -143,20 +170,12 @@ class Symbols implements Gettable
                 'check mark button',
                 'check box with check',
                 'check mark',
-                'multiplication sign',
                 'cross mark',
                 'cross mark button',
-                'plus sign',
-                'minus sign',
-                'division sign',
                 'curly loop',
                 'eight-spoked asterisk',
                 'eight-pointed star',
                 'sparkle',
-                'double exclamation mark',
-                'exclamation question mark',
-                'question mark',
-                'exclamation mark',
                 'copyright',
                 'registered',
                 'trade mark',
@@ -581,6 +600,65 @@ class Symbols implements Gettable
                 ':mobile_phone_off:',
             ]
         ],
+        'multiply' => [
+            'parent' => 'math',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'plus' => [
+            'parent' => 'math',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'minus' => [
+            'parent' => 'math',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'divide' => [
+            'parent' => 'math',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        'double exclamation mark' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':bangbang:',
+            ]
+        ],
+        'exclamation question mark' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':interrobang:',
+            ]
+        ],
+        'question mark' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':question:',
+            ]
+        ],
+        'exclamation mark' => [
+            'parent' => 'punctuation',
+            'children' => null,
+            'aliases' => [
+                ':exclamation:',
+            ]
+        ],
+        'heavy dollar sign' => [
+            'parent' => 'currency',
+            'children' => null,
+            'aliases' => [
+                ':heavy_dollar_sign:',
+            ]
+        ],
         'recycling symbol' => [
             'parent' => 'other-symbol',
             'children' => null,
@@ -630,13 +708,6 @@ class Symbols implements Gettable
                 ':heavy_check_mark:',
             ]
         ],
-        'multiplication sign' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':heavy_multiplication_x:',
-            ]
-        ],
         'cross mark' => [
             'parent' => 'other-symbol',
             'children' => null,
@@ -649,27 +720,6 @@ class Symbols implements Gettable
             'children' => null,
             'aliases' => [
                 ':negative_squared_cross_mark:',
-            ]
-        ],
-        'plus sign' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':heavy_plus_sign:',
-            ]
-        ],
-        'minus sign' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':heavy_minus_sign:',
-            ]
-        ],
-        'division sign' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':heavy_division_sign:',
             ]
         ],
         'curly loop' => [
@@ -698,34 +748,6 @@ class Symbols implements Gettable
             'children' => null,
             'aliases' => [
                 ':sparkle:',
-            ]
-        ],
-        'double exclamation mark' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':bangbang:',
-            ]
-        ],
-        'exclamation question mark' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':interrobang:',
-            ]
-        ],
-        'question mark' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':question:',
-            ]
-        ],
-        'exclamation mark' => [
-            'parent' => 'other-symbol',
-            'children' => null,
-            'aliases' => [
-                ':exclamation:',
             ]
         ],
         'copyright' => [

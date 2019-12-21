@@ -46,6 +46,7 @@ class Symbols implements Gettable
                 'warning',
                 'arrow',
                 'zodiac',
+                'punctuation',
                 'other-symbol',
                 'keycap',
                 'alphanum',
@@ -99,10 +100,15 @@ class Symbols implements Gettable
                 'Pisces',
             ]
         ],
-        'other-symbol' => [
+        'punctuation' => [
             'parent' => 'Symbols',
             'children' => [
                 'exclamation mark',
+            ]
+        ],
+        'other-symbol' => [
+            'parent' => 'Symbols',
+            'children' => [
                 'copyright',
                 'registered',
                 'trade mark',
@@ -291,7 +297,7 @@ class Symbols implements Gettable
             ]
         ],
         'exclamation mark' => [
-            'parent' => 'other-symbol',
+            'parent' => 'punctuation',
             'children' => null,
             'aliases' => [
                 ':exclamation:',

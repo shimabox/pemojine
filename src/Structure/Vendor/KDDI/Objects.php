@@ -188,7 +188,6 @@ class Objects implements Gettable
                 'money with wings',
                 'credit card',
                 'chart increasing with yen',
-                'heavy dollar sign',
             ]
         ],
         'mail' => [
@@ -816,13 +815,6 @@ class Objects implements Gettable
             'children' => null,
             'aliases' => [
                 ':chart:',
-            ]
-        ],
-        'heavy dollar sign' => [
-            'parent' => 'money',
-            'children' => null,
-            'aliases' => [
-                ':heavy_dollar_sign:',
             ]
         ],
         'envelope' => [

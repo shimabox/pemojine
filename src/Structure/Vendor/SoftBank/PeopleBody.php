@@ -155,7 +155,7 @@ class PeopleBody implements Gettable
                 'construction worker',
                 'princess',
                 'person wearing turban',
-                'man with skullcap',
+                'person with skullcap',
             ]
         ],
         'person-fantasy' => [
@@ -508,7 +508,7 @@ class PeopleBody implements Gettable
                 ':man_with_turban:',
             ]
         ],
-        'man with skullcap' => [
+        'person with skullcap' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [

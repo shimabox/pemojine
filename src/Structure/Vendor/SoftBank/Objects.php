@@ -160,7 +160,6 @@ class Objects implements Gettable
             'children' => [
                 'money bag',
                 'chart increasing with yen',
-                'currency exchange',
             ]
         ],
         'mail' => [
@@ -564,13 +563,6 @@ class Objects implements Gettable
             'children' => null,
             'aliases' => [
                 ':chart:',
-            ]
-        ],
-        'currency exchange' => [
-            'parent' => 'money',
-            'children' => null,
-            'aliases' => [
-                ':currency_exchange:',
             ]
         ],
         'envelope with arrow' => [

@@ -113,6 +113,7 @@ class AnimalsNature implements Gettable
                 'hedgehog',
                 'bat',
                 'bear',
+                '⊛ polar bear',
                 'koala',
                 'panda',
                 'sloth',
@@ -139,6 +140,7 @@ class AnimalsNature implements Gettable
                 'duck',
                 'swan',
                 'owl',
+                '⊛ feather',
                 'flamingo',
                 'peacock',
                 'parrot',
@@ -213,6 +215,7 @@ class AnimalsNature implements Gettable
             'parent' => 'Animals & Nature',
             'children' => [
                 'seedling',
+                '⊛ potted plant',
                 'evergreen tree',
                 'deciduous tree',
                 'palm tree',
@@ -594,6 +597,12 @@ class AnimalsNature implements Gettable
                 ':bear:',
             ]
         ],
+        '⊛ polar bear' => [
+            'parent' => 'animal-mammal',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'koala' => [
             'parent' => 'animal-mammal',
             'children' => null,
@@ -741,6 +750,12 @@ class AnimalsNature implements Gettable
             'children' => null,
             'aliases' => [
                 ':owl:',
+            ]
+        ],
+        '⊛ feather' => [
+            'parent' => 'animal-bird',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'flamingo' => [
@@ -1050,6 +1065,12 @@ class AnimalsNature implements Gettable
             'children' => null,
             'aliases' => [
                 ':seedling:',
+            ]
+        ],
+        '⊛ potted plant' => [
+            'parent' => 'plant-other',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'evergreen tree' => [

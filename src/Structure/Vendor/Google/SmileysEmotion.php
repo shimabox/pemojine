@@ -95,6 +95,7 @@ class SmileysEmotion implements Gettable
                 'smiling face',
                 'kissing face with closed eyes',
                 'kissing face with smiling eyes',
+                '⊛ smiling face with tear',
             ]
         ],
         'face-tongue' => [
@@ -163,6 +164,7 @@ class SmileysEmotion implements Gettable
             'children' => [
                 'cowboy hat face',
                 'partying face',
+                '⊛ disguised face',
             ]
         ],
         'face-glasses' => [
@@ -492,6 +494,12 @@ class SmileysEmotion implements Gettable
                 ':kissing_smiling_eyes:',
             ]
         ],
+        '⊛ smiling face with tear' => [
+            'parent' => 'face-affection',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'face savoring food' => [
             'parent' => 'face-tongue',
             'children' => null,
@@ -792,6 +800,12 @@ class SmileysEmotion implements Gettable
             'children' => null,
             'aliases' => [
                 ':partying_face:',
+            ]
+        ],
+        '⊛ disguised face' => [
+            'parent' => 'face-hat',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'smiling face with sunglasses' => [

@@ -196,6 +196,7 @@ class Symbols implements Gettable
             'children' => [
                 'female sign',
                 'male sign',
+                '⊛ transgender symbol',
             ]
         ],
         'math' => [
@@ -1055,6 +1056,12 @@ class Symbols implements Gettable
             'children' => null,
             'aliases' => [
                 ':male_sign:',
+            ]
+        ],
+        '⊛ transgender symbol' => [
+            'parent' => 'gender',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'multiply' => [

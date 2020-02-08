@@ -76,8 +76,10 @@ class FoodDrink implements Gettable
                 'peach',
                 'cherries',
                 'strawberry',
+                '⊛ blueberries',
                 'kiwi fruit',
                 'tomato',
+                '⊛ olive',
                 'coconut',
             ]
         ],
@@ -106,6 +108,7 @@ class FoodDrink implements Gettable
                 'bread',
                 'croissant',
                 'baguette bread',
+                '⊛ flatbread',
                 'pretzel',
                 'bagel',
                 'pancakes',
@@ -122,12 +125,14 @@ class FoodDrink implements Gettable
                 'sandwich',
                 'taco',
                 'burrito',
+                '⊛ tamale',
                 'stuffed flatbread',
                 'falafel',
                 'egg',
                 'cooking',
                 'shallow pan of food',
                 'pot of food',
+                '⊛ fondue',
                 'bowl with spoon',
                 'green salad',
                 'popcorn',
@@ -204,6 +209,7 @@ class FoodDrink implements Gettable
                 'clinking glasses',
                 'tumbler glass',
                 'cup with straw',
+                '⊛ bubble tea',
                 'beverage box',
                 'mate',
                 'ice',
@@ -325,6 +331,12 @@ class FoodDrink implements Gettable
                 ':strawberry:',
             ]
         ],
+        '⊛ blueberries' => [
+            'parent' => 'food-fruit',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'kiwi fruit' => [
             'parent' => 'food-fruit',
             'children' => null,
@@ -338,6 +350,12 @@ class FoodDrink implements Gettable
             'children' => null,
             'aliases' => [
                 ':tomato:',
+            ]
+        ],
+        '⊛ olive' => [
+            'parent' => 'food-fruit',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'coconut' => [
@@ -468,6 +486,12 @@ class FoodDrink implements Gettable
                 ':baguette_bread:',
             ]
         ],
+        '⊛ flatbread' => [
+            'parent' => 'food-prepared',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'pretzel' => [
             'parent' => 'food-prepared',
             'children' => null,
@@ -582,6 +606,12 @@ class FoodDrink implements Gettable
                 ':burrito:',
             ]
         ],
+        '⊛ tamale' => [
+            'parent' => 'food-prepared',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'stuffed flatbread' => [
             'parent' => 'food-prepared',
             'children' => null,
@@ -624,6 +654,12 @@ class FoodDrink implements Gettable
             'children' => null,
             'aliases' => [
                 ':stew:',
+            ]
+        ],
+        '⊛ fondue' => [
+            'parent' => 'food-prepared',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'bowl with spoon' => [
@@ -1023,6 +1059,12 @@ class FoodDrink implements Gettable
             'children' => null,
             'aliases' => [
                 ':cup_with_straw:',
+            ]
+        ],
+        '⊛ bubble tea' => [
+            'parent' => 'drink',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'beverage box' => [

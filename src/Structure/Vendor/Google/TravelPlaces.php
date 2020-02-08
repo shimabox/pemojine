@@ -95,6 +95,8 @@ class TravelPlaces implements Gettable
                 'classical building',
                 'building construction',
                 'brick',
+                '⊛ rock',
+                '⊛ wood',
                 'houses',
                 'derelict house',
                 'house',
@@ -189,6 +191,7 @@ class TravelPlaces implements Gettable
                 'bicycle',
                 'kick scooter',
                 'skateboard',
+                '⊛ roller skate',
                 'bus stop',
                 'motorway',
                 'railway track',
@@ -478,6 +481,18 @@ class TravelPlaces implements Gettable
             'children' => null,
             'aliases' => [
                 ':bricks:',
+            ]
+        ],
+        '⊛ rock' => [
+            'parent' => 'place-building',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ wood' => [
+            'parent' => 'place-building',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'houses' => [
@@ -1037,6 +1052,12 @@ class TravelPlaces implements Gettable
             'children' => null,
             'aliases' => [
                 ':skateboard:',
+            ]
+        ],
+        '⊛ roller skate' => [
+            'parent' => 'transport-ground',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'bus stop' => [

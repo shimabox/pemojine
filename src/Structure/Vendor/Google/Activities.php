@@ -133,6 +133,7 @@ class Activities implements Gettable
                 'kite',
                 'pool 8 ball',
                 'crystal ball',
+                '⊛ magic wand',
                 'nazar amulet',
                 'video game',
                 'joystick',
@@ -140,6 +141,8 @@ class Activities implements Gettable
                 'game die',
                 'puzzle piece',
                 'teddy bear',
+                '⊛ piñata',
+                '⊛ nesting dolls',
                 'spade suit',
                 'heart suit',
                 'diamond suit',
@@ -157,7 +160,9 @@ class Activities implements Gettable
                 'framed picture',
                 'artist palette',
                 'thread',
+                '⊛ sewing needle',
                 'yarn',
+                '⊛ knot',
             ]
         ],
     ];
@@ -590,6 +595,12 @@ class Activities implements Gettable
                 ':crystal_ball:',
             ]
         ],
+        '⊛ magic wand' => [
+            'parent' => 'game',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'nazar amulet' => [
             'parent' => 'game',
             'children' => null,
@@ -637,6 +648,18 @@ class Activities implements Gettable
             'children' => null,
             'aliases' => [
                 ':teddy_bear:',
+            ]
+        ],
+        '⊛ piñata' => [
+            'parent' => 'game',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
+        '⊛ nesting dolls' => [
+            'parent' => 'game',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'spade suit' => [
@@ -724,11 +747,23 @@ class Activities implements Gettable
                 ':thread:',
             ]
         ],
+        '⊛ sewing needle' => [
+            'parent' => 'arts & crafts',
+            'children' => null,
+            'aliases' => [
+            ]
+        ],
         'yarn' => [
             'parent' => 'arts & crafts',
             'children' => null,
             'aliases' => [
                 ':yarn:',
+            ]
+        ],
+        '⊛ knot' => [
+            'parent' => 'arts & crafts',
+            'children' => null,
+            'aliases' => [
             ]
         ],
     ];

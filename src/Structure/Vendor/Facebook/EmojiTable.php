@@ -2772,6 +2772,7 @@ class EmojiTable implements Gettable
         'black flag' => 'U+1F3F4',
         'white flag' => 'U+1F3F3',
         'rainbow flag' => 'U+1F3F3 U+FE0F U+200D U+1F308',
+        '⊛ transgender flag' => 'U+1F3F3 U+FE0F U+200D U+26A7 U+FE0F',
         'pirate flag' => 'U+1F3F4 U+200D U+2620 U+FE0F',
         'flag: Ascension Island' => 'U+1F1E6 U+1F1E8',
         'flag: Andorra' => 'U+1F1E6 U+1F1E9',

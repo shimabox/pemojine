@@ -94,6 +94,10 @@ class EmojiTable
             'unicode' => 'U+1F619',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
+        '⊛ smiling face with tear' => [
+            'unicode' => 'U+1F972',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
         'face savoring food' => [
             'unicode' => 'U+1F60B',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'DoCoMo'],
@@ -245,6 +249,10 @@ class EmojiTable
         'partying face' => [
             'unicode' => 'U+1F973',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
+        ],
+        '⊛ disguised face' => [
+            'unicode' => 'U+1F978',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'smiling face with sunglasses' => [
             'unicode' => 'U+1F60E',
@@ -729,6 +737,10 @@ class EmojiTable
         'OK hand' => [
             'unicode' => 'U+1F44C',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'KDDI'],
+        ],
+        '⊛ pinched fingers' => [
+            'unicode' => 'U+1F90C',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'pinching hand' => [
             'unicode' => 'U+1F90F',
@@ -1614,7 +1626,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F9B0',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ person: red hair' => [
+        'person: red hair' => [
             'unicode' => 'U+1F9D1 U+200D U+1F9B0',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -1622,7 +1634,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F9B1',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ person: curly hair' => [
+        'person: curly hair' => [
             'unicode' => 'U+1F9D1 U+200D U+1F9B1',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -1630,7 +1642,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F9B3',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ person: white hair' => [
+        'person: white hair' => [
             'unicode' => 'U+1F9D1 U+200D U+1F9B3',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -1638,7 +1650,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F9B2',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ person: bald' => [
+        'person: bald' => [
             'unicode' => 'U+1F9D1 U+200D U+1F9B2',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -1942,23 +1954,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F9B0',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ person: light skin tone, red hair' => [
+        'person: light skin tone, red hair' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F9B0',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person: medium-light skin tone, red hair' => [
+        'person: medium-light skin tone, red hair' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F9B0',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person: medium skin tone, red hair' => [
+        'person: medium skin tone, red hair' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F9B0',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person: medium-dark skin tone, red hair' => [
+        'person: medium-dark skin tone, red hair' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F9B0',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person: dark skin tone, red hair' => [
+        'person: dark skin tone, red hair' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F9B0',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -1982,23 +1994,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F9B1',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ person: light skin tone, curly hair' => [
+        'person: light skin tone, curly hair' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F9B1',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person: medium-light skin tone, curly hair' => [
+        'person: medium-light skin tone, curly hair' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F9B1',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person: medium skin tone, curly hair' => [
+        'person: medium skin tone, curly hair' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F9B1',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person: medium-dark skin tone, curly hair' => [
+        'person: medium-dark skin tone, curly hair' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F9B1',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person: dark skin tone, curly hair' => [
+        'person: dark skin tone, curly hair' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F9B1',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -2022,23 +2034,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F9B3',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ person: light skin tone, white hair' => [
+        'person: light skin tone, white hair' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F9B3',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person: medium-light skin tone, white hair' => [
+        'person: medium-light skin tone, white hair' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F9B3',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person: medium skin tone, white hair' => [
+        'person: medium skin tone, white hair' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F9B3',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person: medium-dark skin tone, white hair' => [
+        'person: medium-dark skin tone, white hair' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F9B3',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person: dark skin tone, white hair' => [
+        'person: dark skin tone, white hair' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F9B3',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -2062,23 +2074,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F9B2',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ person: light skin tone, bald' => [
+        'person: light skin tone, bald' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F9B2',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person: medium-light skin tone, bald' => [
+        'person: medium-light skin tone, bald' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F9B2',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person: medium skin tone, bald' => [
+        'person: medium skin tone, bald' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F9B2',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person: medium-dark skin tone, bald' => [
+        'person: medium-dark skin tone, bald' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F9B2',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person: dark skin tone, bald' => [
+        'person: dark skin tone, bald' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F9B2',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -2902,7 +2914,7 @@ class EmojiTable
             'unicode' => 'U+1F937 U+1F3FF U+200D U+2640 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ health worker' => [
+        'health worker' => [
             'unicode' => 'U+1F9D1 U+200D U+2695 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -2914,7 +2926,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+2695 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ student' => [
+        'student' => [
             'unicode' => 'U+1F9D1 U+200D U+1F393',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -2926,7 +2938,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F393',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ teacher' => [
+        'teacher' => [
             'unicode' => 'U+1F9D1 U+200D U+1F3EB',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -2938,7 +2950,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F3EB',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ judge' => [
+        'judge' => [
             'unicode' => 'U+1F9D1 U+200D U+2696 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -2950,7 +2962,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+2696 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ farmer' => [
+        'farmer' => [
             'unicode' => 'U+1F9D1 U+200D U+1F33E',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -2962,7 +2974,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F33E',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ cook' => [
+        'cook' => [
             'unicode' => 'U+1F9D1 U+200D U+1F373',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -2974,7 +2986,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F373',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ mechanic' => [
+        'mechanic' => [
             'unicode' => 'U+1F9D1 U+200D U+1F527',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -2986,7 +2998,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F527',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ factory worker' => [
+        'factory worker' => [
             'unicode' => 'U+1F9D1 U+200D U+1F3ED',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -2998,7 +3010,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F3ED',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ office worker' => [
+        'office worker' => [
             'unicode' => 'U+1F9D1 U+200D U+1F4BC',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3010,7 +3022,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F4BC',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ scientist' => [
+        'scientist' => [
             'unicode' => 'U+1F9D1 U+200D U+1F52C',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3022,7 +3034,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F52C',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ technologist' => [
+        'technologist' => [
             'unicode' => 'U+1F9D1 U+200D U+1F4BB',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3034,7 +3046,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F4BB',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ singer' => [
+        'singer' => [
             'unicode' => 'U+1F9D1 U+200D U+1F3A4',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3046,7 +3058,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F3A4',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ artist' => [
+        'artist' => [
             'unicode' => 'U+1F9D1 U+200D U+1F3A8',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3058,7 +3070,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F3A8',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ pilot' => [
+        'pilot' => [
             'unicode' => 'U+1F9D1 U+200D U+2708 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3070,7 +3082,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+2708 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ astronaut' => [
+        'astronaut' => [
             'unicode' => 'U+1F9D1 U+200D U+1F680',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3082,7 +3094,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F680',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ firefighter' => [
+        'firefighter' => [
             'unicode' => 'U+1F9D1 U+200D U+1F692',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3130,6 +3142,10 @@ class EmojiTable
             'unicode' => 'U+1F482 U+200D U+2640 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
+        '⊛ ninja' => [
+            'unicode' => 'U+1F977',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
         'construction worker' => [
             'unicode' => 'U+1F477',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'KDDI'],
@@ -3174,6 +3190,14 @@ class EmojiTable
             'unicode' => 'U+1F935',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
+        '⊛ man in tuxedo' => [
+            'unicode' => 'U+1F935 U+200D U+2642 U+FE0F',
+            'supportVendor' => ['Google', 'Twitter'],
+        ],
+        '⊛ woman in tuxedo' => [
+            'unicode' => 'U+1F935 U+200D U+2640 U+FE0F',
+            'supportVendor' => ['Google', 'Twitter'],
+        ],
         'person with veil' => [
             'unicode' => 'U+1F470',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'KDDI'],
@@ -3186,23 +3210,23 @@ class EmojiTable
             'unicode' => 'U+1F931',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ health worker: light skin tone' => [
+        'health worker: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+2695 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ health worker: medium-light skin tone' => [
+        'health worker: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+2695 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ health worker: medium skin tone' => [
+        'health worker: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+2695 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ health worker: medium-dark skin tone' => [
+        'health worker: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+2695 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ health worker: dark skin tone' => [
+        'health worker: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+2695 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3246,23 +3270,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+2695 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ student: light skin tone' => [
+        'student: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F393',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ student: medium-light skin tone' => [
+        'student: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F393',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ student: medium skin tone' => [
+        'student: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F393',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ student: medium-dark skin tone' => [
+        'student: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F393',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ student: dark skin tone' => [
+        'student: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F393',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3306,23 +3330,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F393',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ teacher: light skin tone' => [
+        'teacher: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F3EB',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ teacher: medium-light skin tone' => [
+        'teacher: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F3EB',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ teacher: medium skin tone' => [
+        'teacher: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F3EB',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ teacher: medium-dark skin tone' => [
+        'teacher: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F3EB',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ teacher: dark skin tone' => [
+        'teacher: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F3EB',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3366,23 +3390,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F3EB',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ judge: light skin tone' => [
+        'judge: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+2696 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ judge: medium-light skin tone' => [
+        'judge: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+2696 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ judge: medium skin tone' => [
+        'judge: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+2696 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ judge: medium-dark skin tone' => [
+        'judge: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+2696 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ judge: dark skin tone' => [
+        'judge: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+2696 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3426,23 +3450,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+2696 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ farmer: light skin tone' => [
+        'farmer: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F33E',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ farmer: medium-light skin tone' => [
+        'farmer: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F33E',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ farmer: medium skin tone' => [
+        'farmer: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F33E',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ farmer: medium-dark skin tone' => [
+        'farmer: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F33E',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ farmer: dark skin tone' => [
+        'farmer: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F33E',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3486,23 +3510,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F33E',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ cook: light skin tone' => [
+        'cook: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F373',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ cook: medium-light skin tone' => [
+        'cook: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F373',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ cook: medium skin tone' => [
+        'cook: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F373',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ cook: medium-dark skin tone' => [
+        'cook: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F373',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ cook: dark skin tone' => [
+        'cook: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F373',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3546,23 +3570,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F373',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ mechanic: light skin tone' => [
+        'mechanic: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F527',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ mechanic: medium-light skin tone' => [
+        'mechanic: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F527',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ mechanic: medium skin tone' => [
+        'mechanic: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F527',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ mechanic: medium-dark skin tone' => [
+        'mechanic: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F527',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ mechanic: dark skin tone' => [
+        'mechanic: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F527',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3606,23 +3630,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F527',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ factory worker: light skin tone' => [
+        'factory worker: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F3ED',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ factory worker: medium-light skin tone' => [
+        'factory worker: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F3ED',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ factory worker: medium skin tone' => [
+        'factory worker: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F3ED',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ factory worker: medium-dark skin tone' => [
+        'factory worker: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F3ED',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ factory worker: dark skin tone' => [
+        'factory worker: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F3ED',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3666,23 +3690,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F3ED',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ office worker: light skin tone' => [
+        'office worker: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F4BC',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ office worker: medium-light skin tone' => [
+        'office worker: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F4BC',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ office worker: medium skin tone' => [
+        'office worker: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F4BC',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ office worker: medium-dark skin tone' => [
+        'office worker: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F4BC',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ office worker: dark skin tone' => [
+        'office worker: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F4BC',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3726,23 +3750,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F4BC',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ scientist: light skin tone' => [
+        'scientist: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F52C',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ scientist: medium-light skin tone' => [
+        'scientist: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F52C',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ scientist: medium skin tone' => [
+        'scientist: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F52C',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ scientist: medium-dark skin tone' => [
+        'scientist: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F52C',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ scientist: dark skin tone' => [
+        'scientist: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F52C',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3786,23 +3810,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F52C',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ technologist: light skin tone' => [
+        'technologist: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F4BB',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ technologist: medium-light skin tone' => [
+        'technologist: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F4BB',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ technologist: medium skin tone' => [
+        'technologist: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F4BB',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ technologist: medium-dark skin tone' => [
+        'technologist: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F4BB',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ technologist: dark skin tone' => [
+        'technologist: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F4BB',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3846,23 +3870,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F4BB',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ singer: light skin tone' => [
+        'singer: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F3A4',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ singer: medium-light skin tone' => [
+        'singer: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F3A4',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ singer: medium skin tone' => [
+        'singer: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F3A4',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ singer: medium-dark skin tone' => [
+        'singer: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F3A4',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ singer: dark skin tone' => [
+        'singer: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F3A4',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3906,23 +3930,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F3A4',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ artist: light skin tone' => [
+        'artist: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F3A8',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ artist: medium-light skin tone' => [
+        'artist: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F3A8',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ artist: medium skin tone' => [
+        'artist: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F3A8',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ artist: medium-dark skin tone' => [
+        'artist: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F3A8',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ artist: dark skin tone' => [
+        'artist: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F3A8',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -3966,23 +3990,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F3A8',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ pilot: light skin tone' => [
+        'pilot: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+2708 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ pilot: medium-light skin tone' => [
+        'pilot: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+2708 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ pilot: medium skin tone' => [
+        'pilot: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+2708 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ pilot: medium-dark skin tone' => [
+        'pilot: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+2708 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ pilot: dark skin tone' => [
+        'pilot: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+2708 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -4026,23 +4050,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+2708 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ astronaut: light skin tone' => [
+        'astronaut: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F680',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ astronaut: medium-light skin tone' => [
+        'astronaut: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F680',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ astronaut: medium skin tone' => [
+        'astronaut: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F680',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ astronaut: medium-dark skin tone' => [
+        'astronaut: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F680',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ astronaut: dark skin tone' => [
+        'astronaut: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F680',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -4086,23 +4110,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F680',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ firefighter: light skin tone' => [
+        'firefighter: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F692',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ firefighter: medium-light skin tone' => [
+        'firefighter: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F692',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ firefighter: medium skin tone' => [
+        'firefighter: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F692',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ firefighter: medium-dark skin tone' => [
+        'firefighter: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F692',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ firefighter: dark skin tone' => [
+        'firefighter: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F692',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -5266,7 +5290,7 @@ class EmojiTable
             'unicode' => 'U+1F9CE U+200D U+2640 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
-        '⊛ person with white cane' => [
+        'person with white cane' => [
             'unicode' => 'U+1F9D1 U+200D U+1F9AF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -5278,7 +5302,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F9AF',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
-        '⊛ person in motorized wheelchair' => [
+        'person in motorized wheelchair' => [
             'unicode' => 'U+1F9D1 U+200D U+1F9BC',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -5290,7 +5314,7 @@ class EmojiTable
             'unicode' => 'U+1F469 U+200D U+1F9BC',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ person in manual wheelchair' => [
+        'person in manual wheelchair' => [
             'unicode' => 'U+1F9D1 U+200D U+1F9BD',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -5662,23 +5686,23 @@ class EmojiTable
             'unicode' => 'U+1F9CE U+1F3FF U+200D U+2640 U+FE0F',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
-        '⊛ person with white cane: light skin tone' => [
+        'person with white cane: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F9AF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person with white cane: medium-light skin tone' => [
+        'person with white cane: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F9AF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person with white cane: medium skin tone' => [
+        'person with white cane: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F9AF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person with white cane: medium-dark skin tone' => [
+        'person with white cane: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F9AF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person with white cane: dark skin tone' => [
+        'person with white cane: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F9AF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -5722,23 +5746,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F9AF',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung'],
         ],
-        '⊛ person in motorized wheelchair: light skin tone' => [
+        'person in motorized wheelchair: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F9BC',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person in motorized wheelchair: medium-light skin tone' => [
+        'person in motorized wheelchair: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F9BC',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person in motorized wheelchair: medium skin tone' => [
+        'person in motorized wheelchair: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F9BC',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person in motorized wheelchair: medium-dark skin tone' => [
+        'person in motorized wheelchair: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F9BC',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person in motorized wheelchair: dark skin tone' => [
+        'person in motorized wheelchair: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F9BC',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -5782,23 +5806,23 @@ class EmojiTable
             'unicode' => 'U+1F469 U+1F3FF U+200D U+1F9BC',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ person in manual wheelchair: light skin tone' => [
+        'person in manual wheelchair: light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F9BD',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person in manual wheelchair: medium-light skin tone' => [
+        'person in manual wheelchair: medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F9BD',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person in manual wheelchair: medium skin tone' => [
+        'person in manual wheelchair: medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F9BD',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person in manual wheelchair: medium-dark skin tone' => [
+        'person in manual wheelchair: medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F9BD',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ person in manual wheelchair: dark skin tone' => [
+        'person in manual wheelchair: dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FF U+200D U+1F9BD',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -7290,19 +7314,19 @@ class EmojiTable
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FB',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ people holding hands: light skin tone, medium-light skin tone' => [
+        'people holding hands: light skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FC',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ people holding hands: light skin tone, medium skin tone' => [
+        'people holding hands: light skin tone, medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FD',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ people holding hands: light skin tone, medium-dark skin tone' => [
+        'people holding hands: light skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FE',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ people holding hands: light skin tone, dark skin tone' => [
+        'people holding hands: light skin tone, dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -7314,15 +7338,15 @@ class EmojiTable
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FC',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ people holding hands: medium-light skin tone, medium skin tone' => [
+        'people holding hands: medium-light skin tone, medium skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FD',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ people holding hands: medium-light skin tone, medium-dark skin tone' => [
+        'people holding hands: medium-light skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FE',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ people holding hands: medium-light skin tone, dark skin tone' => [
+        'people holding hands: medium-light skin tone, dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -7338,11 +7362,11 @@ class EmojiTable
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FD',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ people holding hands: medium skin tone, medium-dark skin tone' => [
+        'people holding hands: medium skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FE',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ people holding hands: medium skin tone, dark skin tone' => [
+        'people holding hands: medium skin tone, dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -7362,7 +7386,7 @@ class EmojiTable
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FE',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ people holding hands: medium-dark skin tone, dark skin tone' => [
+        'people holding hands: medium-dark skin tone, dark skin tone' => [
             'unicode' => 'U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -7390,19 +7414,19 @@ class EmojiTable
             'unicode' => 'U+1F46D U+1F3FB',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ women holding hands: light skin tone, medium-light skin tone' => [
+        'women holding hands: light skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FC',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ women holding hands: light skin tone, medium skin tone' => [
+        'women holding hands: light skin tone, medium skin tone' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FD',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ women holding hands: light skin tone, medium-dark skin tone' => [
+        'women holding hands: light skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FE',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ women holding hands: light skin tone, dark skin tone' => [
+        'women holding hands: light skin tone, dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -7414,15 +7438,15 @@ class EmojiTable
             'unicode' => 'U+1F46D U+1F3FC',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ women holding hands: medium-light skin tone, medium skin tone' => [
+        'women holding hands: medium-light skin tone, medium skin tone' => [
             'unicode' => 'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FD',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ women holding hands: medium-light skin tone, medium-dark skin tone' => [
+        'women holding hands: medium-light skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FE',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ women holding hands: medium-light skin tone, dark skin tone' => [
+        'women holding hands: medium-light skin tone, dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -7438,11 +7462,11 @@ class EmojiTable
             'unicode' => 'U+1F46D U+1F3FD',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ women holding hands: medium skin tone, medium-dark skin tone' => [
+        'women holding hands: medium skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FE',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ women holding hands: medium skin tone, dark skin tone' => [
+        'women holding hands: medium skin tone, dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -7462,7 +7486,7 @@ class EmojiTable
             'unicode' => 'U+1F46D U+1F3FE',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ women holding hands: medium-dark skin tone, dark skin tone' => [
+        'women holding hands: medium-dark skin tone, dark skin tone' => [
             'unicode' => 'U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F469 U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -7590,19 +7614,19 @@ class EmojiTable
             'unicode' => 'U+1F46C U+1F3FB',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ men holding hands: light skin tone, medium-light skin tone' => [
+        'men holding hands: light skin tone, medium-light skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FC',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ men holding hands: light skin tone, medium skin tone' => [
+        'men holding hands: light skin tone, medium skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FD',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ men holding hands: light skin tone, medium-dark skin tone' => [
+        'men holding hands: light skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FE',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ men holding hands: light skin tone, dark skin tone' => [
+        'men holding hands: light skin tone, dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -7614,15 +7638,15 @@ class EmojiTable
             'unicode' => 'U+1F46C U+1F3FC',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ men holding hands: medium-light skin tone, medium skin tone' => [
+        'men holding hands: medium-light skin tone, medium skin tone' => [
             'unicode' => 'U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FD',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ men holding hands: medium-light skin tone, medium-dark skin tone' => [
+        'men holding hands: medium-light skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FE',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ men holding hands: medium-light skin tone, dark skin tone' => [
+        'men holding hands: medium-light skin tone, dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -7638,11 +7662,11 @@ class EmojiTable
             'unicode' => 'U+1F46C U+1F3FD',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ men holding hands: medium skin tone, medium-dark skin tone' => [
+        'men holding hands: medium skin tone, medium-dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FE',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
-        '⊛ men holding hands: medium skin tone, dark skin tone' => [
+        'men holding hands: medium skin tone, dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -7662,7 +7686,7 @@ class EmojiTable
             'unicode' => 'U+1F46C U+1F3FE',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
-        '⊛ men holding hands: medium-dark skin tone, dark skin tone' => [
+        'men holding hands: medium-dark skin tone, dark skin tone' => [
             'unicode' => 'U+1F468 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter'],
         ],
@@ -7697,6 +7721,10 @@ class EmojiTable
         'busts in silhouette' => [
             'unicode' => 'U+1F465',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
+        ],
+        '⊛ people hugging' => [
+            'unicode' => 'U+1FAC2',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'footprints' => [
             'unicode' => 'U+1F463',
@@ -7942,6 +7970,10 @@ class EmojiTable
             'unicode' => 'U+1F43B',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'KDDI'],
         ],
+        '⊛ polar bear' => [
+            'unicode' => 'U+1F43B U+200D U+2744 U+FE0F',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
         'koala' => [
             'unicode' => 'U+1F428',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'KDDI'],
@@ -8025,6 +8057,10 @@ class EmojiTable
         'owl' => [
             'unicode' => 'U+1F989',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
+        ],
+        '⊛ feather' => [
+            'unicode' => 'U+1FAB6',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'flamingo' => [
             'unicode' => 'U+1F9A9',
@@ -8202,6 +8238,10 @@ class EmojiTable
             'unicode' => 'U+1F331',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'DoCoMo', 'KDDI'],
         ],
+        '⊛ potted plant' => [
+            'unicode' => 'U+1FAB4',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
         'evergreen tree' => [
             'unicode' => 'U+1F332',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
@@ -8302,6 +8342,10 @@ class EmojiTable
             'unicode' => 'U+1F353',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'KDDI'],
         ],
+        '⊛ blueberries' => [
+            'unicode' => 'U+1FAD0',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
         'kiwi fruit' => [
             'unicode' => 'U+1F95D',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
@@ -8309,6 +8353,10 @@ class EmojiTable
         'tomato' => [
             'unicode' => 'U+1F345',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'KDDI'],
+        ],
+        '⊛ olive' => [
+            'unicode' => 'U+1FAD2',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'coconut' => [
             'unicode' => 'U+1F965',
@@ -8382,6 +8430,10 @@ class EmojiTable
             'unicode' => 'U+1F956',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
+        '⊛ flatbread' => [
+            'unicode' => 'U+1FAD3',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
         'pretzel' => [
             'unicode' => 'U+1F968',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
@@ -8446,6 +8498,10 @@ class EmojiTable
             'unicode' => 'U+1F32F',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
+        '⊛ tamale' => [
+            'unicode' => 'U+1FAD4',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
         'stuffed flatbread' => [
             'unicode' => 'U+1F959',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
@@ -8469,6 +8525,10 @@ class EmojiTable
         'pot of food' => [
             'unicode' => 'U+1F372',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'KDDI'],
+        ],
+        '⊛ fondue' => [
+            'unicode' => 'U+1FAD5',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'bowl with spoon' => [
             'unicode' => 'U+1F963',
@@ -8694,6 +8754,10 @@ class EmojiTable
             'unicode' => 'U+1F964',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
+        '⊛ bubble tea' => [
+            'unicode' => 'U+1F9CB',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
         'beverage box' => [
             'unicode' => 'U+1F9C3',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
@@ -8809,6 +8873,14 @@ class EmojiTable
         'brick' => [
             'unicode' => 'U+1F9F1',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
+        ],
+        '⊛ rock' => [
+            'unicode' => 'U+1FAA8',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
+        '⊛ wood' => [
+            'unicode' => 'U+1FAB5',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'houses' => [
             'unicode' => 'U+1F3D8',
@@ -9125,6 +9197,10 @@ class EmojiTable
         'skateboard' => [
             'unicode' => 'U+1F6F9',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
+        ],
+        '⊛ roller skate' => [
+            'unicode' => 'U+1F6FC',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'bus stop' => [
             'unicode' => 'U+1F68F',
@@ -9806,6 +9882,10 @@ class EmojiTable
             'unicode' => 'U+1F52E',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'KDDI'],
         ],
+        '⊛ magic wand' => [
+            'unicode' => 'U+1FA84',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
         'nazar amulet' => [
             'unicode' => 'U+1F9FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
@@ -9833,6 +9913,14 @@ class EmojiTable
         'teddy bear' => [
             'unicode' => 'U+1F9F8',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
+        ],
+        '⊛ piñata' => [
+            'unicode' => 'U+1FA85',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
+        '⊛ nesting dolls' => [
+            'unicode' => 'U+1FA86',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'spade suit' => [
             'unicode' => 'U+2660',
@@ -9882,9 +9970,17 @@ class EmojiTable
             'unicode' => 'U+1F9F5',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
+        '⊛ sewing needle' => [
+            'unicode' => 'U+1FAA1',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
         'yarn' => [
             'unicode' => 'U+1F9F6',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
+        ],
+        '⊛ knot' => [
+            'unicode' => 'U+1FAA2',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'glasses' => [
             'unicode' => 'U+1F453',
@@ -9986,6 +10082,10 @@ class EmojiTable
             'unicode' => 'U+1F392',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'KDDI'],
         ],
+        '⊛ thong sandal' => [
+            'unicode' => 'U+1FA74',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
         'man’s shoe' => [
             'unicode' => 'U+1F45E',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'KDDI'],
@@ -10037,6 +10137,10 @@ class EmojiTable
         'billed cap' => [
             'unicode' => 'U+1F9E2',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
+        ],
+        '⊛ military helmet' => [
+            'unicode' => 'U+1FA96',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'rescue worker’s helmet' => [
             'unicode' => 'U+26D1',
@@ -10134,6 +10238,10 @@ class EmojiTable
             'unicode' => 'U+1F3B7',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank'],
         ],
+        '⊛ accordion' => [
+            'unicode' => 'U+1FA97',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
         'guitar' => [
             'unicode' => 'U+1F3B8',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'KDDI'],
@@ -10157,6 +10265,10 @@ class EmojiTable
         'drum' => [
             'unicode' => 'U+1F941',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
+        ],
+        '⊛ long drum' => [
+            'unicode' => 'U+1FA98',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'mobile phone' => [
             'unicode' => 'U+1F4F1',
@@ -10369,6 +10481,10 @@ class EmojiTable
         'money bag' => [
             'unicode' => 'U+1F4B0',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'DoCoMo', 'KDDI'],
+        ],
+        '⊛ coin' => [
+            'unicode' => 'U+1FA99',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'yen banknote' => [
             'unicode' => 'U+1F4B4',
@@ -10630,6 +10746,10 @@ class EmojiTable
             'unicode' => 'U+1F52B',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank', 'KDDI'],
         ],
+        '⊛ boomerang' => [
+            'unicode' => 'U+1FA83',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
         'bow and arrow' => [
             'unicode' => 'U+1F3F9',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
@@ -10641,6 +10761,10 @@ class EmojiTable
         'wrench' => [
             'unicode' => 'U+1F527',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'DoCoMo', 'KDDI'],
+        ],
+        '⊛ screwdriver' => [
+            'unicode' => 'U+1FA9B',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'nut and bolt' => [
             'unicode' => 'U+1F529',
@@ -10670,6 +10794,10 @@ class EmojiTable
             'unicode' => 'U+26D3',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
+        '⊛ hook' => [
+            'unicode' => 'U+1FA9D',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
         'toolbox' => [
             'unicode' => 'U+1F9F0',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
@@ -10677,6 +10805,10 @@ class EmojiTable
         'magnet' => [
             'unicode' => 'U+1F9F2',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
+        ],
+        '⊛ ladder' => [
+            'unicode' => 'U+1FA9C',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'alembic' => [
             'unicode' => 'U+2697',
@@ -10730,6 +10862,10 @@ class EmojiTable
             'unicode' => 'U+1F6AA',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'DoCoMo'],
         ],
+        '⊛ elevator' => [
+            'unicode' => 'U+1F6D7',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
         'bed' => [
             'unicode' => 'U+1F6CF',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
@@ -10745,6 +10881,10 @@ class EmojiTable
         'toilet' => [
             'unicode' => 'U+1F6BD',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'SoftBank'],
+        ],
+        '⊛ plunger' => [
+            'unicode' => 'U+1FAA0',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'shower' => [
             'unicode' => 'U+1F6BF',
@@ -10778,9 +10918,17 @@ class EmojiTable
             'unicode' => 'U+1F9FB',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
         ],
+        '⊛ bucket' => [
+            'unicode' => 'U+1FAA3',
+            'supportVendor' => ['Google', 'JoyPixels'],
+        ],
         'soap' => [
             'unicode' => 'U+1F9FC',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
+        ],
+        '⊛ toothbrush' => [
+            'unicode' => 'U+1FAA5',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'sponge' => [
             'unicode' => 'U+1F9FD',
@@ -10809,6 +10957,10 @@ class EmojiTable
         'moai' => [
             'unicode' => 'U+1F5FF',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows', 'GMail', 'KDDI'],
+        ],
+        '⊛ placard' => [
+            'unicode' => 'U+1FAA7',
+            'supportVendor' => ['Google', 'JoyPixels'],
         ],
         'ATM sign' => [
             'unicode' => 'U+1F3E7',
@@ -11201,6 +11353,10 @@ class EmojiTable
         'male sign' => [
             'unicode' => 'U+2642',
             'supportVendor' => ['Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
+        ],
+        '⊛ transgender symbol' => [
+            'unicode' => 'U+26A7',
+            'supportVendor' => ['Twitter', 'JoyPixels'],
         ],
         'multiply' => [
             'unicode' => 'U+2716',
@@ -11709,6 +11865,10 @@ class EmojiTable
         'rainbow flag' => [
             'unicode' => 'U+1F3F3 U+FE0F U+200D U+1F308',
             'supportVendor' => ['Apple', 'Google', 'Twitter', 'JoyPixels', 'Facebook', 'Samsung', 'Windows'],
+        ],
+        '⊛ transgender flag' => [
+            'unicode' => 'U+1F3F3 U+FE0F U+200D U+26A7 U+FE0F',
+            'supportVendor' => ['Google', 'Twitter', 'JoyPixels', 'Facebook'],
         ],
         'pirate flag' => [
             'unicode' => 'U+1F3F4 U+200D U+2620 U+FE0F',
@@ -17393,6 +17553,9 @@ class EmojiTable
             'kissing face with smiling eyes',
             ':kissing_smiling_eyes:',
         ],
+        'U+1F972' => [
+            '⊛ smiling face with tear',
+        ],
         'U+1F60B' => [
             'face savoring food',
             ':yum:',
@@ -17580,6 +17743,9 @@ class EmojiTable
         'U+1F973' => [
             'partying face',
             ':partying_face:',
+        ],
+        'U+1F978' => [
+            '⊛ disguised face',
         ],
         'U+1F60E' => [
             'smiling face with sunglasses',
@@ -18137,6 +18303,9 @@ class EmojiTable
         'U+1F44C' => [
             'OK hand',
             ':ok_hand:',
+        ],
+        'U+1F90C' => [
+            '⊛ pinched fingers',
         ],
         'U+1F90F' => [
             'pinching hand',
@@ -19116,28 +19285,28 @@ class EmojiTable
             ':woman_red_haired:',
         ],
         'U+1F9D1 U+200D U+1F9B0' => [
-            '⊛ person: red hair',
+            'person: red hair',
         ],
         'U+1F469 U+200D U+1F9B1' => [
             'woman: curly hair',
             ':woman_curly_haired:',
         ],
         'U+1F9D1 U+200D U+1F9B1' => [
-            '⊛ person: curly hair',
+            'person: curly hair',
         ],
         'U+1F469 U+200D U+1F9B3' => [
             'woman: white hair',
             ':woman_white_haired:',
         ],
         'U+1F9D1 U+200D U+1F9B3' => [
-            '⊛ person: white hair',
+            'person: white hair',
         ],
         'U+1F469 U+200D U+1F9B2' => [
             'woman: bald',
             ':woman_bald:',
         ],
         'U+1F9D1 U+200D U+1F9B2' => [
-            '⊛ person: bald',
+            'person: bald',
         ],
         'U+1F471 U+200D U+2640 U+FE0F' => [
             'woman: blond hair',
@@ -19406,19 +19575,19 @@ class EmojiTable
             'woman: dark skin tone, red hair',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F9B0' => [
-            '⊛ person: light skin tone, red hair',
+            'person: light skin tone, red hair',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F9B0' => [
-            '⊛ person: medium-light skin tone, red hair',
+            'person: medium-light skin tone, red hair',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F9B0' => [
-            '⊛ person: medium skin tone, red hair',
+            'person: medium skin tone, red hair',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F9B0' => [
-            '⊛ person: medium-dark skin tone, red hair',
+            'person: medium-dark skin tone, red hair',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F9B0' => [
-            '⊛ person: dark skin tone, red hair',
+            'person: dark skin tone, red hair',
         ],
         'U+1F469 U+1F3FB U+200D U+1F9B1' => [
             'woman: light skin tone, curly hair',
@@ -19436,19 +19605,19 @@ class EmojiTable
             'woman: dark skin tone, curly hair',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F9B1' => [
-            '⊛ person: light skin tone, curly hair',
+            'person: light skin tone, curly hair',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F9B1' => [
-            '⊛ person: medium-light skin tone, curly hair',
+            'person: medium-light skin tone, curly hair',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F9B1' => [
-            '⊛ person: medium skin tone, curly hair',
+            'person: medium skin tone, curly hair',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F9B1' => [
-            '⊛ person: medium-dark skin tone, curly hair',
+            'person: medium-dark skin tone, curly hair',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F9B1' => [
-            '⊛ person: dark skin tone, curly hair',
+            'person: dark skin tone, curly hair',
         ],
         'U+1F469 U+1F3FB U+200D U+1F9B3' => [
             'woman: light skin tone, white hair',
@@ -19466,19 +19635,19 @@ class EmojiTable
             'woman: dark skin tone, white hair',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F9B3' => [
-            '⊛ person: light skin tone, white hair',
+            'person: light skin tone, white hair',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F9B3' => [
-            '⊛ person: medium-light skin tone, white hair',
+            'person: medium-light skin tone, white hair',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F9B3' => [
-            '⊛ person: medium skin tone, white hair',
+            'person: medium skin tone, white hair',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F9B3' => [
-            '⊛ person: medium-dark skin tone, white hair',
+            'person: medium-dark skin tone, white hair',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F9B3' => [
-            '⊛ person: dark skin tone, white hair',
+            'person: dark skin tone, white hair',
         ],
         'U+1F469 U+1F3FB U+200D U+1F9B2' => [
             'woman: light skin tone, bald',
@@ -19496,19 +19665,19 @@ class EmojiTable
             'woman: dark skin tone, bald',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F9B2' => [
-            '⊛ person: light skin tone, bald',
+            'person: light skin tone, bald',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F9B2' => [
-            '⊛ person: medium-light skin tone, bald',
+            'person: medium-light skin tone, bald',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F9B2' => [
-            '⊛ person: medium skin tone, bald',
+            'person: medium skin tone, bald',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F9B2' => [
-            '⊛ person: medium-dark skin tone, bald',
+            'person: medium-dark skin tone, bald',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F9B2' => [
-            '⊛ person: dark skin tone, bald',
+            'person: dark skin tone, bald',
         ],
         'U+1F471 U+1F3FB U+200D U+2640 U+FE0F' => [
             'woman: light skin tone, blond hair',
@@ -20484,7 +20653,7 @@ class EmojiTable
             ':woman_shrugging_dark_skin_tone:',
         ],
         'U+1F9D1 U+200D U+2695 U+FE0F' => [
-            '⊛ health worker',
+            'health worker',
         ],
         'U+1F468 U+200D U+2695 U+FE0F' => [
             'man health worker',
@@ -20495,7 +20664,7 @@ class EmojiTable
             ':woman_health_worker:',
         ],
         'U+1F9D1 U+200D U+1F393' => [
-            '⊛ student',
+            'student',
         ],
         'U+1F468 U+200D U+1F393' => [
             'man student',
@@ -20506,7 +20675,7 @@ class EmojiTable
             ':woman_student:',
         ],
         'U+1F9D1 U+200D U+1F3EB' => [
-            '⊛ teacher',
+            'teacher',
         ],
         'U+1F468 U+200D U+1F3EB' => [
             'man teacher',
@@ -20517,7 +20686,7 @@ class EmojiTable
             ':woman_teacher:',
         ],
         'U+1F9D1 U+200D U+2696 U+FE0F' => [
-            '⊛ judge',
+            'judge',
         ],
         'U+1F468 U+200D U+2696 U+FE0F' => [
             'man judge',
@@ -20528,7 +20697,7 @@ class EmojiTable
             ':woman_judge:',
         ],
         'U+1F9D1 U+200D U+1F33E' => [
-            '⊛ farmer',
+            'farmer',
         ],
         'U+1F468 U+200D U+1F33E' => [
             'man farmer',
@@ -20539,7 +20708,7 @@ class EmojiTable
             ':woman_farmer:',
         ],
         'U+1F9D1 U+200D U+1F373' => [
-            '⊛ cook',
+            'cook',
         ],
         'U+1F468 U+200D U+1F373' => [
             'man cook',
@@ -20550,7 +20719,7 @@ class EmojiTable
             ':woman_cook:',
         ],
         'U+1F9D1 U+200D U+1F527' => [
-            '⊛ mechanic',
+            'mechanic',
         ],
         'U+1F468 U+200D U+1F527' => [
             'man mechanic',
@@ -20561,7 +20730,7 @@ class EmojiTable
             ':woman_mechanic:',
         ],
         'U+1F9D1 U+200D U+1F3ED' => [
-            '⊛ factory worker',
+            'factory worker',
         ],
         'U+1F468 U+200D U+1F3ED' => [
             'man factory worker',
@@ -20572,7 +20741,7 @@ class EmojiTable
             ':woman_factory_worker:',
         ],
         'U+1F9D1 U+200D U+1F4BC' => [
-            '⊛ office worker',
+            'office worker',
         ],
         'U+1F468 U+200D U+1F4BC' => [
             'man office worker',
@@ -20583,7 +20752,7 @@ class EmojiTable
             ':woman_office_worker:',
         ],
         'U+1F9D1 U+200D U+1F52C' => [
-            '⊛ scientist',
+            'scientist',
         ],
         'U+1F468 U+200D U+1F52C' => [
             'man scientist',
@@ -20594,7 +20763,7 @@ class EmojiTable
             ':woman_scientist:',
         ],
         'U+1F9D1 U+200D U+1F4BB' => [
-            '⊛ technologist',
+            'technologist',
         ],
         'U+1F468 U+200D U+1F4BB' => [
             'man technologist',
@@ -20605,7 +20774,7 @@ class EmojiTable
             ':woman_technologist:',
         ],
         'U+1F9D1 U+200D U+1F3A4' => [
-            '⊛ singer',
+            'singer',
         ],
         'U+1F468 U+200D U+1F3A4' => [
             'man singer',
@@ -20616,7 +20785,7 @@ class EmojiTable
             ':woman_singer:',
         ],
         'U+1F9D1 U+200D U+1F3A8' => [
-            '⊛ artist',
+            'artist',
         ],
         'U+1F468 U+200D U+1F3A8' => [
             'man artist',
@@ -20627,7 +20796,7 @@ class EmojiTable
             ':woman_artist:',
         ],
         'U+1F9D1 U+200D U+2708 U+FE0F' => [
-            '⊛ pilot',
+            'pilot',
         ],
         'U+1F468 U+200D U+2708 U+FE0F' => [
             'man pilot',
@@ -20638,7 +20807,7 @@ class EmojiTable
             ':woman_pilot:',
         ],
         'U+1F9D1 U+200D U+1F680' => [
-            '⊛ astronaut',
+            'astronaut',
         ],
         'U+1F468 U+200D U+1F680' => [
             'man astronaut',
@@ -20649,7 +20818,7 @@ class EmojiTable
             ':woman_astronaut:',
         ],
         'U+1F9D1 U+200D U+1F692' => [
-            '⊛ firefighter',
+            'firefighter',
         ],
         'U+1F468 U+200D U+1F692' => [
             'man firefighter',
@@ -20699,6 +20868,9 @@ class EmojiTable
             'woman guard',
             ':woman_guard:',
         ],
+        'U+1F977' => [
+            '⊛ ninja',
+        ],
         'U+1F477' => [
             'construction worker',
             ':construction_worker:',
@@ -20742,6 +20914,12 @@ class EmojiTable
         'U+1F935' => [
             'person in tuxedo',
         ],
+        'U+1F935 U+200D U+2642 U+FE0F' => [
+            '⊛ man in tuxedo',
+        ],
+        'U+1F935 U+200D U+2640 U+FE0F' => [
+            '⊛ woman in tuxedo',
+        ],
         'U+1F470' => [
             'person with veil',
         ],
@@ -20755,19 +20933,19 @@ class EmojiTable
             ':breast_feeding:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+2695 U+FE0F' => [
-            '⊛ health worker: light skin tone',
+            'health worker: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+2695 U+FE0F' => [
-            '⊛ health worker: medium-light skin tone',
+            'health worker: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+2695 U+FE0F' => [
-            '⊛ health worker: medium skin tone',
+            'health worker: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+2695 U+FE0F' => [
-            '⊛ health worker: medium-dark skin tone',
+            'health worker: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+2695 U+FE0F' => [
-            '⊛ health worker: dark skin tone',
+            'health worker: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+2695 U+FE0F' => [
             'man health worker: light skin tone',
@@ -20820,19 +20998,19 @@ class EmojiTable
             ':woman_health_worker_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F393' => [
-            '⊛ student: light skin tone',
+            'student: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F393' => [
-            '⊛ student: medium-light skin tone',
+            'student: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F393' => [
-            '⊛ student: medium skin tone',
+            'student: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F393' => [
-            '⊛ student: medium-dark skin tone',
+            'student: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F393' => [
-            '⊛ student: dark skin tone',
+            'student: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F393' => [
             'man student: light skin tone',
@@ -20885,19 +21063,19 @@ class EmojiTable
             ':woman_student_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F3EB' => [
-            '⊛ teacher: light skin tone',
+            'teacher: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F3EB' => [
-            '⊛ teacher: medium-light skin tone',
+            'teacher: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F3EB' => [
-            '⊛ teacher: medium skin tone',
+            'teacher: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F3EB' => [
-            '⊛ teacher: medium-dark skin tone',
+            'teacher: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F3EB' => [
-            '⊛ teacher: dark skin tone',
+            'teacher: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F3EB' => [
             'man teacher: light skin tone',
@@ -20950,19 +21128,19 @@ class EmojiTable
             ':woman_teacher_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+2696 U+FE0F' => [
-            '⊛ judge: light skin tone',
+            'judge: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+2696 U+FE0F' => [
-            '⊛ judge: medium-light skin tone',
+            'judge: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+2696 U+FE0F' => [
-            '⊛ judge: medium skin tone',
+            'judge: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+2696 U+FE0F' => [
-            '⊛ judge: medium-dark skin tone',
+            'judge: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+2696 U+FE0F' => [
-            '⊛ judge: dark skin tone',
+            'judge: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+2696 U+FE0F' => [
             'man judge: light skin tone',
@@ -21015,19 +21193,19 @@ class EmojiTable
             ':woman_judge_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F33E' => [
-            '⊛ farmer: light skin tone',
+            'farmer: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F33E' => [
-            '⊛ farmer: medium-light skin tone',
+            'farmer: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F33E' => [
-            '⊛ farmer: medium skin tone',
+            'farmer: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F33E' => [
-            '⊛ farmer: medium-dark skin tone',
+            'farmer: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F33E' => [
-            '⊛ farmer: dark skin tone',
+            'farmer: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F33E' => [
             'man farmer: light skin tone',
@@ -21080,19 +21258,19 @@ class EmojiTable
             ':woman_farmer_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F373' => [
-            '⊛ cook: light skin tone',
+            'cook: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F373' => [
-            '⊛ cook: medium-light skin tone',
+            'cook: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F373' => [
-            '⊛ cook: medium skin tone',
+            'cook: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F373' => [
-            '⊛ cook: medium-dark skin tone',
+            'cook: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F373' => [
-            '⊛ cook: dark skin tone',
+            'cook: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F373' => [
             'man cook: light skin tone',
@@ -21145,19 +21323,19 @@ class EmojiTable
             ':woman_cook_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F527' => [
-            '⊛ mechanic: light skin tone',
+            'mechanic: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F527' => [
-            '⊛ mechanic: medium-light skin tone',
+            'mechanic: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F527' => [
-            '⊛ mechanic: medium skin tone',
+            'mechanic: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F527' => [
-            '⊛ mechanic: medium-dark skin tone',
+            'mechanic: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F527' => [
-            '⊛ mechanic: dark skin tone',
+            'mechanic: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F527' => [
             'man mechanic: light skin tone',
@@ -21210,19 +21388,19 @@ class EmojiTable
             ':woman_mechanic_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F3ED' => [
-            '⊛ factory worker: light skin tone',
+            'factory worker: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F3ED' => [
-            '⊛ factory worker: medium-light skin tone',
+            'factory worker: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F3ED' => [
-            '⊛ factory worker: medium skin tone',
+            'factory worker: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F3ED' => [
-            '⊛ factory worker: medium-dark skin tone',
+            'factory worker: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F3ED' => [
-            '⊛ factory worker: dark skin tone',
+            'factory worker: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F3ED' => [
             'man factory worker: light skin tone',
@@ -21275,19 +21453,19 @@ class EmojiTable
             ':woman_factory_worker_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F4BC' => [
-            '⊛ office worker: light skin tone',
+            'office worker: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F4BC' => [
-            '⊛ office worker: medium-light skin tone',
+            'office worker: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F4BC' => [
-            '⊛ office worker: medium skin tone',
+            'office worker: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F4BC' => [
-            '⊛ office worker: medium-dark skin tone',
+            'office worker: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F4BC' => [
-            '⊛ office worker: dark skin tone',
+            'office worker: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F4BC' => [
             'man office worker: light skin tone',
@@ -21340,19 +21518,19 @@ class EmojiTable
             ':woman_office_worker_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F52C' => [
-            '⊛ scientist: light skin tone',
+            'scientist: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F52C' => [
-            '⊛ scientist: medium-light skin tone',
+            'scientist: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F52C' => [
-            '⊛ scientist: medium skin tone',
+            'scientist: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F52C' => [
-            '⊛ scientist: medium-dark skin tone',
+            'scientist: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F52C' => [
-            '⊛ scientist: dark skin tone',
+            'scientist: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F52C' => [
             'man scientist: light skin tone',
@@ -21405,19 +21583,19 @@ class EmojiTable
             ':woman_scientist_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F4BB' => [
-            '⊛ technologist: light skin tone',
+            'technologist: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F4BB' => [
-            '⊛ technologist: medium-light skin tone',
+            'technologist: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F4BB' => [
-            '⊛ technologist: medium skin tone',
+            'technologist: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F4BB' => [
-            '⊛ technologist: medium-dark skin tone',
+            'technologist: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F4BB' => [
-            '⊛ technologist: dark skin tone',
+            'technologist: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F4BB' => [
             'man technologist: light skin tone',
@@ -21470,19 +21648,19 @@ class EmojiTable
             ':woman_technologist_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F3A4' => [
-            '⊛ singer: light skin tone',
+            'singer: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F3A4' => [
-            '⊛ singer: medium-light skin tone',
+            'singer: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F3A4' => [
-            '⊛ singer: medium skin tone',
+            'singer: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F3A4' => [
-            '⊛ singer: medium-dark skin tone',
+            'singer: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F3A4' => [
-            '⊛ singer: dark skin tone',
+            'singer: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F3A4' => [
             'man singer: light skin tone',
@@ -21535,19 +21713,19 @@ class EmojiTable
             ':woman_singer_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F3A8' => [
-            '⊛ artist: light skin tone',
+            'artist: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F3A8' => [
-            '⊛ artist: medium-light skin tone',
+            'artist: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F3A8' => [
-            '⊛ artist: medium skin tone',
+            'artist: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F3A8' => [
-            '⊛ artist: medium-dark skin tone',
+            'artist: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F3A8' => [
-            '⊛ artist: dark skin tone',
+            'artist: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F3A8' => [
             'man artist: light skin tone',
@@ -21600,19 +21778,19 @@ class EmojiTable
             ':woman_artist_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+2708 U+FE0F' => [
-            '⊛ pilot: light skin tone',
+            'pilot: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+2708 U+FE0F' => [
-            '⊛ pilot: medium-light skin tone',
+            'pilot: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+2708 U+FE0F' => [
-            '⊛ pilot: medium skin tone',
+            'pilot: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+2708 U+FE0F' => [
-            '⊛ pilot: medium-dark skin tone',
+            'pilot: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+2708 U+FE0F' => [
-            '⊛ pilot: dark skin tone',
+            'pilot: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+2708 U+FE0F' => [
             'man pilot: light skin tone',
@@ -21665,19 +21843,19 @@ class EmojiTable
             ':woman_pilot_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F680' => [
-            '⊛ astronaut: light skin tone',
+            'astronaut: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F680' => [
-            '⊛ astronaut: medium-light skin tone',
+            'astronaut: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F680' => [
-            '⊛ astronaut: medium skin tone',
+            'astronaut: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F680' => [
-            '⊛ astronaut: medium-dark skin tone',
+            'astronaut: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F680' => [
-            '⊛ astronaut: dark skin tone',
+            'astronaut: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F680' => [
             'man astronaut: light skin tone',
@@ -21730,19 +21908,19 @@ class EmojiTable
             ':woman_astronaut_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F692' => [
-            '⊛ firefighter: light skin tone',
+            'firefighter: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F692' => [
-            '⊛ firefighter: medium-light skin tone',
+            'firefighter: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F692' => [
-            '⊛ firefighter: medium skin tone',
+            'firefighter: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F692' => [
-            '⊛ firefighter: medium-dark skin tone',
+            'firefighter: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F692' => [
-            '⊛ firefighter: dark skin tone',
+            'firefighter: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F692' => [
             'man firefighter: light skin tone',
@@ -23104,7 +23282,7 @@ class EmojiTable
             ':woman_kneeling:',
         ],
         'U+1F9D1 U+200D U+1F9AF' => [
-            '⊛ person with white cane',
+            'person with white cane',
         ],
         'U+1F468 U+200D U+1F9AF' => [
             'man with white cane',
@@ -23113,7 +23291,7 @@ class EmojiTable
             'woman with white cane',
         ],
         'U+1F9D1 U+200D U+1F9BC' => [
-            '⊛ person in motorized wheelchair',
+            'person in motorized wheelchair',
         ],
         'U+1F468 U+200D U+1F9BC' => [
             'man in motorized wheelchair',
@@ -23124,7 +23302,7 @@ class EmojiTable
             ':woman_in_motorized_wheelchair:',
         ],
         'U+1F9D1 U+200D U+1F9BD' => [
-            '⊛ person in manual wheelchair',
+            'person in manual wheelchair',
         ],
         'U+1F468 U+200D U+1F9BD' => [
             'man in manual wheelchair',
@@ -23572,19 +23750,19 @@ class EmojiTable
             ':woman_kneeling_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F9AF' => [
-            '⊛ person with white cane: light skin tone',
+            'person with white cane: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F9AF' => [
-            '⊛ person with white cane: medium-light skin tone',
+            'person with white cane: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F9AF' => [
-            '⊛ person with white cane: medium skin tone',
+            'person with white cane: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F9AF' => [
-            '⊛ person with white cane: medium-dark skin tone',
+            'person with white cane: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F9AF' => [
-            '⊛ person with white cane: dark skin tone',
+            'person with white cane: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F9AF' => [
             'man with white cane: light skin tone',
@@ -23617,19 +23795,19 @@ class EmojiTable
             'woman with white cane: dark skin tone',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F9BC' => [
-            '⊛ person in motorized wheelchair: light skin tone',
+            'person in motorized wheelchair: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F9BC' => [
-            '⊛ person in motorized wheelchair: medium-light skin tone',
+            'person in motorized wheelchair: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F9BC' => [
-            '⊛ person in motorized wheelchair: medium skin tone',
+            'person in motorized wheelchair: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F9BC' => [
-            '⊛ person in motorized wheelchair: medium-dark skin tone',
+            'person in motorized wheelchair: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F9BC' => [
-            '⊛ person in motorized wheelchair: dark skin tone',
+            'person in motorized wheelchair: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F9BC' => [
             'man in motorized wheelchair: light skin tone',
@@ -23682,19 +23860,19 @@ class EmojiTable
             ':woman_in_motorized_wheelchair_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F9BD' => [
-            '⊛ person in manual wheelchair: light skin tone',
+            'person in manual wheelchair: light skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F9BD' => [
-            '⊛ person in manual wheelchair: medium-light skin tone',
+            'person in manual wheelchair: medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F9BD' => [
-            '⊛ person in manual wheelchair: medium skin tone',
+            'person in manual wheelchair: medium skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F9BD' => [
-            '⊛ person in manual wheelchair: medium-dark skin tone',
+            'person in manual wheelchair: medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F9BD' => [
-            '⊛ person in manual wheelchair: dark skin tone',
+            'person in manual wheelchair: dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F9BD' => [
             'man in manual wheelchair: light skin tone',
@@ -25484,16 +25662,16 @@ class EmojiTable
             ':people_holding_hands_light_skin_tone:',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FC' => [
-            '⊛ people holding hands: light skin tone, medium-light skin tone',
+            'people holding hands: light skin tone, medium-light skin tone',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FD' => [
-            '⊛ people holding hands: light skin tone, medium skin tone',
+            'people holding hands: light skin tone, medium skin tone',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FE' => [
-            '⊛ people holding hands: light skin tone, medium-dark skin tone',
+            'people holding hands: light skin tone, medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FB U+200D U+1F91D U+200D U+1F9D1 U+1F3FF' => [
-            '⊛ people holding hands: light skin tone, dark skin tone',
+            'people holding hands: light skin tone, dark skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FB' => [
             'people holding hands: medium-light skin tone, light skin tone',
@@ -25506,13 +25684,13 @@ class EmojiTable
             ':people_holding_hands_medium_light_skin_tone:',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FD' => [
-            '⊛ people holding hands: medium-light skin tone, medium skin tone',
+            'people holding hands: medium-light skin tone, medium skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FE' => [
-            '⊛ people holding hands: medium-light skin tone, medium-dark skin tone',
+            'people holding hands: medium-light skin tone, medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FC U+200D U+1F91D U+200D U+1F9D1 U+1F3FF' => [
-            '⊛ people holding hands: medium-light skin tone, dark skin tone',
+            'people holding hands: medium-light skin tone, dark skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FB' => [
             'people holding hands: medium skin tone, light skin tone',
@@ -25530,10 +25708,10 @@ class EmojiTable
             ':people_holding_hands_medium_skin_tone:',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FE' => [
-            '⊛ people holding hands: medium skin tone, medium-dark skin tone',
+            'people holding hands: medium skin tone, medium-dark skin tone',
         ],
         'U+1F9D1 U+1F3FD U+200D U+1F91D U+200D U+1F9D1 U+1F3FF' => [
-            '⊛ people holding hands: medium skin tone, dark skin tone',
+            'people holding hands: medium skin tone, dark skin tone',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FB' => [
             'people holding hands: medium-dark skin tone, light skin tone',
@@ -25554,7 +25732,7 @@ class EmojiTable
             ':people_holding_hands_medium_dark_skin_tone:',
         ],
         'U+1F9D1 U+1F3FE U+200D U+1F91D U+200D U+1F9D1 U+1F3FF' => [
-            '⊛ people holding hands: medium-dark skin tone, dark skin tone',
+            'people holding hands: medium-dark skin tone, dark skin tone',
         ],
         'U+1F9D1 U+1F3FF U+200D U+1F91D U+200D U+1F9D1 U+1F3FB' => [
             'people holding hands: dark skin tone, light skin tone',
@@ -25587,16 +25765,16 @@ class EmojiTable
             ':women_holding_hands_light_skin_tone:',
         ],
         'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FC' => [
-            '⊛ women holding hands: light skin tone, medium-light skin tone',
+            'women holding hands: light skin tone, medium-light skin tone',
         ],
         'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FD' => [
-            '⊛ women holding hands: light skin tone, medium skin tone',
+            'women holding hands: light skin tone, medium skin tone',
         ],
         'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FE' => [
-            '⊛ women holding hands: light skin tone, medium-dark skin tone',
+            'women holding hands: light skin tone, medium-dark skin tone',
         ],
         'U+1F469 U+1F3FB U+200D U+1F91D U+200D U+1F469 U+1F3FF' => [
-            '⊛ women holding hands: light skin tone, dark skin tone',
+            'women holding hands: light skin tone, dark skin tone',
         ],
         'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FB' => [
             'women holding hands: medium-light skin tone, light skin tone',
@@ -25609,13 +25787,13 @@ class EmojiTable
             ':women_holding_hands_medium_light_skin_tone:',
         ],
         'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FD' => [
-            '⊛ women holding hands: medium-light skin tone, medium skin tone',
+            'women holding hands: medium-light skin tone, medium skin tone',
         ],
         'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FE' => [
-            '⊛ women holding hands: medium-light skin tone, medium-dark skin tone',
+            'women holding hands: medium-light skin tone, medium-dark skin tone',
         ],
         'U+1F469 U+1F3FC U+200D U+1F91D U+200D U+1F469 U+1F3FF' => [
-            '⊛ women holding hands: medium-light skin tone, dark skin tone',
+            'women holding hands: medium-light skin tone, dark skin tone',
         ],
         'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FB' => [
             'women holding hands: medium skin tone, light skin tone',
@@ -25633,10 +25811,10 @@ class EmojiTable
             ':women_holding_hands_medium_skin_tone:',
         ],
         'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FE' => [
-            '⊛ women holding hands: medium skin tone, medium-dark skin tone',
+            'women holding hands: medium skin tone, medium-dark skin tone',
         ],
         'U+1F469 U+1F3FD U+200D U+1F91D U+200D U+1F469 U+1F3FF' => [
-            '⊛ women holding hands: medium skin tone, dark skin tone',
+            'women holding hands: medium skin tone, dark skin tone',
         ],
         'U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F469 U+1F3FB' => [
             'women holding hands: medium-dark skin tone, light skin tone',
@@ -25657,7 +25835,7 @@ class EmojiTable
             ':women_holding_hands_medium_dark_skin_tone:',
         ],
         'U+1F469 U+1F3FE U+200D U+1F91D U+200D U+1F469 U+1F3FF' => [
-            '⊛ women holding hands: medium-dark skin tone, dark skin tone',
+            'women holding hands: medium-dark skin tone, dark skin tone',
         ],
         'U+1F469 U+1F3FF U+200D U+1F91D U+200D U+1F469 U+1F3FB' => [
             'women holding hands: dark skin tone, light skin tone',
@@ -25787,16 +25965,16 @@ class EmojiTable
             ':men_holding_hands_light_skin_tone:',
         ],
         'U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FC' => [
-            '⊛ men holding hands: light skin tone, medium-light skin tone',
+            'men holding hands: light skin tone, medium-light skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FD' => [
-            '⊛ men holding hands: light skin tone, medium skin tone',
+            'men holding hands: light skin tone, medium skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FE' => [
-            '⊛ men holding hands: light skin tone, medium-dark skin tone',
+            'men holding hands: light skin tone, medium-dark skin tone',
         ],
         'U+1F468 U+1F3FB U+200D U+1F91D U+200D U+1F468 U+1F3FF' => [
-            '⊛ men holding hands: light skin tone, dark skin tone',
+            'men holding hands: light skin tone, dark skin tone',
         ],
         'U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FB' => [
             'men holding hands: medium-light skin tone, light skin tone',
@@ -25809,13 +25987,13 @@ class EmojiTable
             ':men_holding_hands_medium_light_skin_tone:',
         ],
         'U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FD' => [
-            '⊛ men holding hands: medium-light skin tone, medium skin tone',
+            'men holding hands: medium-light skin tone, medium skin tone',
         ],
         'U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FE' => [
-            '⊛ men holding hands: medium-light skin tone, medium-dark skin tone',
+            'men holding hands: medium-light skin tone, medium-dark skin tone',
         ],
         'U+1F468 U+1F3FC U+200D U+1F91D U+200D U+1F468 U+1F3FF' => [
-            '⊛ men holding hands: medium-light skin tone, dark skin tone',
+            'men holding hands: medium-light skin tone, dark skin tone',
         ],
         'U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FB' => [
             'men holding hands: medium skin tone, light skin tone',
@@ -25833,10 +26011,10 @@ class EmojiTable
             ':men_holding_hands_medium_skin_tone:',
         ],
         'U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FE' => [
-            '⊛ men holding hands: medium skin tone, medium-dark skin tone',
+            'men holding hands: medium skin tone, medium-dark skin tone',
         ],
         'U+1F468 U+1F3FD U+200D U+1F91D U+200D U+1F468 U+1F3FF' => [
-            '⊛ men holding hands: medium skin tone, dark skin tone',
+            'men holding hands: medium skin tone, dark skin tone',
         ],
         'U+1F468 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FB' => [
             'men holding hands: medium-dark skin tone, light skin tone',
@@ -25857,7 +26035,7 @@ class EmojiTable
             ':men_holding_hands_medium_dark_skin_tone:',
         ],
         'U+1F468 U+1F3FE U+200D U+1F91D U+200D U+1F468 U+1F3FF' => [
-            '⊛ men holding hands: medium-dark skin tone, dark skin tone',
+            'men holding hands: medium-dark skin tone, dark skin tone',
         ],
         'U+1F468 U+1F3FF U+200D U+1F91D U+200D U+1F468 U+1F3FB' => [
             'men holding hands: dark skin tone, light skin tone',
@@ -25896,6 +26074,9 @@ class EmojiTable
         'U+1F465' => [
             'busts in silhouette',
             ':busts_in_silhouette:',
+        ],
+        'U+1FAC2' => [
+            '⊛ people hugging',
         ],
         'U+1F463' => [
             'footprints',
@@ -26145,6 +26326,9 @@ class EmojiTable
             'bear',
             ':bear:',
         ],
+        'U+1F43B U+200D U+2744 U+FE0F' => [
+            '⊛ polar bear',
+        ],
         'U+1F428' => [
             'koala',
             ':koala:',
@@ -26230,6 +26414,9 @@ class EmojiTable
         'U+1F989' => [
             'owl',
             ':owl:',
+        ],
+        'U+1FAB6' => [
+            '⊛ feather',
         ],
         'U+1F9A9' => [
             'flamingo',
@@ -26408,6 +26595,9 @@ class EmojiTable
             'seedling',
             ':seedling:',
         ],
+        'U+1FAB4' => [
+            '⊛ potted plant',
+        ],
         'U+1F332' => [
             'evergreen tree',
             ':evergreen_tree:',
@@ -26508,6 +26698,9 @@ class EmojiTable
             'strawberry',
             ':strawberry:',
         ],
+        'U+1FAD0' => [
+            '⊛ blueberries',
+        ],
         'U+1F95D' => [
             'kiwi fruit',
             ':kiwi:',
@@ -26516,6 +26709,9 @@ class EmojiTable
         'U+1F345' => [
             'tomato',
             ':tomato:',
+        ],
+        'U+1FAD2' => [
+            '⊛ olive',
         ],
         'U+1F965' => [
             'coconut',
@@ -26591,6 +26787,9 @@ class EmojiTable
             ':french_bread:',
             ':baguette_bread:',
         ],
+        'U+1FAD3' => [
+            '⊛ flatbread',
+        ],
         'U+1F968' => [
             'pretzel',
             ':pretzel:',
@@ -26657,6 +26856,9 @@ class EmojiTable
             'burrito',
             ':burrito:',
         ],
+        'U+1FAD4' => [
+            '⊛ tamale',
+        ],
         'U+1F959' => [
             'stuffed flatbread',
             ':stuffed_flatbread:',
@@ -26682,6 +26884,9 @@ class EmojiTable
         'U+1F372' => [
             'pot of food',
             ':stew:',
+        ],
+        'U+1FAD5' => [
+            '⊛ fondue',
         ],
         'U+1F963' => [
             'bowl with spoon',
@@ -26914,6 +27119,9 @@ class EmojiTable
             'cup with straw',
             ':cup_with_straw:',
         ],
+        'U+1F9CB' => [
+            '⊛ bubble tea',
+        ],
         'U+1F9C3' => [
             'beverage box',
             ':beverage_box:',
@@ -27035,6 +27243,12 @@ class EmojiTable
         'U+1F9F1' => [
             'brick',
             ':bricks:',
+        ],
+        'U+1FAA8' => [
+            '⊛ rock',
+        ],
+        'U+1FAB5' => [
+            '⊛ wood',
         ],
         'U+1F3D8' => [
             'houses',
@@ -27357,6 +27571,9 @@ class EmojiTable
         'U+1F6F9' => [
             'skateboard',
             ':skateboard:',
+        ],
+        'U+1F6FC' => [
+            '⊛ roller skate',
         ],
         'U+1F68F' => [
             'bus stop',
@@ -28067,6 +28284,9 @@ class EmojiTable
             'crystal ball',
             ':crystal_ball:',
         ],
+        'U+1FA84' => [
+            '⊛ magic wand',
+        ],
         'U+1F9FF' => [
             'nazar amulet',
             ':nazar_amulet:',
@@ -28094,6 +28314,12 @@ class EmojiTable
         'U+1F9F8' => [
             'teddy bear',
             ':teddy_bear:',
+        ],
+        'U+1FA85' => [
+            '⊛ piñata',
+        ],
+        'U+1FA86' => [
+            '⊛ nesting dolls',
         ],
         'U+2660' => [
             'spade suit',
@@ -28144,9 +28370,15 @@ class EmojiTable
             'thread',
             ':thread:',
         ],
+        'U+1FAA1' => [
+            '⊛ sewing needle',
+        ],
         'U+1F9F6' => [
             'yarn',
             ':yarn:',
+        ],
+        'U+1FAA2' => [
+            '⊛ knot',
         ],
         'U+1F453' => [
             'glasses',
@@ -28248,6 +28480,9 @@ class EmojiTable
             'backpack',
             ':school_satchel:',
         ],
+        'U+1FA74' => [
+            '⊛ thong sandal',
+        ],
         'U+1F45E' => [
             'man’s shoe',
             ':mans_shoe:',
@@ -28299,6 +28534,9 @@ class EmojiTable
         'U+1F9E2' => [
             'billed cap',
             ':billed_cap:',
+        ],
+        'U+1FA96' => [
+            '⊛ military helmet',
         ],
         'U+26D1' => [
             'rescue worker’s helmet',
@@ -28398,6 +28636,9 @@ class EmojiTable
             'saxophone',
             ':saxophone:',
         ],
+        'U+1FA97' => [
+            '⊛ accordion',
+        ],
         'U+1F3B8' => [
             'guitar',
             ':guitar:',
@@ -28422,6 +28663,9 @@ class EmojiTable
             'drum',
             ':drum:',
             ':drum_with_drumsticks:',
+        ],
+        'U+1FA98' => [
+            '⊛ long drum',
         ],
         'U+1F4F1' => [
             'mobile phone',
@@ -28637,6 +28881,9 @@ class EmojiTable
         'U+1F4B0' => [
             'money bag',
             ':moneybag:',
+        ],
+        'U+1FA99' => [
+            '⊛ coin',
         ],
         'U+1F4B4' => [
             'yen banknote',
@@ -28914,6 +29161,9 @@ class EmojiTable
             'pistol',
             ':gun:',
         ],
+        'U+1FA83' => [
+            '⊛ boomerang',
+        ],
         'U+1F3F9' => [
             'bow and arrow',
             ':bow_and_arrow:',
@@ -28926,6 +29176,9 @@ class EmojiTable
         'U+1F527' => [
             'wrench',
             ':wrench:',
+        ],
+        'U+1FA9B' => [
+            '⊛ screwdriver',
         ],
         'U+1F529' => [
             'nut and bolt',
@@ -28954,6 +29207,9 @@ class EmojiTable
             'chains',
             ':chains:',
         ],
+        'U+1FA9D' => [
+            '⊛ hook',
+        ],
         'U+1F9F0' => [
             'toolbox',
             ':toolbox:',
@@ -28961,6 +29217,9 @@ class EmojiTable
         'U+1F9F2' => [
             'magnet',
             ':magnet:',
+        ],
+        'U+1FA9C' => [
+            '⊛ ladder',
         ],
         'U+2697' => [
             'alembic',
@@ -29014,6 +29273,9 @@ class EmojiTable
             'door',
             ':door:',
         ],
+        'U+1F6D7' => [
+            '⊛ elevator',
+        ],
         'U+1F6CF' => [
             'bed',
             ':bed:',
@@ -29030,6 +29292,9 @@ class EmojiTable
         'U+1F6BD' => [
             'toilet',
             ':toilet:',
+        ],
+        'U+1FAA0' => [
+            '⊛ plunger',
         ],
         'U+1F6BF' => [
             'shower',
@@ -29063,9 +29328,15 @@ class EmojiTable
             'roll of paper',
             ':roll_of_paper:',
         ],
+        'U+1FAA3' => [
+            '⊛ bucket',
+        ],
         'U+1F9FC' => [
             'soap',
             ':soap:',
+        ],
+        'U+1FAA5' => [
+            '⊛ toothbrush',
         ],
         'U+1F9FD' => [
             'sponge',
@@ -29096,6 +29367,9 @@ class EmojiTable
         'U+1F5FF' => [
             'moai',
             ':moyai:',
+        ],
+        'U+1FAA7' => [
+            '⊛ placard',
         ],
         'U+1F3E7' => [
             'ATM sign',
@@ -29498,6 +29772,9 @@ class EmojiTable
         'U+2642' => [
             'male sign',
             ':male_sign:',
+        ],
+        'U+26A7' => [
+            '⊛ transgender symbol',
         ],
         'U+2716' => [
             'multiply',
@@ -30006,6 +30283,9 @@ class EmojiTable
             'rainbow flag',
             ':rainbow_flag:',
             ':gay_pride_flag:',
+        ],
+        'U+1F3F3 U+FE0F U+200D U+26A7 U+FE0F' => [
+            '⊛ transgender flag',
         ],
         'U+1F3F4 U+200D U+2620 U+FE0F' => [
             'pirate flag',

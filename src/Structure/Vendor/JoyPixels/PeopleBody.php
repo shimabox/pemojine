@@ -106,6 +106,7 @@ class PeopleBody implements Gettable
             'parent' => 'People & Body',
             'children' => [
                 'OK hand',
+                '⊛ pinched fingers',
                 'pinching hand',
                 'victory hand',
                 'crossed fingers',
@@ -706,6 +707,7 @@ class PeopleBody implements Gettable
                 'guard',
                 'man guard',
                 'woman guard',
+                '⊛ ninja',
                 'construction worker',
                 'man construction worker',
                 'woman construction worker',
@@ -1750,6 +1752,7 @@ class PeopleBody implements Gettable
                 'speaking head',
                 'bust in silhouette',
                 'busts in silhouette',
+                '⊛ people hugging',
                 'footprints',
             ]
         ],
@@ -1993,6 +1996,12 @@ class PeopleBody implements Gettable
             'children' => null,
             'aliases' => [
                 ':ok_hand:',
+            ]
+        ],
+        '⊛ pinched fingers' => [
+            'parent' => 'hand-fingers-partial',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'pinching hand' => [
@@ -6114,6 +6123,12 @@ class PeopleBody implements Gettable
             'children' => null,
             'aliases' => [
                 ':woman_guard:',
+            ]
+        ],
+        '⊛ ninja' => [
+            'parent' => 'person-role',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'construction worker' => [
@@ -13970,6 +13985,12 @@ class PeopleBody implements Gettable
             'children' => null,
             'aliases' => [
                 ':busts_in_silhouette:',
+            ]
+        ],
+        '⊛ people hugging' => [
+            'parent' => 'person-symbol',
+            'children' => null,
+            'aliases' => [
             ]
         ],
         'footprints' => [

@@ -27,8 +27,7 @@ addons:
     repo_token: 41727c20302fa699430a7aa0e06ef4d2cc00aeb25df3673f4165df75b6efccbc
 
 before_script:
-  - echo "memory_limit=2G" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
-  - travis_retry composer update
+  - COMPOSER_MEMORY_LIMIT=-1 travis_retry composer update
 
 script:
   - if $REGENERATE; then php scraping/src/generator.php &>> tests/logs/generator.log; fi

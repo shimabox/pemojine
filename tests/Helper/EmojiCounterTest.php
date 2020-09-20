@@ -39,7 +39,7 @@ class EmojiCounterTest extends \PHPUnit_Framework_TestCase
     public function it_can_handle_getGroupCount()
     {
         $actual = EmojiCounter::getGroupCount();
-        $this->assertSame(3304, $actual);
+        $this->assertSame(3521, $actual);
     }
 
     /**
@@ -74,7 +74,7 @@ class EmojiCounterTest extends \PHPUnit_Framework_TestCase
         $gmail = PemojineContainer::make(new Vendor\GMail());
         $actual = EmojiCounter::getCoverageOfGroup($gmail);
 
-        $this->assertSame('713 / 3304', $actual->formula);
-        $this->assertSame(21.6, $actual->value);
+        $this->assertSame('713 / 3521', $actual->formula);
+        $this->assertSame(20.2, $actual->value);
     }
 }

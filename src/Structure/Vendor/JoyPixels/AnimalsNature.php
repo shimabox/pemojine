@@ -76,6 +76,7 @@ class AnimalsNature implements Gettable
                 'raccoon',
                 'cat face',
                 'cat',
+                'black cat',
                 'lion',
                 'tiger face',
                 'tiger',
@@ -85,6 +86,7 @@ class AnimalsNature implements Gettable
                 'unicorn',
                 'zebra',
                 'deer',
+                'bison',
                 'cow face',
                 'ox',
                 'water buffalo',
@@ -101,6 +103,7 @@ class AnimalsNature implements Gettable
                 'llama',
                 'giraffe',
                 'elephant',
+                'mammoth',
                 'rhinoceros',
                 'hippopotamus',
                 'mouse face',
@@ -110,10 +113,11 @@ class AnimalsNature implements Gettable
                 'rabbit face',
                 'rabbit',
                 'chipmunk',
+                'beaver',
                 'hedgehog',
                 'bat',
                 'bear',
-                '⊛ polar bear',
+                'polar bear',
                 'koala',
                 'panda',
                 'sloth',
@@ -140,7 +144,8 @@ class AnimalsNature implements Gettable
                 'duck',
                 'swan',
                 'owl',
-                '⊛ feather',
+                'dodo',
+                'feather',
                 'flamingo',
                 'peacock',
                 'parrot',
@@ -171,6 +176,7 @@ class AnimalsNature implements Gettable
                 'spouting whale',
                 'whale',
                 'dolphin',
+                'seal',
                 'fish',
                 'tropical fish',
                 'blowfish',
@@ -187,12 +193,16 @@ class AnimalsNature implements Gettable
                 'bug',
                 'ant',
                 'honeybee',
+                'beetle',
                 'lady beetle',
                 'cricket',
+                'cockroach',
                 'spider',
                 'spider web',
                 'scorpion',
                 'mosquito',
+                'fly',
+                'worm',
                 'microbe',
             ]
         ],
@@ -215,7 +225,7 @@ class AnimalsNature implements Gettable
             'parent' => 'Animals & Nature',
             'children' => [
                 'seedling',
-                '⊛ potted plant',
+                'potted plant',
                 'evergreen tree',
                 'deciduous tree',
                 'palm tree',
@@ -335,6 +345,13 @@ class AnimalsNature implements Gettable
                 ':cat2:',
             ]
         ],
+        'black cat' => [
+            'parent' => 'animal-mammal',
+            'children' => null,
+            'aliases' => [
+                ':black_cat:',
+            ]
+        ],
         'lion' => [
             'parent' => 'animal-mammal',
             'children' => null,
@@ -398,6 +415,13 @@ class AnimalsNature implements Gettable
             'children' => null,
             'aliases' => [
                 ':deer:',
+            ]
+        ],
+        'bison' => [
+            'parent' => 'animal-mammal',
+            'children' => null,
+            'aliases' => [
+                ':bison:',
             ]
         ],
         'cow face' => [
@@ -512,6 +536,13 @@ class AnimalsNature implements Gettable
                 ':elephant:',
             ]
         ],
+        'mammoth' => [
+            'parent' => 'animal-mammal',
+            'children' => null,
+            'aliases' => [
+                ':mammoth:',
+            ]
+        ],
         'rhinoceros' => [
             'parent' => 'animal-mammal',
             'children' => null,
@@ -576,6 +607,13 @@ class AnimalsNature implements Gettable
                 ':chipmunk:',
             ]
         ],
+        'beaver' => [
+            'parent' => 'animal-mammal',
+            'children' => null,
+            'aliases' => [
+                ':beaver:',
+            ]
+        ],
         'hedgehog' => [
             'parent' => 'animal-mammal',
             'children' => null,
@@ -597,10 +635,11 @@ class AnimalsNature implements Gettable
                 ':bear:',
             ]
         ],
-        '⊛ polar bear' => [
+        'polar bear' => [
             'parent' => 'animal-mammal',
             'children' => null,
             'aliases' => [
+                ':polar_bear:',
             ]
         ],
         'koala' => [
@@ -752,10 +791,18 @@ class AnimalsNature implements Gettable
                 ':owl:',
             ]
         ],
-        '⊛ feather' => [
+        'dodo' => [
             'parent' => 'animal-bird',
             'children' => null,
             'aliases' => [
+                ':dodo:',
+            ]
+        ],
+        'feather' => [
+            'parent' => 'animal-bird',
+            'children' => null,
+            'aliases' => [
+                ':feather:',
             ]
         ],
         'flamingo' => [
@@ -863,6 +910,13 @@ class AnimalsNature implements Gettable
                 ':dolphin:',
             ]
         ],
+        'seal' => [
+            'parent' => 'animal-marine',
+            'children' => null,
+            'aliases' => [
+                ':seal:',
+            ]
+        ],
         'fish' => [
             'parent' => 'animal-marine',
             'children' => null,
@@ -940,11 +994,18 @@ class AnimalsNature implements Gettable
                 ':bee:',
             ]
         ],
-        'lady beetle' => [
+        'beetle' => [
             'parent' => 'animal-bug',
             'children' => null,
             'aliases' => [
                 ':beetle:',
+            ]
+        ],
+        'lady beetle' => [
+            'parent' => 'animal-bug',
+            'children' => null,
+            'aliases' => [
+                ':lady_beetle:',
             ]
         ],
         'cricket' => [
@@ -952,6 +1013,13 @@ class AnimalsNature implements Gettable
             'children' => null,
             'aliases' => [
                 ':cricket:',
+            ]
+        ],
+        'cockroach' => [
+            'parent' => 'animal-bug',
+            'children' => null,
+            'aliases' => [
+                ':cockroach:',
             ]
         ],
         'spider' => [
@@ -980,6 +1048,20 @@ class AnimalsNature implements Gettable
             'children' => null,
             'aliases' => [
                 ':mosquito:',
+            ]
+        ],
+        'fly' => [
+            'parent' => 'animal-bug',
+            'children' => null,
+            'aliases' => [
+                ':fly:',
+            ]
+        ],
+        'worm' => [
+            'parent' => 'animal-bug',
+            'children' => null,
+            'aliases' => [
+                ':worm:',
             ]
         ],
         'microbe' => [
@@ -1067,10 +1149,11 @@ class AnimalsNature implements Gettable
                 ':seedling:',
             ]
         ],
-        '⊛ potted plant' => [
+        'potted plant' => [
             'parent' => 'plant-other',
             'children' => null,
             'aliases' => [
+                ':potted_plant:',
             ]
         ],
         'evergreen tree' => [

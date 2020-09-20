@@ -137,10 +137,10 @@ class Symbols implements Gettable
         'punctuation' => [
             'parent' => 'Symbols',
             'children' => [
-                'question mark',
+                'red question mark',
                 'white question mark',
                 'white exclamation mark',
-                'exclamation mark',
+                'red exclamation mark',
             ]
         ],
         'currency' => [
@@ -512,11 +512,10 @@ class Symbols implements Gettable
                 ':mobile_phone_off:',
             ]
         ],
-        'question mark' => [
+        'red question mark' => [
             'parent' => 'punctuation',
             'children' => null,
             'aliases' => [
-                ':question:',
             ]
         ],
         'white question mark' => [
@@ -533,11 +532,10 @@ class Symbols implements Gettable
                 ':grey_exclamation:',
             ]
         ],
-        'exclamation mark' => [
+        'red exclamation mark' => [
             'parent' => 'punctuation',
             'children' => null,
             'aliases' => [
-                ':exclamation:',
             ]
         ],
         'currency exchange' => [

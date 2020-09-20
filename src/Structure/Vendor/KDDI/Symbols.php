@@ -150,8 +150,8 @@ class Symbols implements Gettable
             'children' => [
                 'double exclamation mark',
                 'exclamation question mark',
-                'question mark',
-                'exclamation mark',
+                'red question mark',
+                'red exclamation mark',
             ]
         ],
         'currency' => [
@@ -638,18 +638,16 @@ class Symbols implements Gettable
                 ':interrobang:',
             ]
         ],
-        'question mark' => [
+        'red question mark' => [
             'parent' => 'punctuation',
             'children' => null,
             'aliases' => [
-                ':question:',
             ]
         ],
-        'exclamation mark' => [
+        'red exclamation mark' => [
             'parent' => 'punctuation',
             'children' => null,
             'aliases' => [
-                ':exclamation:',
             ]
         ],
         'heavy dollar sign' => [

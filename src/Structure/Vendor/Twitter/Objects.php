@@ -97,6 +97,7 @@ class Objects implements Gettable
                 'clutch bag',
                 'shopping bags',
                 'backpack',
+                'thong sandal',
                 'man’s shoe',
                 'running shoe',
                 'hiking boot',
@@ -110,6 +111,7 @@ class Objects implements Gettable
                 'top hat',
                 'graduation cap',
                 'billed cap',
+                'military helmet',
                 'rescue worker’s helmet',
                 'prayer beads',
                 'lipstick',
@@ -149,12 +151,14 @@ class Objects implements Gettable
             'parent' => 'Objects',
             'children' => [
                 'saxophone',
+                'accordion',
                 'guitar',
                 'musical keyboard',
                 'trumpet',
                 'violin',
                 'banjo',
                 'drum',
+                'long drum',
             ]
         ],
         'phone' => [
@@ -233,6 +237,7 @@ class Objects implements Gettable
             'parent' => 'Objects',
             'children' => [
                 'money bag',
+                'coin',
                 'yen banknote',
                 'dollar banknote',
                 'euro banknote',
@@ -322,10 +327,13 @@ class Objects implements Gettable
                 'hammer and wrench',
                 'dagger',
                 'crossed swords',
-                'pistol',
+                'water pistol',
+                'boomerang',
                 'bow and arrow',
                 'shield',
+                'carpentry saw',
                 'wrench',
+                'screwdriver',
                 'nut and bolt',
                 'gear',
                 'clamp',
@@ -333,8 +341,10 @@ class Objects implements Gettable
                 'white cane',
                 'link',
                 'chains',
+                'hook',
                 'toolbox',
                 'magnet',
+                'ladder',
             ]
         ],
         'science' => [
@@ -363,19 +373,26 @@ class Objects implements Gettable
             'parent' => 'Objects',
             'children' => [
                 'door',
+                'elevator',
+                'mirror',
+                'window',
                 'bed',
                 'couch and lamp',
                 'chair',
                 'toilet',
+                'plunger',
                 'shower',
                 'bathtub',
+                'mouse trap',
                 'razor',
                 'lotion bottle',
                 'safety pin',
                 'broom',
                 'basket',
                 'roll of paper',
+                'bucket',
                 'soap',
+                'toothbrush',
                 'sponge',
                 'fire extinguisher',
                 'shopping cart',
@@ -386,8 +403,10 @@ class Objects implements Gettable
             'children' => [
                 'cigarette',
                 'coffin',
+                'headstone',
                 'funeral urn',
                 'moai',
+                'placard',
             ]
         ],
     ];
@@ -572,6 +591,13 @@ class Objects implements Gettable
                 ':school_satchel:',
             ]
         ],
+        'thong sandal' => [
+            'parent' => 'clothing',
+            'children' => null,
+            'aliases' => [
+                ':thong_sandal:',
+            ]
+        ],
         'man’s shoe' => [
             'parent' => 'clothing',
             'children' => null,
@@ -661,6 +687,13 @@ class Objects implements Gettable
             'children' => null,
             'aliases' => [
                 ':billed_cap:',
+            ]
+        ],
+        'military helmet' => [
+            'parent' => 'clothing',
+            'children' => null,
+            'aliases' => [
+                ':military_helmet:',
             ]
         ],
         'rescue worker’s helmet' => [
@@ -833,6 +866,13 @@ class Objects implements Gettable
                 ':saxophone:',
             ]
         ],
+        'accordion' => [
+            'parent' => 'musical-instrument',
+            'children' => null,
+            'aliases' => [
+                ':accordion:',
+            ]
+        ],
         'guitar' => [
             'parent' => 'musical-instrument',
             'children' => null,
@@ -876,11 +916,18 @@ class Objects implements Gettable
                 ':drum_with_drumsticks:',
             ]
         ],
+        'long drum' => [
+            'parent' => 'musical-instrument',
+            'children' => null,
+            'aliases' => [
+                ':long_drum:',
+            ]
+        ],
         'mobile phone' => [
             'parent' => 'phone',
             'children' => null,
             'aliases' => [
-                ':iphone:',
+                ':mobile_phone:',
             ]
         ],
         'mobile phone with arrow' => [
@@ -1248,6 +1295,13 @@ class Objects implements Gettable
             'children' => null,
             'aliases' => [
                 ':moneybag:',
+            ]
+        ],
+        'coin' => [
+            'parent' => 'money',
+            'children' => null,
+            'aliases' => [
+                ':coin:',
             ]
         ],
         'yen banknote' => [
@@ -1714,11 +1768,17 @@ class Objects implements Gettable
                 ':crossed_swords:',
             ]
         ],
-        'pistol' => [
+        'water pistol' => [
             'parent' => 'tool',
             'children' => null,
             'aliases' => [
-                ':gun:',
+            ]
+        ],
+        'boomerang' => [
+            'parent' => 'tool',
+            'children' => null,
+            'aliases' => [
+                ':boomerang:',
             ]
         ],
         'bow and arrow' => [
@@ -1736,11 +1796,25 @@ class Objects implements Gettable
                 ':shield:',
             ]
         ],
+        'carpentry saw' => [
+            'parent' => 'tool',
+            'children' => null,
+            'aliases' => [
+                ':carpentry_saw:',
+            ]
+        ],
         'wrench' => [
             'parent' => 'tool',
             'children' => null,
             'aliases' => [
                 ':wrench:',
+            ]
+        ],
+        'screwdriver' => [
+            'parent' => 'tool',
+            'children' => null,
+            'aliases' => [
+                ':screwdriver:',
             ]
         ],
         'nut and bolt' => [
@@ -1791,6 +1865,13 @@ class Objects implements Gettable
                 ':chains:',
             ]
         ],
+        'hook' => [
+            'parent' => 'tool',
+            'children' => null,
+            'aliases' => [
+                ':hook:',
+            ]
+        ],
         'toolbox' => [
             'parent' => 'tool',
             'children' => null,
@@ -1803,6 +1884,13 @@ class Objects implements Gettable
             'children' => null,
             'aliases' => [
                 ':magnet:',
+            ]
+        ],
+        'ladder' => [
+            'parent' => 'tool',
+            'children' => null,
+            'aliases' => [
+                ':ladder:',
             ]
         ],
         'alembic' => [
@@ -1896,6 +1984,27 @@ class Objects implements Gettable
                 ':door:',
             ]
         ],
+        'elevator' => [
+            'parent' => 'household',
+            'children' => null,
+            'aliases' => [
+                ':elevator:',
+            ]
+        ],
+        'mirror' => [
+            'parent' => 'household',
+            'children' => null,
+            'aliases' => [
+                ':mirror:',
+            ]
+        ],
+        'window' => [
+            'parent' => 'household',
+            'children' => null,
+            'aliases' => [
+                ':window:',
+            ]
+        ],
         'bed' => [
             'parent' => 'household',
             'children' => null,
@@ -1925,6 +2034,13 @@ class Objects implements Gettable
                 ':toilet:',
             ]
         ],
+        'plunger' => [
+            'parent' => 'household',
+            'children' => null,
+            'aliases' => [
+                ':plunger:',
+            ]
+        ],
         'shower' => [
             'parent' => 'household',
             'children' => null,
@@ -1937,6 +2053,13 @@ class Objects implements Gettable
             'children' => null,
             'aliases' => [
                 ':bathtub:',
+            ]
+        ],
+        'mouse trap' => [
+            'parent' => 'household',
+            'children' => null,
+            'aliases' => [
+                ':mouse_trap:',
             ]
         ],
         'razor' => [
@@ -1981,11 +2104,25 @@ class Objects implements Gettable
                 ':roll_of_paper:',
             ]
         ],
+        'bucket' => [
+            'parent' => 'household',
+            'children' => null,
+            'aliases' => [
+                ':bucket:',
+            ]
+        ],
         'soap' => [
             'parent' => 'household',
             'children' => null,
             'aliases' => [
                 ':soap:',
+            ]
+        ],
+        'toothbrush' => [
+            'parent' => 'household',
+            'children' => null,
+            'aliases' => [
+                ':toothbrush:',
             ]
         ],
         'sponge' => [
@@ -2024,6 +2161,13 @@ class Objects implements Gettable
                 ':coffin:',
             ]
         ],
+        'headstone' => [
+            'parent' => 'other-object',
+            'children' => null,
+            'aliases' => [
+                ':headstone:',
+            ]
+        ],
         'funeral urn' => [
             'parent' => 'other-object',
             'children' => null,
@@ -2037,6 +2181,13 @@ class Objects implements Gettable
             'children' => null,
             'aliases' => [
                 ':moyai:',
+            ]
+        ],
+        'placard' => [
+            'parent' => 'other-object',
+            'children' => null,
+            'aliases' => [
+                ':placard:',
             ]
         ],
     ];

@@ -929,7 +929,7 @@ class AnimalsNature implements Gettable
             'parent' => 'animal-bug',
             'children' => null,
             'aliases' => [
-                ':beetle:',
+                ':lady_beetle:',
             ]
         ],
         'cricket' => [

@@ -512,6 +512,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':person_with_veil:',
             ]
         ],
         'baby angel' => [

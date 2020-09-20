@@ -263,7 +263,7 @@ class Objects implements Gettable
             'parent' => 'phone',
             'children' => null,
             'aliases' => [
-                ':iphone:',
+                ':mobile_phone:',
             ]
         ],
         'mobile phone with arrow' => [

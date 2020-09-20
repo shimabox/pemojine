@@ -128,11 +128,12 @@ class Activities implements Gettable
         'game' => [
             'parent' => 'Activities',
             'children' => [
-                'direct hit',
+                'bullseye',
                 'yo-yo',
                 'kite',
                 'pool 8 ball',
                 'crystal ball',
+                'magic wand',
                 'nazar amulet',
                 'video game',
                 'joystick',
@@ -140,6 +141,8 @@ class Activities implements Gettable
                 'game die',
                 'puzzle piece',
                 'teddy bear',
+                'piñata',
+                'nesting dolls',
                 'spade suit',
                 'heart suit',
                 'diamond suit',
@@ -157,7 +160,9 @@ class Activities implements Gettable
                 'framed picture',
                 'artist palette',
                 'thread',
+                'sewing needle',
                 'yarn',
+                'knot',
             ]
         ],
     ];
@@ -555,11 +560,10 @@ class Activities implements Gettable
                 ':curling_stone:',
             ]
         ],
-        'direct hit' => [
+        'bullseye' => [
             'parent' => 'game',
             'children' => null,
             'aliases' => [
-                ':dart:',
             ]
         ],
         'yo-yo' => [
@@ -588,6 +592,13 @@ class Activities implements Gettable
             'children' => null,
             'aliases' => [
                 ':crystal_ball:',
+            ]
+        ],
+        'magic wand' => [
+            'parent' => 'game',
+            'children' => null,
+            'aliases' => [
+                ':magic_wand:',
             ]
         ],
         'nazar amulet' => [
@@ -637,6 +648,20 @@ class Activities implements Gettable
             'children' => null,
             'aliases' => [
                 ':teddy_bear:',
+            ]
+        ],
+        'piñata' => [
+            'parent' => 'game',
+            'children' => null,
+            'aliases' => [
+                ':piñata:',
+            ]
+        ],
+        'nesting dolls' => [
+            'parent' => 'game',
+            'children' => null,
+            'aliases' => [
+                ':nesting_dolls:',
             ]
         ],
         'spade suit' => [
@@ -724,11 +749,25 @@ class Activities implements Gettable
                 ':thread:',
             ]
         ],
+        'sewing needle' => [
+            'parent' => 'arts & crafts',
+            'children' => null,
+            'aliases' => [
+                ':sewing_needle:',
+            ]
+        ],
         'yarn' => [
             'parent' => 'arts & crafts',
             'children' => null,
             'aliases' => [
                 ':yarn:',
+            ]
+        ],
+        'knot' => [
+            'parent' => 'arts & crafts',
+            'children' => null,
+            'aliases' => [
+                ':knot:',
             ]
         ],
     ];

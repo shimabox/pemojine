@@ -100,7 +100,7 @@ class SmileysEmotion implements Gettable
         'face-unwell' => [
             'parent' => 'Smileys & Emotion',
             'children' => [
-                'dizzy face',
+                'knocked-out face',
             ]
         ],
         'face-concerned' => [
@@ -253,17 +253,10 @@ class SmileysEmotion implements Gettable
                 ':pensive:',
             ]
         ],
-        'dizzy face' => [
+        'knocked-out face' => [
             'parent' => 'face-unwell',
             'children' => null,
             'aliases' => [
-                ':dizzy_face:',
-                '#-)',
-                '#)',
-                '%-)',
-                '%)',
-                'X)',
-                'X-)',
             ]
         ],
         'crying face' => [

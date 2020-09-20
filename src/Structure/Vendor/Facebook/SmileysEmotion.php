@@ -154,7 +154,7 @@ class SmileysEmotion implements Gettable
                 'hot face',
                 'cold face',
                 'woozy face',
-                'dizzy face',
+                'knocked-out face',
                 'exploding head',
             ]
         ],
@@ -759,17 +759,10 @@ class SmileysEmotion implements Gettable
                 ':woozy_face:',
             ]
         ],
-        'dizzy face' => [
+        'knocked-out face' => [
             'parent' => 'face-unwell',
             'children' => null,
             'aliases' => [
-                ':dizzy_face:',
-                '#-)',
-                '#)',
-                '%-)',
-                '%)',
-                'X)',
-                'X-)',
             ]
         ],
         'exploding head' => [

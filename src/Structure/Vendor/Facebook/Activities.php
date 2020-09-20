@@ -128,7 +128,7 @@ class Activities implements Gettable
         'game' => [
             'parent' => 'Activities',
             'children' => [
-                'direct hit',
+                'bullseye',
                 'yo-yo',
                 'kite',
                 'pool 8 ball',
@@ -555,11 +555,10 @@ class Activities implements Gettable
                 ':curling_stone:',
             ]
         ],
-        'direct hit' => [
+        'bullseye' => [
             'parent' => 'game',
             'children' => null,
             'aliases' => [
-                ':dart:',
             ]
         ],
         'yo-yo' => [

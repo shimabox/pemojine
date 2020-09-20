@@ -256,7 +256,7 @@ class Objects implements Gettable
             'parent' => 'Objects',
             'children' => [
                 'hammer',
-                'pistol',
+                'water pistol',
                 'wrench',
                 'nut and bolt',
                 'link',
@@ -573,7 +573,7 @@ class Objects implements Gettable
             'parent' => 'phone',
             'children' => null,
             'aliases' => [
-                ':iphone:',
+                ':mobile_phone:',
             ]
         ],
         'mobile phone with arrow' => [
@@ -1130,11 +1130,10 @@ class Objects implements Gettable
                 ':hammer:',
             ]
         ],
-        'pistol' => [
+        'water pistol' => [
             'parent' => 'tool',
             'children' => null,
             'aliases' => [
-                ':gun:',
             ]
         ],
         'wrench' => [

@@ -103,7 +103,7 @@ class Symbols implements Gettable
         'punctuation' => [
             'parent' => 'Symbols',
             'children' => [
-                'exclamation mark',
+                'red exclamation mark',
             ]
         ],
         'other-symbol' => [
@@ -296,11 +296,10 @@ class Symbols implements Gettable
                 ':pisces:',
             ]
         ],
-        'exclamation mark' => [
+        'red exclamation mark' => [
             'parent' => 'punctuation',
             'children' => null,
             'aliases' => [
-                ':exclamation:',
             ]
         ],
         'copyright' => [

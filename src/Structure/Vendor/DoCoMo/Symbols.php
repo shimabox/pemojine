@@ -114,7 +114,7 @@ class Symbols implements Gettable
             'children' => [
                 'double exclamation mark',
                 'exclamation question mark',
-                'exclamation mark',
+                'red exclamation mark',
                 'wavy dash',
             ]
         ],
@@ -392,11 +392,10 @@ class Symbols implements Gettable
                 ':interrobang:',
             ]
         ],
-        'exclamation mark' => [
+        'red exclamation mark' => [
             'parent' => 'punctuation',
             'children' => null,
             'aliases' => [
-                ':exclamation:',
             ]
         ],
         'wavy dash' => [

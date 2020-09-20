@@ -17,8 +17,8 @@ Pemojine is a library for handling Emoji in PHP.
 
 This library is getting data from here.
 
-- [Full Emoji List, v12.0](http://www.unicode.org/emoji/charts-12.0/full-emoji-list.html "Full Emoji List, v12.0")
-- [Full Emoji Modifier Sequences, v12.0](https://unicode.org/emoji/charts/full-emoji-modifiers.html "Full Emoji Modifier Sequences, v12.0")
+- [Full Emoji List, v13.1](https://unicode.org/emoji/charts/full-emoji-list.html "Full Emoji List, v13.1")
+- [Full Emoji Modifier Sequences, v13.1](https://unicode.org/emoji/charts/full-emoji-modifiers.html "Full Emoji Modifier Sequences, v13.1")
 - [emoji-toolkit/emoji.json at master · joypixels/emoji-toolkit](https://github.com/joypixels/emoji-toolkit/blob/master/emoji.json "emoji-toolkit/emoji.json at master · joypixels/emoji-toolkit")
 
 ## Architecture
@@ -29,7 +29,7 @@ This library is getting data from here.
 - MediumGroup bundle Groups.
 - BigGroup bundle MediumGroups.
 - Vendor bundle BigGroups.
-- @see - [Full Emoji List, v12.0](http://www.unicode.org/emoji/charts-12.0/full-emoji-list.html "Full Emoji List, v12.0")
+- @see [Full Emoji List, v13.1](https://unicode.org/emoji/charts/full-emoji-list.html "Full Emoji List, v13.1")
 
 ## Features
 
@@ -267,8 +267,8 @@ $ php scraping/src/generator.php
 Scrape the data here.  
 (The result is cached for 1 hour in `scraping/cache/full-emoji-list`, `scraping/cache/full-emoji-modifiers`)
 
-- [Full Emoji List, v12.0](http://www.unicode.org/emoji/charts-12.0/full-emoji-list.html "Full Emoji List, v12.0")
-- [Full Emoji Modifier Sequences, v12.0](https://unicode.org/emoji/charts/full-emoji-modifiers.html "Full Emoji Modifier Sequences, v12.0")
+- [Full Emoji List, v13.1](https://unicode.org/emoji/charts/full-emoji-list.html "Full Emoji List, v13.1")
+- [Full Emoji Modifier Sequences, v13.1](https://unicode.org/emoji/charts/full-emoji-modifiers.html "Full Emoji Modifier Sequences, v13.1")
 - [emoji-toolkit/emoji.json at master · joypixels/emoji-toolkit](https://github.com/joypixels/emoji-toolkit/blob/master/emoji.json "emoji-toolkit/emoji.json at master · joypixels/emoji-toolkit")
 
 `scraping/output/Config`, `scraping/output/Structure` Since files are output below, please place them under `src/Config`, `src/Structure` respectively.

@@ -95,6 +95,9 @@ class TravelPlaces implements Gettable
                 'classical building',
                 'building construction',
                 'brick',
+                'rock',
+                'wood',
+                'hut',
                 'houses',
                 'derelict house',
                 'house',
@@ -177,6 +180,7 @@ class TravelPlaces implements Gettable
                 'automobile',
                 'oncoming automobile',
                 'sport utility vehicle',
+                'pickup truck',
                 'delivery truck',
                 'articulated lorry',
                 'tractor',
@@ -189,6 +193,7 @@ class TravelPlaces implements Gettable
                 'bicycle',
                 'kick scooter',
                 'skateboard',
+                'roller skate',
                 'bus stop',
                 'motorway',
                 'railway track',
@@ -478,6 +483,27 @@ class TravelPlaces implements Gettable
             'children' => null,
             'aliases' => [
                 ':bricks:',
+            ]
+        ],
+        'rock' => [
+            'parent' => 'place-building',
+            'children' => null,
+            'aliases' => [
+                ':rock:',
+            ]
+        ],
+        'wood' => [
+            'parent' => 'place-building',
+            'children' => null,
+            'aliases' => [
+                ':wood:',
+            ]
+        ],
+        'hut' => [
+            'parent' => 'place-building',
+            'children' => null,
+            'aliases' => [
+                ':hut:',
             ]
         ],
         'houses' => [
@@ -952,6 +978,13 @@ class TravelPlaces implements Gettable
                 ':blue_car:',
             ]
         ],
+        'pickup truck' => [
+            'parent' => 'transport-ground',
+            'children' => null,
+            'aliases' => [
+                ':pickup_truck:',
+            ]
+        ],
         'delivery truck' => [
             'parent' => 'transport-ground',
             'children' => null,
@@ -1037,6 +1070,13 @@ class TravelPlaces implements Gettable
             'children' => null,
             'aliases' => [
                 ':skateboard:',
+            ]
+        ],
+        'roller skate' => [
+            'parent' => 'transport-ground',
+            'children' => null,
+            'aliases' => [
+                ':roller_skate:',
             ]
         ],
         'bus stop' => [

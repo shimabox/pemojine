@@ -113,7 +113,7 @@ class AnimalsNature implements Gettable
                 'hedgehog',
                 'bat',
                 'bear',
-                '⊛ polar bear',
+                'polar bear',
                 'koala',
                 'panda',
                 'sloth',
@@ -140,7 +140,7 @@ class AnimalsNature implements Gettable
                 'duck',
                 'swan',
                 'owl',
-                '⊛ feather',
+                'feather',
                 'flamingo',
                 'peacock',
                 'parrot',
@@ -215,7 +215,7 @@ class AnimalsNature implements Gettable
             'parent' => 'Animals & Nature',
             'children' => [
                 'seedling',
-                '⊛ potted plant',
+                'potted plant',
                 'evergreen tree',
                 'deciduous tree',
                 'palm tree',
@@ -597,10 +597,11 @@ class AnimalsNature implements Gettable
                 ':bear:',
             ]
         ],
-        '⊛ polar bear' => [
+        'polar bear' => [
             'parent' => 'animal-mammal',
             'children' => null,
             'aliases' => [
+                ':polar_bear:',
             ]
         ],
         'koala' => [
@@ -752,10 +753,11 @@ class AnimalsNature implements Gettable
                 ':owl:',
             ]
         ],
-        '⊛ feather' => [
+        'feather' => [
             'parent' => 'animal-bird',
             'children' => null,
             'aliases' => [
+                ':feather:',
             ]
         ],
         'flamingo' => [
@@ -944,7 +946,7 @@ class AnimalsNature implements Gettable
             'parent' => 'animal-bug',
             'children' => null,
             'aliases' => [
-                ':beetle:',
+                ':lady_beetle:',
             ]
         ],
         'cricket' => [
@@ -1067,10 +1069,11 @@ class AnimalsNature implements Gettable
                 ':seedling:',
             ]
         ],
-        '⊛ potted plant' => [
+        'potted plant' => [
             'parent' => 'plant-other',
             'children' => null,
             'aliases' => [
+                ':potted_plant:',
             ]
         ],
         'evergreen tree' => [

@@ -63,7 +63,7 @@ class Flags implements Gettable
                 'black flag',
                 'white flag',
                 'rainbow flag',
-                '⊛ transgender flag',
+                'transgender flag',
                 'pirate flag',
             ]
         ],
@@ -390,10 +390,11 @@ class Flags implements Gettable
                 ':gay_pride_flag:',
             ]
         ],
-        '⊛ transgender flag' => [
+        'transgender flag' => [
             'parent' => 'flag',
             'children' => null,
             'aliases' => [
+                ':transgender_flag:',
             ]
         ],
         'pirate flag' => [

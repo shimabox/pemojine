@@ -95,7 +95,7 @@ class SmileysEmotion implements Gettable
                 'smiling face',
                 'kissing face with closed eyes',
                 'kissing face with smiling eyes',
-                '⊛ smiling face with tear',
+                'smiling face with tear',
             ]
         ],
         'face-tongue' => [
@@ -155,7 +155,7 @@ class SmileysEmotion implements Gettable
                 'hot face',
                 'cold face',
                 'woozy face',
-                'dizzy face',
+                'knocked-out face',
                 'exploding head',
             ]
         ],
@@ -164,7 +164,7 @@ class SmileysEmotion implements Gettable
             'children' => [
                 'cowboy hat face',
                 'partying face',
-                '⊛ disguised face',
+                'disguised face',
             ]
         ],
         'face-glasses' => [
@@ -494,10 +494,11 @@ class SmileysEmotion implements Gettable
                 ':kissing_smiling_eyes:',
             ]
         ],
-        '⊛ smiling face with tear' => [
+        'smiling face with tear' => [
             'parent' => 'face-affection',
             'children' => null,
             'aliases' => [
+                ':smiling_face_with_tear:',
             ]
         ],
         'face savoring food' => [
@@ -767,17 +768,10 @@ class SmileysEmotion implements Gettable
                 ':woozy_face:',
             ]
         ],
-        'dizzy face' => [
+        'knocked-out face' => [
             'parent' => 'face-unwell',
             'children' => null,
             'aliases' => [
-                ':dizzy_face:',
-                '#-)',
-                '#)',
-                '%-)',
-                '%)',
-                'X)',
-                'X-)',
             ]
         ],
         'exploding head' => [
@@ -802,10 +796,11 @@ class SmileysEmotion implements Gettable
                 ':partying_face:',
             ]
         ],
-        '⊛ disguised face' => [
+        'disguised face' => [
             'parent' => 'face-hat',
             'children' => null,
             'aliases' => [
+                ':disguised_face:',
             ]
         ],
         'smiling face with sunglasses' => [

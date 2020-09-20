@@ -160,10 +160,10 @@ class Symbols implements Gettable
             'children' => [
                 'double exclamation mark',
                 'exclamation question mark',
-                'question mark',
+                'red question mark',
                 'white question mark',
                 'white exclamation mark',
-                'exclamation mark',
+                'red exclamation mark',
                 'wavy dash',
             ]
         ],
@@ -691,11 +691,10 @@ class Symbols implements Gettable
                 ':interrobang:',
             ]
         ],
-        'question mark' => [
+        'red question mark' => [
             'parent' => 'punctuation',
             'children' => null,
             'aliases' => [
-                ':question:',
             ]
         ],
         'white question mark' => [
@@ -712,11 +711,10 @@ class Symbols implements Gettable
                 ':grey_exclamation:',
             ]
         ],
-        'exclamation mark' => [
+        'red exclamation mark' => [
             'parent' => 'punctuation',
             'children' => null,
             'aliases' => [
-                ':exclamation:',
             ]
         ],
         'wavy dash' => [

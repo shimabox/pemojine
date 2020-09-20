@@ -350,7 +350,7 @@ class PeopleBody implements Gettable
                 'person',
                 'person: blond hair',
                 'man',
-                'man: beard',
+                'person: beard',
                 'man: red hair',
                 'man: curly hair',
                 'man: white hair',
@@ -404,11 +404,11 @@ class PeopleBody implements Gettable
                 'man: medium skin tone',
                 'man: medium-dark skin tone',
                 'man: dark skin tone',
-                'man: light skin tone, beard',
-                'man: medium-light skin tone, beard',
-                'man: medium skin tone, beard',
-                'man: medium-dark skin tone, beard',
-                'man: dark skin tone, beard',
+                'person: light skin tone, beard',
+                'person: medium-light skin tone, beard',
+                'person: medium skin tone, beard',
+                'person: medium-dark skin tone, beard',
+                'person: dark skin tone, beard',
                 'man: light skin tone, red hair',
                 'man: medium-light skin tone, red hair',
                 'man: medium skin tone, red hair',
@@ -3754,11 +3754,10 @@ class PeopleBody implements Gettable
                 ':man:',
             ]
         ],
-        'man: beard' => [
+        'person: beard' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
-                ':bearded_person:',
             ]
         ],
         'man: red hair' => [
@@ -3807,6 +3806,7 @@ class PeopleBody implements Gettable
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_red_hair:',
             ]
         ],
         'woman: curly hair' => [
@@ -3820,6 +3820,7 @@ class PeopleBody implements Gettable
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_curly_hair:',
             ]
         ],
         'woman: white hair' => [
@@ -3833,6 +3834,7 @@ class PeopleBody implements Gettable
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_white_hair:',
             ]
         ],
         'woman: bald' => [
@@ -3846,6 +3848,7 @@ class PeopleBody implements Gettable
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_bald:',
             ]
         ],
         'woman: blond hair' => [
@@ -4033,30 +4036,40 @@ class PeopleBody implements Gettable
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':adult_tone1:',
+                ':adult_light_skin_tone:',
             ]
         ],
         'person: medium-light skin tone' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':adult_tone2:',
+                ':adult_medium_light_skin_tone:',
             ]
         ],
         'person: medium skin tone' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':adult_tone3:',
+                ':adult_medium_skin_tone:',
             ]
         ],
         'person: medium-dark skin tone' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':adult_tone4:',
+                ':adult_medium_dark_skin_tone:',
             ]
         ],
         'person: dark skin tone' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':adult_tone5:',
+                ':adult_dark_skin_tone:',
             ]
         ],
         'person: light skin tone, blond hair' => [
@@ -4124,31 +4137,31 @@ class PeopleBody implements Gettable
                 ':man_tone5:',
             ]
         ],
-        'man: light skin tone, beard' => [
+        'person: light skin tone, beard' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
             ]
         ],
-        'man: medium-light skin tone, beard' => [
+        'person: medium-light skin tone, beard' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
             ]
         ],
-        'man: medium skin tone, beard' => [
+        'person: medium skin tone, beard' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
             ]
         ],
-        'man: medium-dark skin tone, beard' => [
+        'person: medium-dark skin tone, beard' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
             ]
         ],
-        'man: dark skin tone, beard' => [
+        'person: dark skin tone, beard' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
@@ -4343,30 +4356,40 @@ class PeopleBody implements Gettable
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone1_red_hair:',
+                ':person_light_skin_tone_red_hair:',
             ]
         ],
         'person: medium-light skin tone, red hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone2_red_hair:',
+                ':person_medium_light_skin_tone_red_hair:',
             ]
         ],
         'person: medium skin tone, red hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone3_red_hair:',
+                ':person_medium_skin_tone_red_hair:',
             ]
         ],
         'person: medium-dark skin tone, red hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone4_red_hair:',
+                ':person_medium_dark_skin_tone_red_hair:',
             ]
         ],
         'person: dark skin tone, red hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone5_red_hair:',
+                ':person_dark_skin_tone_red_hair:',
             ]
         ],
         'woman: light skin tone, curly hair' => [
@@ -4403,30 +4426,40 @@ class PeopleBody implements Gettable
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone1_curly_hair:',
+                ':person_light_skin_tone_curly_hair:',
             ]
         ],
         'person: medium-light skin tone, curly hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone2_curly_hair:',
+                ':person_medium_light_skin_tone_curly_hair:',
             ]
         ],
         'person: medium skin tone, curly hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone3_curly_hair:',
+                ':person_medium_skin_tone_curly_hair:',
             ]
         ],
         'person: medium-dark skin tone, curly hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone4_curly_hair:',
+                ':person_medium_dark_skin_tone_curly_hair:',
             ]
         ],
         'person: dark skin tone, curly hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone5_curly_hair:',
+                ':person_dark_skin_tone_curly_hair:',
             ]
         ],
         'woman: light skin tone, white hair' => [
@@ -4463,30 +4496,40 @@ class PeopleBody implements Gettable
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone1_white_hair:',
+                ':person_light_skin_tone_white_hair:',
             ]
         ],
         'person: medium-light skin tone, white hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone2_white_hair:',
+                ':person_medium_light_skin_tone_white_hair:',
             ]
         ],
         'person: medium skin tone, white hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone3_white_hair:',
+                ':person_medium_skin_tone_white_hair:',
             ]
         ],
         'person: medium-dark skin tone, white hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone4_white_hair:',
+                ':person_medium_dark_skin_tone_white_hair:',
             ]
         ],
         'person: dark skin tone, white hair' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone5_white_hair:',
+                ':person_dark_skin_tone_white_hair:',
             ]
         ],
         'woman: light skin tone, bald' => [
@@ -4523,30 +4566,40 @@ class PeopleBody implements Gettable
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone1_bald:',
+                ':person_light_skin_tone_bald:',
             ]
         ],
         'person: medium-light skin tone, bald' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone2_bald:',
+                ':person_medium_light_skin_tone_bald:',
             ]
         ],
         'person: medium skin tone, bald' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone3_bald:',
+                ':person_medium_skin_tone_bald:',
             ]
         ],
         'person: medium-dark skin tone, bald' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone4_bald:',
+                ':person_medium_dark_skin_tone_bald:',
             ]
         ],
         'person: dark skin tone, bald' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':person_tone5_bald:',
+                ':person_dark_skin_tone_bald:',
             ]
         ],
         'woman: light skin tone, blond hair' => [
@@ -4613,30 +4666,40 @@ class PeopleBody implements Gettable
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':older_adult_tone1:',
+                ':older_adult_light_skin_tone:',
             ]
         ],
         'older person: medium-light skin tone' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':older_adult_tone2:',
+                ':older_adult_medium_light_skin_tone:',
             ]
         ],
         'older person: medium skin tone' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':older_adult_tone3:',
+                ':older_adult_medium_skin_tone:',
             ]
         ],
         'older person: medium-dark skin tone' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':older_adult_tone4:',
+                ':older_adult_medium_dark_skin_tone:',
             ]
         ],
         'older person: dark skin tone' => [
             'parent' => 'person',
             'children' => null,
             'aliases' => [
+                ':older_adult_tone5:',
+                ':older_adult_dark_skin_tone:',
             ]
         ],
         'old man: light skin tone' => [
@@ -6141,6 +6204,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':health_worker:',
             ]
         ],
         'man health worker' => [
@@ -6161,6 +6225,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':student:',
             ]
         ],
         'man student' => [
@@ -6181,6 +6246,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':teacher:',
             ]
         ],
         'man teacher' => [
@@ -6201,6 +6267,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':judge:',
             ]
         ],
         'man judge' => [
@@ -6221,6 +6288,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':farmer:',
             ]
         ],
         'man farmer' => [
@@ -6241,6 +6309,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':cook:',
             ]
         ],
         'man cook' => [
@@ -6261,6 +6330,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':mechanic:',
             ]
         ],
         'man mechanic' => [
@@ -6281,6 +6351,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':factory_worker:',
             ]
         ],
         'man factory worker' => [
@@ -6301,6 +6372,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':office_worker:',
             ]
         ],
         'man office worker' => [
@@ -6321,6 +6393,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':scientist:',
             ]
         ],
         'man scientist' => [
@@ -6341,6 +6414,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':technologist:',
             ]
         ],
         'man technologist' => [
@@ -6361,6 +6435,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':singer:',
             ]
         ],
         'man singer' => [
@@ -6381,6 +6456,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':artist:',
             ]
         ],
         'man artist' => [
@@ -6401,6 +6477,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':pilot:',
             ]
         ],
         'man pilot' => [
@@ -6421,6 +6498,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':astronaut:',
             ]
         ],
         'man astronaut' => [
@@ -6441,6 +6519,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':firefighter:',
             ]
         ],
         'man firefighter' => [
@@ -6598,12 +6677,14 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':person_in_tuxedo:',
             ]
         ],
         'person with veil' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':person_with_veil:',
             ]
         ],
         'pregnant woman' => [
@@ -6625,30 +6706,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':health_worker_tone1:',
+                ':health_worker_light_skin_tone:',
             ]
         ],
         'health worker: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':health_worker_tone2:',
+                ':health_worker_medium_light_skin_tone:',
             ]
         ],
         'health worker: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':health_worker_tone3:',
+                ':health_worker_medium_skin_tone:',
             ]
         ],
         'health worker: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':health_worker_tone4:',
+                ':health_worker_medium_dark_skin_tone:',
             ]
         ],
         'health worker: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':health_worker_tone5:',
+                ':health_worker_dark_skin_tone:',
             ]
         ],
         'man health worker: light skin tone' => [
@@ -6735,30 +6826,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':student_tone1:',
+                ':student_light_skin_tone:',
             ]
         ],
         'student: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':student_tone2:',
+                ':student_medium_light_skin_tone:',
             ]
         ],
         'student: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':student_tone3:',
+                ':student_medium_skin_tone:',
             ]
         ],
         'student: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':student_tone4:',
+                ':student_medium_dark_skin_tone:',
             ]
         ],
         'student: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':student_tone5:',
+                ':student_dark_skin_tone:',
             ]
         ],
         'man student: light skin tone' => [
@@ -6845,30 +6946,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':teacher_tone1:',
+                ':teacher_light_skin_tone:',
             ]
         ],
         'teacher: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':teacher_tone2:',
+                ':teacher_medium_light_skin_tone:',
             ]
         ],
         'teacher: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':teacher_tone3:',
+                ':teacher_medium_skin_tone:',
             ]
         ],
         'teacher: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':teacher_tone4:',
+                ':teacher_medium_dark_skin_tone:',
             ]
         ],
         'teacher: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':teacher_tone5:',
+                ':teacher_dark_skin_tone:',
             ]
         ],
         'man teacher: light skin tone' => [
@@ -6955,30 +7066,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':judge_tone1:',
+                ':judge_light_skin_tone:',
             ]
         ],
         'judge: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':judge_tone2:',
+                ':judge_medium_light_skin_tone:',
             ]
         ],
         'judge: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':judge_tone3:',
+                ':judge_medium_skin_tone:',
             ]
         ],
         'judge: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':judge_tone4:',
+                ':judge_medium_dark_skin_tone:',
             ]
         ],
         'judge: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':judge_tone5:',
+                ':judge_dark_skin_tone:',
             ]
         ],
         'man judge: light skin tone' => [
@@ -7065,30 +7186,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':farmer_tone1:',
+                ':farmer_light_skin_tone:',
             ]
         ],
         'farmer: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':farmer_tone2:',
+                ':farmer_medium_light_skin_tone:',
             ]
         ],
         'farmer: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':farmer_tone3:',
+                ':farmer_medium_skin_tone:',
             ]
         ],
         'farmer: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':farmer_tone4:',
+                ':farmer_medium_dark_skin_tone:',
             ]
         ],
         'farmer: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':farmer_tone5:',
+                ':farmer_dark_skin_tone:',
             ]
         ],
         'man farmer: light skin tone' => [
@@ -7175,30 +7306,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':cook_tone1:',
+                ':cook_light_skin_tone:',
             ]
         ],
         'cook: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':cook_tone2:',
+                ':cook_medium_light_skin_tone:',
             ]
         ],
         'cook: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':cook_tone3:',
+                ':cook_medium_skin_tone:',
             ]
         ],
         'cook: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':cook_tone4:',
+                ':cook_medium_dark_skin_tone:',
             ]
         ],
         'cook: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':cook_tone5:',
+                ':cook_dark_skin_tone:',
             ]
         ],
         'man cook: light skin tone' => [
@@ -7285,30 +7426,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':mechanic_tone1:',
+                ':mechanic_light_skin_tone:',
             ]
         ],
         'mechanic: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':mechanic_tone2:',
+                ':mechanic_medium_light_skin_tone:',
             ]
         ],
         'mechanic: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':mechanic_tone3:',
+                ':mechanic_medium_skin_tone:',
             ]
         ],
         'mechanic: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':mechanic_tone4:',
+                ':mechanic_medium_dark_skin_tone:',
             ]
         ],
         'mechanic: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':mechanic_tone5:',
+                ':mechanic_dark_skin_tone:',
             ]
         ],
         'man mechanic: light skin tone' => [
@@ -7395,30 +7546,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':factory_worker_tone1:',
+                ':factory_worker_light_skin_tone:',
             ]
         ],
         'factory worker: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':factory_worker_tone2:',
+                ':factory_worker_medium_light_skin_tone:',
             ]
         ],
         'factory worker: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':factory_worker_tone3:',
+                ':factory_worker_medium_skin_tone:',
             ]
         ],
         'factory worker: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':factory_worker_tone4:',
+                ':factory_worker_medium_dark_skin_tone:',
             ]
         ],
         'factory worker: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':factory_worker_tone5:',
+                ':factory_worker_dark_skin_tone:',
             ]
         ],
         'man factory worker: light skin tone' => [
@@ -7505,30 +7666,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':office_worker_tone1:',
+                ':office_worker_light_skin_tone:',
             ]
         ],
         'office worker: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':office_worker_tone2:',
+                ':office_worker_medium_light_skin_tone:',
             ]
         ],
         'office worker: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':office_worker_tone3:',
+                ':office_worker_medium_skin_tone:',
             ]
         ],
         'office worker: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':office_worker_tone4:',
+                ':office_worker_medium_dark_skin_tone:',
             ]
         ],
         'office worker: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':office_worker_tone5:',
+                ':office_worker_dark_skin_tone:',
             ]
         ],
         'man office worker: light skin tone' => [
@@ -7615,30 +7786,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':scientist_tone1:',
+                ':scientist_light_skin_tone:',
             ]
         ],
         'scientist: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':scientist_tone2:',
+                ':scientist_medium_light_skin_tone:',
             ]
         ],
         'scientist: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':scientist_tone3:',
+                ':scientist_medium_skin_tone:',
             ]
         ],
         'scientist: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':scientist_tone4:',
+                ':scientist_medium_dark_skin_tone:',
             ]
         ],
         'scientist: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':scientist_tone5:',
+                ':scientist_dark_skin_tone:',
             ]
         ],
         'man scientist: light skin tone' => [
@@ -7725,30 +7906,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':technologist_tone1:',
+                ':technologist_light_skin_tone:',
             ]
         ],
         'technologist: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':technologist_tone2:',
+                ':technologist_medium_light_skin_tone:',
             ]
         ],
         'technologist: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':technologist_tone3:',
+                ':technologist_medium_skin_tone:',
             ]
         ],
         'technologist: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':technologist_tone4:',
+                ':technologist_medium_dark_skin_tone:',
             ]
         ],
         'technologist: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':technologist_tone5:',
+                ':technologist_dark_skin_tone:',
             ]
         ],
         'man technologist: light skin tone' => [
@@ -7835,30 +8026,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':singer_tone1:',
+                ':singer_light_skin_tone:',
             ]
         ],
         'singer: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':singer_tone2:',
+                ':singer_medium_light_skin_tone:',
             ]
         ],
         'singer: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':singer_tone3:',
+                ':singer_medium_skin_tone:',
             ]
         ],
         'singer: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':singer_tone4:',
+                ':singer_medium_dark_skin_tone:',
             ]
         ],
         'singer: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':singer_tone5:',
+                ':singer_dark_skin_tone:',
             ]
         ],
         'man singer: light skin tone' => [
@@ -7945,30 +8146,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':artist_tone1:',
+                ':artist_light_skin_tone:',
             ]
         ],
         'artist: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':artist_tone2:',
+                ':artist_medium_light_skin_tone:',
             ]
         ],
         'artist: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':artist_tone3:',
+                ':artist_medium_skin_tone:',
             ]
         ],
         'artist: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':artist_tone4:',
+                ':artist_medium_dark_skin_tone:',
             ]
         ],
         'artist: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':artist_tone5:',
+                ':artist_dark_skin_tone:',
             ]
         ],
         'man artist: light skin tone' => [
@@ -8055,30 +8266,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':pilot_tone1:',
+                ':pilot_light_skin_tone:',
             ]
         ],
         'pilot: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':pilot_tone2:',
+                ':pilot_medium_light_skin_tone:',
             ]
         ],
         'pilot: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':pilot_tone3:',
+                ':pilot_medium_skin_tone:',
             ]
         ],
         'pilot: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':pilot_tone4:',
+                ':pilot_medium_dark_skin_tone:',
             ]
         ],
         'pilot: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':pilot_tone5:',
+                ':pilot_dark_skin_tone:',
             ]
         ],
         'man pilot: light skin tone' => [
@@ -8165,30 +8386,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':astronaut_tone1:',
+                ':astronaut_light_skin_tone:',
             ]
         ],
         'astronaut: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':astronaut_tone2:',
+                ':astronaut_medium_light_skin_tone:',
             ]
         ],
         'astronaut: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':astronaut_tone3:',
+                ':astronaut_medium_skin_tone:',
             ]
         ],
         'astronaut: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':astronaut_tone4:',
+                ':astronaut_medium_dark_skin_tone:',
             ]
         ],
         'astronaut: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':astronaut_tone5:',
+                ':astronaut_dark_skin_tone:',
             ]
         ],
         'man astronaut: light skin tone' => [
@@ -8275,30 +8506,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':firefighter_tone1:',
+                ':firefighter_light_skin_tone:',
             ]
         ],
         'firefighter: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':firefighter_tone2:',
+                ':firefighter_medium_light_skin_tone:',
             ]
         ],
         'firefighter: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':firefighter_tone3:',
+                ':firefighter_medium_skin_tone:',
             ]
         ],
         'firefighter: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':firefighter_tone4:',
+                ':firefighter_medium_dark_skin_tone:',
             ]
         ],
         'firefighter: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':firefighter_tone5:',
+                ':firefighter_dark_skin_tone:',
             ]
         ],
         'man firefighter: light skin tone' => [
@@ -9125,60 +9366,75 @@ class PeopleBody implements Gettable
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':person_in_tuxedo_tone1:',
+                ':tuxedo_tone1:',
             ]
         ],
         'person in tuxedo: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':person_in_tuxedo_tone2:',
+                ':tuxedo_tone2:',
             ]
         ],
         'person in tuxedo: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':person_in_tuxedo_tone3:',
+                ':tuxedo_tone3:',
             ]
         ],
         'person in tuxedo: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':person_in_tuxedo_tone4:',
+                ':tuxedo_tone4:',
             ]
         ],
         'person in tuxedo: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':person_in_tuxedo_tone5:',
+                ':tuxedo_tone5:',
             ]
         ],
         'person with veil: light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':person_with_veil_tone1:',
             ]
         ],
         'person with veil: medium-light skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':person_with_veil_tone2:',
             ]
         ],
         'person with veil: medium skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':person_with_veil_tone3:',
             ]
         ],
         'person with veil: medium-dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':person_with_veil_tone4:',
             ]
         ],
         'person with veil: dark skin tone' => [
             'parent' => 'person-role',
             'children' => null,
             'aliases' => [
+                ':person_with_veil_tone5:',
             ]
         ],
         'pregnant woman: light skin tone' => [
@@ -10552,6 +10808,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
+                ':person_in_motorized_wheelchair:',
             ]
         ],
         'man in motorized wheelchair' => [
@@ -10572,6 +10829,7 @@ class PeopleBody implements Gettable
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
+                ':person_in_manual_wheelchair:',
             ]
         ],
         'man in manual wheelchair' => [
@@ -11389,30 +11647,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
+                ':person_in_motorized_wheelchair_tone1:',
+                ':person_in_motorized_wheelchair_light_skin_tone:',
             ]
         ],
         'person in motorized wheelchair: medium-light skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
+                ':person_in_motorized_wheelchair_tone2:',
+                ':person_in_motorized_wheelchair_medium_light_skin_tone:',
             ]
         ],
         'person in motorized wheelchair: medium skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
+                ':person_in_motorized_wheelchair_tone3:',
+                ':person_in_motorized_wheelchair_medium_skin_tone:',
             ]
         ],
         'person in motorized wheelchair: medium-dark skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
+                ':person_in_motorized_wheelchair_tone4:',
+                ':person_in_motorized_wheelchair_medium_dark_skin_tone:',
             ]
         ],
         'person in motorized wheelchair: dark skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
+                ':person_in_motorized_wheelchair_tone5:',
+                ':person_in_motorized_wheelchair_dark_skin_tone:',
             ]
         ],
         'man in motorized wheelchair: light skin tone' => [
@@ -11499,30 +11767,40 @@ class PeopleBody implements Gettable
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
+                ':person_in_manual_wheelchair_tone1:',
+                ':person_in_manual_wheelchair_light_skin_tone:',
             ]
         ],
         'person in manual wheelchair: medium-light skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
+                ':person_in_manual_wheelchair_tone2:',
+                ':person_in_manual_wheelchair_medium_light_skin_tone:',
             ]
         ],
         'person in manual wheelchair: medium skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
+                ':person_in_manual_wheelchair_tone3:',
+                ':person_in_manual_wheelchair_medium_skin_tone:',
             ]
         ],
         'person in manual wheelchair: medium-dark skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
+                ':person_in_manual_wheelchair_tone4:',
+                ':person_in_manual_wheelchair_medium_dark_skin_tone:',
             ]
         ],
         'person in manual wheelchair: dark skin tone' => [
             'parent' => 'person-activity',
             'children' => null,
             'aliases' => [
+                ':person_in_manual_wheelchair_tone5:',
+                ':person_in_manual_wheelchair_dark_skin_tone:',
             ]
         ],
         'man in manual wheelchair: light skin tone' => [
@@ -14432,24 +14710,32 @@ class PeopleBody implements Gettable
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':people_holding_hands_tone1_tone2:',
+                ':people_holding_hands_light_skin_tone_medium_light_skin_tone:',
             ]
         ],
         'people holding hands: light skin tone, medium skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':people_holding_hands_tone1_tone3:',
+                ':people_holding_hands_light_skin_tone_medium_skin_tone:',
             ]
         ],
         'people holding hands: light skin tone, medium-dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':people_holding_hands_tone1_tone4:',
+                ':people_holding_hands_light_skin_tone_medium_dark_skin_tone:',
             ]
         ],
         'people holding hands: light skin tone, dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':people_holding_hands_tone1_tone5:',
+                ':people_holding_hands_light_skin_tone_dark_skin_tone:',
             ]
         ],
         'people holding hands: medium-light skin tone, light skin tone' => [
@@ -14472,18 +14758,24 @@ class PeopleBody implements Gettable
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':people_holding_hands_tone2_tone3:',
+                ':people_holding_hands_medium_light_skin_tone_medium_skin_tone:',
             ]
         ],
         'people holding hands: medium-light skin tone, medium-dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':people_holding_hands_tone2_tone4:',
+                ':people_holding_hands_medium_light_skin_tone_medium_dark_skin_tone:',
             ]
         ],
         'people holding hands: medium-light skin tone, dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':people_holding_hands_tone2_tone5:',
+                ':people_holding_hands_medium_light_skin_tone_dark_skin_tone:',
             ]
         ],
         'people holding hands: medium skin tone, light skin tone' => [
@@ -14514,12 +14806,16 @@ class PeopleBody implements Gettable
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':people_holding_hands_tone3_tone4:',
+                ':people_holding_hands_medium_skin_tone_medium_dark_skin_tone:',
             ]
         ],
         'people holding hands: medium skin tone, dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':people_holding_hands_tone3_tone5:',
+                ':people_holding_hands_medium_skin_tone_dark_skin_tone:',
             ]
         ],
         'people holding hands: medium-dark skin tone, light skin tone' => [
@@ -14556,6 +14852,8 @@ class PeopleBody implements Gettable
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':people_holding_hands_tone4_tone5:',
+                ':people_holding_hands_medium_dark_skin_tone_dark_skin_tone:',
             ]
         ],
         'people holding hands: dark skin tone, light skin tone' => [
@@ -14610,24 +14908,32 @@ class PeopleBody implements Gettable
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':women_holding_hands_tone1_tone2:',
+                ':women_holding_hands_light_skin_tone_medium_light_skin_tone:',
             ]
         ],
         'women holding hands: light skin tone, medium skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':women_holding_hands_tone1_tone3:',
+                ':women_holding_hands_light_skin_tone_medium_skin_tone:',
             ]
         ],
         'women holding hands: light skin tone, medium-dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':women_holding_hands_tone1_tone4:',
+                ':women_holding_hands_light_skin_tone_medium_dark_skin_tone:',
             ]
         ],
         'women holding hands: light skin tone, dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':women_holding_hands_tone1_tone5:',
+                ':women_holding_hands_light_skin_tone_dark_skin_tone:',
             ]
         ],
         'women holding hands: medium-light skin tone, light skin tone' => [
@@ -14650,18 +14956,24 @@ class PeopleBody implements Gettable
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':women_holding_hands_tone2_tone3:',
+                ':women_holding_hands_medium_light_skin_tone_medium_skin_tone:',
             ]
         ],
         'women holding hands: medium-light skin tone, medium-dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':women_holding_hands_tone2_tone4:',
+                ':women_holding_hands_medium_light_skin_tone_medium_dark_skin_tone:',
             ]
         ],
         'women holding hands: medium-light skin tone, dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':women_holding_hands_tone2_tone5:',
+                ':women_holding_hands_medium_light_skin_tone_dark_skin_tone:',
             ]
         ],
         'women holding hands: medium skin tone, light skin tone' => [
@@ -14692,12 +15004,16 @@ class PeopleBody implements Gettable
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':women_holding_hands_tone3_tone4:',
+                ':women_holding_hands_medium_skin_tone_medium_dark_skin_tone:',
             ]
         ],
         'women holding hands: medium skin tone, dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':women_holding_hands_tone3_tone5:',
+                ':women_holding_hands_medium_skin_tone_dark_skin_tone:',
             ]
         ],
         'women holding hands: medium-dark skin tone, light skin tone' => [
@@ -14734,6 +15050,8 @@ class PeopleBody implements Gettable
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':women_holding_hands_tone4_tone5:',
+                ':women_holding_hands_medium_dark_skin_tone_dark_skin_tone:',
             ]
         ],
         'women holding hands: dark skin tone, light skin tone' => [
@@ -14960,24 +15278,32 @@ class PeopleBody implements Gettable
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':men_holding_hands_tone1_tone2:',
+                ':men_holding_hands_light_skin_tone_medium_light_skin_tone:',
             ]
         ],
         'men holding hands: light skin tone, medium skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':men_holding_hands_tone1_tone3:',
+                ':men_holding_hands_light_skin_tone_medium_skin_tone:',
             ]
         ],
         'men holding hands: light skin tone, medium-dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':men_holding_hands_tone1_tone4:',
+                ':men_holding_hands_light_skin_tone_medium_dark_skin_tone:',
             ]
         ],
         'men holding hands: light skin tone, dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':men_holding_hands_tone1_tone5:',
+                ':men_holding_hands_light_skin_tone_dark_skin_tone:',
             ]
         ],
         'men holding hands: medium-light skin tone, light skin tone' => [
@@ -15000,18 +15326,24 @@ class PeopleBody implements Gettable
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':men_holding_hands_tone2_tone3:',
+                ':men_holding_hands_medium_light_skin_tone_medium_skin_tone:',
             ]
         ],
         'men holding hands: medium-light skin tone, medium-dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':men_holding_hands_tone2_tone4:',
+                ':men_holding_hands_medium_light_skin_tone_medium_dark_skin_tone:',
             ]
         ],
         'men holding hands: medium-light skin tone, dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':men_holding_hands_tone2_tone5:',
+                ':men_holding_hands_medium_light_skin_tone_dark_skin_tone:',
             ]
         ],
         'men holding hands: medium skin tone, light skin tone' => [
@@ -15042,12 +15374,16 @@ class PeopleBody implements Gettable
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':men_holding_hands_tone3_tone4:',
+                ':men_holding_hands_medium_skin_tone_medium_dark_skin_tone:',
             ]
         ],
         'men holding hands: medium skin tone, dark skin tone' => [
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':men_holding_hands_tone3_tone5:',
+                ':men_holding_hands_medium_skin_tone_dark_skin_tone:',
             ]
         ],
         'men holding hands: medium-dark skin tone, light skin tone' => [
@@ -15084,6 +15420,8 @@ class PeopleBody implements Gettable
             'parent' => 'family',
             'children' => null,
             'aliases' => [
+                ':men_holding_hands_tone4_tone5:',
+                ':men_holding_hands_medium_dark_skin_tone_dark_skin_tone:',
             ]
         ],
         'men holding hands: dark skin tone, light skin tone' => [

@@ -322,7 +322,7 @@ class Objects implements Gettable
                 'hammer and wrench',
                 'dagger',
                 'crossed swords',
-                'pistol',
+                'water pistol',
                 'bow and arrow',
                 'shield',
                 'wrench',
@@ -880,7 +880,7 @@ class Objects implements Gettable
             'parent' => 'phone',
             'children' => null,
             'aliases' => [
-                ':iphone:',
+                ':mobile_phone:',
             ]
         ],
         'mobile phone with arrow' => [
@@ -1714,11 +1714,10 @@ class Objects implements Gettable
                 ':crossed_swords:',
             ]
         ],
-        'pistol' => [
+        'water pistol' => [
             'parent' => 'tool',
             'children' => null,
             'aliases' => [
-                ':gun:',
             ]
         ],
         'bow and arrow' => [

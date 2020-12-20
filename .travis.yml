@@ -6,23 +6,32 @@ cache:
   directories:
     - $HOME/.composer/cache
 
-env:
-  - REGENERATE=false
-
 matrix:
   include:
     - php: 5.5
-      env: PHP_VERSION="5.5"
+      env:
+        - PHP_VERSION="5.5"
+        - REGENERATE=false
     - php: 5.6
-      env: PHP_VERSION="5.6"
+      env:
+        - PHP_VERSION="5.6"
+        - REGENERATE=false
     - php: 7.0
-      env: PHP_VERSION="7.0"
+      env:
+        - PHP_VERSION="7.0"
+        - REGENERATE=false
     - php: 7.1
-      env: PHP_VERSION="7.1"
+      env:
+        - PHP_VERSION="7.1"
+        - REGENERATE=false
     - php: 7.2
-      env: PHP_VERSION="7.2"
+      env:
+        - PHP_VERSION="7.2"
+        - REGENERATE=false
     - php: 7.3
-      env: PHP_VERSION="7.3"
+      env:
+        - PHP_VERSION="7.3"
+        - REGENERATE=false
     - php: 7.4
       env:
         - PHP_VERSION="7.4"

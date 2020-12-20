@@ -31,10 +31,6 @@ matrix:
     - php: 7.3
       env:
         - PHP_VERSION="7.3"
-        - REGENERATE=false
-    - php: 7.4
-      env:
-        - PHP_VERSION="7.4"
         - REGENERATE=true
 
 addons:

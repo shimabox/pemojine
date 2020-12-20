@@ -21,6 +21,10 @@ This library is getting data from here.
 - [Full Emoji Modifier Sequences, v13.1](https://unicode.org/emoji/charts/full-emoji-modifiers.html "Full Emoji Modifier Sequences, v13.1")
 - [emoji-toolkit/emoji.json at master · joypixels/emoji-toolkit](https://github.com/joypixels/emoji-toolkit/blob/master/emoji.json "emoji-toolkit/emoji.json at master · joypixels/emoji-toolkit")
 
+## Attention
+
+- Support for php5.5-7.3
+
 ## Architecture
 
 <img src="https://github.com/shimabox/assets/raw/master/pemojine/architecture.png" alt="pemojine-architecture" title="pemojine-architecture" style="margin:0;height:400px;">

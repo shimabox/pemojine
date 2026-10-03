@@ -10,7 +10,7 @@ use SMB\Pemojine\Helper\Emoji;
  * @group Pemojine
  * @group Helper
  */
-class EmojiTest extends \PHPUnit_Framework_TestCase
+class EmojiTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test

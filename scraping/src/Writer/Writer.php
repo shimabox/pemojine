@@ -6,7 +6,7 @@ use SMB\Pemojine\Config\Vendor;
 use SMB\Pemojine\Scraping\Emoji\BigGroups;
 use SMB\Pemojine\Scraping\Emoji\Group;
 
-use Philo\Blade\Blade;
+use Jenssegers\Blade\Blade;
 
 /**
  * 
@@ -139,7 +139,7 @@ class Writer
             }
         }
 
-        $view = $template->view()->make('configEmojiTable', [
+        $view = $template->make('configEmojiTable', [
             'table'                 => $table,
             'shortNameAliases'      => $shortNameAliases,
             'unicodeToShortNames'   => $unicodeToShortNames,
@@ -180,7 +180,7 @@ class Writer
             }
         }
 
-        $view = $template->view()->make('configEmojiCount', [
+        $view = $template->make('configEmojiCount', [
             'bigGroupCnt'    => $bigGroupCnt,
             'mediumGroupCnt' => $mediumGroupCnt,
             'groupCnt'       => $groupCnt,
@@ -390,7 +390,7 @@ class Writer
             $viewParam['classes']      = $classes;
             $viewParam['phpdocReturn'] = self::PHPDOC_RETURN;
 
-            $view = $template->view()->make('structureBase', $viewParam);
+            $view = $template->make('structureBase', $viewParam);
             file_put_contents(
                 $outputDir . '/' . $vendorName . '.php',
                 "<?php\r\r" . $view
@@ -451,7 +451,7 @@ class Writer
                     mkdir($outputDir . '/' . $vendorName, 0777);
                 }
 
-                $view = $template->view()->make('structure', $viewParam);
+                $view = $template->make('structure', $viewParam);
                 file_put_contents(
                     $outputDir . '/' . $vendorName . '/' . $this->normalizeBigGroupName($bigGroupName) . '.php',
                     "<?php\r\r" . $view
@@ -492,7 +492,7 @@ class Writer
                 mkdir($outputDir . '/' . $vendorName, 0777);
             }
 
-            $view = $template->view()->make('emojiTable', $viewParam);
+            $view = $template->make('emojiTable', $viewParam);
             file_put_contents(
                 $outputDir . '/' . $vendorName . '/EmojiTable.php',
                 "<?php\r\r" . $view

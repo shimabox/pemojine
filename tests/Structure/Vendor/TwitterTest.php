@@ -11,7 +11,7 @@ use SMB\Pemojine\Structure\Vendor\Twitter;
  * @group Structure
  * @group Vendor
  */
-class TwitterTest extends \PHPUnit_Framework_TestCase
+class TwitterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      *
@@ -22,7 +22,7 @@ class TwitterTest extends \PHPUnit_Framework_TestCase
     /**
      * setUp
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

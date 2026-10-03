@@ -10,7 +10,7 @@ use SMB\Pemojine\Outputter\Outputter;
  * @group Pemojine
  * @group Outputter
  */
-class OutputterTest extends \PHPUnit_Framework_TestCase
+class OutputterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      *
@@ -21,7 +21,7 @@ class OutputterTest extends \PHPUnit_Framework_TestCase
     /**
      * setUp
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

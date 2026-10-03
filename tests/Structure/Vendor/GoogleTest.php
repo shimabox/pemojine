@@ -11,7 +11,7 @@ use SMB\Pemojine\Structure\Vendor\Google;
  * @group Structure
  * @group Vendor
  */
-class GoogleTest extends \PHPUnit_Framework_TestCase
+class GoogleTest extends \PHPUnit\Framework\TestCase
 {
     /**
      *
@@ -22,7 +22,7 @@ class GoogleTest extends \PHPUnit_Framework_TestCase
     /**
      * setUp
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

@@ -10,7 +10,7 @@ use SMB\Pemojine\Dispatcher\Dispatcher;
  * @group Pemojine
  * @group Dispatcher
  */
-class DispatcherTest extends \PHPUnit_Framework_TestCase
+class DispatcherTest extends \PHPUnit\Framework\TestCase
 {
     /**
      *
@@ -21,7 +21,7 @@ class DispatcherTest extends \PHPUnit_Framework_TestCase
     /**
      * setUp
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -73,9 +73,8 @@ class DispatcherTest extends \PHPUnit_Framework_TestCase
     {
         $expectedErrorMessage = "Listener not found: '{$errorMessage}'";
 
-        $this->setExpectedException(
-            '\SMB\Pemojine\Exception\ListenerNotFound', $expectedErrorMessage
-        );
+        $this->expectException('\SMB\Pemojine\Exception\ListenerNotFound');
+        $this->expectExceptionMessage($expectedErrorMessage);
 
         $this->target->addListener($name, $listener);
 

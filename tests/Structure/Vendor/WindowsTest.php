@@ -11,7 +11,7 @@ use SMB\Pemojine\Structure\Vendor\Windows;
  * @group Structure
  * @group Vendor
  */
-class WindowsTest extends \PHPUnit_Framework_TestCase
+class WindowsTest extends \PHPUnit\Framework\TestCase
 {
     /**
      *
@@ -22,7 +22,7 @@ class WindowsTest extends \PHPUnit_Framework_TestCase
     /**
      * setUp
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

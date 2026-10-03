@@ -10,7 +10,7 @@ use SMB\Pemojine\Exception\Exception;
  * @group Pemojine
  * @group Exception
  */
-class ExceptionTest extends \PHPUnit_Framework_TestCase
+class ExceptionTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test
@@ -19,9 +19,8 @@ class ExceptionTest extends \PHPUnit_Framework_TestCase
     {
         $expectedErrorMessage = "Group not found: 'Apple->hoge'";
 
-        $this->setExpectedException(
-            '\SMB\Pemojine\Exception\GroupNotFound', $expectedErrorMessage
-        );
+        $this->expectException('\SMB\Pemojine\Exception\GroupNotFound');
+        $this->expectExceptionMessage($expectedErrorMessage);
 
         Exception::groupNotFound('Apple', 'hoge');
     }
@@ -33,9 +32,8 @@ class ExceptionTest extends \PHPUnit_Framework_TestCase
     {
         $expectedErrorMessage = "Listener not found: 'Hoge->piyo()'";
 
-        $this->setExpectedException(
-            '\SMB\Pemojine\Exception\ListenerNotFound', $expectedErrorMessage
-        );
+        $this->expectException('\SMB\Pemojine\Exception\ListenerNotFound');
+        $this->expectExceptionMessage($expectedErrorMessage);
 
         Exception::listenerNotFound('Hoge', 'piyo');
     }

@@ -11,7 +11,7 @@ use SMB\Pemojine\Outputter\Outputter;
  * @group Pemojine
  * @group Helper
  */
-class SentenceTest extends \PHPUnit_Framework_TestCase
+class SentenceTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test

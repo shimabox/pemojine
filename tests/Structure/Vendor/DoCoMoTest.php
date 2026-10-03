@@ -11,7 +11,7 @@ use SMB\Pemojine\Structure\Vendor\DoCoMo;
  * @group Structure
  * @group Vendor
  */
-class DoCoMoTest extends \PHPUnit_Framework_TestCase
+class DoCoMoTest extends \PHPUnit\Framework\TestCase
 {
     /**
      *
@@ -22,7 +22,7 @@ class DoCoMoTest extends \PHPUnit_Framework_TestCase
     /**
      * setUp
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

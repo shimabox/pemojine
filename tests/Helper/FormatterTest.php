@@ -10,7 +10,7 @@ use SMB\Pemojine\Helper\Formatter;
  * @group Pemojine
  * @group Helper
  */
-class FormatterTest extends \PHPUnit_Framework_TestCase
+class FormatterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test

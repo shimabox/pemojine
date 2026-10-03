@@ -11,7 +11,7 @@ use SMB\Pemojine\Structure\Vendor\Apple;
  * @group Structure
  * @group Vendor
  */
-class AppleTest extends \PHPUnit_Framework_TestCase
+class AppleTest extends \PHPUnit\Framework\TestCase
 {
     /**
      *
@@ -22,7 +22,7 @@ class AppleTest extends \PHPUnit_Framework_TestCase
     /**
      * setUp
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

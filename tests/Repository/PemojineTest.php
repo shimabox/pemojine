@@ -11,7 +11,7 @@ use SMB\Pemojine\Entity;
  * @group Pemojine
  * @group Repository
  */
-class PemojineTest extends \PHPUnit_Framework_TestCase
+class PemojineTest extends \PHPUnit\Framework\TestCase
 {
     use \SMB\Pemojine\Tests\Util\CreateMockTrait;
 
@@ -24,7 +24,7 @@ class PemojineTest extends \PHPUnit_Framework_TestCase
     /**
      * setUp
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -242,7 +242,8 @@ class PemojineTest extends \PHPUnit_Framework_TestCase
         $this->target->addBigGroup($name, $bigGroup);
 
         $expectedErrorMessage = "Group not found: '->hoge'";
-        $this->setExpectedException('\SMB\Pemojine\Exception\GroupNotFound', $expectedErrorMessage);
+        $this->expectException('\SMB\Pemojine\Exception\GroupNotFound');
+        $this->expectExceptionMessage($expectedErrorMessage);
 
         $this->target->selectBigGroup('hoge');
     }
@@ -260,7 +261,8 @@ class PemojineTest extends \PHPUnit_Framework_TestCase
         $this->target->addMediumGroup($name, $mediumGroup);
 
         $expectedErrorMessage = "Group not found: '->hoge'";
-        $this->setExpectedException('\SMB\Pemojine\Exception\GroupNotFound', $expectedErrorMessage);
+        $this->expectException('\SMB\Pemojine\Exception\GroupNotFound');
+        $this->expectExceptionMessage($expectedErrorMessage);
 
         $this->target->selectMediumGroup('hoge');
     }
@@ -285,7 +287,8 @@ class PemojineTest extends \PHPUnit_Framework_TestCase
         $this->target->addGroupAliase($aliasesOfName_2, 'not exists'); // Do not associate.
 
         $expectedErrorMessage = "Group not found: '->" . $aliasesOfName_2 . "'";
-        $this->setExpectedException('\SMB\Pemojine\Exception\GroupNotFound', $expectedErrorMessage);
+        $this->expectException('\SMB\Pemojine\Exception\GroupNotFound');
+        $this->expectExceptionMessage($expectedErrorMessage);
 
         $this->target->selectGroup($aliasesOfName_2);
     }
@@ -380,7 +383,8 @@ class PemojineTest extends \PHPUnit_Framework_TestCase
 
         // This throws an exception.
         $expectedErrorMessage = "Group not found: '->" . $aliasesOfName_2_1 . "'";
-        $this->setExpectedException('\SMB\Pemojine\Exception\GroupNotFound', $expectedErrorMessage);
+        $this->expectException('\SMB\Pemojine\Exception\GroupNotFound');
+        $this->expectExceptionMessage($expectedErrorMessage);
 
         $this->target->selectGroup($aliasesOfName_2_1);
     }

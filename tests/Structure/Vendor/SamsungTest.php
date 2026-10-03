@@ -11,7 +11,7 @@ use SMB\Pemojine\Structure\Vendor\Samsung;
  * @group Structure
  * @group Vendor
  */
-class SamsungTest extends \PHPUnit_Framework_TestCase
+class SamsungTest extends \PHPUnit\Framework\TestCase
 {
     /**
      *
@@ -22,7 +22,7 @@ class SamsungTest extends \PHPUnit_Framework_TestCase
     /**
      * setUp
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

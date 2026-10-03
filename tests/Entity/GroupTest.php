@@ -14,7 +14,7 @@ use SMB\Pemojine\Entity\MediumGroup;
  * @group Pemojine
  * @group Entity
  */
-class GroupTest extends \PHPUnit_Framework_TestCase
+class GroupTest extends \PHPUnit\Framework\TestCase
 {
     use \SMB\Pemojine\Tests\Util\CreateMockTrait;
 
@@ -123,7 +123,8 @@ class GroupTest extends \PHPUnit_Framework_TestCase
 
         // This throws an exception.
         $expectedErrorMessage = "Group not found: '->event'";
-        $this->setExpectedException('\SMB\Pemojine\Exception\GroupNotFound', $expectedErrorMessage);
+        $this->expectException('\SMB\Pemojine\Exception\GroupNotFound');
+        $this->expectExceptionMessage($expectedErrorMessage);
 
         $target_2 = new Group('group_2', 'event', [], $dispatcher, $outputter);
         $target_2->findParentGroup();

@@ -11,7 +11,7 @@ use SMB\Pemojine\Structure\Vendor\KDDI;
  * @group Structure
  * @group Vendor
  */
-class KDDITest extends \PHPUnit_Framework_TestCase
+class KDDITest extends \PHPUnit\Framework\TestCase
 {
     /**
      *
@@ -22,7 +22,7 @@ class KDDITest extends \PHPUnit_Framework_TestCase
     /**
      * setUp
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

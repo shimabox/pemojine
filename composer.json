@@ -15,11 +15,11 @@
         "php": ">=5.5"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.8 || ~5.0",
+        "phpunit/phpunit": "^8.5.52",
         "electrolinux/phpquery": "^0.9.6",
-        "philo/laravel-blade": "3.*",
-        "league/climate": "^3.2 || ^3.4",
-        "codeclimate/php-test-reporter": "dev-master"
+        "jenssegers/blade": "^1.4",
+        "illuminate/view": "^8.75",
+        "league/climate": "^3.2 || ^3.4"
     },
     "autoload": {
         "psr-4": {

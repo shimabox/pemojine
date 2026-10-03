@@ -11,7 +11,7 @@ use SMB\Pemojine\Structure\Vendor\GMail;
  * @group Structure
  * @group Vendor
  */
-class GMailTest extends \PHPUnit_Framework_TestCase
+class GMailTest extends \PHPUnit\Framework\TestCase
 {
     /**
      *
@@ -22,7 +22,7 @@ class GMailTest extends \PHPUnit_Framework_TestCase
     /**
      * setUp
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

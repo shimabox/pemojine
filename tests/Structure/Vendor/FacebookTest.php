@@ -11,7 +11,7 @@ use SMB\Pemojine\Structure\Vendor\Facebook;
  * @group Structure
  * @group Vendor
  */
-class FacebookTest extends \PHPUnit_Framework_TestCase
+class FacebookTest extends \PHPUnit\Framework\TestCase
 {
     /**
      *
@@ -22,7 +22,7 @@ class FacebookTest extends \PHPUnit_Framework_TestCase
     /**
      * setUp
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

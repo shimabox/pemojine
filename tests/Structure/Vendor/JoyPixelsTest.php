@@ -11,7 +11,7 @@ use SMB\Pemojine\Structure\Vendor\JoyPixels;
  * @group Structure
  * @group Vendor
  */
-class JoyPixelsTest extends \PHPUnit_Framework_TestCase
+class JoyPixelsTest extends \PHPUnit\Framework\TestCase
 {
     /**
      *
@@ -22,7 +22,7 @@ class JoyPixelsTest extends \PHPUnit_Framework_TestCase
     /**
      * setUp
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

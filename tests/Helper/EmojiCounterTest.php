@@ -13,7 +13,7 @@ use SMB\Pemojine\Structure\Vendor;
  * @group Pemojine
  * @group Helper
  */
-class EmojiCounterTest extends \PHPUnit_Framework_TestCase
+class EmojiCounterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test

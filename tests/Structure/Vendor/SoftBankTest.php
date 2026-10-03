@@ -11,7 +11,7 @@ use SMB\Pemojine\Structure\Vendor\SoftBank;
  * @group Structure
  * @group Vendor
  */
-class SoftBankTest extends \PHPUnit_Framework_TestCase
+class SoftBankTest extends \PHPUnit\Framework\TestCase
 {
     /**
      *
@@ -22,7 +22,7 @@ class SoftBankTest extends \PHPUnit_Framework_TestCase
     /**
      * setUp
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

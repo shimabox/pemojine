@@ -11,7 +11,7 @@ use SMB\Pemojine\Structure\Vendor\Common;
  * @group Structure
  * @group Vendor
  */
-class CommonTest extends \PHPUnit_Framework_TestCase
+class CommonTest extends \PHPUnit\Framework\TestCase
 {
     /**
      *
@@ -22,7 +22,7 @@ class CommonTest extends \PHPUnit_Framework_TestCase
     /**
      * setUp
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

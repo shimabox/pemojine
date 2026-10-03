@@ -15,7 +15,7 @@ use SMB\Pemojine\Entity\MediumGroup;
  * @group Pemojine
  * @group Entity
  */
-class BigGroupTest extends \PHPUnit_Framework_TestCase
+class BigGroupTest extends \PHPUnit\Framework\TestCase
 {
     use \SMB\Pemojine\Tests\Util\CreateMockTrait;
 
@@ -215,7 +215,8 @@ class BigGroupTest extends \PHPUnit_Framework_TestCase
 
         // This throws an exception.
         $expectedErrorMessage = "Group not found: '->They're MediumGroup 2'";
-        $this->setExpectedException('\SMB\Pemojine\Exception\GroupNotFound', $expectedErrorMessage);
+        $this->expectException('\SMB\Pemojine\Exception\GroupNotFound');
+        $this->expectExceptionMessage($expectedErrorMessage);
 
         $this->target['They\'re MediumGroup 2'];
     }

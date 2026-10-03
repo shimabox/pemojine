@@ -7,3 +7,4 @@ src/Structure/Vendor/.gitkeep
 scraping/output/
 scraping/cache/
 tests/report/
+.phpunit.result.cache

@@ -8,34 +8,11 @@ cache:
 
 matrix:
   include:
-    - php: 5.5
-      env:
-        - PHP_VERSION="5.5"
-        - REGENERATE=false
-    - php: 5.6
-      env:
-        - PHP_VERSION="5.6"
-        - REGENERATE=false
-    - php: 7.0
-      env:
-        - PHP_VERSION="7.0"
-        - REGENERATE=false
-    - php: 7.1
-      env:
-        - PHP_VERSION="7.1"
-        - REGENERATE=false
-    - php: 7.2
-      env:
-        - PHP_VERSION="7.2"
-        - REGENERATE=false
     - php: 7.3
       env:
         - PHP_VERSION="7.3"
         - REGENERATE=true
 
-addons:
-  code_climate:
-    repo_token: 41727c20302fa699430a7aa0e06ef4d2cc00aeb25df3673f4165df75b6efccbc
 
 before_script:
   - COMPOSER_MEMORY_LIMIT=-1 travis_retry composer update
@@ -46,9 +23,6 @@ script:
   - if [ `echo "$PHP_VERSION < 7.3" | bc` == 1 ]; then vendor/bin/phpunit --coverage-clover tests/logs/coverage-clover.xml; fi
   - if [ `echo "$PHP_VERSION >= 7.3" | bc` == 1 ]; then phpdbg -qrr vendor/bin/phpunit --coverage-clover tests/logs/coverage-clover.xml; fi
 
-after_success:
-  - vendor/bin/test-reporter --coverage-report tests/logs/coverage-clover.xml
-  - vendor/bin/coveralls -v
 
 after_script:
   - if [ -f tests/logs/generator.log ]; then cat tests/logs/generator.log; fi

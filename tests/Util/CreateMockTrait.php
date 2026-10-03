@@ -10,7 +10,7 @@ trait CreateMockTrait
     /**
      * 
      * @param array $methods
-     * @return \PHPUnit_Framework_MockObject_MockObject Dispatcher's mock.
+     * @return \PHPUnit\Framework\MockObject\MockObject Dispatcher's mock.
      */
     private function create_mock_for_dispatcher(array $methods=[
         'addListener', 
@@ -25,7 +25,7 @@ trait CreateMockTrait
     /**
      * 
      * @param array $methods
-     * @return \PHPUnit_Framework_MockObject_MockObject Outputter's mock.
+     * @return \PHPUnit\Framework\MockObject\MockObject Outputter's mock.
      */
     private function create_mock_for_outputter(array $methods=[
         'output', 
